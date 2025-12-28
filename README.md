@@ -1,2 +1,21 @@
-# aurapop-meta
-A dreamy beauty marketplace curated selection of top beauty products, chosen for quality, value, and everyday glam.”
+# Aura Wellness Co.
+
+Aura Wellness Co. is a modern, gender‑neutral wellness storefront created as part of the AuraPop digital retail ecosystem. The brand is built on the belief that wellness should feel accessible, calming, and beautifully designed, without overwhelming customers with unnecessary complexity. Every element of this project — from the visual identity to the product architecture — has been intentionally crafted to create a seamless, trustworthy, and premium shopping experience.
+
+The site is structured as a fully front‑end, JSON‑driven catalog that organizes wellness products into three core categories: Men’s Wellness, Women’s Wellness, and Everyday Wellness. Each category is represented by its own dedicated page, supported by a unified Shop All page and a dynamic product detail page. The design emphasizes clarity, simplicity, and emotional ease, using soft color palettes, clean typography, and a layout that guides the user naturally through the experience.
+
+Aura Wellness Co. is part of a larger multi‑brand ecosystem that includes AuraPop Cosmetics Co., allowing customers to move fluidly between beauty, lifestyle, and wellness. This interconnected structure reflects the brand’s long‑term vision: a family of digital storefronts that share a unified aesthetic, a consistent user experience, and a curated approach to product selection.
+
+The project is organized into two primary directories. The first, “aura-wellness,” contains all front‑end pages, including the homepage, category pages, product detail page, and global styling. The second, “data,” contains the structured JSON files that power the entire product catalog. This separation ensures clarity, scalability, and ease of maintenance as the brand grows.
+
+The homepage introduces the Aura Wellness identity and directs users toward the three main wellness categories. The Shop All page aggregates every product from every JSON file and displays them in a clean, responsive grid. Each category page loads its own curated set of products, presenting them with consistent styling and linking each item to its corresponding product detail page. The product detail page is fully dynamic, loading content based on the product’s unique ID passed through the URL. This approach allows the site to scale effortlessly as new products are added.
+
+All product data follows a consistent schema, ensuring compatibility across the entire site. Each item includes a unique ID, a product name, a numerical price, a category identifier, and a short description. This structure allows the site to load products quickly and reliably, while also supporting future enhancements such as filtering, sorting, search functionality, and expanded product metadata.
+
+Styling for the entire site is centralized in a single CSS file, which defines the layout system, typography, color palette, navigation, product cards, and responsive behavior. The design language is intentionally minimal and calming, reflecting the brand’s commitment to wellness and emotional clarity. The aesthetic is clean, modern, and approachable, with a focus on readability and user comfort.
+
+Aura Wellness Co. is designed with future expansion in mind. The architecture supports the addition of new categories, new product types, and new brand integrations without requiring structural changes. Planned enhancements include search functionality, product imagery, cart and checkout features, user accounts, wishlists, and API‑driven product management. The long‑term vision is a fully scalable, multi‑brand digital ecosystem that maintains a consistent identity while offering diverse product experiences.
+
+This project was created by Victoria (Tori), a digital entrepreneur, designer, and author who specializes in building clean, conversion‑focused digital experiences. Every decision — from the product curation to the layout structure — reflects a commitment to clarity, trust, and brand cohesion. Aura Wellness Co. is not just a storefront; it is a foundation for a broader wellness and lifestyle network that will continue to evolve and expand.
+
+The repository is proprietary and part of the AuraPop brand family. It is not intended for redistribution or commercial reuse.
