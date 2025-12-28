@@ -1,162 +1,58 @@
 [
   {
-    "id": 1,
-    "name": "Moon Juice SuperYou Daily Stress Supplement",
-    "brand": "Moon Juice",
-    "price": "$49.00",
-    "image": "https://moonjuice.com/cdn/shop/products/superyou.jpg",
-    "link": "https://moonjuice.com/products/superyou"
+    "id": "women-multi-001",
+    "name": "Women’s Essential Multivitamin",
+    "price": 23.99,
+    "category": "womens",
+    "description": "A complete daily multivitamin formulated to support women’s energy, immunity, and hormonal balance."
   },
   {
-    "id": 2,
-    "name": "Ritual Essential for Women Multivitamin",
-    "brand": "Ritual",
-    "price": "$33.00",
-    "image": "https://ritual.com/cdn/shop/products/ritual_women.jpg",
-    "link": "https://ritual.com/products/essential-for-women"
+    "id": "women-hormone-002",
+    "name": "Hormone Balance Complex",
+    "price": 27.99,
+    "category": "womens",
+    "description": "A blend of chasteberry, ashwagandha, and B‑vitamins to support mood, cycle regularity, and hormonal wellness."
   },
   {
-    "id": 3,
-    "name": "Osea Vagus Nerve Oil",
-    "brand": "Osea Malibu",
-    "price": "$48.00",
-    "image": "https://oseamalibu.com/cdn/shop/products/vagus_nerve_oil.jpg",
-    "link": "https://oseamalibu.com/products/vagus-nerve-oil"
+    "id": "women-glow-003",
+    "name": "Glow & Hydrate Collagen Boost",
+    "price": 24.99,
+    "category": "womens",
+    "description": "A collagen‑supporting formula designed to promote radiant skin, hair strength, and hydration."
   },
   {
-    "id": 4,
-    "name": "Golde Matcha Turmeric Superfood Latte Blend",
-    "brand": "Golde",
-    "price": "$29.00",
-    "image": "https://golde.co/cdn/shop/products/golde_matcha_turmeric.jpg",
-    "link": "https://golde.co/products/matcha-turmeric"
+    "id": "women-probiotic-004",
+    "name": "Women’s Daily Probiotic",
+    "price": 19.99,
+    "category": "womens",
+    "description": "A targeted probiotic blend to support gut health, digestion, and feminine wellness."
   },
   {
-    "id": 5,
-    "name": "Hatch Restore 2 Smart Sleep Machine",
-    "brand": "Hatch",
-    "price": "$199.00",
-    "image": "https://www.hatch.co/cdn/shop/products/hatch_restore2.jpg",
-    "link": "https://www.hatch.co/restore"
+    "id": "women-stress-005",
+    "name": "Stress Relief Adaptogen Blend",
+    "price": 18.99,
+    "category": "womens",
+    "description": "A calming adaptogenic formula with rhodiola and holy basil to support stress relief and emotional balance."
   },
   {
-    "id": 6,
-    "name": "Love Wellness Good Girl Probiotics",
-    "brand": "Love Wellness",
-    "price": "$26.00",
-    "image": "https://lovewellness.com/cdn/shop/products/good_girl_probiotics.jpg",
-    "link": "https://lovewellness.com/products/good-girl-probiotics"
+    "id": "women-sleep-006",
+    "name": "Beauty Sleep Night Gummies",
+    "price": 16.99,
+    "category": "womens",
+    "description": "A soothing nighttime blend with melatonin and chamomile to support deep, restorative sleep."
   },
   {
-    "id": 7,
-    "name": "Hum Nutrition Glow Sweet Glow Gummies",
-    "brand": "Hum Nutrition",
-    "price": "$26.00",
-    "image": "https://humnutrition.com/cdn/shop/products/glow_sweet_glow.jpg",
-    "link": "https://humnutrition.com/products/glow-sweet-glow"
+    "id": "women-energy-007",
+    "name": "Clean Energy Iron + B12",
+    "price": 17.99,
+    "category": "womens",
+    "description": "Iron and B12 support for natural energy, focus, and daily vitality."
   },
   {
-    "id": 8,
-    "name": "Osea Undaria Algae Body Oil",
-    "brand": "Osea Malibu",
-    "price": "$52.00",
-    "image": "https://oseamalibu.com/cdn/shop/products/undaria_body_oil.jpg",
-    "link": "https://oseamalibu.com/products/undaria-algae-body-oil"
-  },
-  {
-    "id": 9,
-    "name": "8Greens Skin Effervescent Tablets",
-    "brand": "8Greens",
-    "price": "$14.00",
-    "image": "https://8greens.com/cdn/shop/products/8greens_skin.jpg",
-    "link": "https://8greens.com/products/skin-tablets"
-  },
-  {
-    "id": 10,
-    "name": "Lemme Chill Magnesium Gummies",
-    "brand": "Lemme",
-    "price": "$30.00",
-    "image": "https://lemmelive.com/cdn/shop/products/lemme_chill.jpg",
-    "link": "https://lemmelive.com/products/lemme-chill"
-  },
-  {
-    "id": 11,
-    "name": "Vitruvi Stone Essential Oil Diffuser",
-    "brand": "Vitruvi",
-    "price": "$123.00",
-    "image": "https://vitruvi.com/cdn/shop/products/vitruvi_stone_diffuser.jpg",
-    "link": "https://vitruvi.com/products/stone-diffuser"
-  },
-  {
-    "id": 12,
-    "name": "Beekeeper’s Naturals B.Chill Honey",
-    "brand": "Beekeeper’s Naturals",
-    "price": "$16.00",
-    "image": "https://beekeepersnaturals.com/cdn/shop/products/b_chill.jpg",
-    "link": "https://beekeepersnaturals.com/products/b-chill"
-  },
-  {
-    "id": 13,
-    "name": "Calm Magnesium Powder Drink Mix",
-    "brand": "Natural Vitality",
-    "price": "$24.00",
-    "image": "https://naturalvitality.com/cdn/shop/products/calm_magnesium.jpg",
-    "link": "https://naturalvitality.com/products/calm"
-  },
-  {
-    "id": 14,
-    "name": "Therabody Theragun Mini 2.0",
-    "brand": "Therabody",
-    "price": "$199.00",
-    "image": "https://www.therabody.com/cdn/shop/products/theragun_mini.jpg",
-    "link": "https://www.therabody.com/us/en-us/theragun-mini"
-  },
-  {
-    "id": 15,
-    "name": "Luna Weighted Blanket",
-    "brand": "Luna",
-    "price": "$79.00",
-    "image": "https://lunablanket.com/cdn/shop/products/luna_weighted_blanket.jpg",
-    "link": "https://lunablanket.com/products/weighted-blanket"
-  },
-  {
-    "id": 16,
-    "name": "OSEA Anti-Aging Body Balm",
-    "brand": "Osea Malibu",
-    "price": "$48.00",
-    "image": "https://oseamalibu.com/cdn/shop/products/antiaging_body_balm.jpg",
-    "link": "https://oseamalibu.com/products/anti-aging-body-balm"
-  },
-  {
-    "id": 17,
-    "name": "Lemme Sleep Gummies",
-    "brand": "Lemme",
-    "price": "$30.00",
-    "image": "https://lemmelive.com/cdn/shop/products/lemme_sleep.jpg",
-    "link": "https://lemmelive.com/products/lemme-sleep"
-  },
-  {
-    "id": 18,
-    "name": "Golde Coconut Collagen Boost",
-    "brand": "Golde",
-    "price": "$22.00",
-    "image": "https://golde.co/cdn/shop/products/golde_collagen_boost.jpg",
-    "link": "https://golde.co/products/coconut-collagen-boost"
-  },
-  {
-    "id": 19,
-    "name": "Vitruvi Essential Oil Kit – Retreat",
-    "brand": "Vitruvi",
-    "price": "$48.00",
-    "image": "https://vitruvi.com/cdn/shop/products/vitruvi_retreat_oils.jpg",
-    "link": "https://vitruvi.com/products/retreat-essential-oil-kit"
-  },
-  {
-    "id": 20,
-    "name": "Beekeeper’s Naturals Propolis Throat Spray",
-    "brand": "Beekeeper’s Naturals",
-    "price": "$14.00",
-    "image": "https://beekeepersnaturals.com/cdn/shop/products/propolis_spray.jpg",
-    "link": "https://beekeepersnaturals.com/products/propolis-throat-spray"
+    "id": "women-hair-008",
+    "name": "Hair, Skin & Nails Complex",
+    "price": 21.99,
+    "category": "womens",
+    "description": "Biotin, collagen, and silica to support strong hair, glowing skin, and healthy nails."
   }
 ]
