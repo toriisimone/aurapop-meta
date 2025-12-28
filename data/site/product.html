@@ -93,12 +93,10 @@
       .then(products => {
         let product = products.find(p => p.id === id);
 
-        // fallback function
         function pickFallback() {
           return products[Math.floor(Math.random() * products.length)];
         }
 
-        // validate product fields
         function isBroken(p) {
           return (
             !p ||
@@ -110,12 +108,10 @@
           );
         }
 
-        // if missing fields → fallback
         if (isBroken(product)) {
           product = pickFallback();
         }
 
-        // load product into page
         function loadProduct(p) {
           document.getElementById("product-img").src = p.image;
           document.getElementById("product-name").textContent = p.name;
@@ -124,7 +120,6 @@
           document.getElementById("product-link").href = p.link;
           document.getElementById("breadcrumb-name").textContent = p.name;
 
-          // Kylie-style description
           document.getElementById("product-desc").textContent =
             `${p.name} by ${p.brand} is designed to elevate your daily routine with a touch of luxury. Soft, clean, and effortlessly effective — this is your new self-care essential.`;
 
@@ -135,17 +130,14 @@
             `A perfect blend of performance and indulgence. Loved for its clean ingredients, gorgeous texture, and AuraPop-approved glow factor.`;
         }
 
-        // load product first
         loadProduct(product);
 
-        // IMAGE FALLBACK CHECK
         const img = document.getElementById("product-img");
         img.onerror = () => {
           const fallback = pickFallback();
           loadProduct(fallback);
         };
 
-        // RELATED PRODUCTS
         const related = products.filter(p => p.id !== id).slice(0, 4);
         const grid = document.getElementById("related-grid");
 
