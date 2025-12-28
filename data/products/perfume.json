@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "Ariana Grande Cloud Eau de Parfum",
     "brand": "Ariana Grande",
     "price": "$48.00",
@@ -7,6 +8,7 @@
     "link": "https://arianagrandefragrances.com/products/cloud"
   },
   {
+    "id": 2,
     "name": "YSL Black Opium Eau de Parfum",
     "brand": "Yves Saint Laurent",
     "price": "$135.00",
@@ -14,6 +16,7 @@
     "link": "https://www.yslbeautyus.com/fragrance/black-opium"
   },
   {
+    "id": 3,
     "name": "Burberry Her Eau de Parfum",
     "brand": "Burberry",
     "price": "$118.00",
@@ -21,6 +24,7 @@
     "link": "https://us.burberry.com/burberry-her-eau-de-parfum-p40711751"
   },
   {
+    "id": 4,
     "name": "Marc Jacobs Daisy Eau de Toilette",
     "brand": "Marc Jacobs",
     "price": "$96.00",
@@ -28,10 +32,51 @@
     "link": "https://www.marcjacobsfragrances.com/daisy"
   },
   {
+    "id": 5,
     "name": "Carolina Herrera Good Girl Eau de Parfum",
     "brand": "Carolina Herrera",
     "price": "$138.00",
     "image": "https://www.carolinaherrera.com/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0c7d5a0a/images/large/212/8411061926753.jpg",
     "link": "https://www.carolinaherrera.com/us/en/fragrances/good-girl"
+  },
+  {
+    "id": 6,
+    "name": "Chanel Coco Mademoiselle Eau de Parfum",
+    "brand": "Chanel",
+    "price": "$138.00",
+    "image": "https://www.chanel.com/images//t_one/t_fallback/w_0.51,h_0.51,c_crop/f_auto,q_auto:good,fl_lossy,dpr_1.2/coco-mademoiselle-eau-de-parfum-spray-3-4fl-oz--packshot-default-116520-8827889698846.jpg",
+    "link": "https://www.chanel.com/us/fragrance/p/116520/coco-mademoiselle-eau-de-parfum-spray"
+  },
+  {
+    "id": 7,
+    "name": "Dior J'adore Eau de Parfum",
+    "brand": "Dior",
+    "price": "$130.00",
+    "image": "https://www.dior.com/couture/ecommerce/media/catalog/product/J/a/1647337802_JADORE_EDP_100ML_PACKSHOT.jpg",
+    "link": "https://www.dior.com/en_us/beauty/products/jadore-eau-de-parfum"
+  },
+  {
+    "id": 8,
+    "name": "Lancôme La Vie Est Belle Eau de Parfum",
+    "brand": "Lancôme",
+    "price": "$120.00",
+    "image": "https://www.lancome-usa.com/dw/image/v2/AAQP_PRD/on/demandware.static/-/Sites-lancome-master-catalog/default/dw6d4c3fb7/Products/Fragrance/LaVieEstBelle/3614271578419_LaVieEstBelle_EDP_100ml_packshot.jpg",
+    "link": "https://www.lancome-usa.com/fragrance/la-vie-est-belle"
+  },
+  {
+    "id": 9,
+    "name": "Gucci Bloom Eau de Parfum",
+    "brand": "Gucci",
+    "price": "$118.00",
+    "image": "https://www.gucci.com/us/en/pr/beauty/fragrances/womens-fragrances/gucci-bloom-eau-de-parfum-p-57034799999",
+    "link": "https://www.gucci.com/us/en/pr/beauty/fragrances/womens-fragrances/gucci-bloom-eau-de-parfum-p-57034799999"
+  },
+  {
+    "id": 10,
+    "name": "Viktor&Rolf Flowerbomb Eau de Parfum",
+    "brand": "Viktor&Rolf",
+    "price": "$135.00",
+    "image": "https://www.viktor-rolf.com/dw/image/v2/AAQP_PRD/on/demandware.static/-/Sites-viktorrolf-master-catalog/default/dw4e3b6c5e/Products/Flowerbomb/Flowerbomb_EDP_100ml_packshot.jpg",
+    "link": "https://www.viktor-rolf.com/flowerbomb"
   }
 ]
