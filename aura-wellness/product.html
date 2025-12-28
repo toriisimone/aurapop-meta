@@ -1,1 +1,125 @@
-placeholder.txt
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aura Wellness Co. | Product</title>
+  <link rel="stylesheet" href="styles/aw-main.css" />
+  <style>
+    .product-container {
+      max-width: 800px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .product-container h1 {
+      font-size: 2rem;
+      color: #00796b;
+      margin-bottom: 1rem;
+    }
+
+    .product-container p {
+      font-size: 1.1rem;
+      color: #555;
+      margin-bottom: 1rem;
+    }
+
+    .product-price {
+      font-size: 1.5rem;
+      color: #004d40;
+      font-weight: bold;
+      margin-bottom: 2rem;
+    }
+
+    .buy-button {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #00796b;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .not-found {
+      text-align: center;
+      padding: 4rem 2rem;
+      font-size: 1.5rem;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- NAVIGATION -->
+  <header class="navbar">
+    <div class="logo">Aura Wellness Co.</div>
+    <nav>
+      <a href="../index.html">AuraPop</a>
+      <a href="index.html">Home</a>
+      <a href="shop-all.html">Shop All</a>
+      <a href="mens.html">Men’s Wellness</a>
+      <a href="womens.html">Women’s Wellness</a>
+      <a href="general.html">Everyday Wellness</a>
+    </nav>
+  </header>
+
+  <!-- PRODUCT CONTENT -->
+  <main id="product-content"></main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© Aura Wellness Co. — Designed for every body, every day.</p>
+    <p class="footer-link">
+      Part of the AuraPop ecosystem. Visit
+      <a href="../index.html">AuraPop Cosmetics Co.</a>
+    </p>
+  </footer>
+
+  <!-- SCRIPT -->
+  <script>
+    async function loadProduct() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const productId = urlParams.get("id");
+
+      const categories = ["mens", "womens", "general"];
+      let product = null;
+
+      for (const category of categories) {
+        try {
+          const response = await fetch(`data/${category}.json`);
+          const products = await response.json();
+          const found = products.find(p => p.id === productId);
+          if (found) {
+            product = found;
+            break;
+          }
+        } catch (e) {
+          console.error(`Error loading ${category}:`, e);
+        }
+      }
+
+      const container = document.getElementById("product-content");
+
+      if (!product) {
+        container.innerHTML = `<div class="not-found">Product not found.</div>`;
+        return;
+      }
+
+      container.innerHTML = `
+        <div class="product-container">
+          <h1>${product.name}</h1>
+          <p>${product.description || "No description available."}</p>
+          <div class="product-price">$${product.price}</div>
+          <a href="#" class="buy-button">Buy Now</a>
+        </div>
+      `;
+    }
+
+    window.onload = loadProduct;
+  </script>
+</body>
+</html>
