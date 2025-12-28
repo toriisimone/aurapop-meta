@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Bath & Body Works Mahogany Teakwood 3‑Wick Candle",
+    "brand": "Bath & Body Works",
+    "price": "$26.95",
+    "image": "https://www.bathandbodyworks.com/cdn/shop/products/mahogany_teakwood_candle.jpg",
+    "link": "https://www.bathandbodyworks.com/p/mahogany-teakwood-3-wick-candle"
+  },
+  {
+    "id": 2,
+    "name": "Yankee Candle Clean Cotton Large Jar",
+    "brand": "Yankee Candle",
+    "price": "$31.00",
+    "image": "https://www.yankeecandle.com/cdn/shop/products/clean_cotton_jar.jpg",
+    "link": "https://www.yankeecandle.com/product/clean-cotton"
+  },
+  {
+    "id": 3,
+    "name": "Capri Blue Volcano Candle",
+    "brand": "Capri Blue",
+    "price": "$34.00",
+    "image": "https://www.capri-blue.com/cdn/shop/products/volcano_candle.jpg",
+    "link": "https://www.capri-blue.com/products/volcano-candle"
+  },
+  {
+    "id": 4,
+    "name": "P.F. Candle Co. Teakwood & Tobacco Soy Candle",
+    "brand": "P.F. Candle Co.",
+    "price": "$24.00",
+    "image": "https://pfcandleco.com/cdn/shop/products/teakwood_tobacco.jpg",
+    "link": "https://pfcandleco.com/products/teakwood-tobacco"
+  },
+  {
+    "id": 5,
+    "name": "Nest New York Bamboo Reed Diffuser",
+    "brand": "Nest New York",
+    "price": "$60.00",
+    "image": "https://www.nestnewyork.com/cdn/shop/products/nest_bamboo_diffuser.jpg",
+    "link": "https://www.nestnewyork.com/products/bamboo-reed-diffuser"
+  },
+  {
+    "id": 6,
+    "name": "Glade PlugIns Scented Oil – Cashmere Woods",
+    "brand": "Glade",
+    "price": "$6.00",
+    "image": "https://www.glade.com/media/export/cms/products/1000x1000/glade_cashmere_woods.jpg",
+    "link": "https://www.glade.com/en/products/plugins/cashmere-woods"
+  },
+  {
+    "id": 7,
+    "name": "Air Wick Essential Mist – Lavender & Almond Blossom",
+    "brand": "Air Wick",
+    "price": "$10.00",
+    "image": "https://www.airwick.us/media/export/cms/products/1000x1000/airwick_lavender_mist.jpg",
+    "link": "https://www.airwick.us/products/essential-mist-lavender"
+  },
+  {
+    "id": 8,
+    "name": "Homesick Candle – New Home",
+    "brand": "Homesick",
+    "price": "$38.00",
+    "image": "https://homesick.com/cdn/shop/products/homesick_new_home.jpg",
+    "link": "https://homesick.com/products/new-home"
+  },
+  {
+    "id": 9,
+    "name": "Voluspa French Cade Lavender Candle",
+    "brand": "Voluspa",
+    "price": "$30.00",
+    "image": "https://www.voluspa.com/cdn/shop/products/voluspa_french_cade.jpg",
+    "link": "https://www.voluspa.com/products/french-cade-lavender"
+  },
+  {
+    "id": 10,
+    "name": "Mrs. Meyer’s Clean Day Room Freshener – Lemon Verbena",
+    "brand": "Mrs. Meyer’s",
+    "price": "$5.00",
+    "image": "https://www.mrsmeyers.com/media/export/cms/products/1000x1000/meyers_lemon_verbena_spray.jpg",
+    "link": "https://www.mrsmeyers.com/product/room-freshener-lemon-verbena"
+  },
+  {
+    "id": 11,
+    "name": "Nest New York Grapefruit Candle",
+    "brand": "Nest New York",
+    "price": "$48.00",
+    "image": "https://www.nestnewyork.com/cdn/shop/products/nest_grapefruit_candle.jpg",
+    "link": "https://www.nestnewyork.com/products/grapefruit-classic-candle"
+  },
+  {
+    "id": 12,
+    "name": "Bath & Body Works Eucalyptus Spearmint Room Spray",
+    "brand": "Bath & Body Works",
+    "price": "$8.50",
+    "image": "https://www.bathandbodyworks.com/cdn/shop/products/eucalyptus_spearmint_spray.jpg",
+    "link": "https://www.bathandbodyworks.com/p/eucalyptus-spearmint-room-spray"
+  },
+  {
+    "id": 13,
+    "name": "DW Home Warm Tobacco Pipe Candle",
+    "brand": "DW Home",
+    "price": "$12.00",
+    "image": "https://www.dwhome.com/cdn/shop/products/dw_tobacco_pipe.jpg",
+    "link": "https://www.dwhome.com/products/warm-tobacco-pipe"
+  },
+  {
+    "id": 14,
+    "name": "Chesapeake Bay Mind & Body – Peace + Tranquility Candle",
+    "brand": "Chesapeake Bay",
+    "price": "$12.00",
+    "image": "https://www.chesapeakebaycandle.com/cdn/shop/products/peace_tranquility.jpg",
+    "link": "https://www.chesapeakebaycandle.com/products/peace-tranquility"
+  },
+  {
+    "id": 15,
+    "name": "Glade Candle – Apple Cinnamon",
+    "brand": "Glade",
+    "price": "$3.00",
+    "image": "https://www.glade.com/media/export/cms/products/1000x1000/glade_apple_cinnamon.jpg",
+    "link": "https://www.glade.com/en/products/candles/apple-cinnamon"
+  },
+  {
+    "id": 16,
+    "name": "Air Wick Scented Oil – Fresh Linen",
+    "brand": "Air Wick",
+    "price": "$6.00",
+    "image": "https://www.airwick.us/media/export/cms/products/1000x1000/airwick_fresh_linen.jpg",
+    "link": "https://www.airwick.us/products/plugins-fresh-linen"
+  },
+  {
+    "id": 17,
+    "name": "Capri Blue Volcano Room Spray",
+    "brand": "Capri Blue",
+    "price": "$24.00",
+    "image": "https://www.capri-blue.com/cdn/shop/products/volcano_room_spray.jpg",
+    "link": "https://www.capri-blue.com/products/volcano-room-spray"
+  },
+  {
+    "id": 18,
+    "name": "Homesick Candle – Birthday Party",
+    "brand": "Homesick",
+    "price": "$38.00",
+    "image": "https://homesick.com/cdn/shop/products/homesick_birthday_party.jpg",
+    "link": "https://homesick.com/products/birthday-party"
+  },
+  {
+    "id": 19,
+    "name": "Voluspa Goji Tarocco Orange Candle",
+    "brand": "Voluspa",
+    "price": "$30.00",
+    "image": "https://www.voluspa.com/cdn/shop/products/voluspa_goji_tarocco.jpg",
+    "link": "https://www.voluspa.com/products/goji-tarocco-orange"
+  },
+  {
+    "id": 20,
+    "name": "Nest New York Moroccan Amber Reed Diffuser",
+    "brand": "Nest New York",
+    "price": "$60.00",
+    "image": "https://www.nestnewyork.com/cdn/shop/products/nest_moroccan_amber_diffuser.jpg",
+    "link": "https://www.nestnewyork.com/products/moroccan-amber-reed-diffuser"
+  }
+]
