@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Vital Proteins Collagen Peptides",
+    "brand": "Vital Proteins",
+    "price": "$27.00",
+    "image": "https://www.vitalproteins.com/cdn/shop/products/vital_collagen.jpg",
+    "link": "https://www.vitalproteins.com/products/collagen-peptides"
+  },
+  {
+    "id": 2,
+    "name": "OLLY Women’s Multivitamin Gummies",
+    "brand": "OLLY",
+    "price": "$14.00",
+    "image": "https://www.olly.com/cdn/shop/products/olly_womens_multi.jpg",
+    "link": "https://www.olly.com/products/womens-multivitamin"
+  },
+  {
+    "id": 3,
+    "name": "Liquid I.V. Hydration Multiplier – Lemon Lime",
+    "brand": "Liquid I.V.",
+    "price": "$25.00",
+    "image": "https://www.liquid-iv.com/cdn/shop/products/liquidiv_lemon.jpg",
+    "link": "https://www.liquid-iv.com/products/hydration-multiplier-lemon-lime"
+  },
+  {
+    "id": 4,
+    "name": "Poppi Prebiotic Soda – Strawberry Lemon",
+    "brand": "Poppi",
+    "price": "$2.50",
+    "image": "https://drinkpoppi.com/cdn/shop/products/poppi_strawberry_lemon.jpg",
+    "link": "https://drinkpoppi.com/products/strawberry-lemon"
+  },
+  {
+    "id": 5,
+    "name": "Celsius Sparkling Peach Vibe Energy Drink",
+    "brand": "Celsius",
+    "price": "$2.50",
+    "image": "https://www.celsius.com/cdn/shop/products/celsius_peach_vibe.jpg",
+    "link": "https://www.celsius.com/products/peach-vibe"
+  },
+  {
+    "id": 6,
+    "name": "Health-Ade Kombucha – Pink Lady Apple",
+    "brand": "Health-Ade",
+    "price": "$4.00",
+    "image": "https://health-ade.com/cdn/shop/products/healthade_pink_apple.jpg",
+    "link": "https://health-ade.com/products/pink-lady-apple"
+  },
+  {
+    "id": 7,
+    "name": "SmartSweets Gummy Bears",
+    "brand": "SmartSweets",
+    "price": "$3.50",
+    "image": "https://smartsweets.com/cdn/shop/products/smartsweets_gummies.jpg",
+    "link": "https://smartsweets.com/products/gummy-bears"
+  },
+  {
+    "id": 8,
+    "name": "Golde Matcha Turmeric Superfood Latte Blend",
+    "brand": "Golde",
+    "price": "$29.00",
+    "image": "https://golde.co/cdn/shop/products/golde_matcha_turmeric.jpg",
+    "link": "https://golde.co/products/matcha-turmeric"
+  },
+  {
+    "id": 9,
+    "name": "Pukka Herbal Tea – Love (Rose & Lavender)",
+    "brand": "Pukka",
+    "price": "$6.00",
+    "image": "https://www.pukkaherbs.com/cdn/shop/products/pukka_love_tea.jpg",
+    "link": "https://www.pukkaherbs.com/products/love-tea"
+  },
+  {
+    "id": 10,
+    "name": "Olipop Prebiotic Soda – Vintage Cola",
+    "brand": "Olipop",
+    "price": "$2.50",
+    "image": "https://drinkolipop.com/cdn/shop/products/olipop_vintage_cola.jpg",
+    "link": "https://drinkolipop.com/products/vintage-cola"
+  },
+  {
+    "id": 11,
+    "name": "RXBAR Protein Bar – Chocolate Sea Salt",
+    "brand": "RXBAR",
+    "price": "$2.50",
+    "image": "https://www.rxbar.com/cdn/shop/products/rxbar_chocolate_sea_salt.jpg",
+    "link": "https://www.rxbar.com/products/chocolate-sea-salt"
+  },
+  {
+    "id": 12,
+    "name": "HUM Nutrition Glow Sweet Glow Gummies",
+    "brand": "HUM Nutrition",
+    "price": "$26.00",
+    "image": "https://www.humnutrition.com/cdn/shop/products/hum_glow_sweet_glow.jpg",
+    "link": "https://www.humnutrition.com/products/glow-sweet-glow"
+  },
+  {
+    "id": 13,
+    "name": "Vital Proteins Collagen Water – Strawberry Lemon",
+    "brand": "Vital Proteins",
+    "price": "$4.00",
+    "image": "https://www.vitalproteins.com/cdn/shop/products/vital_collagen_water.jpg",
+    "link": "https://www.vitalproteins.com/products/collagen-water"
+  },
+  {
+    "id": 14,
+    "name": "OLLY Sleep Gummies – Melatonin",
+    "brand": "OLLY",
+    "price": "$14.00",
+    "image": "https://www.olly.com/cdn/shop/products/olly_sleep.jpg",
+    "link": "https://www.olly.com/products/sleep"
+  },
+  {
+    "id": 15,
+    "name": "Liquid I.V. Energy Multiplier – Lemon Ginger",
+    "brand": "Liquid I.V.",
+    "price": "$25.00",
+    "image": "https://www.liquid-iv.com/cdn/shop/products/liquidiv_energy.jpg",
+    "link": "https://www.liquid-iv.com/products/energy-multiplier"
+  },
+  {
+    "id": 16,
+    "name": "Poppi Prebiotic Soda – Raspberry Rose",
+    "brand": "Poppi",
+    "price": "$2.50",
+    "image": "https://drinkpoppi.com/cdn/shop/products/poppi_raspberry_rose.jpg",
+    "link": "https://drinkpoppi.com/products/raspberry-rose"
+  },
+  {
+    "id": 17,
+    "name": "SmartSweets Sourmelon Bites",
+    "brand": "SmartSweets",
+    "price": "$3.50",
+    "image": "https://smartsweets.com/cdn/shop/products/smartsweets_sourmelon.jpg",
+    "link": "https://smartsweets.com/products/sourmelon-bites"
+  },
+  {
+    "id": 18,
+    "name": "Golde Coconut Collagen Boost",
+    "brand": "Golde",
+    "price": "$29.00",
+    "image": "https://golde.co/cdn/shop/products/golde_coconut_collagen.jpg",
+    "link": "https://golde.co/products/coconut-collagen-boost"
+  },
+  {
+    "id": 19,
+    "name": "Health-Ade Kombucha – Passion Fruit Tangerine",
+    "brand": "Health-Ade",
+    "price": "$4.00",
+    "image": "https://health-ade.com/cdn/shop/products/healthade_passion.jpg",
+    "link": "https://health-ade.com/products/passion-fruit-tangerine"
+  },
+  {
+    "id": 20,
+    "name": "Celsius Sparkling Wild Berry",
+    "brand": "Celsius",
+    "price": "$2.50",
+    "image": "https://www.celsius.com/cdn/shop/products/celsius_wild_berry.jpg",
+    "link": "https://www.celsius.com/products/wild-berry"
+  }
+]
