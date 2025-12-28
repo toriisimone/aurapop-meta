@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Sol de Janeiro Brazilian Bum Bum Cream Mini",
+    "brand": "Sol de Janeiro",
+    "price": "$22.00",
+    "image": "https://soldejaneiro.com/cdn/shop/products/bum_bum_mini.jpg",
+    "link": "https://soldejaneiro.com/products/brazilian-bum-bum-cream-mini"
+  },
+  {
+    "id": 2,
+    "name": "Laneige Lip Sleeping Mask Mini",
+    "brand": "Laneige",
+    "price": "$16.00",
+    "image": "https://www.laneige.com/media/export/cms/products/1000x1000/laneige_lip_mini.jpg",
+    "link": "https://us.laneige.com/products/lip-sleeping-mask-mini"
+  },
+  {
+    "id": 3,
+    "name": "Olaplex No. 3 Hair Perfector Mini",
+    "brand": "Olaplex",
+    "price": "$16.00",
+    "image": "https://olaplex.com/cdn/shop/products/olaplex_no3_mini.jpg",
+    "link": "https://olaplex.com/products/no3-mini"
+  },
+  {
+    "id": 4,
+    "name": "Fenty Beauty Gloss Bomb Mini",
+    "brand": "Fenty Beauty",
+    "price": "$15.00",
+    "image": "https://fentybeauty.com/cdn/shop/products/fenty_gloss_mini.jpg",
+    "link": "https://fentybeauty.com/products/gloss-bomb-mini"
+  },
+  {
+    "id": 5,
+    "name": "The Ordinary Niacinamide 10% + Zinc 1% Mini",
+    "brand": "The Ordinary",
+    "price": "$6.00",
+    "image": "https://theordinary.com/cdn/shop/products/ordinary_niacinamide_mini.jpg",
+    "link": "https://theordinary.com/products/niacinamide-mini"
+  },
+  {
+    "id": 6,
+    "name": "Drunk Elephant Protini Polypeptide Cream Mini",
+    "brand": "Drunk Elephant",
+    "price": "$22.00",
+    "image": "https://www.drunkelephant.com/cdn/shop/products/drunk_protini_mini.jpg",
+    "link": "https://www.drunkelephant.com/products/protini-mini"
+  },
+  {
+    "id": 7,
+    "name": "Glow Recipe Watermelon Glow PHA+BHA Toner Mini",
+    "brand": "Glow Recipe",
+    "price": "$15.00",
+    "image": "https://www.glowrecipe.com/cdn/shop/products/glowrecipe_toner_mini.jpg",
+    "link": "https://www.glowrecipe.com/products/watermelon-glow-toner-mini"
+  },
+  {
+    "id": 8,
+    "name": "Bath & Body Works Travel Size Body Mist – Into the Night",
+    "brand": "Bath & Body Works",
+    "price": "$8.50",
+    "image": "https://www.bathandbodyworks.com/cdn/shop/products/into_the_night_travel.jpg",
+    "link": "https://www.bathandbodyworks.com/p/into-the-night-travel-mist"
+  },
+  {
+    "id": 9,
+    "name": "Tree Hut Tropic Glow Mini Body Butter",
+    "brand": "Tree Hut",
+    "price": "$7.00",
+    "image": "https://treehutshea.com/cdn/shop/products/tropic_glow_mini.jpg",
+    "link": "https://treehutshea.com/products/tropic-glow-mini"
+  },
+  {
+    "id": 10,
+    "name": "Native Deodorant Mini – Coconut & Vanilla",
+    "brand": "Native",
+    "price": "$4.00",
+    "image": "https://www.nativecos.com/cdn/shop/products/native_mini_deo.jpg",
+    "link": "https://www.nativecos.com/products/coconut-vanilla-mini"
+  },
+  {
+    "id": 11,
+    "name": "Herbivore Pink Cloud Cleanser Mini",
+    "brand": "Herbivore",
+    "price": "$12.00",
+    "image": "https://www.herbivorebotanicals.com/cdn/shop/products/herbivore_pinkcloud_mini.jpg",
+    "link": "https://www.herbivorebotanicals.com/products/pink-cloud-cleanser-mini"
+  },
+  {
+    "id": 12,
+    "name": "Kopari Coconut Melt Mini",
+    "brand": "Kopari",
+    "price": "$18.00",
+    "image": "https://www.koparibeauty.com/cdn/shop/products/kopari_melt_mini.jpg",
+    "link": "https://www.koparibeauty.com/products/coconut-melt-mini"
+  },
+  {
+    "id": 13,
+    "name": "Pacifica Island Vanilla Mini Perfume",
+    "brand": "Pacifica",
+    "price": "$12.00",
+    "image": "https://www.pacificabeauty.com/cdn/shop/products/pacifica_vanilla_mini.jpg",
+    "link": "https://www.pacificabeauty.com/products/island-vanilla-mini"
+  },
+  {
+    "id": 14,
+    "name": "Cetaphil Gentle Skin Cleanser Travel Size",
+    "brand": "Cetaphil",
+    "price": "$4.00",
+    "image": "https://www.cetaphil.com/media/export/cms/products/1000x1000/cetaphil_travel_cleanser.jpg",
+    "link": "https://www.cetaphil.com/products/gentle-cleanser-travel"
+  },
+  {
+    "id": 15,
+    "name": "CeraVe Hydrating Facial Cleanser Mini",
+    "brand": "CeraVe",
+    "price": "$5.00",
+    "image": "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/americas/us/products/cleansers/hydrating-facial-cleanser/cerave_hydrating_facial_cleanser_3oz_front.jpg",
+    "link": "https://www.cerave.com/products/hydrating-cleanser-mini"
+  },
+  {
+    "id": 16,
+    "name": "Ariana Grande Cloud Mini Perfume",
+    "brand": "Ariana Grande",
+    "price": "$25.00",
+    "image": "https://arianagrandefragrances.com/cdn/shop/products/ariana_cloud_mini.jpg",
+    "link": "https://arianagrandefragrances.com/products/cloud-mini"
+  },
+  {
+    "id": 17,
+    "name": "Philosophy Amazing Grace Mini",
+    "brand": "Philosophy",
+    "price": "$18.00",
+    "image": "https://www.philosophy.com/cdn/shop/products/philosophy_grace_mini.jpg",
+    "link": "https://www.philosophy.com/products/amazing-grace-mini"
+  },
+  {
+    "id": 18,
+    "name": "E.l.f. Holy Hydration! Face Cream Mini",
+    "brand": "e.l.f.",
+    "price": "$7.00",
+    "image": "https://www.elfcosmetics.com/media/export/cms/products/1000x1000/elf_holy_hydration_mini.jpg",
+    "link": "https://www.elfcosmetics.com/holy-hydration-mini"
+  },
+  {
+    "id": 19,
+    "name": "Neutrogena Hydro Boost Water Gel Mini",
+    "brand": "Neutrogena",
+    "price": "$8.00",
+    "image": "https://www.neutrogena.com/media/export/cms/products/1000x1000/neutrogena_hydro_mini.jpg",
+    "link": "https://www.neutrogena.com/products/hydro-boost-mini"
+  },
+  {
+    "id": 20,
+    "name": "Bath & Body Works Travel Size Lotion – Japanese Cherry Blossom",
+    "brand": "Bath & Body Works",
+    "price": "$7.50",
+    "image": "https://www.bathandbodyworks.com/cdn/shop/products/jcb_travel_lotion.jpg",
+    "link": "https://www.bathandbodyworks.com/p/japanese-cherry-blossom-travel-lotion"
+  }
+]
