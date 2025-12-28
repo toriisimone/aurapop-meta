@@ -1,1 +1,58 @@
-This is a placeholder file so GitHub keeps the folder.
+[
+  {
+    "id": "gen-multi-001",
+    "name": "Essential Daily Multivitamin",
+    "price": 19.99,
+    "category": "general",
+    "description": "A complete daily multivitamin designed for men and women. Supports immunity, energy, and overall wellness."
+  },
+  {
+    "id": "gen-sleep-002",
+    "name": "Deep Sleep + Calm Gummies",
+    "price": 14.99,
+    "category": "general",
+    "description": "A soothing blend of melatonin, chamomile, and L‑theanine for deeper, more restful sleep."
+  },
+  {
+    "id": "gen-immune-003",
+    "name": "Immunity Boost Vitamin C + Zinc",
+    "price": 12.99,
+    "category": "general",
+    "description": "High‑potency Vitamin C with Zinc to support immune strength and daily protection."
+  },
+  {
+    "id": "gen-energy-004",
+    "name": "Clean Energy B‑Complex",
+    "price": 16.99,
+    "category": "general",
+    "description": "A balanced B‑vitamin blend for natural energy, focus, and mood support — without jitters."
+  },
+  {
+    "id": "gen-stress-005",
+    "name": "Stress Relief Ashwagandha",
+    "price": 18.99,
+    "category": "general",
+    "description": "Clinically studied ashwagandha to help reduce stress, support mood, and promote calm clarity."
+  },
+  {
+    "id": "gen-gut-006",
+    "name": "Probiotic Gut Balance",
+    "price": 21.99,
+    "category": "general",
+    "description": "A daily probiotic with 20B CFU to support digestion, gut health, and immune function."
+  },
+  {
+    "id": "gen-hydration-007",
+    "name": "Hydration Electrolyte Mix",
+    "price": 11.99,
+    "category": "general",
+    "description": "A clean electrolyte blend for hydration, recovery, and daily wellness — zero sugar."
+  },
+  {
+    "id": "gen-focus-008",
+    "name": "Focus & Clarity Nootropic",
+    "price": 24.99,
+    "category": "general",
+    "description": "A gentle nootropic formula with ginkgo, L‑theanine, and B‑vitamins for mental clarity and productivity."
+  }
+]
