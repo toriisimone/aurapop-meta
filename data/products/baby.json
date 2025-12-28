@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Johnson’s Baby Lotion",
+    "brand": "Johnson’s",
+    "price": "$6.00",
+    "image": "https://www.johnsonsbaby.com/media/export/cms/products/1000x1000/johnsons_baby_lotion.jpg",
+    "link": "https://www.johnsonsbaby.com/baby-lotion"
+  },
+  {
+    "id": 2,
+    "name": "Aquaphor Baby Healing Ointment",
+    "brand": "Aquaphor",
+    "price": "$10.00",
+    "image": "https://www.aquaphorus.com/media/export/cms/products/1000x1000/aquaphor_baby.jpg",
+    "link": "https://www.aquaphorus.com/products/baby-healing-ointment"
+  },
+  {
+    "id": 3,
+    "name": "Aveeno Baby Daily Moisture Lotion",
+    "brand": "Aveeno Baby",
+    "price": "$9.00",
+    "image": "https://www.aveeno.com/media/export/cms/products/1000x1000/aveeno_baby_lotion.jpg",
+    "link": "https://www.aveeno.com/products/baby-daily-moisture-lotion"
+  },
+  {
+    "id": 4,
+    "name": "Honest Company Sweet Almond Shampoo + Body Wash",
+    "brand": "Honest",
+    "price": "$10.00",
+    "image": "https://www.honest.com/cdn/shop/products/honest_baby_wash.jpg",
+    "link": "https://www.honest.com/products/baby-shampoo-and-body-wash"
+  },
+  {
+    "id": 5,
+    "name": "Mustela Gentle Cleansing Gel",
+    "brand": "Mustela",
+    "price": "$15.00",
+    "image": "https://www.mustelausa.com/cdn/shop/products/mustela_gentle_gel.jpg",
+    "link": "https://www.mustelausa.com/products/gentle-cleansing-gel"
+  },
+  {
+    "id": 6,
+    "name": "Desitin Maximum Strength Diaper Rash Cream",
+    "brand": "Desitin",
+    "price": "$7.00",
+    "image": "https://www.desitin.com/media/export/cms/products/1000x1000/desitin_max_strength.jpg",
+    "link": "https://www.desitin.com/products/maximum-strength"
+  },
+  {
+    "id": 7,
+    "name": "Baby Dove Sensitive Moisture Wash",
+    "brand": "Baby Dove",
+    "price": "$8.00",
+    "image": "https://www.dove.com/media/export/cms/products/1000x1000/baby_dove_wash.jpg",
+    "link": "https://www.dove.com/us/en/baby/p/sensitive-moisture-wash"
+  },
+  {
+    "id": 8,
+    "name": "Burt’s Bees Baby Nourishing Lotion",
+    "brand": "Burt’s Bees Baby",
+    "price": "$9.00",
+    "image": "https://www.burtsbees.com/media/export/cms/products/1000x1000/burts_baby_lotion.jpg",
+    "link": "https://www.burtsbees.com/product/baby-lotion"
+  },
+  {
+    "id": 9,
+    "name": "Cetaphil Baby Wash & Shampoo",
+    "brand": "Cetaphil Baby",
+    "price": "$8.00",
+    "image": "https://www.cetaphil.com/media/export/cms/products/1000x1000/cetaphil_baby_wash.jpg",
+    "link": "https://www.cetaphil.com/products/baby-wash-and-shampoo"
+  },
+  {
+    "id": 10,
+    "name": "Earth Mama Belly Butter",
+    "brand": "Earth Mama",
+    "price": "$20.00",
+    "image": "https://earthmamaorganics.com/cdn/shop/products/earthmama_belly_butter.jpg",
+    "link": "https://earthmamaorganics.com/products/belly-butter"
+  },
+  {
+    "id": 11,
+    "name": "Palmer’s Cocoa Butter Massage Lotion for Stretch Marks",
+    "brand": "Palmer’s",
+    "price": "$8.00",
+    "image": "https://www.palmers.com/media/export/cms/products/1000x1000/palmers_stretch_marks.jpg",
+    "link": "https://www.palmers.com/products/massage-lotion-for-stretch-marks"
+  },
+  {
+    "id": 12,
+    "name": "Honest Company Baby Wipes – Fragrance Free",
+    "brand": "Honest",
+    "price": "$4.00",
+    "image": "https://www.honest.com/cdn/shop/products/honest_baby_wipes.jpg",
+    "link": "https://www.honest.com/products/baby-wipes"
+  },
+  {
+    "id": 13,
+    "name": "WaterWipes Original Baby Wipes",
+    "brand": "WaterWipes",
+    "price": "$4.00",
+    "image": "https://www.waterwipes.com/media/export/cms/products/1000x1000/waterwipes_original.jpg",
+    "link": "https://www.waterwipes.com/products/original"
+  },
+  {
+    "id": 14,
+    "name": "Mustela Stretch Marks Cream",
+    "brand": "Mustela",
+    "price": "$30.00",
+    "image": "https://www.mustelausa.com/cdn/shop/products/mustela_stretch_marks.jpg",
+    "link": "https://www.mustelausa.com/products/stretch-marks-cream"
+  },
+  {
+    "id": 15,
+    "name": "Johnson’s Bedtime Baby Bath",
+    "brand": "Johnson’s",
+    "price": "$6.00",
+    "image": "https://www.johnsonsbaby.com/media/export/cms/products/1000x1000/johnsons_bedtime_bath.jpg",
+    "link": "https://www.johnsonsbaby.com/bedtime-bath"
+  },
+  {
+    "id": 16,
+    "name": "Baby Bum Everyday Lotion",
+    "brand": "Baby Bum",
+    "price": "$10.00",
+    "image": "https://www.sunbum.com/cdn/shop/products/baby_bum_lotion.jpg",
+    "link": "https://www.sunbum.com/products/baby-bum-everyday-lotion"
+  },
+  {
+    "id": 17,
+    "name": "Pipette Baby Oil",
+    "brand": "Pipette",
+    "price": "$9.00",
+    "image": "https://pipettebaby.com/cdn/shop/products/pipette_baby_oil.jpg",
+    "link": "https://pipettebaby.com/products/baby-oil"
+  },
+  {
+    "id": 18,
+    "name": "Babyganics Foaming Shampoo + Body Wash",
+    "brand": "Babyganics",
+    "price": "$7.00",
+    "image": "https://www.babyganics.com/media/export/cms/products/1000x1000/babyganics_wash.jpg",
+    "link": "https://www.babyganics.com/products/foaming-shampoo-body-wash"
+  },
+  {
+    "id": 19,
+    "name": "Earth Mama Nipple Butter",
+    "brand": "Earth Mama",
+    "price": "$13.00",
+    "image": "https://earthmamaorganics.com/cdn/shop/products/earthmama_nipple_butter.jpg",
+    "link": "https://earthmamaorganics.com/products/organic-nipple-butter"
+  },
+  {
+    "id": 20,
+    "name": "FridaBaby NoseFrida Nasal Aspirator",
+    "brand": "FridaBaby",
+    "price": "$17.00",
+    "image": "https://frida.com/cdn/shop/products/fridababy_nosefrida.jpg",
+    "link": "https://frida.com/products/nosefrida"
+  }
+]
