@@ -1,1 +1,86 @@
-placeholder.txt
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aura Wellness Co. | Men’s Wellness</title>
+  <link rel="stylesheet" href="styles/aw-main.css" />
+  <style>
+    .category-hero {
+      text-align: center;
+      padding: 3rem 1rem;
+      background-color: #e0f7fa;
+      color: #006064;
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- NAVIGATION -->
+  <header class="navbar">
+    <div class="logo">Aura Wellness Co.</div>
+    <nav>
+      <a href="../index.html">AuraPop</a>
+      <a href="index.html">Home</a>
+      <a href="shop-all.html">Shop All</a>
+      <a href="mens.html">Men’s Wellness</a>
+      <a href="womens.html">Women’s Wellness</a>
+      <a href="general.html">Everyday Wellness</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <div class="category-hero">MEN’S WELLNESS</div>
+
+  <!-- PRODUCT GRID -->
+  <main class="main-section">
+    <h2 class="section-title">Curated for Him</h2>
+    <div id="product-grid" class="product-grid"></div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© Aura Wellness Co. — Designed for every body, every day.</p>
+    <p class="footer-link">
+      Part of the AuraPop ecosystem. Visit
+      <a href="../index.html">AuraPop Cosmetics Co.</a>
+    </p>
+  </footer>
+
+  <!-- SCRIPT -->
+  <script>
+    async function loadProducts() {
+      try {
+        const response = await fetch("data/mens-wellness.json");
+        const products = await response.json();
+        renderProducts(products);
+      } catch (e) {
+        console.error("Error loading products:", e);
+      }
+    }
+
+    function renderProducts(products) {
+      const container = document.getElementById("product-grid");
+      container.innerHTML = "";
+
+      products.forEach(product => {
+        const card = document.createElement("a");
+        card.href = `product.html?id=${product.id}`;
+        card.className = "product-card";
+
+        card.innerHTML = `
+          <h3>${product.name}</h3>
+          <p class="product-meta">$${product.price}</p>
+        `;
+
+        container.appendChild(card);
+      });
+    }
+
+    window.onload = loadProducts;
+  </script>
+</body>
+</html>
