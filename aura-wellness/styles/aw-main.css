@@ -1,0 +1,191 @@
+/* AURA WELLNESS CO. — MAIN STYLING */
+/* GNC structure + Kylie polish */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* NAVIGATION */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e0f7f4;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #00796b;
+}
+
+nav a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #00796b;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* HERO SECTION */
+.hero {
+  background-color: #d0f0ec;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 2.8rem;
+  color: #004d40;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.btn.primary {
+  background-color: #00796b;
+  color: white;
+}
+
+.btn.secondary {
+  background-color: #b2dfdb;
+  color: #004d40;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* MAIN SECTION */
+.main-section {
+  padding: 2rem;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  color: #00796b;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* CATEGORY GRID */
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.category-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  padding: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+}
+
+.category-card h3 {
+  font-size: 1.3rem;
+  color: #00796b;
+  margin-bottom: 0.5rem;
+}
+
+.category-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* PRODUCT GRID */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.product-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card h3 {
+  font-size: 1.2rem;
+  color: #00796b;
+  margin-bottom: 0.5rem;
+}
+
+.product-meta {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.product-tag {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  background-color: #00796b;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  border-radius: 6px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #e0f7f4;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  color: #333;
+  margin-top: 3rem;
+}
+
+.footer-link a {
+  color: #00796b;
+  text-decoration: none;
+  font-weight: 500;
+}
