@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AuraPop | Perfume</title>
+
+  <style>
+    body {
+      background-color: #ffffff;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .page {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 30px 20px 60px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 220px;
+      max-width: 70%;
+      margin-bottom: 20px;
+    }
+
+    .top-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 30px;
+    }
+
+    .back-link {
+      font-size: 14px;
+      color: #777;
+      text-decoration: none;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin: 10px 0 5px;
+    }
+
+    .subtitle {
+      font-size: 16px;
+      color: #666;
+      margin: 0;
+    }
+
+    .grid {
+      margin-top: 40px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background-color: #f9f9f9;
+      border-radius: 16px;
+      padding: 18px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      text-align: left;
+    }
+
+    .card-title {
+      font-weight: 600;
+      font-size: 16px;
+      margin: 0 0 6px;
+    }
+
+    .card-brand {
+      font-size: 14px;
+      color: #777;
+      margin: 0 0 10px;
+    }
+
+    .card-price {
+      font-size: 14px;
+      font-weight: 600;
+      color: #333;
+      margin: 0;
+    }
+
+    .note {
+      margin-top: 35px;
+      font-size: 13px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <!-- top bar with back link + logo -->
+    <div class="top-bar">
+      <a href="index.html" class="back-link">← Back to home</a>
+      <img 
+        src="images/AuraPop%20Cosmetics%20Co.png" 
+        alt="AuraPop Logo"
+        class="logo"
+      />
+      <div style="width:80px;"></div>
+    </div>
+
+    <!-- page heading -->
+    <h1>Perfume</h1>
+    <p class="subtitle">
+      Soft, sweet, floral, or bold — find your signature AuraPop scent.
+    </p>
+
+    <!-- static sample grid for now -->
+    <div class="grid">
+      <div class="card">
+        <p class="card-title">Eau de Parfum</p>
+        <p class="card-brand">Long-lasting luxury blends</p>
+        <p class="card-price">From $28</p>
+      </div>
+      <div class="card">
+        <p class="card-title">Body Mists</p>
+        <p class="card-brand">Light, airy, everyday scents</p>
+        <p class="card-price">From $12</p>
+      </div>
+      <div class="card">
+        <p class="card-title">Rollerballs</p>
+        <p class="card-brand">Travel-friendly fragrance</p>
+        <p class="card-price">From $10</p>
+      </div>
+      <div class="card">
+        <p class="card-title">Gift Sets</p>
+        <p class="card-brand">Curated scent collections</p>
+        <p class="card-price">From $22</p>
+      </div>
+    </div>
+
+    <p class="note">
+      This is your visual layout. Later we’ll connect real products from <code>data/products/perfume.json</code>.
+    </p>
+
+  </div>
+</body>
+</html>
