@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Bath & Body Works Champagne Toast Candle (Holiday Edition)",
+    "brand": "Bath & Body Works",
+    "price": "$26.95",
+    "image": "https://www.bathandbodyworks.com/cdn/shop/products/champagne_toast_holiday.jpg",
+    "link": "https://www.bathandbodyworks.com/p/champagne-toast-holiday"
+  },
+  {
+    "id": 2,
+    "name": "Sol de Janeiro Rio Radiance Perfume Mist (Summer Limited Edition)",
+    "brand": "Sol de Janeiro",
+    "price": "$24.00",
+    "image": "https://soldejaneiro.com/cdn/shop/products/rio_radiance_mist.jpg",
+    "link": "https://soldejaneiro.com/products/rio-radiance"
+  },
+  {
+    "id": 3,
+    "name": "Tree Hut Watermelon Sugar Scrub (Summer Seasonal)",
+    "brand": "Tree Hut",
+    "price": "$10.00",
+    "image": "https://treehutshea.com/cdn/shop/products/watermelon_scrub.jpg",
+    "link": "https://treehutshea.com/products/watermelon-scrub"
+  },
+  {
+    "id": 4,
+    "name": "Bath & Body Works Vanilla Bean Noel Body Lotion",
+    "brand": "Bath & Body Works",
+    "price": "$15.50",
+    "image": "https://www.bathandbodyworks.com/cdn/shop/products/vanilla_bean_noel.jpg",
+    "link": "https://www.bathandbodyworks.com/p/vanilla-bean-noel"
+  },
+  {
+    "id": 5,
+    "name": "Lush Snow Fairy Shower Gel (Holiday Exclusive)",
+    "brand": "Lush",
+    "price": "$22.00",
+    "image": "https://www.lush.com/media/export/cms/products/1000x1000/lush_snow_fairy.jpg",
+    "link": "https://www.lush.com/us/en/p/snow-fairy-shower-gel"
+  },
+  {
+    "id": 6,
+    "name": "Bath & Body Works Strawberry Pound Cake Fine Fragrance Mist (Spring)",
+    "brand": "Bath & Body Works",
+    "price": "$17.50",
+    "image": "https://www.bathandbodyworks.com/cdn/shop/products/strawberry_pound_cake.jpg",
+    "link": "https://www.bathandbodyworks.com/p/strawberry-pound-cake"
+  },
+  {
+    "id": 7,
+    "name": "Sol de Janeiro Tan Lines Perfume Mist (Summer Limited Edition)",
+    "brand": "Sol de Janeiro",
+    "price": "$24.00",
+    "image": "https://soldejaneiro.com/cdn/shop/products/tan_lines_mist.jpg",
+    "link": "https://soldejaneiro.com/products/tan-lines"
+  },
+  {
+    "id": 8,
+    "name": "Yankee Candle Spiced Pumpkin (Fall Classic)",
+    "brand": "Yankee Candle",
+    "price": "$31.00",
+    "image": "https://www.yankeecandle.com/cdn/shop/products/spiced_pumpkin.jpg",
+    "link": "https://www.yankeecandle.com/product/spiced-pumpkin"
+  },
+  {
+    "id": 9,
+    "name": "Bath & Body Works Sweater Weather Candle",
+    "brand": "Bath & Body Works",
+    "price": "$26.95",
+    "image": "https://www.bathandbodyworks.com/cdn/shop/products/sweater_weather.jpg",
+    "link": "https://www.bathandbodyworks.com/p/sweater-weather"
+  },
+  {
+    "id": 10,
+    "name": "Lush Heartbeat Bath Bomb (Valentine’s Day)",
+    "brand": "Lush",
+    "price": "$8.50",
+    "image": "https://www.lush.com/media/export/cms/products/1000x1000/lush_heartbeat.jpg",
+    "link": "https://www.lush.com/us/en/p/heartbeat-bath-bomb"
+  },
+  {
+    "id": 11,
+    "name": "Bath & Body Works Winter Candy Apple Body Cream",
+    "brand": "Bath & Body Works",
+    "price": "$16.50",
+    "image": "https://www.bathandbodyworks.com/cdn/shop/products/winter_candy_apple.jpg",
+    "link": "https://www.bathandbodyworks.com/p/winter-candy-apple"
+  },
+  {
+    "id": 12,
+    "name": "Tree Hut Tropic Glow Firming Whip Body Butter (Summer)",
+    "brand": "Tree Hut",
+    "price": "$10.00",
+    "image": "https://treehutshea.com/cdn/shop/products/tropic_glow_butter.jpg",
+    "link": "https://treehutshea.com/products/tropic-glow-body-butter"
+  },
+  {
+    "id": 13,
+    "name": "Homesick Candle – Pumpkin Picking (Fall)",
+    "brand": "Homesick",
+    "price": "$38.00",
+    "image": "https://homesick.com/cdn/shop/products/pumpkin_picking.jpg",
+    "link": "https://homesick.com/products/pumpkin-picking"
+  },
+  {
+    "id": 14,
+    "name": "Bath & Body Works Love Rose & Vanilla Body Mist (Valentine’s)",
+    "brand": "Bath & Body Works",
+    "price": "$17.50",
+    "image": "https://www.bathandbodyworks.com/cdn/shop/products/love_rose_vanilla.jpg",
+    "link": "https://www.bathandbodyworks.com/p/love-rose-vanilla"
+  },
+  {
+    "id": 15,
+    "name": "Lush Golden Wonder Bath Bomb (Holiday)",
+    "brand": "Lush",
+    "price": "$8.50",
+    "image": "https://www.lush.com/media/export/cms/products/1000x1000/lush_golden_wonder.jpg",
+    "link": "https://www.lush.com/us/en/p/golden-wonder-bath-bomb"
+  },
+  {
+    "id": 16,
+    "name": "Bath & Body Works Firecracker Pop Body Mist (Summer)",
+    "brand": "Bath & Body Works",
+    "price": "$17.50",
+    "image": "https://www.bathandbodyworks.com/cdn/shop/products/firecracker_pop.jpg",
+    "link": "https://www.bathandbodyworks.com/p/firecracker-pop"
+  },
+  {
+    "id": 17,
+    "name": "Yankee Candle Christmas Cookie",
+    "brand": "Yankee Candle",
+    "price": "$31.00",
+    "image": "https://www.yankeecandle.com/cdn/shop/products/christmas_cookie.jpg",
+    "link": "https://www.yankeecandle.com/product/christmas-cookie"
+  },
+  {
+    "id": 18,
+    "name": "Bath & Body Works Pink Pineapple Sunrise Body Lotion (Spring/Summer)",
+    "brand": "Bath & Body Works",
+    "price": "$15.50",
+    "image": "https://www.bathandbodyworks.com/cdn/shop/products/pink_pineapple_sunrise.jpg",
+    "link": "https://www.bathandbodyworks.com/p/pink-pineapple-sunrise"
+  },
+  {
+    "id": 19,
+    "name": "Lush Love Bug Bath Bomb (Valentine’s)",
+    "brand": "Lush",
+    "price": "$7.50",
+    "image": "https://www.lush.com/media/export/cms/products/1000x1000/lush_love_bug.jpg",
+    "link": "https://www.lush.com/us/en/p/love-bug-bath-bomb"
+  },
+  {
+    "id": 20,
+    "name": "Homesick Candle – Holiday (Winter Classic)",
+    "brand": "Homesick",
+    "price": "$38.00",
+    "image": "https://homesick.com/cdn/shop/products/holiday_candle.jpg",
+    "link": "https://homesick.com/products/holiday"
+  }
+]
