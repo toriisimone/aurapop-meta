@@ -5,92 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AuraPop | Shop All</title>
   <link rel="stylesheet" href="styles/category.css" />
-  <script>
-    async function loadAllProducts() {
-      const categories = [
-        "makeup",
-        "skincare",
-        "womens-wellness",
-        "mens-wellness",
-        "gifts",
-        "gadgets"
-      ];
-
-      let allProducts = [];
-
-      for (const category of categories) {
-        try {
-          const response = await fetch(`data/site/${category}.json`);
-          const products = await response.json();
-          allProducts = allProducts.concat(products);
-        } catch (e) {
-          console.error(`Error loading ${category}:`, e);
-        }
-      }
-
-      renderAllProducts(allProducts);
-      renderCategorySections(allProducts);
-    }
-
-    function renderAllProducts(products) {
-      const container = document.getElementById("all-products-grid");
-      container.innerHTML = "";
-
-      products.forEach(product => {
-        const card = document.createElement("a");
-        card.href = `product.html?id=${product.id}`;
-        card.className = "product-card";
-
-        card.innerHTML = `
-          <img src="${product.image}" alt="${product.name}" />
-          <h2>${product.name}</h2>
-          <p>$${product.price}</p>
-        `;
-
-        container.appendChild(card);
-      });
-    }
-
-    function renderCategorySections(products) {
-      const categories = {};
-
-      products.forEach(p => {
-        if (!categories[p.category]) categories[p.category] = [];
-        categories[p.category].push(p);
-      });
-
-      const sectionContainer = document.getElementById("category-sections");
-
-      for (const category in categories) {
-        const section = document.createElement("div");
-        section.className = "category-block";
-
-        section.innerHTML = `
-          <h2>${category.replace("-", " ").toUpperCase()}</h2>
-          <div class="product-grid">
-            ${categories[category]
-              .map(
-                p => `
-              <a href="product.html?id=${p.id}" class="product-card">
-                <img src="${p.image}" alt="${p.name}" />
-                <h2>${p.name}</h2>
-                <p>$${p.price}</p>
-              </a>
-            `
-              )
-              .join("")}
-          </div>
-        `;
-
-        sectionContainer.appendChild(section);
-      }
-    }
-
-    window.onload = loadAllProducts;
-  </script>
-
   <style>
-    /* Inline styling for Shop All hero */
     .shop-hero {
       text-align: center;
       padding: 3rem 1rem;
@@ -173,5 +88,115 @@
   <footer class="footer">
     <p>© AuraPop Cosmetics Co. — Dream big, glow soft.</p>
   </footer>
+
+  <!-- SCRIPT -->
+  <script>
+    async function loadAllProducts() {
+      const categories = [
+        "makeup",
+        "skincare",
+        "womens-wellness",
+        "mens-wellness",
+        "gifts",
+        "gadgets"
+      ];
+
+      let allProducts = [];
+
+      for (const category of categories) {
+        try {
+          const response = await fetch(`data/site/${category}.json`);
+          const products = await response.json();
+          allProducts = allProducts.concat(products);
+        } catch (e) {
+          console.error(`Error loading ${category}:`, e);
+        }
+      }
+
+      renderAllProducts(allProducts);
+      renderCategorySections(allProducts);
+      setupFilters(allProducts);
+    }
+
+    function renderAllProducts(products) {
+      const container = document.getElementById("all-products-grid");
+      container.innerHTML = "";
+
+      products.forEach(product => {
+        const card = document.createElement("a");
+        card.href = `product.html?id=${product.id}`;
+        card.className = "product-card";
+
+        card.innerHTML = `
+          <img src="${product.image}" alt="${product.name}" />
+          <h2>${product.name}</h2>
+          <p>$${product.price}</p>
+        `;
+
+        container.appendChild(card);
+      });
+    }
+
+    function renderCategorySections(products) {
+      const categories = {};
+
+      products.forEach(p => {
+        if (!categories[p.category]) categories[p.category] = [];
+        categories[p.category].push(p);
+      });
+
+      const sectionContainer = document.getElementById("category-sections");
+      sectionContainer.innerHTML = "";
+
+      for (const category in categories) {
+        const section = document.createElement("div");
+        section.className = "category-block";
+
+        section.innerHTML = `
+          <h2>${category.replace("-", " ").toUpperCase()}</h2>
+          <div class="product-grid">
+            ${categories[category]
+              .map(
+                p => `
+              <a href="product.html?id=${p.id}" class="product-card">
+                <img src="${p.image}" alt="${p.name}" />
+                <h2>${p.name}</h2>
+                <p>$${p.price}</p>
+              </a>
+            `
+              )
+              .join("")}
+          </div>
+        `;
+
+        sectionContainer.appendChild(section);
+      }
+    }
+
+    function setupFilters(products) {
+      const sortSelect = document.getElementById("sort");
+      const filterSelect = document.getElementById("filter-category");
+
+      sortSelect.addEventListener("change", () => {
+        let sorted = [...products];
+        if (sortSelect.value === "low") {
+          sorted.sort((a, b) => a.price - b.price);
+        } else if (sortSelect.value === "high") {
+          sorted.sort((a, b) => b.price - a.price);
+        }
+        renderAllProducts(sorted);
+      });
+
+      filterSelect.addEventListener("change", () => {
+        let filtered = [...products];
+        if (filterSelect.value) {
+          filtered = filtered.filter(p => p.category === filterSelect.value);
+        }
+        renderAllProducts(filtered);
+      });
+    }
+
+    window.onload = loadAllProducts;
+  </script>
 </body>
 </html>
