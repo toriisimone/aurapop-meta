@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AuraPop Product</title>
+  <link rel="stylesheet" href="styles/product.css" />
+</head>
+
+<body>
+  <!-- NAVIGATION -->
+  <header class="navbar">
+    <div class="logo">AuraPop</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="makeup.html">Makeup</a>
+      <a href="skincare.html">Skincare</a>
+      <a href="womens-wellness.html">Women’s Wellness</a>
+      <a href="mens-wellness.html">Men’s Wellness</a>
+      <a href="gifts.html">Gifts</a>
+      <a href="gadgets.html">Gadgets</a>
+    </nav>
+  </header>
+
+  <!-- BREADCRUMB -->
+  <div class="breadcrumb">
+    <a href="index.html">Home</a> › 
+    <span id="breadcrumb-category"></span> › 
+    <span id="breadcrumb-name"></span>
+  </div>
+
+  <!-- PRODUCT SECTION -->
+  <main class="product-container">
+    <div class="product-image">
+      <img id="product-img" src="" alt="Product Image" />
+    </div>
+
+    <div class="product-info">
+      <h1 id="product-name"></h1>
+      <h2 id="product-brand"></h2>
+      <p id="product-price" class="price"></p>
+
+      <p id="product-desc" class="description"></p>
+
+      <a id="product-link" class="buy-button" target="_blank">Buy Now</a>
+
+      <div class="details-section">
+        <h3>How to Use</h3>
+        <p id="how-to-use"></p>
+
+        <h3>Why You’ll Love It</h3>
+        <p id="why-love"></p>
+      </div>
+    </div>
+  </main>
+
+  <!-- RELATED PRODUCTS -->
+  <section class="related-section">
+    <h2>You May Also Like</h2>
+    <div id="related-grid" class="related-grid"></div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© AuraPop Cosmetics Co. — Dream big, glow soft.</p>
+  </footer>
+
+  <!-- SCRIPT -->
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const id = parseInt(params.get("id"));
+    const cat = params.get("cat");
+
+    const categoryNames = {
+      "makeup": "Makeup",
+      "skincare": "Skincare",
+      "haircare": "Haircare",
+      "body": "Body Care",
+      "perfume": "Perfume",
+      "accessories": "Accessories",
+      "bath": "Bath",
+      "home": "Home Scents",
+      "womens-wellness": "Women’s Wellness",
+      "mens-wellness": "Men’s Wellness",
+      "gifts": "Gifts",
+      "gadgets": "Gadgets"
+    };
+
+    document.getElementById("breadcrumb-category").textContent = categoryNames[cat];
+
+    fetch(`data/${cat}.json`)
+      .then(res => res.json())
+      .then(products => {
+        let product = products.find(p => p.id === id);
+
+        function pickFallback() {
+          return products[Math.floor(Math.random() * products.length)];
+        }
+
+        function isBroken(p) {
+          return (
+            !p ||
+            !p.name ||
+            !p.brand ||
+            !p.price ||
+            !p.link ||
+            !p.image
+          );
+        }
+
+        if (isBroken(product)) {
+          product = pickFallback();
+        }
+
+        function loadProduct(p) {
+          document.getElementById("product-img").src = p.image;
+          document.getElementById("product-name").textContent = p.name;
+          document.getElementById("product-brand").textContent = p.brand;
+          document.getElementById("product-price").textContent = p.price;
+          document.getElementById("product-link").href = p.link;
+          document.getElementById("breadcrumb-name").textContent = p.name;
+
+          document.getElementById("product-desc").textContent =
+            `${p.name} by ${p.brand} is designed to elevate your daily routine with a touch of luxury. Soft, clean, and effortlessly effective — this is your new self-care essential.`;
+
+          document.getElementById("how-to-use").textContent =
+            `Use daily or as needed. Apply gently and allow the product to absorb fully for best results.`;
+
+          document.getElementById("why-love").textContent =
+            `A perfect blend of performance and indulgence. Loved for its clean ingredients, gorgeous texture, and AuraPop-approved glow factor.`;
+        }
+
+        loadProduct(product);
+
+        const img = document.getElementById("product-img");
+        img.onerror = () => {
+          const fallback = pickFallback();
+          loadProduct(fallback);
+        };
+
+        const related = products.filter(p => p.id !== id).slice(0, 4);
+        const grid = document.getElementById("related-grid");
+
+        related.forEach(item => {
+          const card = document.createElement("div");
+          card.className = "related-card";
+          card.innerHTML = `
+            <img src="${item.image}" />
+            <h4>${item.name}</h4>
+            <p>${item.price}</p>
+            <a href="product.html?id=${item.id}&cat=${cat}" class="view-related">View</a>
+          `;
+          grid.appendChild(card);
+        });
+      });
+  </script>
+
+</body>
+</html>
