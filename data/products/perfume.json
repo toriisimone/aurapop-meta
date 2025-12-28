@@ -4,6 +4,34 @@
     "brand": "Ariana Grande",
     "price": "$48.00",
     "image": "https://m.media-amazon.com/images/I/61xKZzZzYxL._AC_SL1500_.jpg",
-    "link": "https://www.amazon.com/dp/B07JLZVRQG?tag=your-affiliate-tag"
+    "link": "https://arianagrandefragrances.com/products/cloud"
+  },
+  {
+    "name": "YSL Black Opium Eau de Parfum",
+    "brand": "Yves Saint Laurent",
+    "price": "$135.00",
+    "image": "https://www.yslbeautyus.com/dw/image/v2/AAQP_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw0d8e7548/Fragrance/BlackOpium/3614270561665_BlackOpium_EDP_90ml_packshot.jpg",
+    "link": "https://www.yslbeautyus.com/fragrance/black-opium"
+  },
+  {
+    "name": "Burberry Her Eau de Parfum",
+    "brand": "Burberry",
+    "price": "$118.00",
+    "image": "https://us.burberry.com/on/demandware.static/-/Sites/default/dw3e7b3f8c/images/large/40711751.jpg",
+    "link": "https://us.burberry.com/burberry-her-eau-de-parfum-p40711751"
+  },
+  {
+    "name": "Marc Jacobs Daisy Eau de Toilette",
+    "brand": "Marc Jacobs",
+    "price": "$96.00",
+    "image": "https://www.marcjacobsfragrances.com/media/catalog/product/d/a/daisy_edp_100ml_1.jpg",
+    "link": "https://www.marcjacobsfragrances.com/daisy"
+  },
+  {
+    "name": "Carolina Herrera Good Girl Eau de Parfum",
+    "brand": "Carolina Herrera",
+    "price": "$138.00",
+    "image": "https://www.carolinaherrera.com/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0c7d5a0a/images/large/212/8411061926753.jpg",
+    "link": "https://www.carolinaherrera.com/us/en/fragrances/good-girl"
   }
 ]
