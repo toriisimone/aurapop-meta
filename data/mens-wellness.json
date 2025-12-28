@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Hims Hair Strengthening Shampoo",
+    "brand": "Hims",
+    "price": "$19.00",
+    "image": "https://www.forhims.com/images/products/hair-shampoo.jpg",
+    "link": "https://www.forhims.com/hair/hair-strengthening-shampoo"
+  },
+  {
+    "id": 2,
+    "name": "Ritual Essential for Men Multivitamin",
+    "brand": "Ritual",
+    "price": "$33.00",
+    "image": "https://ritual.com/cdn/shop/products/ritual_men.jpg",
+    "link": "https://ritual.com/products/essential-for-men"
+  },
+  {
+    "id": 3,
+    "name": "Jack Black Turbo Body Lotion",
+    "brand": "Jack Black",
+    "price": "$32.00",
+    "image": "https://www.getjackblack.com/cdn/shop/products/turbo_body_lotion.jpg",
+    "link": "https://www.getjackblack.com/products/turbo-body-lotion"
+  },
+  {
+    "id": 4,
+    "name": "Golde Matcha Superfood Latte Blend",
+    "brand": "Golde",
+    "price": "$29.00",
+    "image": "https://golde.co/cdn/shop/products/golde_matcha.jpg",
+    "link": "https://golde.co/products/matcha"
+  },
+  {
+    "id": 5,
+    "name": "Therabody Theragun Mini 2.0",
+    "brand": "Therabody",
+    "price": "$199.00",
+    "image": "https://www.therabody.com/cdn/shop/products/theragun_mini.jpg",
+    "link": "https://www.therabody.com/us/en-us/theragun-mini"
+  },
+  {
+    "id": 6,
+    "name": "Beekeeper’s Naturals B.Immune Honey",
+    "brand": "Beekeeper’s Naturals",
+    "price": "$16.00",
+    "image": "https://beekeepersnaturals.com/cdn/shop/products/b_immune.jpg",
+    "link": "https://beekeepersnaturals.com/products/b-immune"
+  },
+  {
+    "id": 7,
+    "name": "Lemme Focus Gummies",
+    "brand": "Lemme",
+    "price": "$30.00",
+    "image": "https://lemmelive.com/cdn/shop/products/lemme_focus.jpg",
+    "link": "https://lemmelive.com/products/lemme-focus"
+  },
+  {
+    "id": 8,
+    "name": "Osea Undaria Algae Body Oil",
+    "brand": "Osea Malibu",
+    "price": "$52.00",
+    "image": "https://oseamalibu.com/cdn/shop/products/undaria_body_oil.jpg",
+    "link": "https://oseamalibu.com/products/undaria-algae-body-oil"
+  },
+  {
+    "id": 9,
+    "name": "8Greens Daily Greens Tablets",
+    "brand": "8Greens",
+    "price": "$14.00",
+    "image": "https://8greens.com/cdn/shop/products/8greens_original.jpg",
+    "link": "https://8greens.com/products/original-tablets"
+  },
+  {
+    "id": 10,
+    "name": "Hatch Restore 2 Smart Sleep Machine",
+    "brand": "Hatch",
+    "price": "$199.00",
+    "image": "https://www.hatch.co/cdn/shop/products/hatch_restore2.jpg",
+    "link": "https://www.hatch.co/restore"
+  },
+  {
+    "id": 11,
+    "name": "Vitruvi Stone Essential Oil Diffuser",
+    "brand": "Vitruvi",
+    "price": "$123.00",
+    "image": "https://vitruvi.com/cdn/shop/products/vitruvi_stone_diffuser.jpg",
+    "link": "https://vitruvi.com/products/stone-diffuser"
+  },
+  {
+    "id": 12,
+    "name": "Calm Magnesium Powder Drink Mix",
+    "brand": "Natural Vitality",
+    "price": "$24.00",
+    "image": "https://naturalvitality.com/cdn/shop/products/calm_magnesium.jpg",
+    "link": "https://naturalvitality.com/products/calm"
+  },
+  {
+    "id": 13,
+    "name": "Luna Weighted Blanket",
+    "brand": "Luna",
+    "price": "$79.00",
+    "image": "https://lunablanket.com/cdn/shop/products/luna_weighted_blanket.jpg",
+    "link": "https://lunablanket.com/products/weighted-blanket"
+  },
+  {
+    "id": 14,
+    "name": "Every Man Jack Cedarwood Body Wash",
+       "brand": "Every Man Jack",
+    "price": "$8.00",
+    "image": "https://everymanjack.com/cdn/shop/products/cedarwood_bodywash.jpg",
+    "link": "https://everymanjack.com/products/cedarwood-body-wash"
+  },
+  {
+    "id": 15,
+    "name": "Kiehl’s Facial Fuel Energizing Moisture Treatment",
+    "brand": "Kiehl’s",
+    "price": "$28.00",
+    "image": "https://www.kiehls.com/cdn/shop/products/facial_fuel.jpg",
+    "link": "https://www.kiehls.com/facial-fuel-moisturizer"
+  },
+  {
+    "id": 16,
+    "name": "Hims Biotin Gummies",
+    "brand": "Hims",
+    "price": "$16.00",
+    "image": "https://www.forhims.com/images/products/biotin-gummies.jpg",
+    "link": "https://www.forhims.com/wellness/biotin-gummies"
+  },
+  {
+    "id": 17,
+    "name": "Golde Coconut Collagen Boost",
+    "brand": "Golde",
+    "price": "$22.00",
+    "image": "https://golde.co/cdn/shop/products/golde_collagen_boost.jpg",
+    "link": "https://golde.co/products/coconut-collagen-boost"
+  },
+  {
+    "id": 18,
+    "name": "Vitruvi Essential Oil Kit – Retreat",
+    "brand": "Vitruvi",
+    "price": "$48.00",
+    "image": "https://vitruvi.com/cdn/shop/products/vitruvi_retreat_oils.jpg",
+    "link": "https://vitruvi.com/products/retreat-essential-oil-kit"
+  },
+  {
+    "id": 19,
+    "name": "Beekeeper’s Naturals Propolis Throat Spray",
+    "brand": "Beekeeper’s Naturals",
+    "price": "$14.00",
+    "image": "https://beekeepersnaturals.com/cdn/shop/products/propolis_spray.jpg",
+    "link": "https://beekeepersnaturals.com/products/propolis-throat-spray"
+  },
+  {
+    "id": 20,
+    "name": "Lemme Chill Magnesium Gummies",
+    "brand": "Lemme",
+    "price": "$30.00",
+    "image": "https://lemmelive.com/cdn/shop/products/lemme_chill.jpg",
+    "link": "https://lemmelive.com/products/lemme-chill"
+  }
+]
