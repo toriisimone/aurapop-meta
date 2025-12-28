@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Women's Wellness | AuraPop</title>
+  <title>Women’s Wellness | AuraPop</title>
   <link rel="stylesheet" href="styles/category.css" />
 </head>
+
 <body>
+  <!-- NAVIGATION -->
   <header class="navbar">
     <div class="logo">AuraPop</div>
     <nav>
@@ -14,37 +16,45 @@
       <a href="makeup.html">Makeup</a>
       <a href="skincare.html">Skincare</a>
       <a href="womens-wellness.html">Women’s Wellness</a>
+      <a href="mens-wellness.html">Men’s Wellness</a>
       <a href="gifts.html">Gifts</a>
       <a href="gadgets.html">Gadgets</a>
     </nav>
   </header>
 
+  <!-- CATEGORY TITLE -->
   <main class="category-container">
     <h1>Women’s Wellness</h1>
     <div id="product-grid" class="product-grid"></div>
   </main>
 
+  <!-- FOOTER -->
   <footer class="footer">
     <p>© AuraPop Cosmetics Co. — Dream big, glow soft.</p>
   </footer>
 
+  <!-- SCRIPT -->
   <script>
     fetch("data/womens-wellness.json")
-      .then((res) => res.json())
-      .then((products) => {
+      .then(res => res.json())
+      .then(products => {
         const grid = document.getElementById("product-grid");
-        products.forEach((product) => {
+
+        products.forEach(product => {
           const card = document.createElement("div");
           card.className = "product-card";
+
           card.innerHTML = `
             <img src="${product.image}" alt="${product.name}" />
             <h2>${product.name}</h2>
             <p>${product.price}</p>
             <a href="product.html?id=${product.id}&cat=womens-wellness" class="view-button">View Product</a>
           `;
+
           grid.appendChild(card);
         });
       });
   </script>
+
 </body>
 </html>
