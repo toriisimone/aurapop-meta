@@ -89,44 +89,75 @@
     fetch(`data/${cat}.json`)
       .then(res => res.json())
       .then(products => {
-        const product = products.find(p => p.id === id);
+        let product = products.find(p => p.id === id);
 
-        if (product) {
-          document.getElementById("product-img").src = product.image;
-          document.getElementById("product-name").textContent = product.name;
-          document.getElementById("product-brand").textContent = product.brand;
-          document.getElementById("product-price").textContent = product.price;
-          document.getElementById("product-link").href = product.link;
-          document.getElementById("breadcrumb-name").textContent = product.name;
+        // fallback function
+        function pickFallback() {
+          return products[Math.floor(Math.random() * products.length)];
+        }
+
+        // validate product fields
+        function isBroken(p) {
+          return (
+            !p ||
+            !p.name ||
+            !p.brand ||
+            !p.price ||
+            !p.link ||
+            !p.image
+          );
+        }
+
+        // if missing fields → fallback
+        if (isBroken(product)) {
+          product = pickFallback();
+        }
+
+        // load product into page
+        function loadProduct(p) {
+          document.getElementById("product-img").src = p.image;
+          document.getElementById("product-name").textContent = p.name;
+          document.getElementById("product-brand").textContent = p.brand;
+          document.getElementById("product-price").textContent = p.price;
+          document.getElementById("product-link").href = p.link;
+          document.getElementById("breadcrumb-name").textContent = p.name;
 
           // Kylie-style description
           document.getElementById("product-desc").textContent =
-            `${product.name} by ${product.brand} is designed to elevate your daily routine with a touch of luxury. Soft, clean, and effortlessly effective — this is your new self-care essential.`;
+            `${p.name} by ${p.brand} is designed to elevate your daily routine with a touch of luxury. Soft, clean, and effortlessly effective — this is your new self-care essential.`;
 
-          // How to Use
           document.getElementById("how-to-use").textContent =
             `Use daily or as needed. Apply gently and allow the product to absorb fully for best results.`;
 
-          // Why You’ll Love It
           document.getElementById("why-love").textContent =
             `A perfect blend of performance and indulgence. Loved for its clean ingredients, gorgeous texture, and AuraPop-approved glow factor.`;
-
-          // Related products
-          const related = products.filter(p => p.id !== id).slice(0, 4);
-          const grid = document.getElementById("related-grid");
-
-          related.forEach(item => {
-            const card = document.createElement("div");
-            card.className = "related-card";
-            card.innerHTML = `
-              <img src="${item.image}" />
-              <h4>${item.name}</h4>
-              <p>${item.price}</p>
-              <a href="product.html?id=${item.id}&cat=${cat}" class="view-related">View</a>
-            `;
-            grid.appendChild(card);
-          });
         }
+
+        // load product first
+        loadProduct(product);
+
+        // IMAGE FALLBACK CHECK
+        const img = document.getElementById("product-img");
+        img.onerror = () => {
+          const fallback = pickFallback();
+          loadProduct(fallback);
+        };
+
+        // RELATED PRODUCTS
+        const related = products.filter(p => p.id !== id).slice(0, 4);
+        const grid = document.getElementById("related-grid");
+
+        related.forEach(item => {
+          const card = document.createElement("div");
+          card.className = "related-card";
+          card.innerHTML = `
+            <img src="${item.image}" />
+            <h4>${item.name}</h4>
+            <p>${item.price}</p>
+            <a href="product.html?id=${item.id}&cat=${cat}" class="view-related">View</a>
+          `;
+          grid.appendChild(card);
+        });
       });
   </script>
 
