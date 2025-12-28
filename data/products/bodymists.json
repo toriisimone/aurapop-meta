@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Sol de Janeiro Brazilian Crush Cheirosa 62 Body Mist",
+    "brand": "Sol de Janeiro",
+    "price": "$24.00",
+    "image": "https://soldejaneiro.com/cdn/shop/products/cheirosa_62_mist.jpg",
+    "link": "https://soldejaneiro.com/products/brazilian-crush-cheirosa-62"
+  },
+  {
+    "id": 2,
+    "name": "Victoria’s Secret Pure Seduction Fragrance Mist",
+    "brand": "Victoria’s Secret",
+    "price": "$19.95",
+    "image": "https://www.victoriassecret.com/cdn/shop/products/pure_seduction_mist.jpg",
+    "link": "https://www.victoriassecret.com/us/vs/fragrance/pure-seduction-mist"
+  },
+  {
+    "id": 3,
+    "name": "Bath & Body Works A Thousand Wishes Fine Fragrance Mist",
+    "brand": "Bath & Body Works",
+    "price": "$17.50",
+    "image": "https://www.bathandbodyworks.com/cdn/shop/products/thousand_wishes_mist.jpg",
+    "link": "https://www.bathandbodyworks.com/p/a-thousand-wishes-fine-fragrance-mist"
+  },
+  {
+    "id": 4,
+    "name": "Ariana Grande Sweet Like Candy Body Mist",
+    "brand": "Ariana Grande",
+    "price": "$10.00",
+    "image": "https://arianagrandefragrances.com/cdn/shop/products/sweet_like_candy_mist.jpg",
+    "link": "https://arianagrandefragrances.com/products/sweet-like-candy-body-mist"
+  },
+  {
+    "id": 5,
+    "name": "Bodycology Sweet Love Fragrance Mist",
+    "brand": "Bodycology",
+    "price": "$7.00",
+    "image": "https://www.bodycology.com/media/export/cms/products/1000x1000/bodycology_sweet_love_mist.jpg",
+    "link": "https://www.bodycology.com/products/sweet-love-fragrance-mist"
+  },
+  {
+    "id": 6,
+    "name": "Pacifica Island Vanilla Hair & Body Mist",
+    "brand": "Pacifica",
+    "price": "$12.00",
+    "image": "https://www.pacificabeauty.com/cdn/shop/products/island_vanilla_mist.jpg",
+    "link": "https://www.pacificabeauty.com/products/island-vanilla-hair-body-mist"
+  },
+  {
+    "id": 7,
+    "name": "Pink Warm & Cozy Body Mist",
+    "brand": "Victoria’s Secret PINK",
+    "price": "$17.95",
+    "image": "https://www.victoriassecret.com/cdn/shop/products/warm_cozy_mist.jpg",
+    "link": "https://www.victoriassecret.com/us/pink/fragrance/warm-and-cozy-mist"
+  },
+  {
+    "id": 8,
+    "name": "Bath & Body Works Into the Night Fine Fragrance Mist",
+    "brand": "Bath & Body Works",
+    "price": "$17.50",
+    "image": "https://www.bathandbodyworks.com/cdn/shop/products/into_the_night_mist.jpg",
+    "link": "https://www.bathandbodyworks.com/p/into-the-night-fine-fragrance-mist"
+  },
+  {
+    "id": 9,
+    "name": "Calgon Take Me Away! Hawaiian Ginger Body Mist",
+    "brand": "Calgon",
+    "price": "$8.00",
+    "image": "https://www.calgon.com/media/export/cms/products/1000x1000/calgon_hawaiian_ginger_mist.jpg",
+    "link": "https://www.calgon.com/products/hawaiian-ginger-body-mist"
+  },
+  {
+    "id": 10,
+    "name": "Ariana Grande Moonlight Body Mist",
+    "brand": "Ariana Grande",
+    "price": "$10.00",
+    "image": "https://arianagrandefragrances.com/cdn/shop/products/moonlight_mist.jpg",
+    "link": "https://arianagrandefragrances.com/products/moonlight-body-mist"
+  },
+  {
+    "id": 11,
+    "name": "Sol de Janeiro Brazilian Crush Cheirosa 40 Body Mist",
+    "brand": "Sol de Janeiro",
+    "price": "$24.00",
+    "image": "https://soldejaneiro.com/cdn/shop/products/cheirosa_40_mist.jpg",
+    "link": "https://soldejaneiro.com/products/brazilian-crush-cheirosa-40"
+  },
+  {
+    "id": 12,
+    "name": "Victoria’s Secret Love Spell Fragrance Mist",
+    "brand": "Victoria’s Secret",
+    "price": "$19.95",
+    "image": "https://www.victoriassecret.com/cdn/shop/products/love_spell_mist.jpg",
+    "link": "https://www.victoriassecret.com/us/vs/fragrance/love-spell-mist"
+  },
+  {
+    "id": 13,
+    "name": "Bath & Body Works Champagne Toast Fine Fragrance Mist",
+    "brand": "Bath & Body Works",
+    "price": "$17.50",
+    "image": "https://www.bathandbodyworks.com/cdn/shop/products/champagne_toast_mist.jpg",
+    "link": "https://www.bathandbodyworks.com/p/champagne-toast-fine-fragrance-mist"
+  },
+  {
+    "id": 14,
+    "name": "Pacifica Tahitian Gardenia Hair & Body Mist",
+    "brand": "Pacifica",
+    "price": "$12.00",
+    "image": "https://www.pacificabeauty.com/cdn/shop/products/tahitian_gardenia_mist.jpg",
+    "link": "https://www.pacificabeauty.com/products/tahitian-gardenia-hair-body-mist"
+  },
+  {
+    "id": 15,
+    "name": "Body Fantasies Vanilla Body Spray",
+    "brand": "Body Fantasies",
+    "price": "$6.00",
+    "image": "https://www.bodyfantasies.com/media/export/cms/products/1000x1000/bodyfantasies_vanilla_mist.jpg",
+    "link": "https://www.bodyfantasies.com/products/vanilla-body-spray"
+  },
+  {
+    "id": 16,
+    "name": "Pink Fresh & Clean Body Mist",
+    "brand": "Victoria’s Secret PINK",
+    "price": "$17.95",
+    "image": "https://www.victoriassecret.com/cdn/shop/products/fresh_clean_mist.jpg",
+    "link": "https://www.victoriassecret.com/us/pink/fragrance/fresh-and-clean-mist"
+  },
+  {
+    "id": 17,
+    "name": "Bath & Body Works Gingham Fine Fragrance Mist",
+    "brand": "Bath & Body Works",
+    "price": "$17.50",
+    "image": "https://www.bathandbodyworks.com/cdn/shop/products/gingham_mist.jpg",
+    "link": "https://www.bathandbodyworks.com/p/gingham-fine-fragrance-mist"
+  },
+  {
+    "id": 18,
+    "name": "Calgon Take Me Away! Lavender Vanilla Body Mist",
+    "brand": "Calgon",
+    "price": "$8.00",
+    "image": "https://www.calgon.com/media/export/cms/products/1000x1000/calgon_lavender_vanilla_mist.jpg",
+    "link": "https://www.calgon.com/products/lavender-vanilla-body-mist"
+  },
+  {
+    "id": 19,
+    "name": "Ariana Grande Thank U, Next Body Mist",
+    "brand": "Ariana Grande",
+    "price": "$10.00",
+    "image": "https://arianagrandefragrances.com/cdn/shop/products/thankunext_mist.jpg",
+    "link": "https://arianagrandefragrances.com/products/thank-u-next-body-mist"
+  },
+  {
+    "id": 20,
+    "name": "Pacifica Indian Coconut Nectar Hair & Body Mist",
+    "brand": "Pacifica",
+    "price": "$12.00",
+    "image": "https://www.pacificabeauty.com/cdn/shop/products/indian_coconut_nectar_mist.jpg",
+    "link": "https://www.pacificabeauty.com/products/indian-coconut-nectar-hair-body-mist"
+  }
+]
