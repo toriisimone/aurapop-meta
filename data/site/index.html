@@ -9,17 +9,19 @@
     body {
       background-color: #ffffff;
       font-family: Arial, Helvetica, sans-serif;
-      text-align: center;
       margin: 0;
       padding: 0;
+      text-align: center;
     }
 
+    /* LOGO */
     .logo {
       width: 300px;
       max-width: 80%;
       margin-top: 60px;
     }
 
+    /* HERO SECTION */
     .hero {
       margin-top: 40px;
       padding: 0 20px;
@@ -56,6 +58,47 @@
     .cta-btn:hover {
       background-color: #ff74bd;
     }
+
+    /* CATEGORY GRID */
+    .categories {
+      margin-top: 70px;
+      padding: 0 20px 60px;
+    }
+
+    .categories h2 {
+      font-size: 32px;
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 25px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .category-card {
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      transition: 0.2s ease;
+      cursor: pointer;
+    }
+
+    .category-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+    }
+
+    .category-card p {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 500;
+      color: #333;
+    }
   </style>
 </head>
 
@@ -78,6 +121,24 @@
     </p>
 
     <button class="cta-btn">Shop Now</button>
+  </section>
+
+  <!-- CATEGORY GRID -->
+  <section class="categories">
+    <h2>Shop by Category</h2>
+
+    <div class="category-grid">
+      <div class="category-card"><p>Makeup</p></div>
+      <div class="category-card"><p>Skincare</p></div>
+      <div class="category-card"><p>Haircare</p></div>
+      <div class="category-card"><p>Body Care</p></div>
+      <div class="category-card"><p>Perfume</p></div>
+      <div class="category-card"><p>Accessories</p></div>
+      <div class="category-card"><p>Bath</p></div>
+      <div class="category-card"><p>Home Scents</p></div>
+      <div class="category-card"><p>Wellness</p></div>
+      <div class="category-card"><p>Gifts</p></div>
+    </div>
   </section>
 
 </body>
