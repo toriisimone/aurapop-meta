@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "CeraVe Hydrating Facial Cleanser",
+    "brand": "CeraVe",
+    "price": "$17.00",
+    "image": "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/americas/us/products/cleansers/hydrating-facial-cleanser/cerave_hydrating_facial_cleanser_16oz_front.jpg",
+    "link": "https://www.cerave.com/skincare/cleansers/hydrating-facial-cleanser"
+  },
+  {
+    "id": 2,
+    "name": "La Roche-Posay Toleriane Purifying Foaming Cleanser",
+    "brand": "La Roche-Posay",
+    "price": "$17.99",
+    "image": "https://www.laroche-posay.us/dw/image/v2/AAQP_PRD/on/demandware.static/-/Sites-lrp-master-catalog/default/dw4e3b6c5e/Products/Cleansers/TolerianePurifyingFoam/TolerianePurifyingFoam_packshot.jpg",
+    "link": "https://www.laroche-posay.us/toleriane-purifying-foaming-cleanser"
+  },
+  {
+    "id": 3,
+    "name": "The Ordinary Niacinamide 10% + Zinc 1%",
+    "brand": "The Ordinary",
+    "price": "$6.00",
+    "image": "https://theordinary.com/cdn/shop/products/niacinamide10zinc1_1.jpg",
+    "link": "https://theordinary.com/products/niacinamide-10-zinc-1"
+  },
+  {
+    "id": 4,
+    "name": "Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant",
+    "brand": "Paula's Choice",
+    "price": "$35.00",
+    "image": "https://www.paulaschoice.com/dw/image/v2/AAQP_PRD/on/demandware.static/-/Sites-paulaschoice-master-catalog/default/dw4e3b6c5e/products/201/201_packshot.jpg",
+    "link": "https://www.paulaschoice.com/skin-perfecting-2-percent-bha-liquid-exfoliant/201.html"
+  },
+  {
+    "id": 5,
+    "name": "Glow Recipe Watermelon Glow Niacinamide Dew Drops",
+    "brand": "Glow Recipe",
+    "price": "$35.00",
+    "image": "https://www.glowrecipe.com/cdn/shop/products/dewdrops.jpg",
+    "link": "https://www.glowrecipe.com/products/watermelon-glow-niacinamide-dew-drops"
+  },
+  {
+    "id": 6,
+    "name": "Tatcha The Dewy Skin Cream",
+    "brand": "Tatcha",
+    "price": "$72.00",
+    "image": "https://www.tatcha.com/cdn/shop/products/dewy-skin-cream.jpg",
+    "link": "https://www.tatcha.com/products/the-dewy-skin-cream"
+  },
+  {
+    "id": 7,
+    "name": "Clinique Dramatically Different Moisturizing Lotion+",
+    "brand": "Clinique",
+    "price": "$32.00",
+    "image": "https://www.clinique.com/media/export/cms/products/1000x1000/clinique_ddml.jpg",
+    "link": "https://www.clinique.com/product/1572/5063/moisturizers/dramatically-different-moisturizing-lotion"
+  },
+  {
+    "id": 8,
+    "name": "Kiehl’s Ultra Facial Cream",
+    "brand": "Kiehl’s",
+    "price": "$38.00",
+    "image": "https://www.kiehls.com/media/export/cms/products/1000x1000/kiehls_ultra_facial_cream.jpg",
+    "link": "https://www.kiehls.com/skincare/moisturizers/ultra-facial-cream"
+  },
+  {
+    "id": 9,
+    "name": "Sunday Riley Good Genes All-In-One Lactic Acid Treatment",
+    "brand": "Sunday Riley",
+    "price": "$85.00",
+    "image": "https://www.sundayriley.com/cdn/shop/products/goodgenes.jpg",
+    "link": "https://www.sundayriley.com/products/good-genes"
+  },
+  {
+    "id": 10,
+    "name": "Drunk Elephant C-Firma Fresh Day Serum",
+    "brand": "Drunk Elephant",
+    "price": "$78.00",
+    "image": "https://www.drunkelephant.com/cdn/shop/products/cfirma.jpg",
+    "link": "https://www.drunkelephant.com/products/c-firma-fresh-day-serum"
+  },
+  {
+    "id": 11,
+    "name": "Laneige Lip Sleeping Mask",
+    "brand": "Laneige",
+    "price": "$24.00",
+    "image": "https://www.laneige.com/media/export/cms/products/1000x1000/laneige_lip_sleeping_mask.jpg",
+    "link": "https://us.laneige.com/products/lip-sleeping-mask"
+  },
+  {
+    "id": 12,
+    "name": "Youth To The People Superfood Cleanser",
+    "brand": "Youth To The People",
+    "price": "$39.00",
+    "image": "https://www.youthtothepeople.com/cdn/shop/products/superfoodcleanser.jpg",
+    "link": "https://www.youthtothepeople.com/products/superfood-cleanser"
+  },
+  {
+    "id": 13,
+    "name": "Shiseido Ultimune Power Infusing Concentrate",
+    "brand": "Shiseido",
+    "price": "$75.00",
+    "image": "https://www.shiseido.com/media/export/cms/products/1000x1000/shiseido_ultimune.jpg",
+    "link": "https://www.shiseido.com/ultimune-power-infusing-concentrate"
+  },
+  {
+    "id": 14,
+    "name": "Murad Rapid Dark Spot Correcting Serum",
+    "brand": "Murad",
+    "price": "$72.00",
+    "image": "https://www.murad.com/media/export/cms/products/1000x1000/murad_dark_spot_serum.jpg",
+    "link": "https://www.murad.com/product/rapid-dark-spot-correcting-serum"
+  },
+  {
+    "id": 15,
+    "name": "Kora Organics Noni Glow Face Oil",
+    "brand": "Kora Organics",
+    "price": "$72.00",
+    "image": "https://www.koraorganics.com/cdn/shop/products/noni_glow_oil.jpg",
+    "link": "https://www.koraorganics.com/products/noni-glow-face-oil"
+  },
+  {
+    "id": 16,
+    "name": "Supergoop! Unseen Sunscreen SPF 40",
+    "brand": "Supergoop!",
+    "price": "$38.00",
+    "image": "https://www.supergoop.com/cdn/shop/products/unseensunscreen.jpg",
+    "link": "https://www.supergoop.com/products/unseen-sunscreen"
+  },
+  {
+    "id": 17,
+    "name": "EltaMD UV Clear Broad-Spectrum SPF 46",
+    "brand": "EltaMD",
+    "price": "$41.00",
+    "image": "https://www.eltamd.com/media/export/cms/products/1000x1000/eltamd_uv_clear.jpg",
+    "link": "https://www.eltamd.com/products/uv-clear-broad-spectrum-spf-46"
+  },
+  {
+    "id": 18,
+    "name": "Fresh Soy Face Cleanser",
+    "brand": "Fresh",
+    "price": "$38.00",
+    "image": "https://www.fresh.com/media/export/cms/products/1000x1000/fresh_soy_cleanser.jpg",
+    "link": "https://www.fresh.com/products/soy-face-cleanser"
+  },
+  {
+    "id": 19,
+    "name": "Origins GinZing Oil-Free Energy-Boosting Gel Moisturizer",
+    "brand": "Origins",
+    "price": "$34.00",
+    "image": "https://www.origins.com/media/export/cms/products/1000x1000/origins_ginzing_moisturizer.jpg",
+    "link": "https://www.origins.com/product/ginzing-oil-free-energy-boosting-gel-moisturizer"
+  },
+  {
+    "id": 20,
+    "name": "Belif The True Cream Aqua Bomb",
+    "brand": "Belif",
+    "price": "$38.00",
+    "image": "https://www.belifusa.com/media/export/cms/products/1000x1000/belif_aqua_bomb.jpg",
+    "link": "https://www.belifusa.com/products/the-true-cream-aqua-bomb"
+  }
+]
