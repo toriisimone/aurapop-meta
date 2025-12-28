@@ -4,22 +4,81 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AuraPop Cosmetics Co.</title>
+
   <style>
     body {
-      background-color: #fff;
-      font-family: sans-serif;
+      background-color: #ffffff;
+      font-family: Arial, Helvetica, sans-serif;
       text-align: center;
-      padding-top: 50px;
+      margin: 0;
+      padding: 0;
     }
-    img {
+
+    .logo {
       width: 300px;
       max-width: 80%;
+      margin-top: 60px;
+    }
+
+    .hero {
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #555;
+      max-width: 500px;
+      margin: 0 auto;
+      line-height: 1.5;
+    }
+
+    .cta-btn {
+      margin-top: 30px;
+      padding: 14px 32px;
+      background-color: #ff8ac9;
+      border: none;
+      border-radius: 30px;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      letter-spacing: 0.5px;
+      transition: 0.2s ease;
+    }
+
+    .cta-btn:hover {
+      background-color: #ff74bd;
     }
   </style>
 </head>
+
 <body>
-  <img src="images/AuraPop%20Cosmetics%20Co.png" alt="AuraPop Logo" />
-  <h1>Welcome to AuraPop</h1>
-  <p>Your dreamy cloud-themed beauty store is loading...</p>
+
+  <!-- LOGO -->
+  <img 
+    src="images/AuraPop%20Cosmetics%20Co.png" 
+    alt="AuraPop Logo" 
+    class="logo"
+  />
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <h1>Beauty That Feels Like a Dream</h1>
+
+    <p>
+      Soft. Feminine. Cloud‑kissed. Discover the AuraPop collection inspired by 
+      the dreamy world of modern beauty.
+    </p>
+
+    <button class="cta-btn">Shop Now</button>
+  </section>
+
 </body>
 </html>
