@@ -55,10 +55,11 @@
       margin: 0;
     }
 
+    /* PRODUCT GRID */
     .grid {
       margin-top: 40px;
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 25px;
     }
 
@@ -68,6 +69,18 @@
       padding: 18px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.05);
       text-align: left;
+      transition: 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 12px;
     }
 
     .card-title {
@@ -83,10 +96,10 @@
     }
 
     .card-price {
-      font-size: 14px;
+      font-size: 15px;
       font-weight: 600;
       color: #333;
-      margin: 0;
+      margin: 0 0 10px;
     }
 
     .note {
@@ -96,9 +109,11 @@
     }
   </style>
 </head>
+
 <body>
   <div class="page">
-    <!-- top bar with back link + logo -->
+
+    <!-- top bar -->
     <div class="top-bar">
       <a href="index.html" class="back-link">← Back to home</a>
       <img 
@@ -109,39 +124,54 @@
       <div style="width:80px;"></div>
     </div>
 
-    <!-- page heading -->
+    <!-- heading -->
     <h1>Haircare</h1>
     <p class="subtitle">
-      Nourish, smooth, and shine. Haircare essentials for soft, healthy, glossy strands.
+      Nourish, strengthen, and style with the most-loved hair essentials.
     </p>
 
-    <!-- static sample grid for now -->
-    <div class="grid">
-      <div class="card">
-        <p class="card-title">Moisturizing Shampoos</p>
-        <p class="card-brand">Sulfate-free & gentle</p>
-        <p class="card-price">From $12</p>
-      </div>
-      <div class="card">
-        <p class="card-title">Conditioners</p>
-        <p class="card-brand">Hydrating & detangling</p>
-        <p class="card-price">From $14</p>
-      </div>
-      <div class="card">
-        <p class="card-title">Hair Masks</p>
-        <p class="card-brand">Deep repair & softness</p>
-        <p class="card-price">From $16</p>
-      </div>
-      <div class="card">
-        <p class="card-title">Styling Products</p>
-        <p class="card-brand">Creams, gels & sprays</p>
-        <p class="card-price">From $10</p>
-      </div>
-    </div>
+    <!-- REAL PRODUCT GRID -->
+    <div id="product-grid" class="grid"></div>
 
     <p class="note">
-      This is your visual layout. Later we’ll connect real products from <code>data/products/haircare.json</code>.
+      Products loaded from <code>data/products/haircare.json</code>.
     </p>
+
   </div>
+
+  <!-- PRODUCT LOADER SCRIPT -->
+  <script>
+    async function loadProducts() {
+      try {
+        const response = await fetch("data/products/haircare.json");
+        const products = await response.json();
+
+        const grid = document.getElementById("product-grid");
+        grid.innerHTML = "";
+
+        products.forEach(product => {
+          const card = document.createElement("a");
+          card.href = product.link;
+          card.target = "_blank";
+          card.className = "card";
+
+          card.innerHTML = `
+            <img src="${product.image}" alt="${product.name}" />
+            <p class="card-title">${product.name}</p>
+            <p class="card-brand">${product.brand}</p>
+            <p class="card-price">${product.price}</p>
+          `;
+
+          grid.appendChild(card);
+        });
+
+      } catch (error) {
+        console.error("Error loading products:", error);
+      }
+    }
+
+    loadProducts();
+  </script>
+
 </body>
 </html>
