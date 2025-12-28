@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Sol de Janeiro Bum Bum Jet Set",
+    "brand": "Sol de Janeiro",
+    "price": "$30.00",
+    "image": "https://soldejaneiro.com/cdn/shop/products/bum_bum_jet_set.jpg",
+    "link": "https://soldejaneiro.com/products/bum-bum-jet-set"
+  },
+  {
+    "id": 2,
+    "name": "Laneige Hydration-To-Go Set",
+    "brand": "Laneige",
+    "price": "$20.00",
+    "image": "https://www.laneige.com/media/export/cms/products/1000x1000/laneige_hydration_set.jpg",
+    "link": "https://us.laneige.com/products/hydration-to-go"
+  },
+  {
+    "id": 3,
+    "name": "Fenty Beauty Gloss Bomb Trio",
+    "brand": "Fenty Beauty",
+    "price": "$38.00",
+    "image": "https://fentybeauty.com/cdn/shop/products/fenty_gloss_trio.jpg",
+    "link": "https://fentybeauty.com/products/gloss-bomb-trio"
+  },
+  {
+    "id": 4,
+    "name": "Bath & Body Works Warm Vanilla Sugar Gift Set",
+    "brand": "Bath & Body Works",
+    "price": "$34.95",
+    "image": "https://www.bathandbodyworks.com/cdn/shop/products/warm_vanilla_sugar_set.jpg",
+    "link": "https://www.bathandbodyworks.com/p/warm-vanilla-sugar-gift-set"
+  },
+  {
+    "id": 5,
+    "name": "Tree Hut Shea Sugar Scrub + Body Butter Duo",
+    "brand": "Tree Hut",
+    "price": "$18.00",
+    "image": "https://treehutshea.com/cdn/shop/products/treehut_duo.jpg",
+    "link": "https://treehutshea.com/products/scrub-butter-duo"
+  },
+  {
+    "id": 6,
+    "name": "Rare Beauty Soft Pinch Blush Trio",
+    "brand": "Rare Beauty",
+    "price": "$34.00",
+    "image": "https://www.rarebeauty.com/cdn/shop/products/rare_blush_trio.jpg",
+    "link": "https://www.rarebeauty.com/products/soft-pinch-blush-trio"
+  },
+  {
+    "id": 7,
+    "name": "Olaplex Healthy Hair Essentials Kit",
+    "brand": "Olaplex",
+    "price": "$60.00",
+    "image": "https://olaplex.com/cdn/shop/products/olaplex_essentials.jpg",
+    "link": "https://olaplex.com/products/healthy-hair-essentials"
+  },
+  {
+    "id": 8,
+    "name": "The Ordinary The Balance Set",
+    "brand": "The Ordinary",
+    "price": "$29.00",
+    "image": "https://theordinary.com/cdn/shop/products/ordinary_balance_set.jpg",
+    "link": "https://theordinary.com/products/the-balance-set"
+  },
+  {
+    "id": 9,
+    "name": "Drunk Elephant The Littles Skincare Set",
+    "brand": "Drunk Elephant",
+    "price": "$74.00",
+    "image": "https://www.drunkelephant.com/cdn/shop/products/drunk_littles.jpg",
+    "link": "https://www.drunkelephant.com/products/the-littles"
+  },
+  {
+    "id": 10,
+    "name": "Ariana Grande Mini Perfume Gift Set",
+    "brand": "Ariana Grande",
+    "price": "$38.00",
+    "image": "https://arianagrandefragrances.com/cdn/shop/products/ariana_mini_set.jpg",
+    "link": "https://arianagrandefragrances.com/products/mini-gift-set"
+  },
+  {
+    "id": 11,
+    "name": "Nest New York Mini Candle Trio",
+    "brand": "Nest New York",
+    "price": "$48.00",
+    "image": "https://www.nestnewyork.com/cdn/shop/products/nest_candle_trio.jpg",
+    "link": "https://www.nestnewyork.com/products/mini-candle-trio"
+  },
+  {
+    "id": 12,
+    "name": "Kitsch Satin Sleep Set",
+    "brand": "Kitsch",
+    "price": "$24.00",
+    "image": "https://www.mykitsch.com/cdn/shop/products/kitsch_sleep_set.jpg",
+    "link": "https://www.mykitsch.com/products/satin-sleep-set"
+  },
+  {
+    "id": 13,
+    "name": "Glow Recipe Watermelon Glow Magic Kit",
+    "brand": "Glow Recipe",
+    "price": "$32.00",
+    "image": "https://www.glowrecipe.com/cdn/shop/products/glowrecipe_magic_kit.jpg",
+    "link": "https://www.glowrecipe.com/products/watermelon-glow-magic-kit"
+  },
+  {
+    "id": 14,
+    "name": "Philosophy Amazing Grace Gift Set",
+    "brand": "Philosophy",
+    "price": "$49.00",
+    "image": "https://www.philosophy.com/cdn/shop/products/philosophy_grace_set.jpg",
+    "link": "https://www.philosophy.com/products/amazing-grace-gift-set"
+  },
+  {
+    "id": 15,
+    "name": "Pacifica Island Vanilla Perfume + Body Mist Duo",
+    "brand": "Pacifica",
+    "price": "$22.00",
+    "image": "https://www.pacificabeauty.com/cdn/shop/products/pacifica_vanilla_duo.jpg",
+    "link": "https://www.pacificabeauty.com/products/island-vanilla-duo"
+  },
+  {
+    "id": 16,
+    "name": "Bath & Body Works Eucalyptus Spearmint Spa Set",
+    "brand": "Bath & Body Works",
+    "price": "$34.95",
+    "image": "https://www.bathandbodyworks.com/cdn/shop/products/eucalyptus_spearmint_set.jpg",
+    "link": "https://www.bathandbodyworks.com/p/eucalyptus-spearmint-gift-set"
+  },
+  {
+    "id": 17,
+    "name": "Lush Relax Gift Set",
+    "brand": "Lush",
+    "price": "$39.00",
+    "image": "https://www.lush.com/media/export/cms/products/1000x1000/lush_relax_set.jpg",
+    "link": "https://www.lush.com/us/en/p/relax-gift-set"
+  },
+  {
+    "id": 18,
+    "name": "Kopari Coconut Crush Scrub Kit",
+    "brand": "Kopari",
+    "price": "$42.00",
+    "image": "https://www.koparibeauty.com/cdn/shop/products/kopari_scrub_kit.jpg",
+    "link": "https://www.koparibeauty.com/products/coconut-crush-kit"
+  },
+  {
+    "id": 19,
+    "name": "Sephora Favorites Perfume Sampler",
+    "brand": "Sephora",
+    "price": "$85.00",
+    "image": "https://www.sephora.com/productimages/sephora_favorites_perfume_sampler.jpg",
+    "link": "https://www.sephora.com/product/perfume-sampler"
+  },
+  {
+    "id": 20,
+    "name": "Ulta Beauty Self-Care Essentials Kit",
+    "brand": "Ulta Beauty",
+    "price": "$29.00",
+    "image": "https://www.ulta.com/cdn/shop/products/ulta_selfcare_kit.jpg",
+    "link": "https://www.ulta.com/p/self-care-essentials-kit"
+  }
+]
