@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Teal’s Melatonin Sleep Spray",
+    "brand": "Dr. Teal’s",
+    "price": "$6.00",
+    "image": "https://www.drteals.com/media/export/cms/products/1000x1000/drteals_sleep_spray.jpg",
+    "link": "https://www.drteals.com/products/sleep-spray-melatonin"
+  },
+  {
+    "id": 2,
+    "name": "This Works Deep Sleep Pillow Spray",
+    "brand": "This Works",
+    "price": "$29.00",
+    "image": "https://www.thisworks.com/cdn/shop/products/deep_sleep_pillow_spray.jpg",
+    "link": "https://www.thisworks.com/products/deep-sleep-pillow-spray"
+  },
+  {
+    "id": 3,
+    "name": "Herbivore Botanicals Coconut Milk Bath Soak",
+    "brand": "Herbivore",
+    "price": "$20.00",
+    "image": "https://www.herbivorebotanicals.com/cdn/shop/products/herbivore_coconut_milk.jpg",
+    "link": "https://www.herbivorebotanicals.com/products/coconut-milk-bath-soak"
+  },
+  {
+    "id": 4,
+    "name": "Lush Sleepy Body Lotion",
+    "brand": "Lush",
+    "price": "$12.00",
+    "image": "https://www.lush.com/media/export/cms/products/1000x1000/lush_sleepy_lotion.jpg",
+    "link": "https://www.lush.com/us/en/p/sleepy-body-lotion"
+  },
+  {
+    "id": 5,
+    "name": "Aromatherapy Associates De-Stress Mind Roller Ball",
+    "brand": "Aromatherapy Associates",
+    "price": "$33.00",
+    "image": "https://www.aromatherapyassociates.com/cdn/shop/products/destress_mind_roller.jpg",
+    "link": "https://www.aromatherapyassociates.com/products/de-stress-mind-roller-ball"
+  },
+  {
+    "id": 6,
+    "name": "Bath & Body Works Eucalyptus Spearmint Body Lotion",
+    "brand": "Bath & Body Works",
+    "price": "$15.50",
+    "image": "https://www.bathandbodyworks.com/cdn/shop/products/eucalyptus_spearmint_lotion.jpg",
+    "link": "https://www.bathandbodyworks.com/p/eucalyptus-spearmint-body-lotion"
+  },
+  {
+    "id": 7,
+    "name": "Native Deodorant – Coconut & Vanilla",
+    "brand": "Native",
+    "price": "$13.00",
+    "image": "https://www.nativecos.com/cdn/shop/products/native_coconut_vanilla_deo.jpg",
+    "link": "https://www.nativecos.com/products/coconut-vanilla-deodorant"
+  },
+  {
+    "id": 8,
+    "name": "Laneige Lip Sleeping Mask",
+    "brand": "Laneige",
+    "price": "$24.00",
+    "image": "https://www.laneige.com/media/export/cms/products/1000x1000/laneige_lip_sleeping_mask.jpg",
+    "link": "https://us.laneige.com/products/lip-sleeping-mask"
+  },
+  {
+    "id": 9,
+    "name": "Sol de Janeiro Brazilian Bum Bum Body Scrub",
+    "brand": "Sol de Janeiro",
+    "price": "$38.00",
+    "image": "https://soldejaneiro.com/cdn/shop/products/bum_bum_scrub.jpg",
+    "link": "https://soldejaneiro.com/products/brazilian-bum-bum-body-scrub"
+  },
+  {
+    "id": 10,
+    "name": "Kopari Coconut Melt",
+    "brand": "Kopari",
+    "price": "$38.00",
+    "image": "https://www.koparibeauty.com/cdn/shop/products/kopari_coconut_melt.jpg",
+    "link": "https://www.koparibeauty.com/products/coconut-melt"
+  },
+  {
+    "id": 11,
+    "name": "Neutrogena Hydro Boost Water Gel",
+    "brand": "Neutrogena",
+    "price": "$20.00",
+    "image": "https://www.neutrogena.com/media/export/cms/products/1000x1000/neutrogena_hydro_boost.jpg",
+    "link": "https://www.neutrogena.com/products/hydro-boost-water-gel"
+  },
+  {
+    "id": 12,
+    "name": "Dr. Bronner’s Organic Lavender Hand Sanitizer",
+    "brand": "Dr. Bronner’s",
+    "price": "$5.00",
+    "image": "https://www.drbronner.com/cdn/shop/products/drbronners_lavender_sanitizer.jpg",
+    "link": "https://www.drbronner.com/products/organic-hand-sanitizer-lavender"
+  },
+  {
+    "id": 13,
+    "name": "Pacifica Stress Rehab Facial Mask",
+    "brand": "Pacifica",
+    "price": "$4.00",
+    "image": "https://www.pacificabeauty.com/cdn/shop/products/pacifica_stress_rehab.jpg",
+    "link": "https://www.pacificabeauty.com/products/stress-rehab-mask"
+  },
+  {
+    "id": 14,
+    "name": "Heritage Store Rosewater Spray",
+    "brand": "Heritage Store",
+    "price": "$11.00",
+    "image": "https://heritagestore.com/cdn/shop/products/heritage_rosewater.jpg",
+    "link": "https://heritagestore.com/products/rosewater"
+  },
+  {
+    "id": 15,
+    "name": "Mario Badescu Facial Spray with Aloe, Herbs & Rosewater",
+    "brand": "Mario Badescu",
+    "price": "$12.00",
+    "image": "https://www.mariobadescu.com/cdn/shop/products/mario_rosewater_spray.jpg",
+    "link": "https://www.mariobadescu.com/products/facial-spray-with-aloe-herbs-and-rosewater"
+  },
+  {
+    "id": 16,
+    "name": "The Ordinary Hyaluronic Acid 2% + B5",
+    "brand": "The Ordinary",
+    "price": "$8.00",
+    "image": "https://theordinary.com/cdn/shop/products/hyaluronic_acid.jpg",
+    "link": "https://theordinary.com/products/hyaluronic-acid-2-b5"
+  },
+  {
+    "id": 17,
+    "name": "Aveda Stress-Fix Composition Oil",
+    "brand": "Aveda",
+    "price": "$34.00",
+    "image": "https://www.aveda.com/media/export/cms/products/1000x1000/aveda_stress_fix.jpg",
+    "link": "https://www.aveda.com/product/17757/16853/body-care/stress-fix-composition-oil"
+  },
+  {
+    "id": 18,
+    "name": "Eucerin Advanced Repair Hand Cream",
+    "brand": "Eucerin",
+    "price": "$6.00",
+    "image": "https://www.eucerinus.com/media/export/cms/products/1000x1000/eucerin_hand_cream.jpg",
+    "link": "https://www.eucerinus.com/products/advanced-repair-hand-cream"
+  },
+  {
+    "id": 19,
+    "name": "Vaseline Lip Therapy – Rosy Lips",
+    "brand": "Vaseline",
+    "price": "$3.00",
+    "image": "https://www.vaseline.com/media/export/cms/products/1000x1000/vaseline_rosy_lips.jpg",
+    "link": "https://www.vaseline.com/us/en/products/lip-care/rosy-lips.html"
+  },
+  {
+    "id": 20,
+    "name": "Dr. Teal’s Epsom Salt Soaking Solution – Lavender",
+    "brand": "Dr. Teal’s",
+    "price": "$6.00",
+    "image": "https://www.drteals.com/media/export/cms/products/1000x1000/drteals_lavender_epsom.jpg",
+    "link": "https://www.drteals.com/products/epsom-salt-lavender"
+  }
+]
