@@ -1,162 +1,222 @@
 [
   {
-    "id": 1,
+    "id": "wellness-001",
     "name": "Dr. Teal’s Melatonin Sleep Spray",
     "brand": "Dr. Teal’s",
     "price": "$6.00",
     "image": "https://www.drteals.com/media/export/cms/products/1000x1000/drteals_sleep_spray.jpg",
-    "link": "https://www.drteals.com/products/sleep-spray-melatonin"
+    "link": "https://www.drteals.com/products/sleep-spray-melatonin",
+    "category": "Wellness",
+    "sku": "WELL-001",
+    "available": true
   },
   {
-    "id": 2,
+    "id": "wellness-002",
     "name": "This Works Deep Sleep Pillow Spray",
     "brand": "This Works",
     "price": "$29.00",
     "image": "https://www.thisworks.com/cdn/shop/products/deep_sleep_pillow_spray.jpg",
-    "link": "https://www.thisworks.com/products/deep-sleep-pillow-spray"
+    "link": "https://www.thisworks.com/products/deep-sleep-pillow-spray",
+    "category": "Wellness",
+    "sku": "WELL-002",
+    "available": true
   },
   {
-    "id": 3,
+    "id": "wellness-003",
     "name": "Herbivore Botanicals Coconut Milk Bath Soak",
     "brand": "Herbivore",
     "price": "$20.00",
     "image": "https://www.herbivorebotanicals.com/cdn/shop/products/herbivore_coconut_milk.jpg",
-    "link": "https://www.herbivorebotanicals.com/products/coconut-milk-bath-soak"
+    "link": "https://www.herbivorebotanicals.com/products/coconut-milk-bath-soak",
+    "category": "Wellness",
+    "sku": "WELL-003",
+    "available": true
   },
   {
-    "id": 4,
+    "id": "wellness-004",
     "name": "Lush Sleepy Body Lotion",
     "brand": "Lush",
     "price": "$12.00",
     "image": "https://www.lush.com/media/export/cms/products/1000x1000/lush_sleepy_lotion.jpg",
-    "link": "https://www.lush.com/us/en/p/sleepy-body-lotion"
+    "link": "https://www.lush.com/us/en/p/sleepy-body-lotion",
+    "category": "Wellness",
+    "sku": "WELL-004",
+    "available": true
   },
   {
-    "id": 5,
+    "id": "wellness-005",
     "name": "Aromatherapy Associates De-Stress Mind Roller Ball",
     "brand": "Aromatherapy Associates",
     "price": "$33.00",
     "image": "https://www.aromatherapyassociates.com/cdn/shop/products/destress_mind_roller.jpg",
-    "link": "https://www.aromatherapyassociates.com/products/de-stress-mind-roller-ball"
+    "link": "https://www.aromatherapyassociates.com/products/de-stress-mind-roller-ball",
+    "category": "Wellness",
+    "sku": "WELL-005",
+    "available": true
   },
   {
-    "id": 6,
+    "id": "wellness-006",
     "name": "Bath & Body Works Eucalyptus Spearmint Body Lotion",
     "brand": "Bath & Body Works",
     "price": "$15.50",
     "image": "https://www.bathandbodyworks.com/cdn/shop/products/eucalyptus_spearmint_lotion.jpg",
-    "link": "https://www.bathandbodyworks.com/p/eucalyptus-spearmint-body-lotion"
+    "link": "https://www.bathandbodyworks.com/p/eucalyptus-spearmint-body-lotion",
+    "category": "Wellness",
+    "sku": "WELL-006",
+    "available": true
   },
   {
-    "id": 7,
+    "id": "wellness-007",
     "name": "Native Deodorant – Coconut & Vanilla",
     "brand": "Native",
     "price": "$13.00",
     "image": "https://www.nativecos.com/cdn/shop/products/native_coconut_vanilla_deo.jpg",
-    "link": "https://www.nativecos.com/products/coconut-vanilla-deodorant"
+    "link": "https://www.nativecos.com/products/coconut-vanilla-deodorant",
+    "category": "Wellness",
+    "sku": "WELL-007",
+    "available": true
   },
   {
-    "id": 8,
+    "id": "wellness-008",
     "name": "Laneige Lip Sleeping Mask",
     "brand": "Laneige",
     "price": "$24.00",
     "image": "https://www.laneige.com/media/export/cms/products/1000x1000/laneige_lip_sleeping_mask.jpg",
-    "link": "https://us.laneige.com/products/lip-sleeping-mask"
+    "link": "https://us.laneige.com/products/lip-sleeping-mask",
+    "category": "Wellness",
+    "sku": "WELL-008",
+    "available": true
   },
   {
-    "id": 9,
+    "id": "wellness-009",
     "name": "Sol de Janeiro Brazilian Bum Bum Body Scrub",
     "brand": "Sol de Janeiro",
     "price": "$38.00",
     "image": "https://soldejaneiro.com/cdn/shop/products/bum_bum_scrub.jpg",
-    "link": "https://soldejaneiro.com/products/brazilian-bum-bum-body-scrub"
+    "link": "https://soldejaneiro.com/products/brazilian-bum-bum-body-scrub",
+    "category": "Wellness",
+    "sku": "WELL-009",
+    "available": true
   },
   {
-    "id": 10,
+    "id": "wellness-010",
     "name": "Kopari Coconut Melt",
     "brand": "Kopari",
     "price": "$38.00",
     "image": "https://www.koparibeauty.com/cdn/shop/products/kopari_coconut_melt.jpg",
-    "link": "https://www.koparibeauty.com/products/coconut-melt"
+    "link": "https://www.koparibeauty.com/products/coconut-melt",
+    "category": "Wellness",
+    "sku": "WELL-010",
+    "available": true
   },
   {
-    "id": 11,
+    "id": "wellness-011",
     "name": "Neutrogena Hydro Boost Water Gel",
     "brand": "Neutrogena",
     "price": "$20.00",
     "image": "https://www.neutrogena.com/media/export/cms/products/1000x1000/neutrogena_hydro_boost.jpg",
-    "link": "https://www.neutrogena.com/products/hydro-boost-water-gel"
+    "link": "https://www.neutrogena.com/products/hydro-boost-water-gel",
+    "category": "Wellness",
+    "sku": "WELL-011",
+    "available": true
   },
   {
-    "id": 12,
+    "id": "wellness-012",
     "name": "Dr. Bronner’s Organic Lavender Hand Sanitizer",
     "brand": "Dr. Bronner’s",
     "price": "$5.00",
     "image": "https://www.drbronner.com/cdn/shop/products/drbronners_lavender_sanitizer.jpg",
-    "link": "https://www.drbronner.com/products/organic-hand-sanitizer-lavender"
+    "link": "https://www.drbronner.com/products/organic-hand-sanitizer-lavender",
+    "category": "Wellness",
+    "sku": "WELL-012",
+    "available": true
   },
   {
-    "id": 13,
+    "id": "wellness-013",
     "name": "Pacifica Stress Rehab Facial Mask",
     "brand": "Pacifica",
     "price": "$4.00",
     "image": "https://www.pacificabeauty.com/cdn/shop/products/pacifica_stress_rehab.jpg",
-    "link": "https://www.pacificabeauty.com/products/stress-rehab-mask"
+    "link": "https://www.pacificabeauty.com/products/stress-rehab-mask",
+    "category": "Wellness",
+    "sku": "WELL-013",
+    "available": true
   },
   {
-    "id": 14,
+    "id": "wellness-014",
     "name": "Heritage Store Rosewater Spray",
     "brand": "Heritage Store",
     "price": "$11.00",
     "image": "https://heritagestore.com/cdn/shop/products/heritage_rosewater.jpg",
-    "link": "https://heritagestore.com/products/rosewater"
+    "link": "https://heritagestore.com/products/rosewater",
+    "category": "Wellness",
+    "sku": "WELL-014",
+    "available": true
   },
   {
-    "id": 15,
+    "id": "wellness-015",
     "name": "Mario Badescu Facial Spray with Aloe, Herbs & Rosewater",
     "brand": "Mario Badescu",
     "price": "$12.00",
     "image": "https://www.mariobadescu.com/cdn/shop/products/mario_rosewater_spray.jpg",
-    "link": "https://www.mariobadescu.com/products/facial-spray-with-aloe-herbs-and-rosewater"
+    "link": "https://www.mariobadescu.com/products/facial-spray-with-aloe-herbs-and-rosewater",
+    "category": "Wellness",
+    "sku": "WELL-015",
+    "available": true
   },
   {
-    "id": 16,
+    "id": "wellness-016",
     "name": "The Ordinary Hyaluronic Acid 2% + B5",
     "brand": "The Ordinary",
     "price": "$8.00",
     "image": "https://theordinary.com/cdn/shop/products/hyaluronic_acid.jpg",
-    "link": "https://theordinary.com/products/hyaluronic-acid-2-b5"
+    "link": "https://theordinary.com/products/hyaluronic-acid-2-b5",
+    "category": "Wellness",
+    "sku": "WELL-016",
+    "available": true
   },
   {
-    "id": 17,
+    "id": "wellness-017",
     "name": "Aveda Stress-Fix Composition Oil",
     "brand": "Aveda",
     "price": "$34.00",
     "image": "https://www.aveda.com/media/export/cms/products/1000x1000/aveda_stress_fix.jpg",
-    "link": "https://www.aveda.com/product/17757/16853/body-care/stress-fix-composition-oil"
+    "link": "https://www.aveda.com/product/17757/16853/body-care/stress-fix-composition-oil",
+    "category": "Wellness",
+    "sku": "WELL-017",
+    "available": true
   },
   {
-    "id": 18,
+    "id": "wellness-018",
     "name": "Eucerin Advanced Repair Hand Cream",
     "brand": "Eucerin",
     "price": "$6.00",
     "image": "https://www.eucerinus.com/media/export/cms/products/1000x1000/eucerin_hand_cream.jpg",
-    "link": "https://www.eucerinus.com/products/advanced-repair-hand-cream"
+    "link": "https://www.eucerinus.com/products/advanced-repair-hand-cream",
+    "category": "Wellness",
+    "sku": "WELL-018",
+    "available": true
   },
   {
-    "id": 19,
+    "id": "wellness-019",
     "name": "Vaseline Lip Therapy – Rosy Lips",
     "brand": "Vaseline",
     "price": "$3.00",
     "image": "https://www.vaseline.com/media/export/cms/products/1000x1000/vaseline_rosy_lips.jpg",
-    "link": "https://www.vaseline.com/us/en/products/lip-care/rosy-lips.html"
+    "link": "https://www.vaseline.com/us/en/products/lip-care/rosy-lips.html",
+    "category": "Wellness",
+    "sku": "WELL-019",
+    "available": true
   },
   {
-    "id": 20,
+    "id": "wellness-020",
     "name": "Dr. Teal’s Epsom Salt Soaking Solution – Lavender",
     "brand": "Dr. Teal’s",
     "price": "$6.00",
     "image": "https://www.drteals.com/media/export/cms/products/1000x1000/drteals_lavender_epsom.jpg",
-    "link": "https://www.drteals.com/products/epsom-salt-lavender"
+    "link": "https://www.drteals.com/products/epsom-salt-lavender",
+    "category": "Wellness",
+    "sku": "WELL-020",
+    "available": true
   }
 ]
