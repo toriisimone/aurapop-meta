@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Sol de Janeiro Brazilian Bum Bum Cream",
     "brand": "Sol de Janeiro",
-    "price": "$48.00",
+    "price": 48,
     "image": "https://soldejaneiro.com/cdn/shop/products/bum_bum_cream.jpg",
     "link": "https://soldejaneiro.com/products/brazilian-bum-bum-cream"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Bath & Body Works Japanese Cherry Blossom Body Lotion",
     "brand": "Bath & Body Works",
-    "price": "$16.50",
+    "price": 16.5,
     "image": "https://www.bathandbodyworks.com/cdn/shop/products/japanese_cherry_blossom_lotion.jpg",
     "link": "https://www.bathandbodyworks.com/p/japanese-cherry-blossom-body-lotion"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "name": "Tree Hut Shea Sugar Scrub – Moroccan Rose",
     "brand": "Tree Hut",
-    "price": "$10.00",
+    "price": 10,
     "image": "https://treehutshea.com/cdn/shop/products/moroccan_rose_scrub.jpg",
     "link": "https://treehutshea.com/products/shea-sugar-scrub-moroccan-rose"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "name": "Nécessaire The Body Lotion",
     "brand": "Nécessaire",
-    "price": "$28.00",
+    "price": 28,
     "image": "https://www.necessaire.com/cdn/shop/products/the_body_lotion.jpg",
     "link": "https://www.necessaire.com/products/the-body-lotion"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "name": "Vaseline Intensive Care Cocoa Radiant Lotion",
     "brand": "Vaseline",
-    "price": "$8.00",
+    "price": 8,
     "image": "https://www.vaseline.com/media/export/cms/products/1000x1000/vaseline_cocoa_radiant.jpg",
     "link": "https://www.vaseline.com/us/en/products/lotions/cocoa-radiant-lotion.html"
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "name": "Jergens Ultra Healing Moisturizer",
     "brand": "Jergens",
-    "price": "$7.00",
+    "price": 7,
     "image": "https://www.jergens.com/media/export/cms/products/1000x1000/jergens_ultra_healing.jpg",
     "link": "https://www.jergens.com/en-us/products/lotions/ultra-healing"
   },
@@ -51,7 +51,7 @@
     "id": 7,
     "name": "Palmer’s Cocoa Butter Formula Skin Therapy Oil",
     "brand": "Palmer’s",
-    "price": "$10.00",
+    "price": 10,
     "image": "https://www.palmers.com/media/export/cms/products/1000x1000/palmers_skin_therapy_oil.jpg",
     "link": "https://www.palmers.com/skin-therapy-oil"
   },
@@ -59,7 +59,7 @@
     "id": 8,
     "name": "Aveeno Daily Moisturizing Lotion",
     "brand": "Aveeno",
-    "price": "$9.00",
+    "price": 9,
     "image": "https://www.aveeno.com/media/export/cms/products/1000x1000/aveeno_daily_moisturizing.jpg",
     "link": "https://www.aveeno.com/products/daily-moisturizing-lotion"
   },
@@ -67,7 +67,7 @@
     "id": 9,
     "name": "Dove Exfoliating Body Polish – Crushed Macadamia & Rice Milk",
     "brand": "Dove",
-    "price": "$8.00",
+    "price": 8,
     "image": "https://www.dove.com/media/export/cms/products/1000x1000/dove_body_polish.jpg",
     "link": "https://www.dove.com/us/en/p/exfoliating-body-polish"
   },
@@ -75,7 +75,7 @@
     "id": 10,
     "name": "Olay Ultra Moisture Shea Butter Body Wash",
     "brand": "Olay",
-    "price": "$9.00",
+    "price": 9,
     "image": "https://www.olay.com/media/export/cms/products/1000x1000/olay_shea_body_wash.jpg",
     "link": "https://www.olay.com/body-wash/ultra-moisture-shea-butter"
   },
@@ -83,7 +83,7 @@
     "id": 11,
     "name": "Sol de Janeiro Brazilian Crush Cheirosa 62 Body Mist",
     "brand": "Sol de Janeiro",
-    "price": "$24.00",
+    "price": 24,
     "image": "https://soldejaneiro.com/cdn/shop/products/cheirosa_62_mist.jpg",
     "link": "https://soldejaneiro.com/products/brazilian-crush-cheirosa-62"
   },
@@ -91,7 +91,7 @@
     "id": 12,
     "name": "Victoria’s Secret Bare Vanilla Fragrance Mist",
     "brand": "Victoria’s Secret",
-    "price": "$19.95",
+    "price": 19.95,
     "image": "https://www.victoriassecret.com/cdn/shop/products/bare_vanilla_mist.jpg",
     "link": "https://www.victoriassecret.com/us/vs/fragrance/bare-vanilla-mist"
   },
@@ -99,7 +99,7 @@
     "id": 13,
     "name": "EOS Shea Better Shave Cream – Vanilla Bliss",
     "brand": "EOS",
-    "price": "$5.00",
+    "price": 5,
     "image": "https://www.evolutionofsmooth.com/media/export/cms/products/1000x1000/eos_shave_cream.jpg",
     "link": "https://www.evolutionofsmooth.com/products/shave-cream"
   },
@@ -107,7 +107,7 @@
     "id": 14,
     "name": "Nivea Essentially Enriched Body Lotion",
     "brand": "Nivea",
-    "price": "$8.00",
+    "price": 8,
     "image": "https://www.niveausa.com/media/export/cms/products/1000x1000/nivea_essentially_enriched.jpg",
     "link": "https://www.niveausa.com/products/essentially-enriched-body-lotion"
   },
@@ -115,7 +115,7 @@
     "id": 15,
     "name": "Bio-Oil Skincare Oil",
     "brand": "Bio-Oil",
-    "price": "$12.00",
+    "price": 12,
     "image": "https://www.bio-oil.com/media/export/cms/products/1000x1000/bio_oil.jpg",
     "link": "https://www.bio-oil.com/us/product/bio-oil-skincare-oil"
   },
@@ -123,7 +123,7 @@
     "id": 16,
     "name": "The Body Shop Almond Milk Body Yogurt",
     "brand": "The Body Shop",
-    "price": "$16.00",
+    "price": 16,
     "image": "https://www.thebodyshop.com/media/export/cms/products/1000x1000/bodyshop_almond_yogurt.jpg",
     "link": "https://www.thebodyshop.com/en-us/body/body-yogurts/almond-milk-body-yogurt"
   },
@@ -131,7 +131,7 @@
     "id": 17,
     "name": "Lush Sleepy Body Lotion",
     "brand": "Lush",
-    "price": "$12.00",
+    "price": 12,
     "image": "https://www.lush.com/media/export/cms/products/1000x1000/lush_sleepy_lotion.jpg",
     "link": "https://www.lush.com/us/en/p/sleepy-body-lotion"
   },
@@ -139,7 +139,7 @@
     "id": 18,
     "name": "Hempz Original Herbal Body Moisturizer",
     "brand": "Hempz",
-    "price": "$23.00",
+    "price": 23,
     "image": "https://www.hempz.com/cdn/shop/products/hempz_original_lotion.jpg",
     "link": "https://www.hempz.com/products/original-herbal-body-moisturizer"
   },
@@ -147,7 +147,7 @@
     "id": 19,
     "name": "Dr. Teal’s Foaming Bath with Pure Epsom Salt – Lavender",
     "brand": "Dr. Teal’s",
-    "price": "$6.00",
+    "price": 6,
     "image": "https://www.drteals.com/media/export/cms/products/1000x1000/drteals_lavender_bath.jpg",
     "link": "https://www.drteals.com/products/foaming-bath-lavender"
   },
@@ -155,7 +155,7 @@
     "id": 20,
     "name": "Neutrogena Hydro Boost Body Gel Cream",
     "brand": "Neutrogena",
-    "price": "$10.00",
+    "price": 10,
     "image": "https://www.neutrogena.com/media/export/cms/products/1000x1000/neutrogena_hydro_boost_body.jpg",
     "link": "https://www.neutrogena.com/products/hydro-boost-body-gel-cream"
   }
