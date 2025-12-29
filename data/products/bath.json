@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Dr. Bronner’s Pure-Castile Liquid Soap – Lavender",
     "brand": "Dr. Bronner’s",
-    "price": "$16.00",
+    "price": 16,
     "image": "https://www.drbronner.com/cdn/shop/products/drbronners_lavender_castile.jpg",
     "link": "https://www.drbronner.com/products/lavender-pure-castile-liquid-soap"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Dove Deep Moisture Body Wash",
     "brand": "Dove",
-    "price": "$8.00",
+    "price": 8,
     "image": "https://www.dove.com/media/export/cms/products/1000x1000/dove_deep_moisture.jpg",
     "link": "https://www.dove.com/us/en/p/deep-moisture-body-wash"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "name": "Native Body Wash – Coconut & Vanilla",
     "brand": "Native",
-    "price": "$10.00",
+    "price": 10,
     "image": "https://www.nativecos.com/cdn/shop/products/native_coconut_vanilla.jpg",
     "link": "https://www.nativecos.com/products/coconut-vanilla-body-wash"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "name": "Tree Hut Shea Sugar Scrub – Tropical Mango",
     "brand": "Tree Hut",
-    "price": "$10.00",
+    "price": 10,
     "image": "https://treehutshea.com/cdn/shop/products/tropical_mango_scrub.jpg",
     "link": "https://treehutshea.com/products/shea-sugar-scrub-tropical-mango"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "name": "Lush Intergalactic Bath Bomb",
     "brand": "Lush",
-    "price": "$8.50",
+    "price": 8.5,
     "image": "https://www.lush.com/media/export/cms/products/1000x1000/lush_intergalactic.jpg",
     "link": "https://www.lush.com/us/en/p/intergalactic-bath-bomb"
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "name": "Olay Fresh Outlast Body Wash – Rose Water & Sweet Nectar",
     "brand": "Olay",
-    "price": "$8.00",
+    "price": 8,
     "image": "https://www.olay.com/media/export/cms/products/1000x1000/olay_rose_water.jpg",
     "link": "https://www.olay.com/body-wash/fresh-outlast-rose-water"
   },
@@ -51,7 +51,7 @@
     "id": 7,
     "name": "Aveeno Stress Relief Body Wash",
     "brand": "Aveeno",
-    "price": "$9.00",
+    "price": 9,
     "image": "https://www.aveeno.com/media/export/cms/products/1000x1000/aveeno_stress_relief.jpg",
     "link": "https://www.aveeno.com/products/stress-relief-body-wash"
   },
@@ -59,7 +59,7 @@
     "id": 8,
     "name": "Bath & Body Works Warm Vanilla Sugar Shower Gel",
     "brand": "Bath & Body Works",
-    "price": "$14.50",
+    "price": 14.5,
     "image": "https://www.bathandbodyworks.com/cdn/shop/products/warm_vanilla_sugar_shower_gel.jpg",
     "link": "https://www.bathandbodyworks.com/p/warm-vanilla-sugar-shower-gel"
   },
@@ -67,7 +67,7 @@
     "id": 9,
     "name": "Method Body Wash – Pure Peace",
     "brand": "Method",
-    "price": "$8.00",
+    "price": 8,
     "image": "https://methodhome.com/cdn/shop/products/method_pure_peace.jpg",
     "link": "https://methodhome.com/products/body-wash-pure-peace"
   },
@@ -75,7 +75,7 @@
     "id": 10,
     "name": "Neutrogena Rainbath Refreshing Shower Gel",
     "brand": "Neutrogena",
-    "price": "$9.00",
+    "price": 9,
     "image": "https://www.neutrogena.com/media/export/cms/products/1000x1000/neutrogena_rainbath.jpg",
     "link": "https://www.neutrogena.com/products/rainbath-refreshing-shower-and-bath-gel"
   },
@@ -83,7 +83,7 @@
     "id": 11,
     "name": "Lush Sleepy Shower Gel",
     "brand": "Lush",
-    "price": "$22.00",
+    "price": 22,
     "image": "https://www.lush.com/media/export/cms/products/1000x1000/lush_sleepy_shower_gel.jpg",
     "link": "https://www.lush.com/us/en/p/sleepy-shower-gel"
   },
@@ -91,7 +91,7 @@
     "id": 12,
     "name": "Dr. Teal’s Foaming Bath – Eucalyptus & Spearmint",
     "brand": "Dr. Teal’s",
-    "price": "$6.00",
+    "price": 6,
     "image": "https://www.drteals.com/media/export/cms/products/1000x1000/drteals_eucalyptus_bath.jpg",
     "link": "https://www.drteals.com/products/foaming-bath-eucalyptus-spearmint"
   },
@@ -99,7 +99,7 @@
     "id": 13,
     "name": "Philosophy Amazing Grace Shampoo, Bath & Shower Gel",
     "brand": "Philosophy",
-    "price": "$28.00",
+    "price": 28,
     "image": "https://www.philosophy.com/media/export/cms/products/1000x1000/philosophy_amazing_grace.jpg",
     "link": "https://www.philosophy.com/products/amazing-grace-shower-gel"
   },
@@ -107,7 +107,7 @@
     "id": 14,
     "name": "Caress Daily Silk Silkening Body Wash",
     "brand": "Caress",
-    "price": "$6.00",
+    "price": 6,
     "image": "https://www.caress.us/media/export/cms/products/1000x1000/caress_daily_silk.jpg",
     "link": "https://www.caress.us/products/daily-silk-body-wash"
   },
@@ -115,7 +115,7 @@
     "id": 15,
     "name": "SheaMoisture African Black Soap Body Wash",
     "brand": "SheaMoisture",
-    "price": "$10.00",
+    "price": 10,
     "image": "https://www.sheamoisture.com/media/export/cms/products/1000x1000/shea_african_black_soap.jpg",
     "link": "https://www.sheamoisture.com/products/african-black-soap-body-wash"
   },
@@ -123,7 +123,7 @@
     "id": 16,
     "name": "Eucerin Skin Calming Body Wash",
     "brand": "Eucerin",
-    "price": "$10.00",
+    "price": 10,
     "image": "https://www.eucerinus.com/media/export/cms/products/1000x1000/eucerin_skin_calming.jpg",
     "link": "https://www.eucerinus.com/products/skin-calming-body-wash"
   },
@@ -131,7 +131,7 @@
     "id": 17,
     "name": "L’Occitane Almond Shower Oil",
     "brand": "L’Occitane",
-    "price": "$29.00",
+    "price": 29,
     "image": "https://www.loccitane.com/cdn/shop/products/loccitane_almond_shower_oil.jpg",
     "link": "https://www.loccitane.com/products/almond-shower-oil"
   },
@@ -139,7 +139,7 @@
     "id": 18,
     "name": "Softsoap Shea & Almond Oil Body Wash",
     "brand": "Softsoap",
-    "price": "$6.00",
+    "price": 6,
     "image": "https://www.softsoap.com/media/export/cms/products/1000x1000/softsoap_shea_almond.jpg",
     "link": "https://www.softsoap.com/products/shea-and-almond-oil-body-wash"
   },
@@ -147,7 +147,7 @@
     "id": 19,
     "name": "St. Ives Pink Lemon & Mandarin Orange Exfoliating Body Wash",
     "brand": "St. Ives",
-    "price": "$6.00",
+    "price": 6,
     "image": "https://www.stives.com/media/export/cms/products/1000x1000/stives_pink_lemon.jpg",
     "link": "https://www.stives.com/products/pink-lemon-mandarin-orange-body-wash"
   },
@@ -155,7 +155,7 @@
     "id": 20,
     "name": "Bath & Body Works Eucalyptus Spearmint Shower Gel",
     "brand": "Bath & Body Works",
-    "price": "$14.50",
+    "price": 14.5,
     "image": "https://www.bathandbodyworks.com/cdn/shop/products/eucalyptus_spearmint_shower_gel.jpg",
     "link": "https://www.bathandbodyworks.com/p/eucalyptus-spearmint-shower-gel"
   }
