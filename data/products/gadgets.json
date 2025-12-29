@@ -1,162 +1,222 @@
 [
   {
-    "id": 1,
+    "id": "gadgets-001",
     "name": "Revlon Oil‑Absorbing Volcanic Roller",
     "brand": "Revlon",
-    "price": 14,
+    "price": "$14.00",
     "image": "https://www.revlon.com/media/export/cms/products/1000x1000/revlon_volcanic_roller.jpg",
-    "link": "https://www.revlon.com/products/oil-absorbing-volcanic-roller"
+    "link": "https://www.revlon.com/products/oil-absorbing-volcanic-roller",
+    "category": "Gadgets",
+    "sku": "GAD-001",
+    "available": true
   },
   {
-    "id": 2,
+    "id": "gadgets-002",
     "name": "Herbivore Jade Facial Roller",
     "brand": "Herbivore",
-    "price": 25,
+    "price": "$25.00",
     "image": "https://www.herbivorebotanicals.com/cdn/shop/products/herbivore_jade_roller.jpg",
-    "link": "https://www.herbivorebotanicals.com/products/jade-facial-roller"
+    "link": "https://www.herbivorebotanicals.com/products/jade-facial-roller",
+    "category": "Gadgets",
+    "sku": "GAD-002",
+    "available": true
   },
   {
-    "id": 3,
+    "id": "gadgets-003",
     "name": "Mount Lai Gua Sha Facial Tool",
     "brand": "Mount Lai",
-    "price": 28,
+    "price": "$28.00",
     "image": "https://www.mountlai.com/cdn/shop/products/mountlai_guasha.jpg",
-    "link": "https://www.mountlai.com/products/the-gua-sha-facial-lifting-tool"
+    "link": "https://www.mountlai.com/products/the-gua-sha-facial-lifting-tool",
+    "category": "Gadgets",
+    "sku": "GAD-003",
+    "available": true
   },
   {
-    "id": 4,
+    "id": "gadgets-004",
     "name": "Foreo Luna Mini 3 Facial Cleansing Device",
     "brand": "Foreo",
-    "price": 179,
+    "price": "$179.00",
     "image": "https://www.foreo.com/cdn/shop/products/foreo_luna_mini3.jpg",
-    "link": "https://www.foreo.com/luna-mini-3"
+    "link": "https://www.foreo.com/luna-mini-3",
+    "category": "Gadgets",
+    "sku": "GAD-004",
+    "available": true
   },
   {
-    "id": 5,
+    "id": "gadgets-005",
     "name": "PMD Clean Smart Facial Cleansing Device",
     "brand": "PMD Beauty",
-    "price": 99,
+    "price": "$99.00",
     "image": "https://pmdbeauty.com/cdn/shop/products/pmd_clean.jpg",
-    "link": "https://pmdbeauty.com/products/pmd-clean"
+    "link": "https://pmdbeauty.com/products/pmd-clean",
+    "category": "Gadgets",
+    "sku": "GAD-005",
+    "available": true
   },
   {
-    "id": 6,
+    "id": "gadgets-006",
     "name": "Ice Roller for Face & Eyes",
     "brand": "Esarora",
-    "price": 12,
+    "price": "$12.00",
     "image": "https://images-na.ssl-images-amazon.com/images/ice_roller.jpg",
-    "link": "https://www.amazon.com/dp/B01GQ2G4A8"
+    "link": "https://www.amazon.com/dp/B01GQ2G4A8",
+    "category": "Gadgets",
+    "sku": "GAD-006",
+    "available": true
   },
   {
-    "id": 7,
+    "id": "gadgets-007",
     "name": "RENPHO Electric Scalp Massager",
     "brand": "RENPHO",
-    "price": 29,
+    "price": "$29.00",
     "image": "https://renpho.com/cdn/shop/products/renpho_scalp_massager.jpg",
-    "link": "https://renpho.com/products/scalp-massager"
+    "link": "https://renpho.com/products/scalp-massager",
+    "category": "Gadgets",
+    "sku": "GAD-007",
+    "available": true
   },
   {
-    "id": 8,
+    "id": "gadgets-008",
     "name": "Aromatherapy Essential Oil Diffuser",
     "brand": "InnoGear",
-    "price": 16,
+    "price": "$16.00",
     "image": "https://www.innogear.com/cdn/shop/products/innogear_diffuser.jpg",
-    "link": "https://www.innogear.com/products/aromatherapy-diffuser"
+    "link": "https://www.innogear.com/products/aromatherapy-diffuser",
+    "category": "Gadgets",
+    "sku": "GAD-008",
+    "available": true
   },
   {
-    "id": 9,
+    "id": "gadgets-009",
     "name": "Laneige Lip Sleeping Mask Applicator",
     "brand": "Laneige",
-    "price": 5,
+    "price": "$5.00",
     "image": "https://www.laneige.com/media/export/cms/products/1000x1000/laneige_applicator.jpg",
-    "link": "https://us.laneige.com/products/lip-sleeping-mask"
+    "link": "https://us.laneige.com/products/lip-sleeping-mask",
+    "category": "Gadgets",
+    "sku": "GAD-009",
+    "available": true
   },
   {
-    "id": 10,
+    "id": "gadgets-010",
     "name": "Dry Body Brush for Exfoliation",
     "brand": "Wholesome Beauty",
-    "price": 9,
+    "price": "$9.00",
     "image": "https://images-na.ssl-images-amazon.com/images/body_brush.jpg",
-    "link": "https://www.amazon.com/dp/B01N1F8V8X"
+    "link": "https://www.amazon.com/dp/B01N1F8V8X",
+    "category": "Gadgets",
+    "sku": "GAD-010",
+    "available": true
   },
   {
-    "id": 11,
+    "id": "gadgets-011",
     "name": "Humidifier for Bedroom – Cool Mist",
     "brand": "Pure Enrichment",
-    "price": 39,
+    "price": "$39.00",
     "image": "https://pureenrichment.com/cdn/shop/products/pureenrichment_humidifier.jpg",
-    "link": "https://pureenrichment.com/products/mistaire-ultrasonic-humidifier"
+    "link": "https://pureenrichment.com/products/mistaire-ultrasonic-humidifier",
+    "category": "Gadgets",
+    "sku": "GAD-011",
+    "available": true
   },
   {
-    "id": 12,
+    "id": "gadgets-012",
     "name": "LED Light Therapy Mask",
     "brand": "Dermashine",
-    "price": 99,
+    "price": "$99.00",
     "image": "https://images-na.ssl-images-amazon.com/images/led_mask.jpg",
-    "link": "https://www.amazon.com/dp/B07Q6V7ZQY"
+    "link": "https://www.amazon.com/dp/B07Q6V7ZQY",
+    "category": "Gadgets",
+    "sku": "GAD-012",
+    "available": true
   },
   {
-    "id": 13,
+    "id": "gadgets-013",
     "name": "Aromatherapy Shower Steamers",
     "brand": "BodyRestore",
-    "price": 25,
+    "price": "$25.00",
     "image": "https://bodyrestore.com/cdn/shop/products/shower_steamers.jpg",
-    "link": "https://bodyrestore.com/products/shower-steamers"
+    "link": "https://bodyrestore.com/products/shower-steamers",
+    "category": "Gadgets",
+    "sku": "GAD-013",
+    "available": true
   },
   {
-    "id": 14,
+    "id": "gadgets-014",
     "name": "Weighted Eye Mask",
     "brand": "MZOO",
-    "price": 19,
+    "price": "$19.00",
     "image": "https://images-na.ssl-images-amazon.com/images/mzoo_eye_mask.jpg",
-    "link": "https://www.amazon.com/dp/B07RZ8VJYV"
+    "link": "https://www.amazon.com/dp/B07RZ8VJYV",
+    "category": "Gadgets",
+    "sku": "GAD-014",
+    "available": true
   },
   {
-    "id": 15,
+    "id": "gadgets-015",
     "name": "Electric Heating Pad",
     "brand": "Sunbeam",
-    "price": 24,
+    "price": "$24.00",
     "image": "https://www.sunbeam.com/media/export/cms/products/1000x1000/sunbeam_heating_pad.jpg",
-    "link": "https://www.sunbeam.com/products/heating-pad"
+    "link": "https://www.sunbeam.com/products/heating-pad",
+    "category": "Gadgets",
+    "sku": "GAD-015",
+    "available": true
   },
   {
-    "id": 16,
+    "id": "gadgets-016",
     "name": "Facial Steamer Nano Ionic",
     "brand": "Pure Daily Care",
-    "price": 39,
+    "price": "$39.00",
     "image": "https://puredailycare.com/cdn/shop/products/facial_steamer.jpg",
-    "link": "https://puredailycare.com/products/nano-steamer"
+    "link": "https://puredailycare.com/products/nano-steamer",
+    "category": "Gadgets",
+    "sku": "GAD-016",
+    "available": true
   },
   {
-    "id": 17,
+    "id": "gadgets-017",
     "name": "Foot Spa Bath Massager",
     "brand": "Conair",
-    "price": 29,
+    "price": "$29.00",
     "image": "https://www.conair.com/media/export/cms/products/1000x1000/conair_foot_spa.jpg",
-    "link": "https://www.conair.com/products/foot-spa"
+    "link": "https://www.conair.com/products/foot-spa",
+    "category": "Gadgets",
+    "sku": "GAD-017",
+    "available": true
   },
   {
-    "id": 18,
+    "id": "gadgets-018",
     "name": "Aromatherapy Essential Oil Set",
     "brand": "LagunaMoon",
-    "price": 15,
+    "price": "$15.00",
     "image": "https://lagunamoon.com/cdn/shop/products/lagunamoon_oils.jpg",
-    "link": "https://lagunamoon.com/products/essential-oils-set"
+    "link": "https://lagunamoon.com/products/essential-oils-set",
+    "category": "Gadgets",
+    "sku": "GAD-018",
+    "available": true
   },
   {
-    "id": 19,
+    "id": "gadgets-019",
     "name": "Cooling Gel Eye Mask",
     "brand": "Kitsch",
-    "price": 14,
+    "price": "$14.00",
     "image": "https://www.mykitsch.com/cdn/shop/products/kitsch_eye_mask.jpg",
-    "link": "https://www.mykitsch.com/products/cooling-eye-mask"
+    "link": "https://www.mykitsch.com/products/cooling-eye-mask",
+    "category": "Gadgets",
+    "sku": "GAD-019",
+    "available": true
   },
   {
-    "id": 20,
+    "id": "gadgets-020",
     "name": "Electric Callus Remover",
     "brand": "Own Harmony",
-    "price": 29,
+    "price": "$29.00",
     "image": "https://ownharmony.com/cdn/shop/products/callus_remover.jpg",
-    "link": "https://ownharmony.com/products/callus-remover"
+    "link": "https://ownharmony.com/products/callus-remover",
+    "category": "Gadgets",
+    "sku": "GAD-020",
+    "available": true
   }
 ]
