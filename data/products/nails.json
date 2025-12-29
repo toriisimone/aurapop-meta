@@ -3,7 +3,7 @@
     "id": 1,
     "name": "OPI Nail Lacquer – Bubble Bath",
     "brand": "OPI",
-    "price": "$12.00",
+    "price": 12,
     "image": "https://www.opi.com/cdn/shop/products/opi_bubble_bath.jpg",
     "link": "https://www.opi.com/nail-lacquer/bubble-bath"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Essie Nail Polish – Ballet Slippers",
     "brand": "Essie",
-    "price": "$10.00",
+    "price": 10,
     "image": "https://www.essie.com/cdn/shop/products/essie_ballet_slippers.jpg",
     "link": "https://www.essie.com/nail-polish/ballet-slippers"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "name": "Sally Hansen Hard as Nails Hardener",
     "brand": "Sally Hansen",
-    "price": "$4.00",
+    "price": 4,
     "image": "https://www.sallyhansen.com/media/export/cms/products/1000x1000/sally_hard_as_nails.jpg",
     "link": "https://www.sallyhansen.com/hard-as-nails"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "name": "Olive & June Nail Polish – EC",
     "brand": "Olive & June",
-    "price": "$9.00",
+    "price": 9,
     "image": "https://oliveandjune.com/cdn/shop/products/olivejune_ec.jpg",
     "link": "https://oliveandjune.com/products/ec"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "name": "Seche Vite Dry Fast Top Coat",
     "brand": "Seche",
-    "price": "$10.00",
+    "price": 10,
     "image": "https://www.seche.com/media/export/cms/products/1000x1000/seche_vite_topcoat.jpg",
     "link": "https://www.seche.com/seche-vite"
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "name": "Essie Gel Couture Top Coat",
     "brand": "Essie",
-    "price": "$12.00",
+    "price": 12,
     "image": "https://www.essie.com/cdn/shop/products/essie_gel_topcoat.jpg",
     "link": "https://www.essie.com/gel-couture/top-coat"
   },
@@ -51,7 +51,7 @@
     "id": 7,
     "name": "Kiss Salon Acrylic Nude Nails",
     "brand": "Kiss",
-    "price": "$8.00",
+    "price": 8,
     "image": "https://www.kissusa.com/cdn/shop/products/kiss_acrylic_nude.jpg",
     "link": "https://www.kissusa.com/products/salon-acrylic-nude"
   },
@@ -59,15 +59,15 @@
     "id": 8,
     "name": "ImPRESS Press-On Manicure – French",
     "brand": "ImPRESS",
-    "price": "$9.00",
+    "price": 9,
     "image": "https://www.impressmanicure.com/cdn/shop/products/impress_french.jpg",
     "link": "https://www.impressmanicure.com/products/french"
   },
   {
-    "id": 9",
+    "id": 9,
     "name": "OPI Nail Envy Nail Strengthener",
     "brand": "OPI",
-    "price": "$18.00",
+    "price": 18,
     "image": "https://www.opi.com/cdn/shop/products/opi_nail_envy.jpg",
     "link": "https://www.opi.com/nail-envy"
   },
@@ -75,7 +75,7 @@
     "id": 10,
     "name": "Sally Hansen Insta-Dri Nail Polish – Rapid Red",
     "brand": "Sally Hansen",
-    "price": "$6.00",
+    "price": 6,
     "image": "https://www.sallyhansen.com/media/export/cms/products/1000x1000/sally_insta_dri_red.jpg",
     "link": "https://www.sallyhansen.com/insta-dri"
   },
@@ -83,7 +83,7 @@
     "id": 11,
     "name": "CND SolarOil Nail & Cuticle Care",
     "brand": "CND",
-    "price": "$12.00",
+    "price": 12,
     "image": "https://www.cnd.com/media/export/cms/products/1000x1000/cnd_solar_oil.jpg",
     "link": "https://www.cnd.com/products/solaroil"
   },
@@ -91,7 +91,7 @@
     "id": 12,
     "name": "Deborah Lippmann Nail Polish – Naked",
     "brand": "Deborah Lippmann",
-    "price": "$20.00",
+    "price": 20,
     "image": "https://www.deborahlippmann.com/cdn/shop/products/dl_naked.jpg",
     "link": "https://www.deborahlippmann.com/products/naked"
   },
@@ -99,7 +99,7 @@
     "id": 13,
     "name": "LA Colors Color Craze Nail Polish",
     "brand": "LA Colors",
-    "price": "$2.00",
+    "price": 2,
     "image": "https://www.lacolors.com/media/export/cms/products/1000x1000/la_colors_polish.jpg",
     "link": "https://www.lacolors.com/products/color-craze"
   },
@@ -107,7 +107,7 @@
     "id": 14,
     "name": "Nail Tek Intensive Therapy 2",
     "brand": "Nail Tek",
-    "price": "$15.00",
+    "price": 15,
     "image": "https://www.nailtek.com/media/export/cms/products/1000x1000/nailtek_therapy2.jpg",
     "link": "https://www.nailtek.com/products/intensive-therapy-2"
   },
@@ -115,7 +115,7 @@
     "id": 15,
     "name": "Kiss Brush-On Nail Glue",
     "brand": "Kiss",
-    "price": "$4.00",
+    "price": 4,
     "image": "https://www.kissusa.com/cdn/shop/products/kiss_brush_on_glue.jpg",
     "link": "https://www.kissusa.com/products/brush-on-nail-glue"
   },
@@ -123,7 +123,7 @@
     "id": 16,
     "name": "Tweezerman Cuticle Pusher & Nail Cleaner",
     "brand": "Tweezerman",
-    "price": "$18.00",
+    "price": 18,
     "image": "https://www.tweezerman.com/media/export/cms/products/1000x1000/tweezerman_cuticle_pusher.jpg",
     "link": "https://www.tweezerman.com/cuticle-pusher-and-nail-cleaner"
   },
@@ -131,7 +131,7 @@
     "id": 17,
     "name": "Orly Bonder Rubberized Basecoat",
     "brand": "Orly",
-    "price": "$12.00",
+    "price": 12,
     "image": "https://www.orlybeauty.com/cdn/shop/products/orly_bonder.jpg",
     "link": "https://www.orlybeauty.com/products/bonder"
   },
@@ -139,7 +139,7 @@
     "id": 18,
     "name": "Essie Apricot Cuticle Oil",
     "brand": "Essie",
-    "price": "$9.00",
+    "price": 9,
     "image": "https://www.essie.com/cdn/shop/products/essie_cuticle_oil.jpg",
     "link": "https://www.essie.com/nail-care/apricot-cuticle-oil"
   },
@@ -147,7 +147,7 @@
     "id": 19,
     "name": "CND Vinylux Weekly Top Coat",
     "brand": "CND",
-    "price": "$11.00",
+    "price": 11,
     "image": "https://www.cnd.com/media/export/cms/products/1000x1000/cnd_vinylux_topcoat.jpg",
     "link": "https://www.cnd.com/products/vinylux-top-coat"
   },
@@ -155,7 +155,7 @@
     "id": 20,
     "name": "Olive & June Cuticle Serum",
     "brand": "Olive & June",
-    "price": "$14.00",
+    "price": 14,
     "image": "https://oliveandjune.com/cdn/shop/products/olivejune_cuticle_serum.jpg",
     "link": "https://oliveandjune.com/products/cuticle-serum"
   }
