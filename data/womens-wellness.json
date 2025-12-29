@@ -2,57 +2,97 @@
   {
     "id": "women-multi-001",
     "name": "Women’s Essential Multivitamin",
-    "price": 23.99,
-    "category": "womens",
-    "description": "A complete daily multivitamin formulated to support women’s energy, immunity, and hormonal balance."
+    "brand": "AuraPop Women",
+    "price": "$23.99",
+    "image": "images/womens/multivitamin.jpg",
+    "link": "#",
+    "category": "Women’s Wellness",
+    "description": "A complete daily multivitamin formulated to support women’s energy, immunity, and hormonal balance.",
+    "sku": "WOM-001",
+    "available": true
   },
   {
     "id": "women-hormone-002",
     "name": "Hormone Balance Complex",
-    "price": 27.99,
-    "category": "womens",
-    "description": "A blend of chasteberry, ashwagandha, and B‑vitamins to support mood, cycle regularity, and hormonal wellness."
+    "brand": "AuraPop Women",
+    "price": "$27.99",
+    "image": "images/womens/hormone-balance.jpg",
+    "link": "#",
+    "category": "Women’s Wellness",
+    "description": "A blend of chasteberry, ashwagandha, and B‑vitamins to support mood, cycle regularity, and hormonal wellness.",
+    "sku": "WOM-002",
+    "available": true
   },
   {
     "id": "women-glow-003",
     "name": "Glow & Hydrate Collagen Boost",
-    "price": 24.99,
-    "category": "womens",
-    "description": "A collagen‑supporting formula designed to promote radiant skin, hair strength, and hydration."
+    "brand": "AuraPop Women",
+    "price": "$24.99",
+    "image": "images/womens/collagen-boost.jpg",
+    "link": "#",
+    "category": "Women’s Wellness",
+    "description": "A collagen‑supporting formula designed to promote radiant skin, hair strength, and hydration.",
+    "sku": "WOM-003",
+    "available": true
   },
   {
     "id": "women-probiotic-004",
     "name": "Women’s Daily Probiotic",
-    "price": 19.99,
-    "category": "womens",
-    "description": "A targeted probiotic blend to support gut health, digestion, and feminine wellness."
+    "brand": "AuraPop Women",
+    "price": "$19.99",
+    "image": "images/womens/probiotic.jpg",
+    "link": "#",
+    "category": "Women’s Wellness",
+    "description": "A targeted probiotic blend to support gut health, digestion, and feminine wellness.",
+    "sku": "WOM-004",
+    "available": true
   },
   {
     "id": "women-stress-005",
     "name": "Stress Relief Adaptogen Blend",
-    "price": 18.99,
-    "category": "womens",
-    "description": "A calming adaptogenic formula with rhodiola and holy basil to support stress relief and emotional balance."
+    "brand": "AuraPop Women",
+    "price": "$18.99",
+    "image": "images/womens/stress-relief.jpg",
+    "link": "#",
+    "category": "Women’s Wellness",
+    "description": "A calming adaptogenic formula with rhodiola and holy basil to support stress relief and emotional balance.",
+    "sku": "WOM-005",
+    "available": true
   },
   {
     "id": "women-sleep-006",
     "name": "Beauty Sleep Night Gummies",
-    "price": 16.99,
-    "category": "womens",
-    "description": "A soothing nighttime blend with melatonin and chamomile to support deep, restorative sleep."
+    "brand": "AuraPop Women",
+    "price": "$16.99",
+    "image": "images/womens/sleep-gummies.jpg",
+    "link": "#",
+    "category": "Women’s Wellness",
+    "description": "A soothing nighttime blend with melatonin and chamomile to support deep, restorative sleep.",
+    "sku": "WOM-006",
+    "available": true
   },
   {
     "id": "women-energy-007",
     "name": "Clean Energy Iron + B12",
-    "price": 17.99,
-    "category": "womens",
-    "description": "Iron and B12 support for natural energy, focus, and daily vitality."
+    "brand": "AuraPop Women",
+    "price": "$17.99",
+    "image": "images/womens/iron-b12.jpg",
+    "link": "#",
+    "category": "Women’s Wellness",
+    "description": "Iron and B12 support for natural energy, focus, and daily vitality.",
+    "sku": "WOM-007",
+    "available": true
   },
   {
     "id": "women-hair-008",
     "name": "Hair, Skin & Nails Complex",
-    "price": 21.99,
-    "category": "womens",
-    "description": "Biotin, collagen, and silica to support strong hair, glowing skin, and healthy nails."
+    "brand": "AuraPop Women",
+    "price": "$21.99",
+    "image": "images/womens/hair-skin-nails.jpg",
+    "link": "#",
+    "category": "Women’s Wellness",
+    "description": "Biotin, collagen, and silica to support strong hair, glowing skin, and healthy nails.",
+    "sku": "WOM-008",
+    "available": true
   }
 ]
