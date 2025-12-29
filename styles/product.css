@@ -63,30 +63,30 @@ nav a:hover {
 }
 
 .product-image img {
-  width: 320px;
+  width: 340px;
   height: auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
 }
 
 .product-info {
-  max-width: 500px;
+  max-width: 520px;
 }
 
 .product-info h1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   margin-bottom: 0.5rem;
   color: #d63384;
 }
 
 .product-info h2 {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   margin-bottom: 1rem;
   color: #555;
 }
 
 .price {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: bold;
   color: #d63384;
   margin-bottom: 1rem;
@@ -102,11 +102,12 @@ nav a:hover {
   display: inline-block;
   background-color: #d63384;
   color: white;
-  padding: 0.75rem 1.5rem;
+  padding: 0.8rem 1.6rem;
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
   margin-bottom: 2rem;
+  transition: background 0.2s ease;
 }
 
 .buy-button:hover {
@@ -131,7 +132,7 @@ nav a:hover {
 }
 
 .related-section h2 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   margin-bottom: 1rem;
   color: #d63384;
 }
@@ -145,22 +146,27 @@ nav a:hover {
 
 .related-card {
   background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
   padding: 1rem;
   text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.related-card:hover {
+  transform: translateY(-5px);
 }
 
 .related-card img {
   width: 100%;
-  height: 140px;
+  height: 150px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 10px;
   margin-bottom: 0.5rem;
 }
 
 .related-card h4 {
-  font-size: 1rem;
+  font-size: 1.05rem;
   margin: 0.5rem 0;
   color: #d63384;
 }
@@ -179,6 +185,7 @@ nav a:hover {
   border-radius: 6px;
   text-decoration: none;
   font-size: 0.9rem;
+  transition: background 0.2s ease;
 }
 
 .view-related:hover {
