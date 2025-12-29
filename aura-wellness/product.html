@@ -3,8 +3,35 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Aura Wellness Co. | Product</title>
+
+  <!-- Primary Meta -->
+  <meta name="title" content="Aura Wellness Co. | Product" />
+  <meta name="description" content="Explore premium wellness products curated for every body. Part of the AuraPop multi‑brand ecosystem." />
+  <meta name="keywords" content="Aura Wellness Co, wellness product, supplements, self care, AuraPop, men's wellness, women's wellness" />
+  <meta name="author" content="Aura Wellness Co." />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="product" />
+  <meta property="og:title" content="Aura Wellness Co. | Product" />
+  <meta property="og:description" content="Premium wellness essentials designed for every body, every day." />
+  <meta property="og:image" content="https://aurapop.com/images/og-product.jpg" />
+  <meta property="og:url" content="https://aurapop.com/aura-wellness/product.html" />
+  <meta property="og:site_name" content="Aura Wellness Co." />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Aura Wellness Co. | Product" />
+  <meta name="twitter:description" content="Explore premium wellness products curated for every body." />
+  <meta name="twitter:image" content="https://aurapop.com/images/og-product.jpg" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://aurapop.com/aura-wellness/product.html" />
+
+  <!-- Styles -->
   <link rel="stylesheet" href="styles/aw-main.css" />
+
   <style>
     .product-container {
       max-width: 800px;
@@ -51,9 +78,32 @@
       color: #777;
     }
   </style>
+
+  <!-- Schema -->
+  <script type="application/ld+json" id="product-schema">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Aura Wellness Product",
+    "image": "https://aurapop.com/images/og-product.jpg",
+    "description": "Premium wellness essentials designed for every body, every day.",
+    "brand": {
+      "@type": "Brand",
+      "name": "Aura Wellness Co."
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://aurapop.com/aura-wellness/product.html",
+      "priceCurrency": "USD",
+      "price": "0.00",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+  </script>
 </head>
 
 <body>
+
   <!-- NAVIGATION -->
   <header class="navbar">
     <div class="logo">Aura Wellness Co.</div>
@@ -85,7 +135,7 @@
       const urlParams = new URLSearchParams(window.location.search);
       const productId = urlParams.get("id");
 
-      const categories = ["mens", "womens", "general"];
+      const categories = ["site/mens-wellness", "site/womens-wellness", "site/general"];
       let product = null;
 
       for (const category of categories) {
@@ -117,9 +167,31 @@
           <a href="#" class="buy-button">Buy Now</a>
         </div>
       `;
+
+      // Update schema dynamically
+      const schema = {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": product.name,
+        "image": product.image || "https://aurapop.com/images/og-product.jpg",
+        "description": product.description || "Premium wellness essentials designed for every body, every day.",
+        "brand": {
+          "@type": "Brand",
+          "name": "Aura Wellness Co."
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": window.location.href,
+          "priceCurrency": "USD",
+          "price": product.price,
+          "availability": "https://schema.org/InStock"
+        }
+      };
+      document.getElementById("product-schema").textContent = JSON.stringify(schema);
     }
 
     window.onload = loadProduct;
   </script>
+
 </body>
 </html>
