@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "OPI Nail Lacquer – Bubble Bath",
+    "brand": "OPI",
+    "price": "$12.00",
+    "image": "https://www.opi.com/cdn/shop/products/opi_bubble_bath.jpg",
+    "link": "https://www.opi.com/nail-lacquer/bubble-bath",
+    "category": "Nails",
+    "tags": ["nail polish", "neutral", "classic"],
+    "sku": "NAIL-OPI-001",
+    "available": true
+  },
+  {
+    "id": 2,
+    "name": "Essie Nail Polish – Ballet Slippers",
+    "brand": "Essie",
+    "price": "$10.00",
+    "image": "https://www.essie.com/cdn/shop/products/essie_ballet_slippers.jpg",
+    "link": "https://www.essie.com/nail-polish/ballet-slippers",
+    "category": "Nails",
+    "tags": ["nail polish", "pale pink", "best seller"],
+    "sku": "NAIL-ESS-002",
+    "available": true
+  },
+  {
+    "id": 3,
+    "name": "CeraVe Hydrating Facial Cleanser",
+    "brand": "CeraVe",
+    "price": "$17.00",
+    "image": "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/americas/us/products/cleansers/hydrating-facial-cleanser/cerave_hydrating_facial_cleanser_16oz_front.jpg",
+    "link": "https://www.cerave.com/skincare/cleansers/hydrating-facial-cleanser",
+    "category": "Skincare",
+    "tags": ["cleanser", "hydrating", "gentle"],
+    "sku": "SKIN-CER-001",
+    "available": true
+  },
+  {
+    "id": 4,
+    "name": "Sol de Janeiro Brazilian Bum Bum Cream Mini",
+    "brand": "Sol de Janeiro",
+    "price": "$22.00",
+    "image": "https://soldejaneiro.com/cdn/shop/products/bum_bum_mini.jpg",
+    "link": "https://soldejaneiro.com/products/brazilian-bum-bum-cream-mini",
+    "category": "Travel",
+    "tags": ["body cream", "travel size", "firming"],
+    "sku": "TRAV-SDJ-001",
+    "available": true
+  },
+  {
+    "id": 5,
+    "name": "Dr. Teal’s Melatonin Sleep Spray",
+    "brand": "Dr. Teal’s",
+    "price": "$6.00",
+    "image": "https://www.drteals.com/media/export/cms/products/1000x1000/drteals_sleep_spray.jpg",
+    "link": "https://www.drteals.com/products/sleep-spray-melatonin",
+    "category": "Wellness",
+    "tags": ["sleep", "melatonin", "spray"],
+    "sku": "WELL-DTL-001",
+    "available": true
+  },
+  {
+    "id": 6,
+    "name": "Vital Proteins Collagen Peptides",
+    "brand": "Vital Proteins",
+    "price": "$27.00",
+    "image": "https://www.vitalproteins.com/cdn/shop/products/vital_collagen.jpg",
+    "link": "https://www.vitalproteins.com/products/collagen-peptides",
+    "category": "Wellness Food",
+    "tags": ["collagen", "protein", "beauty"],
+    "sku": "FOOD-VIT-001",
+    "available": true
+  }
+]
