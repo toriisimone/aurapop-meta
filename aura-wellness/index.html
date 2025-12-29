@@ -3,13 +3,54 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Aura Wellness Co. | Home</title>
 
-  <!-- Main stylesheet for Aura Wellness Co. (we'll create this file next) -->
+  <!-- Primary Meta -->
+  <meta name="title" content="Aura Wellness Co. | Home" />
+  <meta name="description" content="Aura Wellness Co. is your universal wellness hub — elevated essentials for men, women, and everyone in between. Explore clean, modern wellness curated for every body." />
+  <meta name="keywords" content="Aura Wellness Co, wellness, men's wellness, women's wellness, everyday wellness, supplements, self care, AuraPop" />
+  <meta name="author" content="Aura Wellness Co." />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Aura Wellness Co. | Home" />
+  <meta property="og:description" content="Explore clean, elevated wellness essentials for every body — part of the AuraPop multi‑brand ecosystem." />
+  <meta property="og:image" content="https://aurapop.com/images/og-wellness-home.jpg" />
+  <meta property="og:url" content="https://aurapop.com/aura-wellness/index.html" />
+  <meta property="og:site_name" content="Aura Wellness Co." />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Aura Wellness Co. | Home" />
+  <meta name="twitter:description" content="Clean, modern wellness essentials curated for every body." />
+  <meta name="twitter:image" content="https://aurapop.com/images/og-wellness-home.jpg" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://aurapop.com/aura-wellness/index.html" />
+
+  <!-- Styles -->
   <link rel="stylesheet" href="styles/aw-main.css" />
+
+  <!-- Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Aura Wellness Co. — Home",
+    "url": "https://aurapop.com/aura-wellness/index.html",
+    "description": "Aura Wellness Co. is your universal wellness hub — clean, elevated essentials for men, women, and everyone in between.",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Aura Wellness Co.",
+      "url": "https://aurapop.com/aura-wellness/"
+    }
+  }
+  </script>
 </head>
 
 <body>
+
   <!-- NAVIGATION -->
   <header class="navbar">
     <div class="logo">Aura Wellness Co.</div>
@@ -38,18 +79,21 @@
     </div>
   </section>
 
-  <!-- FEATURED CATEGORIES (GNC structure, Kylie polish) -->
+  <!-- FEATURED CATEGORIES -->
   <main class="main-section">
     <h2 class="section-title">Shop by Focus</h2>
+
     <div class="category-grid">
       <a href="mens.html" class="category-card">
         <h3>Men’s Performance</h3>
         <p>Strength, focus, and everyday energy support.</p>
       </a>
+
       <a href="womens.html" class="category-card">
         <h3>Women’s Balance</h3>
         <p>Hormone support, glow, and feel‑good rituals.</p>
       </a>
+
       <a href="general.html" class="category-card">
         <h3>Daily Wellness</h3>
         <p>Multis, sleep, immunity, and stress relief.</p>
@@ -57,25 +101,27 @@
     </div>
 
     <h2 class="section-title">Curated Picks</h2>
+
     <div class="product-grid">
-      <!-- These will later link to real product pages -->
-      <a href="product.html?id=featured1" class="product-card">
+
+      <a href="product.html?id=featured1&cat=general" class="product-card">
         <div class="product-tag">Best Seller</div>
         <h3>Essential Daily Multivitamin</h3>
         <p class="product-meta">For everyone · Daily wellness base</p>
       </a>
 
-      <a href="product.html?id=featured2" class="product-card">
+      <a href="product.html?id=featured2&cat=mens-wellness" class="product-card">
         <div class="product-tag">Men’s Pick</div>
         <h3>Strength & Focus Stack</h3>
         <p class="product-meta">Performance · Energy · Mental clarity</p>
       </a>
 
-      <a href="product.html?id=featured3" class="product-card">
+      <a href="product.html?id=featured3&cat=womens-wellness" class="product-card">
         <div class="product-tag">Women’s Pick</div>
         <h3>Hormone Harmony + Glow</h3>
         <p class="product-meta">Balance · Skin · Mood support</p>
       </a>
+
     </div>
   </main>
 
@@ -87,5 +133,6 @@
       <a href="../index.html">AuraPop Cosmetics Co.</a>
     </p>
   </footer>
+
 </body>
 </html>
