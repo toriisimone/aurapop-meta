@@ -1,162 +1,222 @@
 [
   {
-    "id": 1,
+    "id": "cleaning-001",
     "name": "Method All‑Purpose Cleaner – Pink Grapefruit",
     "brand": "Method",
-    "price": 4,
+    "price": "$4.00",
     "image": "https://methodhome.com/cdn/shop/products/method_pink_grapefruit.jpg",
-    "link": "https://methodhome.com/products/all-purpose-cleaner-pink-grapefruit"
+    "link": "https://methodhome.com/products/all-purpose-cleaner-pink-grapefruit",
+    "category": "Cleaning",
+    "sku": "CLEAN-001",
+    "available": true
   },
   {
-    "id": 2,
+    "id": "cleaning-002",
     "name": "Mrs. Meyer’s Multi‑Surface Cleaner – Lemon Verbena",
     "brand": "Mrs. Meyer’s",
-    "price": 5,
+    "price": "$5.00",
     "image": "https://www.mrsmeyers.com/media/export/cms/products/1000x1000/meyers_lemon_cleaner.jpg",
-    "link": "https://www.mrsmeyers.com/product/multi-surface-cleaner-lemon-verbena"
+    "link": "https://www.mrsmeyers.com/product/multi-surface-cleaner-lemon-verbena",
+    "category": "Cleaning",
+    "sku": "CLEAN-002",
+    "available": true
   },
   {
-    "id": 3,
+    "id": "cleaning-003",
     "name": "Seventh Generation Disinfecting Wipes",
     "brand": "Seventh Generation",
-    "price": 6,
+    "price": "$6.00",
     "image": "https://www.seventhgeneration.com/media/export/cms/products/1000x1000/seventhgen_wipes.jpg",
-    "link": "https://www.seventhgeneration.com/disinfecting-wipes"
+    "link": "https://www.seventhgeneration.com/disinfecting-wipes",
+    "category": "Cleaning",
+    "sku": "CLEAN-003",
+    "available": true
   },
   {
-    "id": 4,
+    "id": "cleaning-004",
     "name": "Everspring All‑Purpose Cleaner – Lavender & Bergamot",
     "brand": "Everspring",
-    "price": 3,
+    "price": "$3.00",
     "image": "https://target.scene7.com/is/image/Target/everspring_cleaner.jpg",
-    "link": "https://www.target.com/p/everspring-all-purpose-cleaner"
+    "link": "https://www.target.com/p/everspring-all-purpose-cleaner",
+    "category": "Cleaning",
+    "sku": "CLEAN-004",
+    "available": true
   },
   {
-    "id": 5,
+    "id": "cleaning-005",
     "name": "Grove Co. Multi‑Purpose Cleaner Concentrate",
     "brand": "Grove Co.",
-    "price": 7,
+    "price": "$7.00",
     "image": "https://www.grove.co/cdn/shop/products/grove_cleaner_concentrate.jpg",
-    "link": "https://www.grove.co/products/multi-purpose-cleaner-concentrate"
+    "link": "https://www.grove.co/products/multi-purpose-cleaner-concentrate",
+    "category": "Cleaning",
+    "sku": "CLEAN-005",
+    "available": true
   },
   {
-    "id": 6,
+    "id": "cleaning-006",
     "name": "Method Foaming Hand Soap – Sweet Water",
     "brand": "Method",
-    "price": 4,
+    "price": "$4.00",
     "image": "https://methodhome.com/cdn/shop/products/method_sweet_water.jpg",
-    "link": "https://methodhome.com/products/foaming-hand-wash-sweet-water"
+    "link": "https://methodhome.com/products/foaming-hand-wash-sweet-water",
+    "category": "Cleaning",
+    "sku": "CLEAN-006",
+    "available": true
   },
   {
-    "id": 7,
+    "id": "cleaning-007",
     "name": "Mrs. Meyer’s Dish Soap – Basil",
     "brand": "Mrs. Meyer’s",
-    "price": 5,
+    "price": "$5.00",
     "image": "https://www.mrsmeyers.com/media/export/cms/products/1000x1000/meyers_basil_dish.jpg",
-    "link": "https://www.mrsmeyers.com/product/dish-soap-basil"
+    "link": "https://www.mrsmeyers.com/product/dish-soap-basil",
+    "category": "Cleaning",
+    "sku": "CLEAN-007",
+    "available": true
   },
   {
-    "id": 8,
+    "id": "cleaning-008",
     "name": "Seventh Generation Laundry Detergent – Free & Clear",
     "brand": "Seventh Generation",
-    "price": 13,
+    "price": "$13.00",
     "image": "https://www.seventhgeneration.com/media/export/cms/products/1000x1000/seventhgen_laundry.jpg",
-    "link": "https://www.seventhgeneration.com/laundry-detergent-free-clear"
+    "link": "https://www.seventhgeneration.com/laundry-detergent-free-clear",
+    "category": "Cleaning",
+    "sku": "CLEAN-008",
+    "available": true
   },
   {
-    "id": 9,
+    "id": "cleaning-009",
     "name": "Method Daily Shower Spray – Eucalyptus Mint",
     "brand": "Method",
-    "price": 4,
+    "price": "$4.00",
     "image": "https://methodhome.com/cdn/shop/products/method_shower_spray.jpg",
-    "link": "https://methodhome.com/products/daily-shower-spray-eucalyptus-mint"
+    "link": "https://methodhome.com/products/daily-shower-spray-eucalyptus-mint",
+    "category": "Cleaning",
+    "sku": "CLEAN-009",
+    "available": true
   },
   {
-    "id": 10,
+    "id": "cleaning-010",
     "name": "Grove Co. Hydrating Hand Soap – Lavender Thyme",
     "brand": "Grove Co.",
-    "price": 6,
+    "price": "$6.00",
     "image": "https://www.grove.co/cdn/shop/products/grove_handsoap.jpg",
-    "link": "https://www.grove.co/products/hydrating-hand-soap-lavender-thyme"
+    "link": "https://www.grove.co/products/hydrating-hand-soap-lavender-thyme",
+    "category": "Cleaning",
+    "sku": "CLEAN-010",
+    "available": true
   },
   {
-    "id": 11,
+    "id": "cleaning-011",
     "name": "Mrs. Meyer’s Room Freshener – Peony",
     "brand": "Mrs. Meyer’s",
-    "price": 6,
+    "price": "$6.00",
     "image": "https://www.mrsmeyers.com/media/export/cms/products/1000x1000/meyers_peony_spray.jpg",
-    "link": "https://www.mrsmeyers.com/product/room-freshener-peony"
+    "link": "https://www.mrsmeyers.com/product/room-freshener-peony",
+    "category": "Cleaning",
+    "sku": "CLEAN-011",
+    "available": true
   },
   {
-    "id": 12,
+    "id": "cleaning-012",
     "name": "Method Wood Cleaner – Almond",
     "brand": "Method",
-    "price": 5,
+    "price": "$5.00",
     "image": "https://methodhome.com/cdn/shop/products/method_wood_cleaner.jpg",
-    "link": "https://methodhome.com/products/wood-cleaner-almond"
+    "link": "https://methodhome.com/products/wood-cleaner-almond",
+    "category": "Cleaning",
+    "sku": "CLEAN-012",
+    "available": true
   },
   {
-    "id": 13,
+    "id": "cleaning-013",
     "name": "Everspring Glass Cleaner – Mint & Eucalyptus",
     "brand": "Everspring",
-    "price": 3,
+    "price": "$3.00",
     "image": "https://target.scene7.com/is/image/Target/everspring_glass_cleaner.jpg",
-    "link": "https://www.target.com/p/everspring-glass-cleaner"
+    "link": "https://www.target.com/p/everspring-glass-cleaner",
+    "category": "Cleaning",
+    "sku": "CLEAN-013",
+    "available": true
   },
   {
-    "id": 14,
+    "id": "cleaning-014",
     "name": "Grove Co. Dish Soap – Lemon Eucalyptus",
     "brand": "Grove Co.",
-    "price": 6,
+    "price": "$6.00",
     "image": "https://www.grove.co/cdn/shop/products/grove_dishsoap.jpg",
-    "link": "https://www.grove.co/products/dish-soap-lemon-eucalyptus"
+    "link": "https://www.grove.co/products/dish-soap-lemon-eucalyptus",
+    "category": "Cleaning",
+    "sku": "CLEAN-014",
+    "available": true
   },
   {
-    "id": 15,
+    "id": "cleaning-015",
     "name": "Seventh Generation Toilet Bowl Cleaner",
     "brand": "Seventh Generation",
-    "price": 4,
+    "price": "$4.00",
     "image": "https://www.seventhgeneration.com/media/export/cms/products/1000x1000/seventhgen_toilet_cleaner.jpg",
-    "link": "https://www.seventhgeneration.com/toilet-bowl-cleaner"
+    "link": "https://www.seventhgeneration.com/toilet-bowl-cleaner",
+    "category": "Cleaning",
+    "sku": "CLEAN-015",
+    "available": true
   },
   {
-    "id": 16,
+    "id": "cleaning-016",
     "name": "Method Antibac Bathroom Cleaner – Spearmint",
     "brand": "Method",
-    "price": 4,
+    "price": "$4.00",
     "image": "https://methodhome.com/cdn/shop/products/method_antibac.jpg",
-    "link": "https://methodhome.com/products/antibac-bathroom-cleaner-spearmint"
+    "link": "https://methodhome.com/products/antibac-bathroom-cleaner-spearmint",
+    "category": "Cleaning",
+    "sku": "CLEAN-016",
+    "available": true
   },
   {
-    "id": 17,
+    "id": "cleaning-017",
     "name": "Mrs. Meyer’s Laundry Scent Booster – Lavender",
     "brand": "Mrs. Meyer’s",
-    "price": 12,
+    "price": "$12.00",
     "image": "https://www.mrsmeyers.com/media/export/cms/products/1000x1000/meyers_lavender_booster.jpg",
-    "link": "https://www.mrsmeyers.com/product/laundry-scent-booster-lavender"
+    "link": "https://www.mrsmeyers.com/product/laundry-scent-booster-lavender",
+    "category": "Cleaning",
+    "sku": "CLEAN-017",
+    "available": true
   },
   {
-    "id": 18,
+    "id": "cleaning-018",
     "name": "Grove Co. Reusable Cleaning Glass Spray Bottle",
     "brand": "Grove Co.",
-    "price": 15,
+    "price": "$15.00",
     "image": "https://www.grove.co/cdn/shop/products/grove_glass_bottle.jpg",
-    "link": "https://www.grove.co/products/reusable-glass-spray-bottle"
+    "link": "https://www.grove.co/products/reusable-glass-spray-bottle",
+    "category": "Cleaning",
+    "sku": "CLEAN-018",
+    "available": true
   },
   {
-    "id": 19,
+    "id": "cleaning-019",
     "name": "Method Fabric Softener – Fresh Air",
     "brand": "Method",
-    "price": 8,
+    "price": "$8.00",
     "image": "https://methodhome.com/cdn/shop/products/method_fabric_softener.jpg",
-    "link": "https://methodhome.com/products/fabric-softener-fresh-air"
+    "link": "https://methodhome.com/products/fabric-softener-fresh-air",
+    "category": "Cleaning",
+    "sku": "CLEAN-019",
+    "available": true
   },
   {
-    "id": 20,
+    "id": "cleaning-020",
     "name": "Mrs. Meyer’s Baking Soda Cream Cleanser",
     "brand": "Mrs. Meyer’s",
-    "price": 5,
+    "price": "$5.00",
     "image": "https://www.mrsmeyers.com/media/export/cms/products/1000x1000/meyers_cream_cleanser.jpg",
-    "link": "https://www.mrsmeyers.com/product/baking-soda-cream-cleanser"
+    "link": "https://www.mrsmeyers.com/product/baking-soda-cream-cleanser",
+    "category": "Cleaning",
+    "sku": "CLEAN-020",
+    "available": true
   }
 ]
