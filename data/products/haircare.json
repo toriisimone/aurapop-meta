@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Olaplex No.3 Hair Perfector",
     "brand": "Olaplex",
-    "price": "$30.00",
+    "price": 30,
     "image": "https://olaplex.com/cdn/shop/products/no3.jpg",
     "link": "https://olaplex.com/products/no-3-hair-perfector"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Moroccanoil Treatment Original",
     "brand": "Moroccanoil",
-    "price": "$48.00",
+    "price": 48,
     "image": "https://www.moroccanoil.com/cdn/shop/products/moroccanoil-treatment.jpg",
     "link": "https://www.moroccanoil.com/products/moroccanoil-treatment"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "name": "Kérastase Nutritive Bain Satin Shampoo",
     "brand": "Kérastase",
-    "price": "$40.00",
+    "price": 40,
     "image": "https://www.kerastase-usa.com/media/export/cms/products/1000x1000/kerastase_bain_satin.jpg",
     "link": "https://www.kerastase-usa.com/nutritive/bain-satin"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "name": "Kérastase Nutritive Lait Vital Conditioner",
     "brand": "Kérastase",
-    "price": "$42.00",
+    "price": 42,
     "image": "https://www.kerastase-usa.com/media/export/cms/products/1000x1000/kerastase_lait_vital.jpg",
     "link": "https://www.kerastase-usa.com/nutritive/lait-vital"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "name": "SheaMoisture Coconut & Hibiscus Curl Enhancing Smoothie",
     "brand": "SheaMoisture",
-    "price": "$12.00",
+    "price": 12,
     "image": "https://www.sheamoisture.com/media/export/cms/products/1000x1000/shea_curl_smoothie.jpg",
     "link": "https://www.sheamoisture.com/products/curl-enhancing-smoothie"
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "name": "Briogeo Don’t Despair, Repair! Deep Conditioning Mask",
     "brand": "Briogeo",
-    "price": "$39.00",
+    "price": 39,
     "image": "https://www.briogeohair.com/cdn/shop/products/ddr_mask.jpg",
     "link": "https://www.briogeohair.com/products/dont-despair-repair-deep-conditioning-mask"
   },
@@ -51,7 +51,7 @@
     "id": 7,
     "name": "Living Proof Perfect Hair Day Dry Shampoo",
     "brand": "Living Proof",
-    "price": "$30.00",
+    "price": 30,
     "image": "https://www.livingproof.com/media/export/cms/products/1000x1000/lp_phd_dry_shampoo.jpg",
     "link": "https://www.livingproof.com/products/phd-dry-shampoo"
   },
@@ -59,7 +59,7 @@
     "id": 8,
     "name": "Redken All Soft Shampoo",
     "brand": "Redken",
-    "price": "$28.00",
+    "price": 28,
     "image": "https://www.redken.com/media/export/cms/products/1000x1000/redken_all_soft_shampoo.jpg",
     "link": "https://www.redken.com/all-soft-shampoo"
   },
@@ -67,7 +67,7 @@
     "id": 9,
     "name": "Redken All Soft Conditioner",
     "brand": "Redken",
-    "price": "$30.00",
+    "price": 30,
     "image": "https://www.redken.com/media/export/cms/products/1000x1000/redken_all_soft_conditioner.jpg",
     "link": "https://www.redken.com/all-soft-conditioner"
   },
@@ -75,7 +75,7 @@
     "id": 10,
     "name": "Amika Soulfood Nourishing Mask",
     "brand": "Amika",
-    "price": "$32.00",
+    "price": 32,
     "image": "https://loveamika.com/cdn/shop/products/soulfood_mask.jpg",
     "link": "https://loveamika.com/products/soulfood-nourishing-mask"
   },
@@ -83,7 +83,7 @@
     "id": 11,
     "name": "OUAI Leave-In Conditioner",
     "brand": "OUAI",
-    "price": "$30.00",
+    "price": 30,
     "image": "https://theouai.com/cdn/shop/products/ouai_leave_in_conditioner.jpg",
     "link": "https://theouai.com/products/leave-in-conditioner"
   },
@@ -91,7 +91,7 @@
     "id": 12,
     "name": "Aussie 3 Minute Miracle Moist Deep Conditioner",
     "brand": "Aussie",
-    "price": "$5.00",
+    "price": 5,
     "image": "https://www.aussie.com/media/export/cms/products/1000x1000/aussie_3_minute_miracle.jpg",
     "link": "https://www.aussie.com/en-us/products/3-minute-miracle-moist"
   },
@@ -99,7 +99,7 @@
     "id": 13,
     "name": "Not Your Mother’s Beach Babe Texturizing Sea Salt Spray",
     "brand": "Not Your Mother’s",
-    "price": "$7.00",
+    "price": 7,
     "image": "https://www.nymbrands.com/media/export/cms/products/1000x1000/nym_beach_babe_spray.jpg",
     "link": "https://www.nymbrands.com/products/beach-babe-texturizing-sea-salt-spray"
   },
@@ -107,7 +107,7 @@
     "id": 14,
     "name": "Pattern Beauty Curl Gel",
     "brand": "Pattern Beauty",
-    "price": "$25.00",
+    "price": 25,
     "image": "https://patternbeauty.com/cdn/shop/products/pattern_curl_gel.jpg",
     "link": "https://patternbeauty.com/products/curl-gel"
   },
@@ -115,7 +115,7 @@
     "id": 15,
     "name": "Mielle Organics Rosemary Mint Scalp & Hair Strengthening Oil",
     "brand": "Mielle Organics",
-    "price": "$10.00",
+    "price": 10,
     "image": "https://www.mielleorganics.com/cdn/shop/products/mielle_rosemary_oil.jpg",
     "link": "https://www.mielleorganics.com/products/rosemary-mint-scalp-hair-strengthening-oil"
   },
@@ -123,7 +123,7 @@
     "id": 16,
     "name": "Head & Shoulders Classic Clean Anti-Dandruff Shampoo",
     "brand": "Head & Shoulders",
-    "price": "$9.00",
+    "price": 9,
     "image": "https://www.headandshoulders.com/media/export/cms/products/1000x1000/hns_classic_clean.jpg",
     "link": "https://www.headandshoulders.com/en-us/shop-products/dandruff-shampoo/classic-clean"
   },
@@ -131,7 +131,7 @@
     "id": 17,
     "name": "Garnier Fructis Sleek & Shine Anti-Frizz Serum",
     "brand": "Garnier",
-    "price": "$6.00",
+    "price": 6,
     "image": "https://www.garnierusa.com/media/export/cms/products/1000x1000/garnier_sleek_shine_serum.jpg",
     "link": "https://www.garnierusa.com/products/fructis-sleek-and-shine-anti-frizz-serum"
   },
@@ -139,7 +139,7 @@
     "id": 18,
     "name": "Tresemmé Thermal Creations Heat Tamer Spray",
     "brand": "Tresemmé",
-    "price": "$7.00",
+    "price": 7,
     "image": "https://www.tresemme.com/media/export/cms/products/1000x1000/tresemme_heat_tamer.jpg",
     "link": "https://www.tresemme.com/us/en/products/heat-protection/thermal-creations-heat-tamer-spray.html"
   },
@@ -147,7 +147,7 @@
     "id": 19,
     "name": "It’s a 10 Miracle Leave-In Product",
     "brand": "It’s a 10",
-    "price": "$20.00",
+    "price": 20,
     "image": "https://itsa10haircare.com/cdn/shop/products/miracle_leave_in.jpg",
     "link": "https://itsa10haircare.com/products/miracle-leave-in"
   },
@@ -155,7 +155,7 @@
     "id": 20,
     "name": "Verb Ghost Oil",
     "brand": "Verb",
-    "price": "$20.00",
+    "price": 20,
     "image": "https://www.verbproducts.com/cdn/shop/products/verb_ghost_oil.jpg",
     "link": "https://www.verbproducts.com/products/ghost-oil"
   }
