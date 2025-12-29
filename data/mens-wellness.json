@@ -2,57 +2,97 @@
   {
     "id": "men-perf-001",
     "name": "Men’s Performance Multivitamin",
-    "price": 21.99,
-    "category": "mens",
-    "description": "A complete multivitamin formulated for men’s energy, strength, and daily performance."
+    "brand": "AuraPop Men",
+    "price": "$21.99",
+    "image": "images/mens/multivitamin.jpg",
+    "link": "#",
+    "category": "Men’s Wellness",
+    "description": "A complete multivitamin formulated for men’s energy, strength, and daily performance.",
+    "sku": "MEN-001",
+    "available": true
   },
   {
     "id": "men-test-002",
     "name": "Testosterone Support Complex",
-    "price": 29.99,
-    "category": "mens",
-    "description": "A natural blend of zinc, ashwagandha, and fenugreek to support vitality and hormone balance."
+    "brand": "AuraPop Men",
+    "price": "$29.99",
+    "image": "images/mens/testosterone.jpg",
+    "link": "#",
+    "category": "Men’s Wellness",
+    "description": "A natural blend of zinc, ashwagandha, and fenugreek to support vitality and hormone balance.",
+    "sku": "MEN-002",
+    "available": true
   },
   {
     "id": "men-preworkout-003",
     "name": "Clean Pre‑Workout Boost",
-    "price": 24.99,
-    "category": "mens",
-    "description": "A jitter‑free pre‑workout for clean energy, focus, and endurance."
+    "brand": "AuraPop Men",
+    "price": "$24.99",
+    "image": "images/mens/preworkout.jpg",
+    "link": "#",
+    "category": "Men’s Wellness",
+    "description": "A jitter‑free pre‑workout for clean energy, focus, and endurance.",
+    "sku": "MEN-003",
+    "available": true
   },
   {
     "id": "men-muscle-004",
     "name": "Lean Muscle Recovery BCAA",
-    "price": 19.99,
-    "category": "mens",
-    "description": "A BCAA blend designed to support muscle repair, hydration, and post‑workout recovery."
+    "brand": "AuraPop Men",
+    "price": "$19.99",
+    "image": "images/mens/bcaa.jpg",
+    "link": "#",
+    "category": "Men’s Wellness",
+    "description": "A BCAA blend designed to support muscle repair, hydration, and post‑workout recovery.",
+    "sku": "MEN-004",
+    "available": true
   },
   {
     "id": "men-focus-005",
     "name": "Men’s Focus & Drive",
-    "price": 22.99,
-    "category": "mens",
-    "description": "A cognitive support formula with ginseng and L‑theanine for mental clarity and drive."
+    "brand": "AuraPop Men",
+    "price": "$22.99",
+    "image": "images/mens/focus-drive.jpg",
+    "link": "#",
+    "category": "Men’s Wellness",
+    "description": "A cognitive support formula with ginseng and L‑theanine for mental clarity and drive.",
+    "sku": "MEN-005",
+    "available": true
   },
   {
     "id": "men-hair-006",
     "name": "Hair + Beard Strength Formula",
-    "price": 18.99,
-    "category": "mens",
-    "description": "Biotin, collagen, and saw palmetto to support thicker hair and beard growth."
+    "brand": "AuraPop Men",
+    "price": "$18.99",
+    "image": "images/mens/hair-beard.jpg",
+    "link": "#",
+    "category": "Men’s Wellness",
+    "description": "Biotin, collagen, and saw palmetto to support thicker hair and beard growth.",
+    "sku": "MEN-006",
+    "available": true
   },
   {
     "id": "men-joint-007",
     "name": "Joint Flex Mobility Support",
-    "price": 17.99,
-    "category": "mens",
-    "description": "Glucosamine and turmeric for joint comfort, flexibility, and long‑term mobility."
+    "brand": "AuraPop Men",
+    "price": "$17.99",
+    "image": "images/mens/joint-flex.jpg",
+    "link": "#",
+    "category": "Men’s Wellness",
+    "description": "Glucosamine and turmeric for joint comfort, flexibility, and long‑term mobility.",
+    "sku": "MEN-007",
+    "available": true
   },
   {
     "id": "men-sleep-008",
     "name": "Night Restore Sleep Complex",
-    "price": 16.99,
-    "category": "mens",
-    "description": "A calming nighttime blend to support deep sleep and overnight recovery."
+    "brand": "AuraPop Men",
+    "price": "$16.99",
+    "image": "images/mens/sleep-complex.jpg",
+    "link": "#",
+    "category": "Men’s Wellness",
+    "description": "A calming nighttime blend to support deep sleep and overnight recovery.",
+    "sku": "MEN-008",
+    "available": true
   }
 ]
