@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Revlon Oil‑Absorbing Volcanic Roller",
     "brand": "Revlon",
-    "price": "$14.00",
+    "price": 14,
     "image": "https://www.revlon.com/media/export/cms/products/1000x1000/revlon_volcanic_roller.jpg",
     "link": "https://www.revlon.com/products/oil-absorbing-volcanic-roller"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "name": "Herbivore Jade Facial Roller",
     "brand": "Herbivore",
-    "price": "$25.00",
+    "price": 25,
     "image": "https://www.herbivorebotanicals.com/cdn/shop/products/herbivore_jade_roller.jpg",
     "link": "https://www.herbivorebotanicals.com/products/jade-facial-roller"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "name": "Mount Lai Gua Sha Facial Tool",
     "brand": "Mount Lai",
-    "price": "$28.00",
+    "price": 28,
     "image": "https://www.mountlai.com/cdn/shop/products/mountlai_guasha.jpg",
     "link": "https://www.mountlai.com/products/the-gua-sha-facial-lifting-tool"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "name": "Foreo Luna Mini 3 Facial Cleansing Device",
     "brand": "Foreo",
-    "price": "$179.00",
+    "price": 179,
     "image": "https://www.foreo.com/cdn/shop/products/foreo_luna_mini3.jpg",
     "link": "https://www.foreo.com/luna-mini-3"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "name": "PMD Clean Smart Facial Cleansing Device",
     "brand": "PMD Beauty",
-    "price": "$99.00",
+    "price": 99,
     "image": "https://pmdbeauty.com/cdn/shop/products/pmd_clean.jpg",
     "link": "https://pmdbeauty.com/products/pmd-clean"
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "name": "Ice Roller for Face & Eyes",
     "brand": "Esarora",
-    "price": "$12.00",
+    "price": 12,
     "image": "https://images-na.ssl-images-amazon.com/images/ice_roller.jpg",
     "link": "https://www.amazon.com/dp/B01GQ2G4A8"
   },
@@ -51,7 +51,7 @@
     "id": 7,
     "name": "RENPHO Electric Scalp Massager",
     "brand": "RENPHO",
-    "price": "$29.00",
+    "price": 29,
     "image": "https://renpho.com/cdn/shop/products/renpho_scalp_massager.jpg",
     "link": "https://renpho.com/products/scalp-massager"
   },
@@ -59,7 +59,7 @@
     "id": 8,
     "name": "Aromatherapy Essential Oil Diffuser",
     "brand": "InnoGear",
-    "price": "$16.00",
+    "price": 16,
     "image": "https://www.innogear.com/cdn/shop/products/innogear_diffuser.jpg",
     "link": "https://www.innogear.com/products/aromatherapy-diffuser"
   },
@@ -67,7 +67,7 @@
     "id": 9,
     "name": "Laneige Lip Sleeping Mask Applicator",
     "brand": "Laneige",
-    "price": "$5.00",
+    "price": 5,
     "image": "https://www.laneige.com/media/export/cms/products/1000x1000/laneige_applicator.jpg",
     "link": "https://us.laneige.com/products/lip-sleeping-mask"
   },
@@ -75,7 +75,7 @@
     "id": 10,
     "name": "Dry Body Brush for Exfoliation",
     "brand": "Wholesome Beauty",
-    "price": "$9.00",
+    "price": 9,
     "image": "https://images-na.ssl-images-amazon.com/images/body_brush.jpg",
     "link": "https://www.amazon.com/dp/B01N1F8V8X"
   },
@@ -83,7 +83,7 @@
     "id": 11,
     "name": "Humidifier for Bedroom – Cool Mist",
     "brand": "Pure Enrichment",
-    "price": "$39.00",
+    "price": 39,
     "image": "https://pureenrichment.com/cdn/shop/products/pureenrichment_humidifier.jpg",
     "link": "https://pureenrichment.com/products/mistaire-ultrasonic-humidifier"
   },
@@ -91,7 +91,7 @@
     "id": 12,
     "name": "LED Light Therapy Mask",
     "brand": "Dermashine",
-    "price": "$99.00",
+    "price": 99,
     "image": "https://images-na.ssl-images-amazon.com/images/led_mask.jpg",
     "link": "https://www.amazon.com/dp/B07Q6V7ZQY"
   },
@@ -99,7 +99,7 @@
     "id": 13,
     "name": "Aromatherapy Shower Steamers",
     "brand": "BodyRestore",
-    "price": "$25.00",
+    "price": 25,
     "image": "https://bodyrestore.com/cdn/shop/products/shower_steamers.jpg",
     "link": "https://bodyrestore.com/products/shower-steamers"
   },
@@ -107,7 +107,7 @@
     "id": 14,
     "name": "Weighted Eye Mask",
     "brand": "MZOO",
-    "price": "$19.00",
+    "price": 19,
     "image": "https://images-na.ssl-images-amazon.com/images/mzoo_eye_mask.jpg",
     "link": "https://www.amazon.com/dp/B07RZ8VJYV"
   },
@@ -115,7 +115,7 @@
     "id": 15,
     "name": "Electric Heating Pad",
     "brand": "Sunbeam",
-    "price": "$24.00",
+    "price": 24,
     "image": "https://www.sunbeam.com/media/export/cms/products/1000x1000/sunbeam_heating_pad.jpg",
     "link": "https://www.sunbeam.com/products/heating-pad"
   },
@@ -123,7 +123,7 @@
     "id": 16,
     "name": "Facial Steamer Nano Ionic",
     "brand": "Pure Daily Care",
-    "price": "$39.00",
+    "price": 39,
     "image": "https://puredailycare.com/cdn/shop/products/facial_steamer.jpg",
     "link": "https://puredailycare.com/products/nano-steamer"
   },
@@ -131,7 +131,7 @@
     "id": 17,
     "name": "Foot Spa Bath Massager",
     "brand": "Conair",
-    "price": "$29.00",
+    "price": 29,
     "image": "https://www.conair.com/media/export/cms/products/1000x1000/conair_foot_spa.jpg",
     "link": "https://www.conair.com/products/foot-spa"
   },
@@ -139,7 +139,7 @@
     "id": 18,
     "name": "Aromatherapy Essential Oil Set",
     "brand": "LagunaMoon",
-    "price": "$15.00",
+    "price": 15,
     "image": "https://lagunamoon.com/cdn/shop/products/lagunamoon_oils.jpg",
     "link": "https://lagunamoon.com/products/essential-oils-set"
   },
@@ -147,7 +147,7 @@
     "id": 19,
     "name": "Cooling Gel Eye Mask",
     "brand": "Kitsch",
-    "price": "$14.00",
+    "price": 14,
     "image": "https://www.mykitsch.com/cdn/shop/products/kitsch_eye_mask.jpg",
     "link": "https://www.mykitsch.com/products/cooling-eye-mask"
   },
@@ -155,7 +155,7 @@
     "id": 20,
     "name": "Electric Callus Remover",
     "brand": "Own Harmony",
-    "price": "$29.00",
+    "price": 29,
     "image": "https://ownharmony.com/cdn/shop/products/callus_remover.jpg",
     "link": "https://ownharmony.com/products/callus-remover"
   }
