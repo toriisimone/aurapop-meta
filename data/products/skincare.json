@@ -1,162 +1,222 @@
 [
   {
-    "id": 1,
+    "id": "skincare-001",
     "name": "CeraVe Hydrating Facial Cleanser",
     "brand": "CeraVe",
     "price": "$17.00",
     "image": "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/americas/us/products/cleansers/hydrating-facial-cleanser/cerave_hydrating_facial_cleanser_16oz_front.jpg",
-    "link": "https://www.cerave.com/skincare/cleansers/hydrating-facial-cleanser"
+    "link": "https://www.cerave.com/skincare/cleansers/hydrating-facial-cleanser",
+    "category": "Skincare",
+    "sku": "SKIN-001",
+    "available": true
   },
   {
-    "id": 2,
+    "id": "skincare-002",
     "name": "La Roche-Posay Toleriane Purifying Foaming Cleanser",
     "brand": "La Roche-Posay",
     "price": "$17.99",
     "image": "https://www.laroche-posay.us/dw/image/v2/AAQP_PRD/on/demandware.static/-/Sites-lrp-master-catalog/default/dw4e3b6c5e/Products/Cleansers/TolerianePurifyingFoam/TolerianePurifyingFoam_packshot.jpg",
-    "link": "https://www.laroche-posay.us/toleriane-purifying-foaming-cleanser"
+    "link": "https://www.laroche-posay.us/toleriane-purifying-foaming-cleanser",
+    "category": "Skincare",
+    "sku": "SKIN-002",
+    "available": true
   },
   {
-    "id": 3,
+    "id": "skincare-003",
     "name": "The Ordinary Niacinamide 10% + Zinc 1%",
     "brand": "The Ordinary",
     "price": "$6.00",
     "image": "https://theordinary.com/cdn/shop/products/niacinamide10zinc1_1.jpg",
-    "link": "https://theordinary.com/products/niacinamide-10-zinc-1"
+    "link": "https://theordinary.com/products/niacinamide-10-zinc-1",
+    "category": "Skincare",
+    "sku": "SKIN-003",
+    "available": true
   },
   {
-    "id": 4,
+    "id": "skincare-004",
     "name": "Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant",
     "brand": "Paula's Choice",
     "price": "$35.00",
     "image": "https://www.paulaschoice.com/dw/image/v2/AAQP_PRD/on/demandware.static/-/Sites-paulaschoice-master-catalog/default/dw4e3b6c5e/products/201/201_packshot.jpg",
-    "link": "https://www.paulaschoice.com/skin-perfecting-2-percent-bha-liquid-exfoliant/201.html"
+    "link": "https://www.paulaschoice.com/skin-perfecting-2-percent-bha-liquid-exfoliant/201.html",
+    "category": "Skincare",
+    "sku": "SKIN-004",
+    "available": true
   },
   {
-    "id": 5,
+    "id": "skincare-005",
     "name": "Glow Recipe Watermelon Glow Niacinamide Dew Drops",
     "brand": "Glow Recipe",
     "price": "$35.00",
     "image": "https://www.glowrecipe.com/cdn/shop/products/dewdrops.jpg",
-    "link": "https://www.glowrecipe.com/products/watermelon-glow-niacinamide-dew-drops"
+    "link": "https://www.glowrecipe.com/products/watermelon-glow-niacinamide-dew-drops",
+    "category": "Skincare",
+    "sku": "SKIN-005",
+    "available": true
   },
   {
-    "id": 6,
+    "id": "skincare-006",
     "name": "Tatcha The Dewy Skin Cream",
     "brand": "Tatcha",
     "price": "$72.00",
     "image": "https://www.tatcha.com/cdn/shop/products/dewy-skin-cream.jpg",
-    "link": "https://www.tatcha.com/products/the-dewy-skin-cream"
+    "link": "https://www.tatcha.com/products/the-dewy-skin-cream",
+    "category": "Skincare",
+    "sku": "SKIN-006",
+    "available": true
   },
   {
-    "id": 7,
+    "id": "skincare-007",
     "name": "Clinique Dramatically Different Moisturizing Lotion+",
     "brand": "Clinique",
     "price": "$32.00",
     "image": "https://www.clinique.com/media/export/cms/products/1000x1000/clinique_ddml.jpg",
-    "link": "https://www.clinique.com/product/1572/5063/moisturizers/dramatically-different-moisturizing-lotion"
+    "link": "https://www.clinique.com/product/1572/5063/moisturizers/dramatically-different-moisturizing-lotion",
+    "category": "Skincare",
+    "sku": "SKIN-007",
+    "available": true
   },
   {
-    "id": 8,
+    "id": "skincare-008",
     "name": "Kiehl’s Ultra Facial Cream",
     "brand": "Kiehl’s",
     "price": "$38.00",
     "image": "https://www.kiehls.com/media/export/cms/products/1000x1000/kiehls_ultra_facial_cream.jpg",
-    "link": "https://www.kiehls.com/skincare/moisturizers/ultra-facial-cream"
+    "link": "https://www.kiehls.com/skincare/moisturizers/ultra-facial-cream",
+    "category": "Skincare",
+    "sku": "SKIN-008",
+    "available": true
   },
   {
-    "id": 9,
+    "id": "skincare-009",
     "name": "Sunday Riley Good Genes All-In-One Lactic Acid Treatment",
     "brand": "Sunday Riley",
     "price": "$85.00",
     "image": "https://www.sundayriley.com/cdn/shop/products/goodgenes.jpg",
-    "link": "https://www.sundayriley.com/products/good-genes"
+    "link": "https://www.sundayriley.com/products/good-genes",
+    "category": "Skincare",
+    "sku": "SKIN-009",
+    "available": true
   },
   {
-    "id": 10,
+    "id": "skincare-010",
     "name": "Drunk Elephant C-Firma Fresh Day Serum",
     "brand": "Drunk Elephant",
     "price": "$78.00",
     "image": "https://www.drunkelephant.com/cdn/shop/products/cfirma.jpg",
-    "link": "https://www.drunkelephant.com/products/c-firma-fresh-day-serum"
+    "link": "https://www.drunkelephant.com/products/c-firma-fresh-day-serum",
+    "category": "Skincare",
+    "sku": "SKIN-010",
+    "available": true
   },
   {
-    "id": 11,
+    "id": "skincare-011",
     "name": "Laneige Lip Sleeping Mask",
     "brand": "Laneige",
     "price": "$24.00",
     "image": "https://www.laneige.com/media/export/cms/products/1000x1000/laneige_lip_sleeping_mask.jpg",
-    "link": "https://us.laneige.com/products/lip-sleeping-mask"
+    "link": "https://us.laneige.com/products/lip-sleeping-mask",
+    "category": "Skincare",
+    "sku": "SKIN-011",
+    "available": true
   },
   {
-    "id": 12,
+    "id": "skincare-012",
     "name": "Youth To The People Superfood Cleanser",
     "brand": "Youth To The People",
     "price": "$39.00",
     "image": "https://www.youthtothepeople.com/cdn/shop/products/superfoodcleanser.jpg",
-    "link": "https://www.youthtothepeople.com/products/superfood-cleanser"
+    "link": "https://www.youthtothepeople.com/products/superfood-cleanser",
+    "category": "Skincare",
+    "sku": "SKIN-012",
+    "available": true
   },
   {
-    "id": 13,
+    "id": "skincare-013",
     "name": "Shiseido Ultimune Power Infusing Concentrate",
     "brand": "Shiseido",
     "price": "$75.00",
     "image": "https://www.shiseido.com/media/export/cms/products/1000x1000/shiseido_ultimune.jpg",
-    "link": "https://www.shiseido.com/ultimune-power-infusing-concentrate"
+    "link": "https://www.shiseido.com/ultimune-power-infusing-concentrate",
+    "category": "Skincare",
+    "sku": "SKIN-013",
+    "available": true
   },
   {
-    "id": 14,
+    "id": "skincare-014",
     "name": "Murad Rapid Dark Spot Correcting Serum",
     "brand": "Murad",
     "price": "$72.00",
     "image": "https://www.murad.com/media/export/cms/products/1000x1000/murad_dark_spot_serum.jpg",
-    "link": "https://www.murad.com/product/rapid-dark-spot-correcting-serum"
+    "link": "https://www.murad.com/product/rapid-dark-spot-correcting-serum",
+    "category": "Skincare",
+    "sku": "SKIN-014",
+    "available": true
   },
   {
-    "id": 15,
+    "id": "skincare-015",
     "name": "Kora Organics Noni Glow Face Oil",
     "brand": "Kora Organics",
     "price": "$72.00",
     "image": "https://www.koraorganics.com/cdn/shop/products/noni_glow_oil.jpg",
-    "link": "https://www.koraorganics.com/products/noni-glow-face-oil"
+    "link": "https://www.koraorganics.com/products/noni-glow-face-oil",
+    "category": "Skincare",
+    "sku": "SKIN-015",
+    "available": true
   },
   {
-    "id": 16,
+    "id": "skincare-016",
     "name": "Supergoop! Unseen Sunscreen SPF 40",
     "brand": "Supergoop!",
     "price": "$38.00",
     "image": "https://www.supergoop.com/cdn/shop/products/unseensunscreen.jpg",
-    "link": "https://www.supergoop.com/products/unseen-sunscreen"
+    "link": "https://www.supergoop.com/products/unseen-sunscreen",
+    "category": "Skincare",
+    "sku": "SKIN-016",
+    "available": true
   },
   {
-    "id": 17,
+    "id": "skincare-017",
     "name": "EltaMD UV Clear Broad-Spectrum SPF 46",
     "brand": "EltaMD",
     "price": "$41.00",
     "image": "https://www.eltamd.com/media/export/cms/products/1000x1000/eltamd_uv_clear.jpg",
-    "link": "https://www.eltamd.com/products/uv-clear-broad-spectrum-spf-46"
+    "link": "https://www.eltamd.com/products/uv-clear-broad-spectrum-spf-46",
+    "category": "Skincare",
+    "sku": "SKIN-017",
+    "available": true
   },
   {
-    "id": 18,
+    "id": "skincare-018",
     "name": "Fresh Soy Face Cleanser",
     "brand": "Fresh",
     "price": "$38.00",
     "image": "https://www.fresh.com/media/export/cms/products/1000x1000/fresh_soy_cleanser.jpg",
-    "link": "https://www.fresh.com/products/soy-face-cleanser"
+    "link": "https://www.fresh.com/products/soy-face-cleanser",
+    "category": "Skincare",
+    "sku": "SKIN-018",
+    "available": true
   },
   {
-    "id": 19,
+    "id": "skincare-019",
     "name": "Origins GinZing Oil-Free Energy-Boosting Gel Moisturizer",
     "brand": "Origins",
     "price": "$34.00",
     "image": "https://www.origins.com/media/export/cms/products/1000x1000/origins_ginzing_moisturizer.jpg",
-    "link": "https://www.origins.com/product/ginzing-oil-free-energy-boosting-gel-moisturizer"
+    "link": "https://www.origins.com/product/ginzing-oil-free-energy-boosting-gel-moisturizer",
+    "category": "Skincare",
+    "sku": "SKIN-019",
+    "available": true
   },
   {
-    "id": 20,
+    "id": "skincare-020",
     "name": "Belif The True Cream Aqua Bomb",
     "brand": "Belif",
     "price": "$38.00",
     "image": "https://www.belifusa.com/media/export/cms/products/1000x1000/belif_aqua_bomb.jpg",
-    "link": "https://www.belifusa.com/products/the-true-cream-aqua-bomb"
+    "link": "https://www.belifusa.com/products/the-true-cream-aqua-bomb",
+    "category": "Skincare",
+    "sku": "SKIN-020",
+    "available": true
   }
 ]
