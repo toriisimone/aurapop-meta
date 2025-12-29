@@ -1,162 +1,222 @@
 [
   {
-    "id": 1,
+    "id": "seasonal-001",
     "name": "Bath & Body Works Champagne Toast Candle (Holiday Edition)",
     "brand": "Bath & Body Works",
     "price": "$26.95",
     "image": "https://www.bathandbodyworks.com/cdn/shop/products/champagne_toast_holiday.jpg",
-    "link": "https://www.bathandbodyworks.com/p/champagne-toast-holiday"
+    "link": "https://www.bathandbodyworks.com/p/champagne-toast-holiday",
+    "category": "Seasonal",
+    "sku": "SEAS-001",
+    "available": true
   },
   {
-    "id": 2,
+    "id": "seasonal-002",
     "name": "Sol de Janeiro Rio Radiance Perfume Mist (Summer Limited Edition)",
     "brand": "Sol de Janeiro",
     "price": "$24.00",
     "image": "https://soldejaneiro.com/cdn/shop/products/rio_radiance_mist.jpg",
-    "link": "https://soldejaneiro.com/products/rio-radiance"
+    "link": "https://soldejaneiro.com/products/rio-radiance",
+    "category": "Seasonal",
+    "sku": "SEAS-002",
+    "available": true
   },
   {
-    "id": 3,
+    "id": "seasonal-003",
     "name": "Tree Hut Watermelon Sugar Scrub (Summer Seasonal)",
     "brand": "Tree Hut",
     "price": "$10.00",
     "image": "https://treehutshea.com/cdn/shop/products/watermelon_scrub.jpg",
-    "link": "https://treehutshea.com/products/watermelon-scrub"
+    "link": "https://treehutshea.com/products/watermelon-scrub",
+    "category": "Seasonal",
+    "sku": "SEAS-003",
+    "available": true
   },
   {
-    "id": 4,
+    "id": "seasonal-004",
     "name": "Bath & Body Works Vanilla Bean Noel Body Lotion",
     "brand": "Bath & Body Works",
     "price": "$15.50",
     "image": "https://www.bathandbodyworks.com/cdn/shop/products/vanilla_bean_noel.jpg",
-    "link": "https://www.bathandbodyworks.com/p/vanilla-bean-noel"
+    "link": "https://www.bathandbodyworks.com/p/vanilla-bean-noel",
+    "category": "Seasonal",
+    "sku": "SEAS-004",
+    "available": true
   },
   {
-    "id": 5,
+    "id": "seasonal-005",
     "name": "Lush Snow Fairy Shower Gel (Holiday Exclusive)",
     "brand": "Lush",
     "price": "$22.00",
     "image": "https://www.lush.com/media/export/cms/products/1000x1000/lush_snow_fairy.jpg",
-    "link": "https://www.lush.com/us/en/p/snow-fairy-shower-gel"
+    "link": "https://www.lush.com/us/en/p/snow-fairy-shower-gel",
+    "category": "Seasonal",
+    "sku": "SEAS-005",
+    "available": true
   },
   {
-    "id": 6,
+    "id": "seasonal-006",
     "name": "Bath & Body Works Strawberry Pound Cake Fine Fragrance Mist (Spring)",
     "brand": "Bath & Body Works",
     "price": "$17.50",
     "image": "https://www.bathandbodyworks.com/cdn/shop/products/strawberry_pound_cake.jpg",
-    "link": "https://www.bathandbodyworks.com/p/strawberry-pound-cake"
+    "link": "https://www.bathandbodyworks.com/p/strawberry-pound-cake",
+    "category": "Seasonal",
+    "sku": "SEAS-006",
+    "available": true
   },
   {
-    "id": 7,
+    "id": "seasonal-007",
     "name": "Sol de Janeiro Tan Lines Perfume Mist (Summer Limited Edition)",
     "brand": "Sol de Janeiro",
     "price": "$24.00",
     "image": "https://soldejaneiro.com/cdn/shop/products/tan_lines_mist.jpg",
-    "link": "https://soldejaneiro.com/products/tan-lines"
+    "link": "https://soldejaneiro.com/products/tan-lines",
+    "category": "Seasonal",
+    "sku": "SEAS-007",
+    "available": true
   },
   {
-    "id": 8,
+    "id": "seasonal-008",
     "name": "Yankee Candle Spiced Pumpkin (Fall Classic)",
     "brand": "Yankee Candle",
     "price": "$31.00",
     "image": "https://www.yankeecandle.com/cdn/shop/products/spiced_pumpkin.jpg",
-    "link": "https://www.yankeecandle.com/product/spiced-pumpkin"
+    "link": "https://www.yankeecandle.com/product/spiced-pumpkin",
+    "category": "Seasonal",
+    "sku": "SEAS-008",
+    "available": true
   },
   {
-    "id": 9,
+    "id": "seasonal-009",
     "name": "Bath & Body Works Sweater Weather Candle",
     "brand": "Bath & Body Works",
     "price": "$26.95",
     "image": "https://www.bathandbodyworks.com/cdn/shop/products/sweater_weather.jpg",
-    "link": "https://www.bathandbodyworks.com/p/sweater-weather"
+    "link": "https://www.bathandbodyworks.com/p/sweater-weather",
+    "category": "Seasonal",
+    "sku": "SEAS-009",
+    "available": true
   },
   {
-    "id": 10,
+    "id": "seasonal-010",
     "name": "Lush Heartbeat Bath Bomb (Valentine’s Day)",
     "brand": "Lush",
     "price": "$8.50",
     "image": "https://www.lush.com/media/export/cms/products/1000x1000/lush_heartbeat.jpg",
-    "link": "https://www.lush.com/us/en/p/heartbeat-bath-bomb"
+    "link": "https://www.lush.com/us/en/p/heartbeat-bath-bomb",
+    "category": "Seasonal",
+    "sku": "SEAS-010",
+    "available": true
   },
   {
-    "id": 11,
+    "id": "seasonal-011",
     "name": "Bath & Body Works Winter Candy Apple Body Cream",
     "brand": "Bath & Body Works",
     "price": "$16.50",
     "image": "https://www.bathandbodyworks.com/cdn/shop/products/winter_candy_apple.jpg",
-    "link": "https://www.bathandbodyworks.com/p/winter-candy-apple"
+    "link": "https://www.bathandbodyworks.com/p/winter-candy-apple",
+    "category": "Seasonal",
+    "sku": "SEAS-011",
+    "available": true
   },
   {
-    "id": 12,
+    "id": "seasonal-012",
     "name": "Tree Hut Tropic Glow Firming Whip Body Butter (Summer)",
     "brand": "Tree Hut",
     "price": "$10.00",
     "image": "https://treehutshea.com/cdn/shop/products/tropic_glow_butter.jpg",
-    "link": "https://treehutshea.com/products/tropic-glow-body-butter"
+    "link": "https://treehutshea.com/products/tropic-glow-body-butter",
+    "category": "Seasonal",
+    "sku": "SEAS-012",
+    "available": true
   },
   {
-    "id": 13,
+    "id": "seasonal-013",
     "name": "Homesick Candle – Pumpkin Picking (Fall)",
     "brand": "Homesick",
     "price": "$38.00",
     "image": "https://homesick.com/cdn/shop/products/pumpkin_picking.jpg",
-    "link": "https://homesick.com/products/pumpkin-picking"
+    "link": "https://homesick.com/products/pumpkin-picking",
+    "category": "Seasonal",
+    "sku": "SEAS-013",
+    "available": true
   },
   {
-    "id": 14,
+    "id": "seasonal-014",
     "name": "Bath & Body Works Love Rose & Vanilla Body Mist (Valentine’s)",
     "brand": "Bath & Body Works",
     "price": "$17.50",
     "image": "https://www.bathandbodyworks.com/cdn/shop/products/love_rose_vanilla.jpg",
-    "link": "https://www.bathandbodyworks.com/p/love-rose-vanilla"
+    "link": "https://www.bathandbodyworks.com/p/love-rose-vanilla",
+    "category": "Seasonal",
+    "sku": "SEAS-014",
+    "available": true
   },
   {
-    "id": 15,
+    "id": "seasonal-015",
     "name": "Lush Golden Wonder Bath Bomb (Holiday)",
     "brand": "Lush",
     "price": "$8.50",
     "image": "https://www.lush.com/media/export/cms/products/1000x1000/lush_golden_wonder.jpg",
-    "link": "https://www.lush.com/us/en/p/golden-wonder-bath-bomb"
+    "link": "https://www.lush.com/us/en/p/golden-wonder-bath-bomb",
+    "category": "Seasonal",
+    "sku": "SEAS-015",
+    "available": true
   },
   {
-    "id": 16,
+    "id": "seasonal-016",
     "name": "Bath & Body Works Firecracker Pop Body Mist (Summer)",
     "brand": "Bath & Body Works",
     "price": "$17.50",
     "image": "https://www.bathandbodyworks.com/cdn/shop/products/firecracker_pop.jpg",
-    "link": "https://www.bathandbodyworks.com/p/firecracker-pop"
+    "link": "https://www.bathandbodyworks.com/p/firecracker-pop",
+    "category": "Seasonal",
+    "sku": "SEAS-016",
+    "available": true
   },
   {
-    "id": 17,
+    "id": "seasonal-017",
     "name": "Yankee Candle Christmas Cookie",
     "brand": "Yankee Candle",
     "price": "$31.00",
     "image": "https://www.yankeecandle.com/cdn/shop/products/christmas_cookie.jpg",
-    "link": "https://www.yankeecandle.com/product/christmas-cookie"
+    "link": "https://www.yankeecandle.com/product/christmas-cookie",
+    "category": "Seasonal",
+    "sku": "SEAS-017",
+    "available": true
   },
   {
-    "id": 18,
+    "id": "seasonal-018",
     "name": "Bath & Body Works Pink Pineapple Sunrise Body Lotion (Spring/Summer)",
     "brand": "Bath & Body Works",
     "price": "$15.50",
     "image": "https://www.bathandbodyworks.com/cdn/shop/products/pink_pineapple_sunrise.jpg",
-    "link": "https://www.bathandbodyworks.com/p/pink-pineapple-sunrise"
+    "link": "https://www.bathandbodyworks.com/p/pink-pineapple-sunrise",
+    "category": "Seasonal",
+    "sku": "SEAS-018",
+    "available": true
   },
   {
-    "id": 19,
+    "id": "seasonal-019",
     "name": "Lush Love Bug Bath Bomb (Valentine’s)",
     "brand": "Lush",
     "price": "$7.50",
     "image": "https://www.lush.com/media/export/cms/products/1000x1000/lush_love_bug.jpg",
-    "link": "https://www.lush.com/us/en/p/love-bug-bath-bomb"
+    "link": "https://www.lush.com/us/en/p/love-bug-bath-bomb",
+    "category": "Seasonal",
+    "sku": "SEAS-019",
+    "available": true
   },
   {
-    "id": 20,
+    "id": "seasonal-020",
     "name": "Homesick Candle – Holiday (Winter Classic)",
     "brand": "Homesick",
     "price": "$38.00",
     "image": "https://homesick.com/cdn/shop/products/holiday_candle.jpg",
-    "link": "https://homesick.com/products/holiday"
+    "link": "https://homesick.com/products/holiday",
+    "category": "Seasonal",
+    "sku": "SEAS-020",
+    "available": true
   }
 ]
