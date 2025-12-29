@@ -1,162 +1,222 @@
 [
   {
-    "id": 1,
+    "id": "wellfood-001",
     "name": "Vital Proteins Collagen Peptides",
     "brand": "Vital Proteins",
     "price": "$27.00",
     "image": "https://www.vitalproteins.com/cdn/shop/products/vital_collagen.jpg",
-    "link": "https://www.vitalproteins.com/products/collagen-peptides"
+    "link": "https://www.vitalproteins.com/products/collagen-peptides",
+    "category": "Wellness Food",
+    "sku": "WFOOD-001",
+    "available": true
   },
   {
-    "id": 2,
+    "id": "wellfood-002",
     "name": "OLLY Women’s Multivitamin Gummies",
     "brand": "OLLY",
     "price": "$14.00",
     "image": "https://www.olly.com/cdn/shop/products/olly_womens_multi.jpg",
-    "link": "https://www.olly.com/products/womens-multivitamin"
+    "link": "https://www.olly.com/products/womens-multivitamin",
+    "category": "Wellness Food",
+    "sku": "WFOOD-002",
+    "available": true
   },
   {
-    "id": 3,
+    "id": "wellfood-003",
     "name": "Liquid I.V. Hydration Multiplier – Lemon Lime",
     "brand": "Liquid I.V.",
     "price": "$25.00",
     "image": "https://www.liquid-iv.com/cdn/shop/products/liquidiv_lemon.jpg",
-    "link": "https://www.liquid-iv.com/products/hydration-multiplier-lemon-lime"
+    "link": "https://www.liquid-iv.com/products/hydration-multiplier-lemon-lime",
+    "category": "Wellness Food",
+    "sku": "WFOOD-003",
+    "available": true
   },
   {
-    "id": 4,
+    "id": "wellfood-004",
     "name": "Poppi Prebiotic Soda – Strawberry Lemon",
     "brand": "Poppi",
     "price": "$2.50",
     "image": "https://drinkpoppi.com/cdn/shop/products/poppi_strawberry_lemon.jpg",
-    "link": "https://drinkpoppi.com/products/strawberry-lemon"
+    "link": "https://drinkpoppi.com/products/strawberry-lemon",
+    "category": "Wellness Food",
+    "sku": "WFOOD-004",
+    "available": true
   },
   {
-    "id": 5,
+    "id": "wellfood-005",
     "name": "Celsius Sparkling Peach Vibe Energy Drink",
     "brand": "Celsius",
     "price": "$2.50",
     "image": "https://www.celsius.com/cdn/shop/products/celsius_peach_vibe.jpg",
-    "link": "https://www.celsius.com/products/peach-vibe"
+    "link": "https://www.celsius.com/products/peach-vibe",
+    "category": "Wellness Food",
+    "sku": "WFOOD-005",
+    "available": true
   },
   {
-    "id": 6,
+    "id": "wellfood-006",
     "name": "Health-Ade Kombucha – Pink Lady Apple",
     "brand": "Health-Ade",
     "price": "$4.00",
     "image": "https://health-ade.com/cdn/shop/products/healthade_pink_apple.jpg",
-    "link": "https://health-ade.com/products/pink-lady-apple"
+    "link": "https://health-ade.com/products/pink-lady-apple",
+    "category": "Wellness Food",
+    "sku": "WFOOD-006",
+    "available": true
   },
   {
-    "id": 7,
+    "id": "wellfood-007",
     "name": "SmartSweets Gummy Bears",
     "brand": "SmartSweets",
     "price": "$3.50",
     "image": "https://smartsweets.com/cdn/shop/products/smartsweets_gummies.jpg",
-    "link": "https://smartsweets.com/products/gummy-bears"
+    "link": "https://smartsweets.com/products/gummy-bears",
+    "category": "Wellness Food",
+    "sku": "WFOOD-007",
+    "available": true
   },
   {
-    "id": 8,
+    "id": "wellfood-008",
     "name": "Golde Matcha Turmeric Superfood Latte Blend",
     "brand": "Golde",
     "price": "$29.00",
     "image": "https://golde.co/cdn/shop/products/golde_matcha_turmeric.jpg",
-    "link": "https://golde.co/products/matcha-turmeric"
+    "link": "https://golde.co/products/matcha-turmeric",
+    "category": "Wellness Food",
+    "sku": "WFOOD-008",
+    "available": true
   },
   {
-    "id": 9,
+    "id": "wellfood-009",
     "name": "Pukka Herbal Tea – Love (Rose & Lavender)",
     "brand": "Pukka",
     "price": "$6.00",
     "image": "https://www.pukkaherbs.com/cdn/shop/products/pukka_love_tea.jpg",
-    "link": "https://www.pukkaherbs.com/products/love-tea"
+    "link": "https://www.pukkaherbs.com/products/love-tea",
+    "category": "Wellness Food",
+    "sku": "WFOOD-009",
+    "available": true
   },
   {
-    "id": 10,
+    "id": "wellfood-010",
     "name": "Olipop Prebiotic Soda – Vintage Cola",
     "brand": "Olipop",
     "price": "$2.50",
     "image": "https://drinkolipop.com/cdn/shop/products/olipop_vintage_cola.jpg",
-    "link": "https://drinkolipop.com/products/vintage-cola"
+    "link": "https://drinkolipop.com/products/vintage-cola",
+    "category": "Wellness Food",
+    "sku": "WFOOD-010",
+    "available": true
   },
   {
-    "id": 11,
+    "id": "wellfood-011",
     "name": "RXBAR Protein Bar – Chocolate Sea Salt",
     "brand": "RXBAR",
     "price": "$2.50",
     "image": "https://www.rxbar.com/cdn/shop/products/rxbar_chocolate_sea_salt.jpg",
-    "link": "https://www.rxbar.com/products/chocolate-sea-salt"
+    "link": "https://www.rxbar.com/products/chocolate-sea-salt",
+    "category": "Wellness Food",
+    "sku": "WFOOD-011",
+    "available": true
   },
   {
-    "id": 12,
+    "id": "wellfood-012",
     "name": "HUM Nutrition Glow Sweet Glow Gummies",
     "brand": "HUM Nutrition",
     "price": "$26.00",
     "image": "https://www.humnutrition.com/cdn/shop/products/hum_glow_sweet_glow.jpg",
-    "link": "https://www.humnutrition.com/products/glow-sweet-glow"
+    "link": "https://www.humnutrition.com/products/glow-sweet-glow",
+    "category": "Wellness Food",
+    "sku": "WFOOD-012",
+    "available": true
   },
   {
-    "id": 13,
+    "id": "wellfood-013",
     "name": "Vital Proteins Collagen Water – Strawberry Lemon",
     "brand": "Vital Proteins",
     "price": "$4.00",
     "image": "https://www.vitalproteins.com/cdn/shop/products/vital_collagen_water.jpg",
-    "link": "https://www.vitalproteins.com/products/collagen-water"
+    "link": "https://www.vitalproteins.com/products/collagen-water",
+    "category": "Wellness Food",
+    "sku": "WFOOD-013",
+    "available": true
   },
   {
-    "id": 14,
+    "id": "wellfood-014",
     "name": "OLLY Sleep Gummies – Melatonin",
     "brand": "OLLY",
     "price": "$14.00",
     "image": "https://www.olly.com/cdn/shop/products/olly_sleep.jpg",
-    "link": "https://www.olly.com/products/sleep"
+    "link": "https://www.olly.com/products/sleep",
+    "category": "Wellness Food",
+    "sku": "WFOOD-014",
+    "available": true
   },
   {
-    "id": 15,
+    "id": "wellfood-015",
     "name": "Liquid I.V. Energy Multiplier – Lemon Ginger",
     "brand": "Liquid I.V.",
     "price": "$25.00",
     "image": "https://www.liquid-iv.com/cdn/shop/products/liquidiv_energy.jpg",
-    "link": "https://www.liquid-iv.com/products/energy-multiplier"
+    "link": "https://www.liquid-iv.com/products/energy-multiplier",
+    "category": "Wellness Food",
+    "sku": "WFOOD-015",
+    "available": true
   },
   {
-    "id": 16,
+    "id": "wellfood-016",
     "name": "Poppi Prebiotic Soda – Raspberry Rose",
     "brand": "Poppi",
     "price": "$2.50",
     "image": "https://drinkpoppi.com/cdn/shop/products/poppi_raspberry_rose.jpg",
-    "link": "https://drinkpoppi.com/products/raspberry-rose"
+    "link": "https://drinkpoppi.com/products/raspberry-rose",
+    "category": "Wellness Food",
+    "sku": "WFOOD-016",
+    "available": true
   },
   {
-    "id": 17,
+    "id": "wellfood-017",
     "name": "SmartSweets Sourmelon Bites",
     "brand": "SmartSweets",
     "price": "$3.50",
     "image": "https://smartsweets.com/cdn/shop/products/smartsweets_sourmelon.jpg",
-    "link": "https://smartsweets.com/products/sourmelon-bites"
+    "link": "https://smartsweets.com/products/sourmelon-bites",
+    "category": "Wellness Food",
+    "sku": "WFOOD-017",
+    "available": true
   },
   {
-    "id": 18,
+    "id": "wellfood-018",
     "name": "Golde Coconut Collagen Boost",
     "brand": "Golde",
     "price": "$29.00",
     "image": "https://golde.co/cdn/shop/products/golde_coconut_collagen.jpg",
-    "link": "https://golde.co/products/coconut-collagen-boost"
+    "link": "https://golde.co/products/coconut-collagen-boost",
+    "category": "Wellness Food",
+    "sku": "WFOOD-018",
+    "available": true
   },
   {
-    "id": 19,
+    "id": "wellfood-019",
     "name": "Health-Ade Kombucha – Passion Fruit Tangerine",
     "brand": "Health-Ade",
     "price": "$4.00",
     "image": "https://health-ade.com/cdn/shop/products/healthade_passion.jpg",
-    "link": "https://health-ade.com/products/passion-fruit-tangerine"
+    "link": "https://health-ade.com/products/passion-fruit-tangerine",
+    "category": "Wellness Food",
+    "sku": "WFOOD-019",
+    "available": true
   },
   {
-    "id": 20,
+    "id": "wellfood-020",
     "name": "Celsius Sparkling Wild Berry",
     "brand": "Celsius",
     "price": "$2.50",
     "image": "https://www.celsius.com/cdn/shop/products/celsius_wild_berry.jpg",
-    "link": "https://www.celsius.com/products/wild-berry"
+    "link": "https://www.celsius.com/products/wild-berry",
+    "category": "Wellness Food",
+    "sku": "WFOOD-020",
+    "available": true
   }
 ]
