@@ -55,7 +55,6 @@
       margin: 0;
     }
 
-    /* PRODUCT GRID */
     .grid {
       margin-top: 40px;
       display: grid;
@@ -107,71 +106,95 @@
       font-size: 13px;
       color: #999;
     }
+
+    .copy-btn {
+      margin: 20px auto;
+      padding: 10px 18px;
+      background: #000;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      display: block;
+    }
+
+    .copy-btn:hover {
+      opacity: 0.8;
+    }
   </style>
 </head>
 
 <body>
-  <div class="page">
 
-    <!-- top bar -->
-    <div class="top-bar">
-      <a href="index.html" class="back-link">← Back to home</a>
-      <img 
-        src="images/AuraPop%20Cosmetics%20Co.png" 
-        alt="AuraPop Logo"
-        class="logo"
-      />
-      <div style="width:80px;"></div>
-    </div>
+<button class="copy-btn" onclick="copyCode()">Copy This Page</button>
 
-    <!-- heading -->
-    <h1>Makeup</h1>
-    <p class="subtitle">
-      Your favorite brands, iconic formulas, and must‑have glam essentials.
-    </p>
+<div class="page">
 
-    <!-- REAL PRODUCT GRID -->
-    <div id="product-grid" class="grid"></div>
-
-    <p class="note">
-      Products loaded from <code>data/products/makeup.json</code>.
-    </p>
-
+  <div class="top-bar">
+    <a href="index.html" class="back-link">← Back to home</a>
+    <img 
+      src="images/AuraPop%20Cosmetics%20Co.png" 
+      alt="AuraPop Logo"
+      class="logo"
+    />
+    <div style="width:80px;"></div>
   </div>
 
-  <!-- PRODUCT LOADER SCRIPT -->
-  <script>
-    async function loadProducts() {
-      try {
-        const response = await fetch("data/products/makeup.json");
-        const products = await response.json();
+  <h1>Makeup</h1>
+  <p class="subtitle">
+    Your favorite brands, iconic formulas, and must‑have glam essentials.
+  </p>
 
-        const grid = document.getElementById("product-grid");
-        grid.innerHTML = "";
+  <div id="product-grid" class="grid"></div>
 
-        products.forEach(product => {
-          const card = document.createElement("a");
-          card.href = product.link;
-          card.target = "_blank";
-          card.className = "card";
+  <p class="note">
+    Products loaded from <code>data/products/all.json</code>.
+  </p>
 
-          card.innerHTML = `
-            <img src="${product.image}" alt="${product.name}" />
-            <p class="card-title">${product.name}</p>
-            <p class="card-brand">${product.brand}</p>
-            <p class="card-price">${product.price}</p>
-          `;
+</div>
 
-          grid.appendChild(card);
-        });
+<button class="copy-btn" onclick="copyCode()">Copy This Page</button>
 
-      } catch (error) {
-        console.error("Error loading products:", error);
-      }
+<script>
+  async function loadProducts() {
+    try {
+      const response = await fetch("data/products/all.json");
+      const products = await response.json();
+
+      const filtered = products.filter(p => p.category === "Makeup");
+
+      const grid = document.getElementById("product-grid");
+      grid.innerHTML = "";
+
+      filtered.forEach(product => {
+        const card = document.createElement("a");
+        card.href = product.link;
+        card.target = "_blank";
+        card.className = "card";
+
+        card.innerHTML = `
+          <img src="${product.image}" alt="${product.name}" />
+          <p class="card-title">${product.name}</p>
+          <p class="card-brand">${product.brand}</p>
+          <p class="card-price">${product.price}</p>
+        `;
+
+        grid.appendChild(card);
+      });
+
+    } catch (error) {
+      console.error("Error loading products:", error);
     }
+  }
 
-    loadProducts();
-  </script>
+  loadProducts();
+
+  function copyCode() {
+    navigator.clipboard.writeText(document.documentElement.outerHTML);
+    alert("Copied!");
+  }
+</script>
 
 </body>
 </html>
