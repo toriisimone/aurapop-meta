@@ -3,11 +3,79 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AuraPop Product</title>
+
+  <title id="dynamic-title">AuraPop Product</title>
+
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="AuraPop Product" />
+  <meta name="description" content="Discover premium beauty, skincare, wellness, and lifestyle essentials from AuraPop. Explore product details, pricing, and curated recommendations." />
+  <meta name="keywords" content="AuraPop, beauty products, skincare products, wellness products, makeup, lifestyle essentials, AuraPop Cosmetics Co., Aura Wellness Co." />
+  <meta name="author" content="AuraPop Cosmetics Co." />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="product" />
+  <meta property="og:title" id="og-title" content="AuraPop Product" />
+  <meta property="og:description" id="og-desc" content="Explore premium beauty, skincare, and wellness essentials from AuraPop." />
+  <meta property="og:image" id="og-image" content="https://aurapop.com/images/default-product.jpg" />
+  <meta property="og:url" content="https://aurapop.com/product.html" />
+  <meta property="og:site_name" content="AuraPop" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" id="twitter-title" content="AuraPop Product" />
+  <meta name="twitter:description" id="twitter-desc" content="Explore premium beauty, skincare, and wellness essentials from AuraPop." />
+  <meta name="twitter:image" id="twitter-image" content="https://aurapop.com/images/default-product.jpg" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://aurapop.com/product.html" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+
+  <!-- Stylesheet -->
   <link rel="stylesheet" href="styles/product.css" />
+
+  <!-- Product Schema (Dynamic) -->
+  <script type="application/ld+json" id="product-schema">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "AuraPop Product",
+    "image": "https://aurapop.com/images/default-product.jpg",
+    "description": "Premium beauty, skincare, and wellness essentials from AuraPop.",
+    "brand": {
+      "@type": "Brand",
+      "name": "AuraPop Cosmetics Co."
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": "https://aurapop.com/product.html",
+      "priceCurrency": "USD",
+      "price": "0.00",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+  </script>
+
+  <!-- Breadcrumb Schema -->
+  <script type="application/ld+json" id="breadcrumb-schema">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://aurapop.com/"
+      }
+    ]
+  }
+  </script>
 </head>
 
 <body>
+
   <!-- NAVIGATION -->
   <header class="navbar">
     <div class="logo">AuraPop</div>
@@ -98,14 +166,7 @@
         }
 
         function isBroken(p) {
-          return (
-            !p ||
-            !p.name ||
-            !p.brand ||
-            !p.price ||
-            !p.link ||
-            !p.image
-          );
+          return (!p || !p.name || !p.brand || !p.price || !p.link || !p.image);
         }
 
         if (isBroken(product)) {
@@ -128,6 +189,38 @@
 
           document.getElementById("why-love").textContent =
             `A perfect blend of performance and indulgence. Loved for its clean ingredients, gorgeous texture, and AuraPop-approved glow factor.`;
+
+          // Update dynamic SEO
+          document.title = `${p.name} — ${p.brand} | AuraPop`;
+          document.querySelector('meta[name="title"]').setAttribute("content", `${p.name} — ${p.brand} | AuraPop`);
+          document.querySelector('meta[name="description"]').setAttribute("content", `${p.name} by ${p.brand} — premium beauty and wellness essentials from AuraPop.`);
+          document.getElementById("og-title").setAttribute("content", `${p.name} — ${p.brand}`);
+          document.getElementById("og-desc").setAttribute("content", `${p.name} by ${p.brand} — premium beauty and wellness essentials from AuraPop.`);
+          document.getElementById("og-image").setAttribute("content", p.image);
+          document.getElementById("twitter-title").setAttribute("content", `${p.name} — ${p.brand}`);
+          document.getElementById("twitter-desc").setAttribute("content", `${p.name} by ${p.brand} — premium beauty and wellness essentials from AuraPop.`);
+          document.getElementById("twitter-image").setAttribute("content", p.image);
+
+          // Update Product Schema
+          const schema = {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "name": p.name,
+            "image": p.image,
+            "description": `${p.name} by ${p.brand} — premium beauty and wellness essentials from AuraPop.`,
+            "brand": {
+              "@type": "Brand",
+              "name": "AuraPop Cosmetics Co."
+            },
+            "offers": {
+              "@type": "Offer",
+              "url": p.link,
+              "priceCurrency": "USD",
+              "price": p.price.replace(/[^0-9.]/g, ""),
+              "availability": "https://schema.org/InStock"
+            }
+          };
+          document.getElementById("product-schema").textContent = JSON.stringify(schema);
         }
 
         loadProduct(product);
