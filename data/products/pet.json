@@ -1,162 +1,222 @@
 [
   {
-    "id": 1,
+    "id": "pet-001",
     "name": "Burt’s Bees Oatmeal Dog Shampoo",
     "brand": "Burt’s Bees",
     "price": "$10.00",
     "image": "https://www.burtsbeespets.com/cdn/shop/products/burtsbees_oatmeal_dog_shampoo.jpg",
-    "link": "https://www.burtsbeespets.com/products/oatmeal-dog-shampoo"
+    "link": "https://www.burtsbeespets.com/products/oatmeal-dog-shampoo",
+    "category": "Pet",
+    "sku": "PET-001",
+    "available": true
   },
   {
-    "id": 2,
+    "id": "pet-002",
     "name": "Earthbath Hypo-Allergenic Pet Shampoo",
     "brand": "Earthbath",
     "price": "$16.00",
     "image": "https://www.earthbath.com/cdn/shop/products/earthbath_hypo_shampoo.jpg",
-    "link": "https://www.earthbath.com/products/hypo-allergenic-shampoo"
+    "link": "https://www.earthbath.com/products/hypo-allergenic-shampoo",
+    "category": "Pet",
+    "sku": "PET-002",
+    "available": true
   },
   {
-    "id": 3,
+    "id": "pet-003",
     "name": "Furminator Deshedding Tool for Dogs",
     "brand": "Furminator",
     "price": "$35.00",
     "image": "https://www.furminator.com/cdn/shop/products/furminator_dog.jpg",
-    "link": "https://www.furminator.com/products/deshedding-tool"
+    "link": "https://www.furminator.com/products/deshedding-tool",
+    "category": "Pet",
+    "sku": "PET-003",
+    "available": true
   },
   {
-    "id": 4,
+    "id": "pet-004",
     "name": "KONG Classic Dog Toy",
     "brand": "KONG",
     "price": "$15.00",
     "image": "https://www.kongcompany.com/cdn/shop/products/kong_classic.jpg",
-    "link": "https://www.kongcompany.com/products/classic"
+    "link": "https://www.kongcompany.com/products/classic",
+    "category": "Pet",
+    "sku": "PET-004",
+    "available": true
   },
   {
-    "id": 5,
+    "id": "pet-005",
     "name": "Greenies Dental Dog Treats",
     "brand": "Greenies",
     "price": "$20.00",
     "image": "https://www.greenies.com/media/export/cms/products/1000x1000/greenies_original.jpg",
-    "link": "https://www.greenies.com/products/dental-treats"
+    "link": "https://www.greenies.com/products/dental-treats",
+    "category": "Pet",
+    "sku": "PET-005",
+    "available": true
   },
   {
-    "id": 6,
+    "id": "pet-006",
     "name": "Pet Head Sensitive Soul Shampoo",
     "brand": "Pet Head",
     "price": "$13.00",
     "image": "https://www.pethead.com/cdn/shop/products/pethead_sensitive_soul.jpg",
-    "link": "https://www.pethead.com/products/sensitive-soul-shampoo"
+    "link": "https://www.pethead.com/products/sensitive-soul-shampoo",
+    "category": "Pet",
+    "sku": "PET-006",
+    "available": true
   },
   {
-    "id": 7,
+    "id": "pet-007",
     "name": "Arm & Hammer Super Deodorizing Spray for Dogs",
     "brand": "Arm & Hammer",
     "price": "$6.00",
     "image": "https://www.armandhammerpets.com/media/export/cms/products/1000x1000/armhammer_dog_spray.jpg",
-    "link": "https://www.armandhammerpets.com/products/deodorizing-spray"
+    "link": "https://www.armandhammerpets.com/products/deodorizing-spray",
+    "category": "Pet",
+    "sku": "PET-007",
+    "available": true
   },
   {
-    "id": 8,
+    "id": "pet-008",
     "name": "Wellness Soft Puppy Bites",
     "brand": "Wellness",
     "price": "$8.00",
     "image": "https://www.wellnesspetfood.com/cdn/shop/products/wellness_puppy_bites.jpg",
-    "link": "https://www.wellnesspetfood.com/products/soft-puppy-bites"
+    "link": "https://www.wellnesspetfood.com/products/soft-puppy-bites",
+    "category": "Pet",
+    "sku": "PET-008",
+    "available": true
   },
   {
-    "id": 9,
+    "id": "pet-009",
     "name": "Blue Buffalo Life Protection Formula",
     "brand": "Blue Buffalo",
     "price": "$18.00",
     "image": "https://bluebuffalo.com/cdn/shop/products/bluebuffalo_life_protection.jpg",
-    "link": "https://bluebuffalo.com/products/life-protection"
+    "link": "https://bluebuffalo.com/products/life-protection",
+    "category": "Pet",
+    "sku": "PET-009",
+    "available": true
   },
   {
-    "id": 10,
+    "id": "pet-010",
     "name": "PetSafe Gentle Leader Headcollar",
     "brand": "PetSafe",
     "price": "$20.00",
     "image": "https://www.petsafe.net/media/export/cms/products/1000x1000/petsafe_headcollar.jpg",
-    "link": "https://www.petsafe.net/products/gentle-leader"
+    "link": "https://www.petsafe.net/products/gentle-leader",
+    "category": "Pet",
+    "sku": "PET-010",
+    "available": true
   },
   {
-    "id": 11,
+    "id": "pet-011",
     "name": "Frisco Stainless Steel Pet Bowl",
     "brand": "Frisco",
     "price": "$6.00",
     "image": "https://www.chewy.com/cdn/shop/products/frisco_bowl.jpg",
-    "link": "https://www.chewy.com/frisco-stainless-steel-bowl"
+    "link": "https://www.chewy.com/frisco-stainless-steel-bowl",
+    "category": "Pet",
+    "sku": "PET-011",
+    "available": true
   },
   {
-    "id": 12,
+    "id": "pet-012",
     "name": "PetHonesty Allergy Support Soft Chews",
     "brand": "PetHonesty",
     "price": "$26.00",
     "image": "https://pethonesty.com/cdn/shop/products/pethonesty_allergy.jpg",
-    "link": "https://pethonesty.com/products/allergy-support"
+    "link": "https://pethonesty.com/products/allergy-support",
+    "category": "Pet",
+    "sku": "PET-012",
+    "available": true
   },
   {
-    "id": 13,
+    "id": "pet-013",
     "name": "Outward Hound Hide-A-Squirrel Puzzle Toy",
     "brand": "Outward Hound",
     "price": "$15.00",
     "image": "https://outwardhound.com/cdn/shop/products/hide_a_squirrel.jpg",
-    "link": "https://outwardhound.com/products/hide-a-squirrel"
+    "link": "https://outwardhound.com/products/hide-a-squirrel",
+    "category": "Pet",
+    "sku": "PET-013",
+    "available": true
   },
   {
-    "id": 14,
+    "id": "pet-014",
     "name": "PetSafe Drinkwell Pet Fountain",
     "brand": "PetSafe",
     "price": "$30.00",
     "image": "https://www.petsafe.net/media/export/cms/products/1000x1000/petsafe_drinkwell.jpg",
-    "link": "https://www.petsafe.net/products/drinkwell"
+    "link": "https://www.petsafe.net/products/drinkwell",
+    "category": "Pet",
+    "sku": "PET-014",
+    "available": true
   },
   {
-    "id": 15,
+    "id": "pet-015",
     "name": "Earth Rated Dog Poop Bags",
     "brand": "Earth Rated",
     "price": "$12.00",
     "image": "https://earthrated.com/cdn/shop/products/earthrated_bags.jpg",
-    "link": "https://earthrated.com/products/dog-poop-bags"
+    "link": "https://earthrated.com/products/dog-poop-bags",
+    "category": "Pet",
+    "sku": "PET-015",
+    "available": true
   },
   {
-    "id": 16,
+    "id": "pet-016",
     "name": "Wellness CORE Grain-Free Dog Food",
     "brand": "Wellness",
     "price": "$22.00",
     "image": "https://www.wellnesspetfood.com/cdn/shop/products/wellness_core.jpg",
-    "link": "https://www.wellnesspetfood.com/products/core-grain-free"
+    "link": "https://www.wellnesspetfood.com/products/core-grain-free",
+    "category": "Pet",
+    "sku": "PET-016",
+    "available": true
   },
   {
-    "id": 17,
+    "id": "pet-017",
     "name": "KONG Wubba Dog Toy",
     "brand": "KONG",
     "price": "$12.00",
     "image": "https://www.kongcompany.com/cdn/shop/products/kong_wubba.jpg",
-    "link": "https://www.kongcompany.com/products/wubba"
+    "link": "https://www.kongcompany.com/products/wubba",
+    "category": "Pet",
+    "sku": "PET-017",
+    "available": true
   },
   {
-    "id": 18,
+    "id": "pet-018",
     "name": "PetArmor Flea & Tick Squeeze-On",
     "brand": "PetArmor",
     "price": "$28.00",
     "image": "https://www.petarmor.com/media/export/cms/products/1000x1000/petarmor_flea_tick.jpg",
-    "link": "https://www.petarmor.com/products/flea-and-tick"
+    "link": "https://www.petarmor.com/products/flea-and-tick",
+    "category": "Pet",
+    "sku": "PET-018",
+    "available": true
   },
   {
-    "id": 19,
+    "id": "pet-019",
     "name": "Arm & Hammer Cat Litter Deodorizer",
     "brand": "Arm & Hammer",
     "price": "$5.00",
     "image": "https://www.armandhammer.com/media/export/cms/products/1000x1000/armhammer_litter_deo.jpg",
-    "link": "https://www.armandhammer.com/products/cat-litter-deodorizer"
+    "link": "https://www.armandhammer.com/products/cat-litter-deodorizer",
+    "category": "Pet",
+    "sku": "PET-019",
+    "available": true
   },
   {
-    "id": 20,
+    "id": "pet-020",
     "name": "Temptations Classic Cat Treats – Chicken",
     "brand": "Temptations",
     "price": "$4.00",
     "image": "https://www.temptationstreats.com/media/export/cms/products/1000x1000/temptations_chicken.jpg",
-    "link": "https://www.temptationstreats.com/products/chicken"
+    "link": "https://www.temptationstreats.com/products/chicken",
+    "category": "Pet",
+    "sku": "PET-020",
+    "available": true
   }
 ]
