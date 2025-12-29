@@ -55,7 +55,6 @@
       margin: 0;
     }
 
-    /* PRODUCT GRID */
     .grid {
       margin-top: 40px;
       display: grid;
@@ -113,7 +112,6 @@
 <body>
   <div class="page">
 
-    <!-- top bar -->
     <div class="top-bar">
       <a href="index.html" class="back-link">← Back to home</a>
       <img 
@@ -124,32 +122,31 @@
       <div style="width:80px;"></div>
     </div>
 
-    <!-- heading -->
     <h1>Gifts</h1>
     <p class="subtitle">
       Curated sets, beauty bundles, and perfect presents for every occasion.
     </p>
 
-    <!-- REAL PRODUCT GRID -->
     <div id="product-grid" class="grid"></div>
 
     <p class="note">
-      Products loaded from <code>data/products/gifts.json</code>.
+      Products loaded from <code>data/products/all.json</code>.
     </p>
 
   </div>
 
-  <!-- PRODUCT LOADER SCRIPT -->
   <script>
     async function loadProducts() {
       try {
-        const response = await fetch("data/products/gifts.json");
+        const response = await fetch("data/products/all.json");
         const products = await response.json();
+
+        const filtered = products.filter(p => p.category === "Gifts");
 
         const grid = document.getElementById("product-grid");
         grid.innerHTML = "";
 
-        products.forEach(product => {
+        filtered.forEach(product => {
           const card = document.createElement("a");
           card.href = product.link;
           card.target = "_blank";
