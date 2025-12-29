@@ -1,162 +1,222 @@
 [
   {
-    "id": 1,
+    "id": "haircare-001",
     "name": "Olaplex No.3 Hair Perfector",
     "brand": "Olaplex",
-    "price": 30,
+    "price": "$30.00",
     "image": "https://olaplex.com/cdn/shop/products/no3.jpg",
-    "link": "https://olaplex.com/products/no-3-hair-perfector"
+    "link": "https://olaplex.com/products/no-3-hair-perfector",
+    "category": "Hair Care",
+    "sku": "HAIR-001",
+    "available": true
   },
   {
-    "id": 2,
+    "id": "haircare-002",
     "name": "Moroccanoil Treatment Original",
     "brand": "Moroccanoil",
-    "price": 48,
+    "price": "$48.00",
     "image": "https://www.moroccanoil.com/cdn/shop/products/moroccanoil-treatment.jpg",
-    "link": "https://www.moroccanoil.com/products/moroccanoil-treatment"
+    "link": "https://www.moroccanoil.com/products/moroccanoil-treatment",
+    "category": "Hair Care",
+    "sku": "HAIR-002",
+    "available": true
   },
   {
-    "id": 3,
+    "id": "haircare-003",
     "name": "Kérastase Nutritive Bain Satin Shampoo",
     "brand": "Kérastase",
-    "price": 40,
+    "price": "$40.00",
     "image": "https://www.kerastase-usa.com/media/export/cms/products/1000x1000/kerastase_bain_satin.jpg",
-    "link": "https://www.kerastase-usa.com/nutritive/bain-satin"
+    "link": "https://www.kerastase-usa.com/nutritive/bain-satin",
+    "category": "Hair Care",
+    "sku": "HAIR-003",
+    "available": true
   },
   {
-    "id": 4,
+    "id": "haircare-004",
     "name": "Kérastase Nutritive Lait Vital Conditioner",
     "brand": "Kérastase",
-    "price": 42,
+    "price": "$42.00",
     "image": "https://www.kerastase-usa.com/media/export/cms/products/1000x1000/kerastase_lait_vital.jpg",
-    "link": "https://www.kerastase-usa.com/nutritive/lait-vital"
+    "link": "https://www.kerastase-usa.com/nutritive/lait-vital",
+    "category": "Hair Care",
+    "sku": "HAIR-004",
+    "available": true
   },
   {
-    "id": 5,
+    "id": "haircare-005",
     "name": "SheaMoisture Coconut & Hibiscus Curl Enhancing Smoothie",
     "brand": "SheaMoisture",
-    "price": 12,
+    "price": "$12.00",
     "image": "https://www.sheamoisture.com/media/export/cms/products/1000x1000/shea_curl_smoothie.jpg",
-    "link": "https://www.sheamoisture.com/products/curl-enhancing-smoothie"
+    "link": "https://www.sheamoisture.com/products/curl-enhancing-smoothie",
+    "category": "Hair Care",
+    "sku": "HAIR-005",
+    "available": true
   },
   {
-    "id": 6,
+    "id": "haircare-006",
     "name": "Briogeo Don’t Despair, Repair! Deep Conditioning Mask",
     "brand": "Briogeo",
-    "price": 39,
+    "price": "$39.00",
     "image": "https://www.briogeohair.com/cdn/shop/products/ddr_mask.jpg",
-    "link": "https://www.briogeohair.com/products/dont-despair-repair-deep-conditioning-mask"
+    "link": "https://www.briogeohair.com/products/dont-despair-repair-deep-conditioning-mask",
+    "category": "Hair Care",
+    "sku": "HAIR-006",
+    "available": true
   },
   {
-    "id": 7,
+    "id": "haircare-007",
     "name": "Living Proof Perfect Hair Day Dry Shampoo",
     "brand": "Living Proof",
-    "price": 30,
+    "price": "$30.00",
     "image": "https://www.livingproof.com/media/export/cms/products/1000x1000/lp_phd_dry_shampoo.jpg",
-    "link": "https://www.livingproof.com/products/phd-dry-shampoo"
+    "link": "https://www.livingproof.com/products/phd-dry-shampoo",
+    "category": "Hair Care",
+    "sku": "HAIR-007",
+    "available": true
   },
   {
-    "id": 8,
+    "id": "haircare-008",
     "name": "Redken All Soft Shampoo",
     "brand": "Redken",
-    "price": 28,
+    "price": "$28.00",
     "image": "https://www.redken.com/media/export/cms/products/1000x1000/redken_all_soft_shampoo.jpg",
-    "link": "https://www.redken.com/all-soft-shampoo"
+    "link": "https://www.redken.com/all-soft-shampoo",
+    "category": "Hair Care",
+    "sku": "HAIR-008",
+    "available": true
   },
   {
-    "id": 9,
+    "id": "haircare-009",
     "name": "Redken All Soft Conditioner",
     "brand": "Redken",
-    "price": 30,
+    "price": "$30.00",
     "image": "https://www.redken.com/media/export/cms/products/1000x1000/redken_all_soft_conditioner.jpg",
-    "link": "https://www.redken.com/all-soft-conditioner"
+    "link": "https://www.redken.com/all-soft-conditioner",
+    "category": "Hair Care",
+    "sku": "HAIR-009",
+    "available": true
   },
   {
-    "id": 10,
+    "id": "haircare-010",
     "name": "Amika Soulfood Nourishing Mask",
     "brand": "Amika",
-    "price": 32,
+    "price": "$32.00",
     "image": "https://loveamika.com/cdn/shop/products/soulfood_mask.jpg",
-    "link": "https://loveamika.com/products/soulfood-nourishing-mask"
+    "link": "https://loveamika.com/products/soulfood-nourishing-mask",
+    "category": "Hair Care",
+    "sku": "HAIR-010",
+    "available": true
   },
   {
-    "id": 11,
+    "id": "haircare-011",
     "name": "OUAI Leave-In Conditioner",
     "brand": "OUAI",
-    "price": 30,
+    "price": "$30.00",
     "image": "https://theouai.com/cdn/shop/products/ouai_leave_in_conditioner.jpg",
-    "link": "https://theouai.com/products/leave-in-conditioner"
+    "link": "https://theouai.com/products/leave-in-conditioner",
+    "category": "Hair Care",
+    "sku": "HAIR-011",
+    "available": true
   },
   {
-    "id": 12,
+    "id": "haircare-012",
     "name": "Aussie 3 Minute Miracle Moist Deep Conditioner",
     "brand": "Aussie",
-    "price": 5,
+    "price": "$5.00",
     "image": "https://www.aussie.com/media/export/cms/products/1000x1000/aussie_3_minute_miracle.jpg",
-    "link": "https://www.aussie.com/en-us/products/3-minute-miracle-moist"
+    "link": "https://www.aussie.com/en-us/products/3-minute-miracle-moist",
+    "category": "Hair Care",
+    "sku": "HAIR-012",
+    "available": true
   },
   {
-    "id": 13,
+    "id": "haircare-013",
     "name": "Not Your Mother’s Beach Babe Texturizing Sea Salt Spray",
     "brand": "Not Your Mother’s",
-    "price": 7,
+    "price": "$7.00",
     "image": "https://www.nymbrands.com/media/export/cms/products/1000x1000/nym_beach_babe_spray.jpg",
-    "link": "https://www.nymbrands.com/products/beach-babe-texturizing-sea-salt-spray"
+    "link": "https://www.nymbrands.com/products/beach-babe-texturizing-sea-salt-spray",
+    "category": "Hair Care",
+    "sku": "HAIR-013",
+    "available": true
   },
   {
-    "id": 14,
+    "id": "haircare-014",
     "name": "Pattern Beauty Curl Gel",
     "brand": "Pattern Beauty",
-    "price": 25,
+    "price": "$25.00",
     "image": "https://patternbeauty.com/cdn/shop/products/pattern_curl_gel.jpg",
-    "link": "https://patternbeauty.com/products/curl-gel"
+    "link": "https://patternbeauty.com/products/curl-gel",
+    "category": "Hair Care",
+    "sku": "HAIR-014",
+    "available": true
   },
   {
-    "id": 15,
+    "id": "haircare-015",
     "name": "Mielle Organics Rosemary Mint Scalp & Hair Strengthening Oil",
     "brand": "Mielle Organics",
-    "price": 10,
+    "price": "$10.00",
     "image": "https://www.mielleorganics.com/cdn/shop/products/mielle_rosemary_oil.jpg",
-    "link": "https://www.mielleorganics.com/products/rosemary-mint-scalp-hair-strengthening-oil"
+    "link": "https://www.mielleorganics.com/products/rosemary-mint-scalp-hair-strengthening-oil",
+    "category": "Hair Care",
+    "sku": "HAIR-015",
+    "available": true
   },
   {
-    "id": 16,
+    "id": "haircare-016",
     "name": "Head & Shoulders Classic Clean Anti-Dandruff Shampoo",
     "brand": "Head & Shoulders",
-    "price": 9,
+    "price": "$9.00",
     "image": "https://www.headandshoulders.com/media/export/cms/products/1000x1000/hns_classic_clean.jpg",
-    "link": "https://www.headandshoulders.com/en-us/shop-products/dandruff-shampoo/classic-clean"
+    "link": "https://www.headandshoulders.com/en-us/shop-products/dandruff-shampoo/classic-clean",
+    "category": "Hair Care",
+    "sku": "HAIR-016",
+    "available": true
   },
   {
-    "id": 17,
+    "id": "haircare-017",
     "name": "Garnier Fructis Sleek & Shine Anti-Frizz Serum",
     "brand": "Garnier",
-    "price": 6,
+    "price": "$6.00",
     "image": "https://www.garnierusa.com/media/export/cms/products/1000x1000/garnier_sleek_shine_serum.jpg",
-    "link": "https://www.garnierusa.com/products/fructis-sleek-and-shine-anti-frizz-serum"
+    "link": "https://www.garnierusa.com/products/fructis-sleek-and-shine-anti-frizz-serum",
+    "category": "Hair Care",
+    "sku": "HAIR-017",
+    "available": true
   },
   {
-    "id": 18,
+    "id": "haircare-018",
     "name": "Tresemmé Thermal Creations Heat Tamer Spray",
     "brand": "Tresemmé",
-    "price": 7,
+    "price": "$7.00",
     "image": "https://www.tresemme.com/media/export/cms/products/1000x1000/tresemme_heat_tamer.jpg",
-    "link": "https://www.tresemme.com/us/en/products/heat-protection/thermal-creations-heat-tamer-spray.html"
+    "link": "https://www.tresemme.com/us/en/products/heat-protection/thermal-creations-heat-tamer-spray.html",
+    "category": "Hair Care",
+    "sku": "HAIR-018",
+    "available": true
   },
   {
-    "id": 19,
+    "id": "haircare-019",
     "name": "It’s a 10 Miracle Leave-In Product",
     "brand": "It’s a 10",
-    "price": 20,
+    "price": "$20.00",
     "image": "https://itsa10haircare.com/cdn/shop/products/miracle_leave_in.jpg",
-    "link": "https://itsa10haircare.com/products/miracle-leave-in"
+    "link": "https://itsa10haircare.com/products/miracle-leave-in",
+    "category": "Hair Care",
+    "sku": "HAIR-019",
+    "available": true
   },
   {
-    "id": 20,
+    "id": "haircare-020",
     "name": "Verb Ghost Oil",
     "brand": "Verb",
-    "price": 20,
+    "price": "$20.00",
     "image": "https://www.verbproducts.com/cdn/shop/products/verb_ghost_oil.jpg",
-    "link": "https://www.verbproducts.com/products/ghost-oil"
+    "link": "https://www.verbproducts.com/products/ghost-oil",
+    "category": "Hair Care",
+    "sku": "HAIR-020",
+    "available": true
   }
 ]
