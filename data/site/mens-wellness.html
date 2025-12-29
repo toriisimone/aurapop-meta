@@ -5,56 +5,82 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Men’s Wellness | AuraPop</title>
   <link rel="stylesheet" href="styles/category.css" />
+
+  <style>
+    .copy-btn {
+      margin: 20px auto;
+      padding: 10px 18px;
+      background: #000;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      display: block;
+    }
+    .copy-btn:hover { opacity: 0.8; }
+  </style>
 </head>
 
 <body>
-  <!-- NAVIGATION -->
-  <header class="navbar">
-    <div class="logo">AuraPop</div>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="makeup.html">Makeup</a>
-      <a href="skincare.html">Skincare</a>
-      <a href="womens-wellness.html">Women’s Wellness</a>
-      <a href="mens-wellness.html">Men’s Wellness</a>
-      <a href="gifts.html">Gifts</a>
-      <a href="gadgets.html">Gadgets</a>
-    </nav>
-  </header>
 
-  <!-- CATEGORY TITLE -->
-  <main class="category-container">
-    <h1>Men’s Wellness</h1>
-    <div id="product-grid" class="product-grid"></div>
-  </main>
+<button class="copy-btn" onclick="copyCode()">Copy This Page</button>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <p>© AuraPop Cosmetics Co. — Dream big, glow soft.</p>
-  </footer>
+<header class="navbar">
+  <div class="logo">AuraPop</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="makeup.html">Makeup</a>
+    <a href="skincare.html">Skincare</a>
+    <a href="womens-wellness.html">Women’s Wellness</a>
+    <a href="mens-wellness.html">Men’s Wellness</a>
+    <a href="gifts.html">Gifts</a>
+    <a href="gadgets.html">Gadgets</a>
+  </nav>
+</header>
 
-  <!-- SCRIPT -->
-  <script>
-    fetch("data/mens-wellness.json")
-      .then(res => res.json())
-      .then(products => {
-        const grid = document.getElementById("product-grid");
+<main class="category-container">
+  <h1>Men’s Wellness</h1>
+  <div id="product-grid" class="product-grid"></div>
+</main>
 
-        products.forEach(product => {
-          const card = document.createElement("div");
-          card.className = "product-card";
+<footer class="footer">
+  <p>© AuraPop Cosmetics Co. — Dream big, glow soft.</p>
+</footer>
 
-          card.innerHTML = `
-            <img src="${product.image}" alt="${product.name}" />
-            <h2>${product.name}</h2>
-            <p>${product.price}</p>
-            <a href="product.html?id=${product.id}&cat=mens-wellness" class="view-button">View Product</a>
-          `;
+<script>
+  async function loadProducts() {
+    const response = await fetch("data/products/all.json");
+    const products = await response.json();
 
-          grid.appendChild(card);
-        });
-      });
-  </script>
+    const filtered = products.filter(p => p.category === "Men’s Wellness");
+
+    const grid = document.getElementById("product-grid");
+
+    filtered.forEach(product => {
+      const card = document.createElement("div");
+      card.className = "product-card";
+
+      card.innerHTML = `
+        <img src="${product.image}" alt="${product.name}" />
+        <h2>${product.name}</h2>
+        <p>${product.price}</p>
+        <a href="product.html?id=${product.id}&cat=mens-wellness" class="view-button">View Product</a>
+      `;
+
+      grid.appendChild(card);
+    });
+  }
+
+  loadProducts();
+
+  function copyCode() {
+    navigator.clipboard.writeText(document.documentElement.outerHTML);
+    alert("Copied!");
+  }
+</script>
+
+<button class="copy-btn" onclick="copyCode()">Copy This Page</button>
 
 </body>
 </html>
