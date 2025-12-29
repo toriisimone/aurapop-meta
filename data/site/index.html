@@ -37,7 +37,6 @@
       margin: 0 0 40px;
     }
 
-    /* CATEGORY GRID */
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -65,68 +64,96 @@
       font-weight: 600;
       margin: 0;
     }
+
+    .copy-btn {
+      margin: 20px auto;
+      padding: 10px 18px;
+      background: #000;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      display: block;
+    }
+
+    .copy-btn:hover {
+      opacity: 0.8;
+    }
   </style>
 </head>
 
 <body>
-  <div class="page">
 
-    <img 
-      src="images/AuraPop%20Cosmetics%20Co.png" 
-      alt="AuraPop Logo"
-      class="logo"
-    />
+<button class="copy-btn" onclick="copyCode()">Copy This Page</button>
 
-    <h1>Welcome to AuraPop</h1>
-    <p class="subtitle">
-      Explore beauty, wellness, and lifestyle favorites curated just for you.
-    </p>
+<div class="page">
 
-    <!-- CATEGORY GRID -->
-    <div class="grid">
+  <img 
+    src="images/AuraPop%20Cosmetics%20Co.png" 
+    alt="AuraPop Logo"
+    class="logo"
+  />
 
-      <a href="makeup.html" class="card">
-        <p class="card-title">Makeup</p>
-      </a>
+  <h1>Welcome to AuraPop</h1>
+  <p class="subtitle">
+    Explore beauty, wellness, and lifestyle favorites curated just for you.
+  </p>
 
-      <a href="skincare.html" class="card">
-        <p class="card-title">Skincare</p>
-      </a>
+  <div class="grid">
 
-      <a href="haircare.html" class="card">
-        <p class="card-title">Haircare</p>
-      </a>
+    <a href="makeup.html" class="card">
+      <p class="card-title">Makeup</p>
+    </a>
 
-      <a href="bodycare.html" class="card">
-        <p class="card-title">Body Care</p>
-      </a>
+    <a href="skincare.html" class="card">
+      <p class="card-title">Skincare</p>
+    </a>
 
-      <a href="perfume.html" class="card">
-        <p class="card-title">Perfume</p>
-      </a>
+    <a href="haircare.html" class="card">
+      <p class="card-title">Haircare</p>
+    </a>
 
-      <a href="accessories.html" class="card">
-        <p class="card-title">Accessories</p>
-      </a>
+    <a href="bodycare.html" class="card">
+      <p class="card-title">Body Care</p>
+    </a>
 
-      <a href="bath.html" class="card">
-        <p class="card-title">Bath</p>
-      </a>
+    <a href="perfume.html" class="card">
+      <p class="card-title">Perfume</p>
+    </a>
 
-      <a href="homescents.html" class="card">
-        <p class="card-title">Home Scents</p>
-      </a>
+    <a href="accessories.html" class="card">
+      <p class="card-title">Accessories</p>
+    </a>
 
-      <a href="wellness.html" class="card">
-        <p class="card-title">Wellness</p>
-      </a>
+    <a href="bath.html" class="card">
+      <p class="card-title">Bath</p>
+    </a>
 
-      <a href="gifts.html" class="card">
-        <p class="card-title">Gifts</p>
-      </a>
+    <a href="homescents.html" class="card">
+      <p class="card-title">Home Scents</p>
+    </a>
 
-    </div>
+    <a href="wellness.html" class="card">
+      <p class="card-title">Wellness</p>
+    </a>
+
+    <a href="gifts.html" class="card">
+      <p class="card-title">Gifts</p>
+    </a>
 
   </div>
+
+</div>
+
+<button class="copy-btn" onclick="copyCode()">Copy This Page</button>
+
+<script>
+  function copyCode() {
+    navigator.clipboard.writeText(document.documentElement.outerHTML);
+    alert("Copied!");
+  }
+</script>
+
 </body>
 </html>
