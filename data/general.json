@@ -2,57 +2,97 @@
   {
     "id": "gen-multi-001",
     "name": "Essential Daily Multivitamin",
-    "price": 19.99,
-    "category": "general",
-    "description": "A complete daily multivitamin designed for men and women. Supports immunity, energy, and overall wellness."
+    "brand": "AuraPop Essentials",
+    "price": "$19.99",
+    "image": "images/general/multivitamin.jpg",
+    "link": "#",
+    "category": "General",
+    "description": "A complete daily multivitamin designed for men and women. Supports immunity, energy, and overall wellness.",
+    "sku": "GEN-001",
+    "available": true
   },
   {
     "id": "gen-sleep-002",
     "name": "Deep Sleep + Calm Gummies",
-    "price": 14.99,
-    "category": "general",
-    "description": "A soothing blend of melatonin, chamomile, and L‑theanine for deeper, more restful sleep."
+    "brand": "AuraPop Essentials",
+    "price": "$14.99",
+    "image": "images/general/sleep-gummies.jpg",
+    "link": "#",
+    "category": "General",
+    "description": "A soothing blend of melatonin, chamomile, and L‑theanine for deeper, more restful sleep.",
+    "sku": "GEN-002",
+    "available": true
   },
   {
     "id": "gen-immune-003",
     "name": "Immunity Boost Vitamin C + Zinc",
-    "price": 12.99,
-    "category": "general",
-    "description": "High‑potency Vitamin C with Zinc to support immune strength and daily protection."
+    "brand": "AuraPop Essentials",
+    "price": "$12.99",
+    "image": "images/general/vitamin-c.jpg",
+    "link": "#",
+    "category": "General",
+    "description": "High‑potency Vitamin C with Zinc to support immune strength and daily protection.",
+    "sku": "GEN-003",
+    "available": true
   },
   {
     "id": "gen-energy-004",
     "name": "Clean Energy B‑Complex",
-    "price": 16.99,
-    "category": "general",
-    "description": "A balanced B‑vitamin blend for natural energy, focus, and mood support — without jitters."
+    "brand": "AuraPop Essentials",
+    "price": "$16.99",
+    "image": "images/general/b-complex.jpg",
+    "link": "#",
+    "category": "General",
+    "description": "A balanced B‑vitamin blend for natural energy, focus, and mood support — without jitters.",
+    "sku": "GEN-004",
+    "available": true
   },
   {
     "id": "gen-stress-005",
     "name": "Stress Relief Ashwagandha",
-    "price": 18.99,
-    "category": "general",
-    "description": "Clinically studied ashwagandha to help reduce stress, support mood, and promote calm clarity."
+    "brand": "AuraPop Essentials",
+    "price": "$18.99",
+    "image": "images/general/ashwagandha.jpg",
+    "link": "#",
+    "category": "General",
+    "description": "Clinically studied ashwagandha to help reduce stress, support mood, and promote calm clarity.",
+    "sku": "GEN-005",
+    "available": true
   },
   {
     "id": "gen-gut-006",
     "name": "Probiotic Gut Balance",
-    "price": 21.99,
-    "category": "general",
-    "description": "A daily probiotic with 20B CFU to support digestion, gut health, and immune function."
+    "brand": "AuraPop Essentials",
+    "price": "$21.99",
+    "image": "images/general/probiotic.jpg",
+    "link": "#",
+    "category": "General",
+    "description": "A daily probiotic with 20B CFU to support digestion, gut health, and immune function.",
+    "sku": "GEN-006",
+    "available": true
   },
   {
     "id": "gen-hydration-007",
     "name": "Hydration Electrolyte Mix",
-    "price": 11.99,
-    "category": "general",
-    "description": "A clean electrolyte blend for hydration, recovery, and daily wellness — zero sugar."
+    "brand": "AuraPop Essentials",
+    "price": "$11.99",
+    "image": "images/general/electrolyte-mix.jpg",
+    "link": "#",
+    "category": "General",
+    "description": "A clean electrolyte blend for hydration, recovery, and daily wellness — zero sugar.",
+    "sku": "GEN-007",
+    "available": true
   },
   {
     "id": "gen-focus-008",
     "name": "Focus & Clarity Nootropic",
-    "price": 24.99,
-    "category": "general",
-    "description": "A gentle nootropic formula with ginkgo, L‑theanine, and B‑vitamins for mental clarity and productivity."
+    "brand": "AuraPop Essentials",
+    "price": "$24.99",
+    "image": "images/general/nootropic.jpg",
+    "link": "#",
+    "category": "General",
+    "description": "A gentle nootropic formula with ginkgo, L‑theanine, and B‑vitamins for mental clarity and productivity.",
+    "sku": "GEN-008",
+    "available": true
   }
 ]
