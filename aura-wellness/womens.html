@@ -3,8 +3,35 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Aura Wellness Co. | Women’s Wellness</title>
+
+  <!-- Primary Meta -->
+  <meta name="title" content="Aura Wellness Co. | Women’s Wellness" />
+  <meta name="description" content="Explore curated Women’s Wellness essentials designed for balance, glow, hormone support, and everyday vitality. Part of the AuraPop multi‑brand ecosystem." />
+  <meta name="keywords" content="women's wellness, hormone balance, supplements, glow, Aura Wellness Co, AuraPop" />
+  <meta name="author" content="Aura Wellness Co." />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Aura Wellness Co. | Women’s Wellness" />
+  <meta property="og:description" content="Curated Women’s Wellness essentials designed for balance, glow, and everyday vitality." />
+  <meta property="og:image" content="https://aurapop.com/images/og-womens-wellness.jpg" />
+  <meta property="og:url" content="https://aurapop.com/aura-wellness/womens.html" />
+  <meta property="og:site_name" content="Aura Wellness Co." />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Aura Wellness Co. | Women’s Wellness" />
+  <meta name="twitter:description" content="Explore curated Women’s Wellness essentials designed for balance and glow." />
+  <meta name="twitter:image" content="https://aurapop.com/images/og-womens-wellness.jpg" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://aurapop.com/aura-wellness/womens.html" />
+
+  <!-- Styles -->
   <link rel="stylesheet" href="styles/aw-main.css" />
+
   <style>
     .category-hero {
       text-align: center;
@@ -14,11 +41,29 @@
       font-size: 2.5rem;
       font-weight: bold;
       margin-bottom: 2rem;
+      letter-spacing: 1px;
     }
   </style>
+
+  <!-- Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Women’s Wellness",
+    "url": "https://aurapop.com/aura-wellness/womens.html",
+    "description": "Curated Women’s Wellness essentials designed for balance, glow, and everyday vitality.",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Aura Wellness Co.",
+      "url": "https://aurapop.com/aura-wellness/"
+    }
+  }
+  </script>
 </head>
 
 <body>
+
   <!-- NAVIGATION -->
   <header class="navbar">
     <div class="logo">Aura Wellness Co.</div>
@@ -68,7 +113,7 @@
 
       products.forEach(product => {
         const card = document.createElement("a");
-        card.href = `product.html?id=${product.id}`;
+        card.href = `product.html?id=${product.id}&cat=womens-wellness`;
         card.className = "product-card";
 
         card.innerHTML = `
@@ -82,5 +127,6 @@
 
     window.onload = loadProducts;
   </script>
+
 </body>
 </html>
