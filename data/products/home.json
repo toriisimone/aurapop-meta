@@ -1,162 +1,222 @@
 [
   {
-    "id": 1,
+    "id": "home-001",
     "name": "Bath & Body Works Mahogany Teakwood 3‑Wick Candle",
     "brand": "Bath & Body Works",
-    "price": 26.95,
+    "price": "$26.95",
     "image": "https://www.bathandbodyworks.com/cdn/shop/products/mahogany_teakwood_candle.jpg",
-    "link": "https://www.bathandbodyworks.com/p/mahogany-teakwood-3-wick-candle"
+    "link": "https://www.bathandbodyworks.com/p/mahogany-teakwood-3-wick-candle",
+    "category": "Home",
+    "sku": "HOME-001",
+    "available": true
   },
   {
-    "id": 2,
+    "id": "home-002",
     "name": "Yankee Candle Clean Cotton Large Jar",
     "brand": "Yankee Candle",
-    "price": 31,
+    "price": "$31.00",
     "image": "https://www.yankeecandle.com/cdn/shop/products/clean_cotton_jar.jpg",
-    "link": "https://www.yankeecandle.com/product/clean-cotton"
+    "link": "https://www.yankeecandle.com/product/clean-cotton",
+    "category": "Home",
+    "sku": "HOME-002",
+    "available": true
   },
   {
-    "id": 3,
+    "id": "home-003",
     "name": "Capri Blue Volcano Candle",
     "brand": "Capri Blue",
-    "price": 34,
+    "price": "$34.00",
     "image": "https://www.capri-blue.com/cdn/shop/products/volcano_candle.jpg",
-    "link": "https://www.capri-blue.com/products/volcano-candle"
+    "link": "https://www.capri-blue.com/products/volcano-candle",
+    "category": "Home",
+    "sku": "HOME-003",
+    "available": true
   },
   {
-    "id": 4,
+    "id": "home-004",
     "name": "P.F. Candle Co. Teakwood & Tobacco Soy Candle",
     "brand": "P.F. Candle Co.",
-    "price": 24,
+    "price": "$24.00",
     "image": "https://pfcandleco.com/cdn/shop/products/teakwood_tobacco.jpg",
-    "link": "https://pfcandleco.com/products/teakwood-tobacco"
+    "link": "https://pfcandleco.com/products/teakwood-tobacco",
+    "category": "Home",
+    "sku": "HOME-004",
+    "available": true
   },
   {
-    "id": 5,
+    "id": "home-005",
     "name": "Nest New York Bamboo Reed Diffuser",
     "brand": "Nest New York",
-    "price": 60,
+    "price": "$60.00",
     "image": "https://www.nestnewyork.com/cdn/shop/products/nest_bamboo_diffuser.jpg",
-    "link": "https://www.nestnewyork.com/products/bamboo-reed-diffuser"
+    "link": "https://www.nestnewyork.com/products/bamboo-reed-diffuser",
+    "category": "Home",
+    "sku": "HOME-005",
+    "available": true
   },
   {
-    "id": 6,
+    "id": "home-006",
     "name": "Glade PlugIns Scented Oil – Cashmere Woods",
     "brand": "Glade",
-    "price": 6,
+    "price": "$6.00",
     "image": "https://www.glade.com/media/export/cms/products/1000x1000/glade_cashmere_woods.jpg",
-    "link": "https://www.glade.com/en/products/plugins/cashmere-woods"
+    "link": "https://www.glade.com/en/products/plugins/cashmere-woods",
+    "category": "Home",
+    "sku": "HOME-006",
+    "available": true
   },
   {
-    "id": 7,
+    "id": "home-007",
     "name": "Air Wick Essential Mist – Lavender & Almond Blossom",
     "brand": "Air Wick",
-    "price": 10,
+    "price": "$10.00",
     "image": "https://www.airwick.us/media/export/cms/products/1000x1000/airwick_lavender_mist.jpg",
-    "link": "https://www.airwick.us/products/essential-mist-lavender"
+    "link": "https://www.airwick.us/products/essential-mist-lavender",
+    "category": "Home",
+    "sku": "HOME-007",
+    "available": true
   },
   {
-    "id": 8,
+    "id": "home-008",
     "name": "Homesick Candle – New Home",
     "brand": "Homesick",
-    "price": 38,
+    "price": "$38.00",
     "image": "https://homesick.com/cdn/shop/products/homesick_new_home.jpg",
-    "link": "https://homesick.com/products/new-home"
+    "link": "https://homesick.com/products/new-home",
+    "category": "Home",
+    "sku": "HOME-008",
+    "available": true
   },
   {
-    "id": 9,
+    "id": "home-009",
     "name": "Voluspa French Cade Lavender Candle",
     "brand": "Voluspa",
-    "price": 30,
+    "price": "$30.00",
     "image": "https://www.voluspa.com/cdn/shop/products/voluspa_french_cade.jpg",
-    "link": "https://www.voluspa.com/products/french-cade-lavender"
+    "link": "https://www.voluspa.com/products/french-cade-lavender",
+    "category": "Home",
+    "sku": "HOME-009",
+    "available": true
   },
   {
-    "id": 10,
+    "id": "home-010",
     "name": "Mrs. Meyer’s Clean Day Room Freshener – Lemon Verbena",
     "brand": "Mrs. Meyer’s",
-    "price": 5,
+    "price": "$5.00",
     "image": "https://www.mrsmeyers.com/media/export/cms/products/1000x1000/meyers_lemon_verbena_spray.jpg",
-    "link": "https://www.mrsmeyers.com/product/room-freshener-lemon-verbena"
+    "link": "https://www.mrsmeyers.com/product/room-freshener-lemon-verbena",
+    "category": "Home",
+    "sku": "HOME-010",
+    "available": true
   },
   {
-    "id": 11,
+    "id": "home-011",
     "name": "Nest New York Grapefruit Candle",
     "brand": "Nest New York",
-    "price": 48,
+    "price": "$48.00",
     "image": "https://www.nestnewyork.com/cdn/shop/products/nest_grapefruit_candle.jpg",
-    "link": "https://www.nestnewyork.com/products/grapefruit-classic-candle"
+    "link": "https://www.nestnewyork.com/products/grapefruit-classic-candle",
+    "category": "Home",
+    "sku": "HOME-011",
+    "available": true
   },
   {
-    "id": 12,
+    "id": "home-012",
     "name": "Bath & Body Works Eucalyptus Spearmint Room Spray",
     "brand": "Bath & Body Works",
-    "price": 8.5,
+    "price": "$8.50",
     "image": "https://www.bathandbodyworks.com/cdn/shop/products/eucalyptus_spearmint_spray.jpg",
-    "link": "https://www.bathandbodyworks.com/p/eucalyptus-spearmint-room-spray"
+    "link": "https://www.bathandbodyworks.com/p/eucalyptus-spearmint-room-spray",
+    "category": "Home",
+    "sku": "HOME-012",
+    "available": true
   },
   {
-    "id": 13,
+    "id": "home-013",
     "name": "DW Home Warm Tobacco Pipe Candle",
     "brand": "DW Home",
-    "price": 12,
+    "price": "$12.00",
     "image": "https://www.dwhome.com/cdn/shop/products/dw_tobacco_pipe.jpg",
-    "link": "https://www.dwhome.com/products/warm-tobacco-pipe"
+    "link": "https://www.dwhome.com/products/warm-tobacco-pipe",
+    "category": "Home",
+    "sku": "HOME-013",
+    "available": true
   },
   {
-    "id": 14,
+    "id": "home-014",
     "name": "Chesapeake Bay Mind & Body – Peace + Tranquility Candle",
     "brand": "Chesapeake Bay",
-    "price": 12,
+    "price": "$12.00",
     "image": "https://www.chesapeakebaycandle.com/cdn/shop/products/peace_tranquility.jpg",
-    "link": "https://www.chesapeakebaycandle.com/products/peace-tranquility"
+    "link": "https://www.chesapeakebaycandle.com/products/peace-tranquility",
+    "category": "Home",
+    "sku": "HOME-014",
+    "available": true
   },
   {
-    "id": 15,
+    "id": "home-015",
     "name": "Glade Candle – Apple Cinnamon",
     "brand": "Glade",
-    "price": 3,
+    "price": "$3.00",
     "image": "https://www.glade.com/media/export/cms/products/1000x1000/glade_apple_cinnamon.jpg",
-    "link": "https://www.glade.com/en/products/candles/apple-cinnamon"
+    "link": "https://www.glade.com/en/products/candles/apple-cinnamon",
+    "category": "Home",
+    "sku": "HOME-015",
+    "available": true
   },
   {
-    "id": 16,
+    "id": "home-016",
     "name": "Air Wick Scented Oil – Fresh Linen",
     "brand": "Air Wick",
-    "price": 6,
+    "price": "$6.00",
     "image": "https://www.airwick.us/media/export/cms/products/1000x1000/airwick_fresh_linen.jpg",
-    "link": "https://www.airwick.us/products/plugins-fresh-linen"
+    "link": "https://www.airwick.us/products/plugins-fresh-linen",
+    "category": "Home",
+    "sku": "HOME-016",
+    "available": true
   },
   {
-    "id": 17,
+    "id": "home-017",
     "name": "Capri Blue Volcano Room Spray",
     "brand": "Capri Blue",
-    "price": 24,
+    "price": "$24.00",
     "image": "https://www.capri-blue.com/cdn/shop/products/volcano_room_spray.jpg",
-    "link": "https://www.capri-blue.com/products/volcano-room-spray"
+    "link": "https://www.capri-blue.com/products/volcano-room-spray",
+    "category": "Home",
+    "sku": "HOME-017",
+    "available": true
   },
   {
-    "id": 18,
+    "id": "home-018",
     "name": "Homesick Candle – Birthday Party",
     "brand": "Homesick",
-    "price": 38,
+    "price": "$38.00",
     "image": "https://homesick.com/cdn/shop/products/homesick_birthday_party.jpg",
-    "link": "https://homesick.com/products/birthday-party"
+    "link": "https://homesick.com/products/birthday-party",
+    "category": "Home",
+    "sku": "HOME-018",
+    "available": true
   },
   {
-    "id": 19,
+    "id": "home-019",
     "name": "Voluspa Goji Tarocco Orange Candle",
     "brand": "Voluspa",
-    "price": 30,
+    "price": "$30.00",
     "image": "https://www.voluspa.com/cdn/shop/products/voluspa_goji_tarocco.jpg",
-    "link": "https://www.voluspa.com/products/goji-tarocco-orange"
+    "link": "https://www.voluspa.com/products/goji-tarocco-orange",
+    "category": "Home",
+    "sku": "HOME-019",
+    "available": true
   },
   {
-    "id": 20,
+    "id": "home-020",
     "name": "Nest New York Moroccan Amber Reed Diffuser",
     "brand": "Nest New York",
-    "price": 60,
+    "price": "$60.00",
     "image": "https://www.nestnewyork.com/cdn/shop/products/nest_moroccan_amber_diffuser.jpg",
-    "link": "https://www.nestnewyork.com/products/moroccan-amber-reed-diffuser"
+    "link": "https://www.nestnewyork.com/products/moroccan-amber-reed-diffuser",
+    "category": "Home",
+    "sku": "HOME-020",
+    "available": true
   }
 ]
