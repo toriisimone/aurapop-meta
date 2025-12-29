@@ -78,8 +78,7 @@
     "price": "$135.00",
     "image": "https://www.viktor-rolf.com/dw/image/v2/AAQP_PRD/on/demandware.static/-/Sites-viktorrolf-master-catalog/default/dw4e3b6c5e/Products/Flowerbomb/Flowerbomb_EDP_100ml_packshot.jpg",
     "link": "https://www.viktor-rolf.com/flowerbomb"
-  }
-]
+  },
   {
     "id": 11,
     "name": "Maison Francis Kurkdjian Baccarat Rouge 540 Eau de Parfum",
@@ -105,58 +104,4 @@
     "link": "https://www.dior.com/en_us/beauty/products/miss-dior-blooming-bouquet"
   },
   {
-    "id": 14,
-    "name": "Prada Paradoxe Eau de Parfum",
-    "brand": "Prada",
-    "price": "$150.00",
-    "image": "https://www.prada.com/content/dam/pradanux/products/1/1/1/1/111111/111111_00A_F0002_SLF.jpg",
-    "link": "https://www.prada.com/us/en/women/fragrances/paradoxe.html"
-  },
-  {
-    "id": 15,
-    "name": "Valentino Donna Born in Roma Eau de Parfum",
-    "brand": "Valentino",
-    "price": "$138.00",
-    "image": "https://www.valentino-beauty.us/dw/image/v2/AAQP_PRD/on/demandware.static/-/Sites-valentino-master-catalog/default/dw4b1d3f4e/Products/Fragrance/DonnaBornInRoma/3614272761469_DonnaBornInRoma_EDP_100ml_packshot.jpg",
-    "link": "https://www.valentino-beauty.us/fragrances/donna-born-in-roma"
-  },
-  {
-    "id": 16,
-    "name": "Kayali Vanilla 28 Eau de Parfum",
-    "brand": "Kayali",
-    "price": "$100.00",
-    "image": "https://hudabeauty.com/cdn/shop/products/KAYALI-Vanilla-28-100ml.jpg",
-    "link": "https://hudabeauty.com/products/kayali-vanilla-28"
-  },
-  {
-    "id": 17,
-    "name": "Jo Malone Peony & Blush Suede Cologne",
-    "brand": "Jo Malone London",
-    "price": "$155.00",
-    "image": "https://www.jomalone.com/media/export/cms/products/1000x1000/jo_malone_peony_blush_suede.jpg",
-    "link": "https://www.jomalone.com/product/2599/26918/fragrances/peony-blush-suede"
-  },
-  {
-    "id": 18,
-    "name": "Tom Ford Lost Cherry Eau de Parfum",
-    "brand": "Tom Ford",
-    "price": "$395.00",
-    "image": "https://www.tomford.com/on/demandware.static/-/Sites-tomford-master-catalog/default/dw3b7c3f7e/images/large/T8Y-LostCherry-100ml.jpg",
-    "link": "https://www.tomford.com/lost-cherry-eau-de-parfum"
-  },
-  {
-    "id": 19,
-    "name": "Giorgio Armani My Way Eau de Parfum",
-    "brand": "Giorgio Armani",
-    "price": "$132.00",
-    "image": "https://www.armani-beauty.com/dw/image/v2/AAQP_PRD/on/demandware.static/-/Sites-armani-master-catalog/default/dw4e3b6c5e/Products/Fragrance/MyWay/3614272907690_MyWay_EDP_90ml_packshot.jpg",
-    "link": "https://www.armani-beauty.com/fragrance/my-way"
-  },
-  {
-    "id": 20,
-    "name": "Mugler Alien Eau de Parfum",
-    "brand": "Mugler",
-    "price": "$135.00",
-    "image": "https://www.muglerusa.com/dw/image/v2/AAQP_PRD/on/demandware.static/-/Sites-mugler-master-catalog/default/dw0c7d5a0a/Products/Alien/Alien_EDP_90ml_packshot.jpg",
-    "link": "https://www.muglerusa.com/alien-eau-de-parfum"
-  }
+    "id
