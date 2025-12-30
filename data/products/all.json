@@ -1,208 +1,211 @@
-{
-  "gifts": [],
-  "haircare": [],
-  "home": [],
-  "makeup": [],
-  "nails": [],
-  "perfume": [],
-  "pet": [],
-  "seasonal": [],
-  "skincare": [
-    {
-      "id": "skincare-001",
-      "name": "CeraVe Hydrating Facial Cleanser",
-      "brand": "CeraVe",
-      "price": 14.99,
-      "rating": 4.8,
-      "image": "images/skincare/cerave-hydrating-cleanser.jpg",
-      "description": "A gentle, non-foaming cleanser with ceramides and hyaluronic acid.",
-      "category": "skincare"
-    },
-    {
-      "id": "skincare-002",
-      "name": "The Ordinary Niacinamide 10% + Zinc 1%",
-      "brand": "The Ordinary",
-      "price": 6.50,
-      "rating": 4.7,
-      "image": "images/skincare/ordinary-niacinamide.jpg",
-      "description": "A high-strength vitamin and mineral blemish formula.",
-      "category": "skincare"
-    },
-    {
-      "id": "skincare-003",
-      "name": "La Roche-Posay Toleriane Double Repair Moisturizer",
-      "brand": "La Roche-Posay",
-      "price": 19.99,
-      "rating": 4.8,
-      "image": "images/skincare/la-roche-posay-double-repair.jpg",
-      "description": "A lightweight moisturizer that restores the skin barrier.",
-      "category": "skincare"
-    },
-    {
-      "id": "skincare-004",
-      "name": "COSRX Snail 96 Mucin Power Essence",
-      "brand": "COSRX",
-      "price": 17.99,
-      "rating": 4.8,
-      "image": "images/skincare/cosrx-snail-essence.jpg",
-      "description": "A hydrating essence that repairs and plumps the skin.",
-      "category": "skincare"
-    },
-    {
-      "id": "skincare-005",
-      "name": "Neutrogena Hydro Boost Water Gel",
-      "brand": "Neutrogena",
-      "price": 18.49,
-      "rating": 4.7,
-      "image": "images/skincare/neutrogena-hydro-boost.jpg",
-      "description": "A refreshing water gel with hyaluronic acid for intense hydration.",
-      "category": "skincare"
-    },
-    {
-      "id": "skincare-006",
-      "name": "Paula's Choice Skin Perfecting 2% BHA Liquid",
-      "brand": "Paula's Choice",
-      "price": 34.00,
-      "rating": 4.8,
-      "image": "images/skincare/paulas-choice-bha.jpg",
-      "description": "A gentle leave-on exfoliant that unclogs pores and smooths wrinkles.",
-      "category": "skincare"
-    },
-    {
-      "id": "skincare-007",
-      "name": "Glow Recipe Watermelon Glow Niacinamide Dew Drops",
-      "brand": "Glow Recipe",
-      "price": 35.00,
-      "rating": 4.8,
-      "image": "images/skincare/glow-recipe-dew-drops.jpg",
-      "description": "A highlighting serum that brightens and hydrates.",
-      "category": "skincare"
-    },
-    {
-      "id": "skincare-008",
-      "name": "Cetaphil Gentle Skin Cleanser",
-      "brand": "Cetaphil",
-      "price": 12.99,
-      "rating": 4.7,
-      "image": "images/skincare/cetaphil-cleanser.jpg",
-      "description": "A mild, non-irritating formula that soothes skin.",
-      "category": "skincare"
-    },
-    {
-      "id": "skincare-009",
-      "name": "Olay Regenerist Micro-Sculpting Cream",
-      "brand": "Olay",
-      "price": 24.99,
-      "rating": 4.7,
-      "image": "images/skincare/olay-regenerist.jpg",
-      "description": "An anti-aging moisturizer that firms and hydrates.",
-      "category": "skincare"
-    },
-    {
-      "id": "skincare-010",
-      "name": "Aveeno Calm + Restore Oat Gel Moisturizer",
-      "brand": "Aveeno",
-      "price": 23.99,
-      "rating": 4.7,
-      "image": "images/skincare/aveeno-calm-restore.jpg",
-      "description": "A soothing gel moisturizer for sensitive skin.",
-      "category": "skincare"
-    }
-  ],
-  "travel": [
-    {
-      "id": "travel-001",
-      "name": "Travel Size Toiletry Bottles Set",
-      "brand": "Generic",
-      "price": 9.99,
-      "rating": 4.6,
-      "image": "images/travel/toiletry-bottles.jpg",
-      "description": "Leakproof travel bottles for shampoo, lotion, and skincare.",
-      "category": "travel"
-    },
-    {
-      "id": "travel-002",
-      "name": "Portable Mini Travel Hair Dryer",
-      "brand": "Revlon",
-      "price": 17.99,
-      "rating": 4.7,
-      "image": "images/travel/mini-hair-dryer.jpg",
-      "description": "Compact and lightweight dryer perfect for travel.",
-      "category": "travel"
-    },
-    {
-      "id": "travel-003",
-      "name": "Hanging Travel Toiletry Bag",
-      "brand": "BAGSMART",
-      "price": 23.99,
-      "rating": 4.8,
-      "image": "images/travel/hanging-toiletry-bag.jpg",
-      "description": "Spacious organizer with multiple compartments.",
-      "category": "travel"
-    }
-  ],
-  "wellness": [
-    {
-      "id": "wellness-001",
-      "name": "Nature Made Vitamin D3 2000 IU",
-      "brand": "Nature Made",
-      "price": 12.99,
-      "rating": 4.8,
-      "image": "images/wellness/vitamin-d3.jpg",
-      "description": "Supports bone, teeth, muscle, and immune health.",
-      "category": "wellness"
-    },
-    {
-      "id": "wellness-002",
-      "name": "Olly Stress Relief Gummies",
-      "brand": "Olly",
-      "price": 14.99,
-      "rating": 4.7,
-      "image": "images/wellness/olly-stress-gummies.jpg",
-      "description": "GABA, L-theanine, and lemon balm for relaxation.",
-      "category": "wellness"
-    },
-    {
-      "id": "wellness-003",
-      "name": "Liquid I.V. Hydration Multiplier",
-      "brand": "Liquid I.V.",
-      "price": 24.99,
-      "rating": 4.8,
-      "image": "images/wellness/liquid-iv.jpg",
-      "description": "Electrolyte drink mix for rapid hydration.",
-      "category": "wellness"
-    }
-  ],
-  "wellness_food": [
-    {
-      "id": "wellnessfood-001",
-      "name": "Orgain Organic Protein Powder",
-      "brand": "Orgain",
-      "price": 29.99,
-      "rating": 4.7,
-      "image": "images/wellness_food/orgain-protein.jpg",
-      "description": "Plant-based protein powder for shakes and smoothies.",
-      "category": "wellness_food"
-    },
-    {
-      "id": "wellnessfood-002",
-      "name": "Vital Proteins Collagen Peptides",
-      "brand": "Vital Proteins",
-      "price": 27.99,
-      "rating": 4.8,
-      "image": "images/wellness_food/collagen-peptides.jpg",
-      "description": "Grass-fed collagen for skin, hair, nails, and joints.",
-      "category": "wellness_food"
-    },
-    {
-      "id": "wellnessfood-003",
-      "name": "RXBAR Protein Bars",
-      "brand": "RXBAR",
-      "price": 21.99,
-      "rating": 4.7,
-      "image": "images/wellness_food/rxbar.jpg",
-      "description": "Simple ingredients with 12g of protein per bar.",
-      "category": "wellness_food"
-    }
-  ]
-}
+[
+  {
+    "id": "skincare-001",
+    "name": "CeraVe Hydrating Facial Cleanser",
+    "brand": "CeraVe",
+    "price": "$14.99",
+    "rating": 4.8,
+    "image": "images/skincare/cerave-hydrating-cleanser.jpg",
+    "description": "A gentle, non-foaming cleanser with ceramides and hyaluronic acid.",
+    "category": "skincare",
+    "link": "#"
+  },
+  {
+    "id": "skincare-002",
+    "name": "The Ordinary Niacinamide 10% + Zinc 1%",
+    "brand": "The Ordinary",
+    "price": "$6.50",
+    "rating": 4.7,
+    "image": "images/skincare/ordinary-niacinamide.jpg",
+    "description": "A high-strength vitamin and mineral blemish formula.",
+    "category": "skincare",
+    "link": "#"
+  },
+  {
+    "id": "skincare-003",
+    "name": "La Roche-Posay Toleriane Double Repair Moisturizer",
+    "brand": "La Roche-Posay",
+    "price": "$19.99",
+    "rating": 4.8,
+    "image": "images/skincare/la-roche-posay-double-repair.jpg",
+    "description": "A lightweight moisturizer that restores the skin barrier.",
+    "category": "skincare",
+    "link": "#"
+  },
+  {
+    "id": "skincare-004",
+    "name": "COSRX Snail 96 Mucin Power Essence",
+    "brand": "COSRX",
+    "price": "$17.99",
+    "rating": 4.8,
+    "image": "images/skincare/cosrx-snail-essence.jpg",
+    "description": "A hydrating essence that repairs and plumps the skin.",
+    "category": "skincare",
+    "link": "#"
+  },
+  {
+    "id": "skincare-005",
+    "name": "Neutrogena Hydro Boost Water Gel",
+    "brand": "Neutrogena",
+    "price": "$18.49",
+    "rating": 4.7,
+    "image": "images/skincare/neutrogena-hydro-boost.jpg",
+    "description": "A refreshing water gel with hyaluronic acid for intense hydration.",
+    "category": "skincare",
+    "link": "#"
+  },
+  {
+    "id": "skincare-006",
+    "name": "Paula's Choice Skin Perfecting 2% BHA Liquid",
+    "brand": "Paula's Choice",
+    "price": "$34.00",
+    "rating": 4.8,
+    "image": "images/skincare/paulas-choice-bha.jpg",
+    "description": "A gentle leave-on exfoliant that unclogs pores and smooths wrinkles.",
+    "category": "skincare",
+    "link": "#"
+  },
+  {
+    "id": "skincare-007",
+    "name": "Glow Recipe Watermelon Glow Niacinamide Dew Drops",
+    "brand": "Glow Recipe",
+    "price": "$35.00",
+    "rating": 4.8,
+    "image": "images/skincare/glow-recipe-dew-drops.jpg",
+    "description": "A highlighting serum that brightens and hydrates.",
+    "category": "skincare",
+    "link": "#"
+  },
+  {
+    "id": "skincare-008",
+    "name": "Cetaphil Gentle Skin Cleanser",
+    "brand": "Cetaphil",
+    "price": "$12.99",
+    "rating": 4.7,
+    "image": "images/skincare/cetaphil-cleanser.jpg",
+    "description": "A mild, non-irritating formula that soothes skin.",
+    "category": "skincare",
+    "link": "#"
+  },
+  {
+    "id": "skincare-009",
+    "name": "Olay Regenerist Micro-Sculpting Cream",
+    "brand": "Olay",
+    "price": "$24.99",
+    "rating": 4.7,
+    "image": "images/skincare/olay-regenerist.jpg",
+    "description": "An anti-aging moisturizer that firms and hydrates.",
+    "category": "skincare",
+    "link": "#"
+  },
+  {
+    "id": "skincare-010",
+    "name": "Aveeno Calm + Restore Oat Gel Moisturizer",
+    "brand": "Aveeno",
+    "price": "$23.99",
+    "rating": 4.7,
+    "image": "images/skincare/aveeno-calm-restore.jpg",
+    "description": "A soothing gel moisturizer for sensitive skin.",
+    "category": "skincare",
+    "link": "#"
+  },
+  {
+    "id": "travel-001",
+    "name": "Travel Size Toiletry Bottles Set",
+    "brand": "Generic",
+    "price": "$9.99",
+    "rating": 4.6,
+    "image": "images/travel/toiletry-bottles.jpg",
+    "description": "Leakproof travel bottles for shampoo, lotion, and skincare.",
+    "category": "travel",
+    "link": "#"
+  },
+  {
+    "id": "travel-002",
+    "name": "Portable Mini Travel Hair Dryer",
+    "brand": "Revlon",
+    "price": "$17.99",
+    "rating": 4.7,
+    "image": "images/travel/mini-hair-dryer.jpg",
+    "description": "Compact and lightweight dryer perfect for travel.",
+    "category": "travel",
+    "link": "#"
+  },
+  {
+    "id": "travel-003",
+    "name": "Hanging Travel Toiletry Bag",
+    "brand": "BAGSMART",
+    "price": "$23.99",
+    "rating": 4.8,
+    "image": "images/travel/hanging-toiletry-bag.jpg",
+    "description": "Spacious organizer with multiple compartments.",
+    "category": "travel",
+    "link": "#"
+  },
+  {
+    "id": "wellness-001",
+    "name": "Nature Made Vitamin D3 2000 IU",
+    "brand": "Nature Made",
+    "price": "$12.99",
+    "rating": 4.8,
+    "image": "images/wellness/vitamin-d3.jpg",
+    "description": "Supports bone, teeth, muscle, and immune health.",
+    "category": "wellness",
+    "link": "#"
+  },
+  {
+    "id": "wellness-002",
+    "name": "Olly Stress Relief Gummies",
+    "brand": "Olly",
+    "price": "$14.99",
+    "rating": 4.7,
+    "image": "images/wellness/olly-stress-gummies.jpg",
+    "description": "GABA, L-theanine, and lemon balm for relaxation.",
+    "category": "wellness",
+    "link": "#"
+  },
+  {
+    "id": "wellness-003",
+    "name": "Liquid I.V. Hydration Multiplier",
+    "brand": "Liquid I.V.",
+    "price": "$24.99",
+    "rating": 4.8,
+    "image": "images/wellness/liquid-iv.jpg",
+    "description": "Electrolyte drink mix for rapid hydration.",
+    "category": "wellness",
+    "link": "#"
+  },
+  {
+    "id": "wellnessfood-001",
+    "name": "Orgain Organic Protein Powder",
+    "brand": "Orgain",
+    "price": "$29.99",
+    "rating": 4.7,
+    "image": "images/wellness_food/orgain-protein.jpg",
+    "description": "Plant-based protein powder for shakes and smoothies.",
+    "category": "wellness_food",
+    "link": "#"
+  },
+  {
+    "id": "wellnessfood-002",
+    "name": "Vital Proteins Collagen Peptides",
+    "brand": "Vital Proteins",
+    "price": "$27.99",
+    "rating": 4.8,
+    "image": "images/wellness_food/collagen-peptides.jpg",
+    "description": "Grass-fed collagen for skin, hair, nails, and joints.",
+    "category": "wellness_food",
+    "link": "#"
+  },
+  {
+    "id": "wellnessfood-003",
+    "name": "RXBAR Protein Bars",
+    "brand": "RXBAR",
+    "price": "$21.99",
+    "rating": 4.7,
+    "image": "images/wellness_food/rxbar.jpg",
+    "description": "Simple ingredients with 12g of protein per bar.",
+    "category": "wellness_food",
+    "link": "#"
+  }
+]
