@@ -109,3 +109,100 @@
       "category": "skincare"
     }
   ],
+  "travel": [
+    {
+      "id": "travel-001",
+      "name": "Travel Size Toiletry Bottles Set",
+      "brand": "Generic",
+      "price": 9.99,
+      "rating": 4.6,
+      "image": "images/travel/toiletry-bottles.jpg",
+      "description": "Leakproof travel bottles for shampoo, lotion, and skincare.",
+      "category": "travel"
+    },
+    {
+      "id": "travel-002",
+      "name": "Portable Mini Travel Hair Dryer",
+      "brand": "Revlon",
+      "price": 17.99,
+      "rating": 4.7,
+      "image": "images/travel/mini-hair-dryer.jpg",
+      "description": "Compact and lightweight dryer perfect for travel.",
+      "category": "travel"
+    },
+    {
+      "id": "travel-003",
+      "name": "Hanging Travel Toiletry Bag",
+      "brand": "BAGSMART",
+      "price": 23.99,
+      "rating": 4.8,
+      "image": "images/travel/hanging-toiletry-bag.jpg",
+      "description": "Spacious organizer with multiple compartments.",
+      "category": "travel"
+    }
+  ],
+  "wellness": [
+    {
+      "id": "wellness-001",
+      "name": "Nature Made Vitamin D3 2000 IU",
+      "brand": "Nature Made",
+      "price": 12.99,
+      "rating": 4.8,
+      "image": "images/wellness/vitamin-d3.jpg",
+      "description": "Supports bone, teeth, muscle, and immune health.",
+      "category": "wellness"
+    },
+    {
+      "id": "wellness-002",
+      "name": "Olly Stress Relief Gummies",
+      "brand": "Olly",
+      "price": 14.99,
+      "rating": 4.7,
+      "image": "images/wellness/olly-stress-gummies.jpg",
+      "description": "GABA, L-theanine, and lemon balm for relaxation.",
+      "category": "wellness"
+    },
+    {
+      "id": "wellness-003",
+      "name": "Liquid I.V. Hydration Multiplier",
+      "brand": "Liquid I.V.",
+      "price": 24.99,
+      "rating": 4.8,
+      "image": "images/wellness/liquid-iv.jpg",
+      "description": "Electrolyte drink mix for rapid hydration.",
+      "category": "wellness"
+    }
+  ],
+  "wellness_food": [
+    {
+      "id": "wellnessfood-001",
+      "name": "Orgain Organic Protein Powder",
+      "brand": "Orgain",
+      "price": 29.99,
+      "rating": 4.7,
+      "image": "images/wellness_food/orgain-protein.jpg",
+      "description": "Plant-based protein powder for shakes and smoothies.",
+      "category": "wellness_food"
+    },
+    {
+      "id": "wellnessfood-002",
+      "name": "Vital Proteins Collagen Peptides",
+      "brand": "Vital Proteins",
+      "price": 27.99,
+      "rating": 4.8,
+      "image": "images/wellness_food/collagen-peptides.jpg",
+      "description": "Grass-fed collagen for skin, hair, nails, and joints.",
+      "category": "wellness_food"
+    },
+    {
+      "id": "wellnessfood-003",
+      "name": "RXBAR Protein Bars",
+      "brand": "RXBAR",
+      "price": 21.99,
+      "rating": 4.7,
+      "image": "images/wellness_food/rxbar.jpg",
+      "description": "Simple ingredients with 12g of protein per bar.",
+      "category": "wellness_food"
+    }
+  ]
+}
