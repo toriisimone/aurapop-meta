@@ -6,13 +6,11 @@
 
   <title>Aura Wellness Co. | Shop All</title>
 
-  <!-- Primary Meta -->
   <meta name="title" content="Aura Wellness Co. | Shop All" />
   <meta name="description" content="Browse every wellness product from Aura Wellness Co. — curated essentials for men, women, and everyday wellness." />
   <meta name="keywords" content="Aura Wellness Co, Shop All, wellness products, supplements, men's wellness, women's wellness, everyday wellness" />
   <meta name="author" content="Aura Wellness Co." />
 
-  <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Aura Wellness Co. | Shop All" />
   <meta property="og:description" content="Explore all wellness essentials from Aura Wellness Co. — curated for every body." />
@@ -20,16 +18,13 @@
   <meta property="og:url" content="https://aurapop.com/aura-wellness/shop-all.html" />
   <meta property="og:site_name" content="Aura Wellness Co." />
 
-  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Aura Wellness Co. | Shop All" />
   <meta name="twitter:description" content="Explore all wellness essentials from Aura Wellness Co." />
   <meta name="twitter:image" content="https://aurapop.com/images/og-wellness-shopall.jpg" />
 
-  <!-- Canonical -->
   <link rel="canonical" href="https://aurapop.com/aura-wellness/shop-all.html" />
 
-  <!-- Styles -->
   <link rel="stylesheet" href="styles/aw-main.css" />
 
   <style>
@@ -43,19 +38,16 @@
       margin-bottom: 2rem;
       letter-spacing: 1px;
     }
-
     .filter-bar {
       text-align: center;
       margin-bottom: 2rem;
     }
-
     .filter-bar select {
       padding: 0.5rem;
       margin: 0 0.5rem;
       border-radius: 6px;
       border: 1px solid #00796b;
     }
-
     .category-block h2 {
       color: #00796b;
       margin-top: 3rem;
@@ -64,7 +56,6 @@
     }
   </style>
 
-  <!-- Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -81,9 +72,8 @@
   </script>
 </head>
 
-<body>
+<body data-category="all">
 
-  <!-- NAVIGATION -->
   <header class="navbar">
     <div class="logo">Aura Wellness Co.</div>
     <nav>
@@ -96,10 +86,8 @@
     </nav>
   </header>
 
-  <!-- HERO -->
   <div class="shop-hero">SHOP ALL</div>
 
-  <!-- FILTERS -->
   <div class="filter-bar">
     <select id="sort">
       <option value="">Sort By</option>
@@ -109,21 +97,18 @@
 
     <select id="filter-category">
       <option value="">Filter Category</option>
-      <option value="mens-wellness">Men’s Wellness</option>
-      <option value="womens-wellness">Women’s Wellness</option>
-      <option value="general">Everyday Wellness</option>
+      <option value="Men’s Wellness">Men’s Wellness</option>
+      <option value="Women’s Wellness">Women’s Wellness</option>
+      <option value="Everyday Wellness">Everyday Wellness</option>
     </select>
   </div>
 
-  <!-- ALL PRODUCTS -->
   <main class="main-section">
     <h2 class="section-title">All Products</h2>
     <div id="all-products-grid" class="product-grid"></div>
-
     <div id="category-sections"></div>
   </main>
 
-  <!-- FOOTER -->
   <footer class="footer">
     <p>© Aura Wellness Co. — Designed for every body, every day.</p>
     <p class="footer-link">
@@ -132,30 +117,14 @@
     </p>
   </footer>
 
-  <!-- SCRIPT -->
   <script>
     async function loadAllProducts() {
-      const categories = [
-        "site/mens-wellness",
-        "site/womens-wellness",
-        "site/general"
-      ];
+      const response = await fetch("../data/products/all.json");
+      const products = await response.json();
 
-      let allProducts = [];
-
-      for (const category of categories) {
-        try {
-          const response = await fetch(`data/${category}.json`);
-          const products = await response.json();
-          allProducts = allProducts.concat(products);
-        } catch (e) {
-          console.error(`Error loading ${category}:`, e);
-        }
-      }
-
-      renderAllProducts(allProducts);
-      renderCategorySections(allProducts);
-      setupFilters(allProducts);
+      renderAllProducts(products);
+      renderCategorySections(products);
+      setupFilters(products);
     }
 
     function renderAllProducts(products) {
@@ -164,12 +133,12 @@
 
       products.forEach(product => {
         const card = document.createElement("a");
-        card.href = `product.html?id=${product.id}&cat=${product.category}`;
+        card.href = `product.html?id=${product.id}`;
         card.className = "product-card";
 
         card.innerHTML = `
           <h3>${product.name}</h3>
-          <p class="product-meta">$${product.price}</p>
+          <p class="product-meta">${product.price}</p>
         `;
 
         container.appendChild(card);
@@ -192,14 +161,14 @@
         section.className = "category-block";
 
         section.innerHTML = `
-          <h2>${category.replace("-", " ").toUpperCase()}</h2>
+          <h2>${category.toUpperCase()}</h2>
           <div class="product-grid">
             ${categories[category]
               .map(
                 p => `
-              <a href="product.html?id=${p.id}&cat=${p.category}" class="product-card">
+              <a href="product.html?id=${p.id}" class="product-card">
                 <h3>${p.name}</h3>
-                <p class="product-meta">$${p.price}</p>
+                <p class="product-meta">${p.price}</p>
               </a>
             `
               )
@@ -218,9 +187,9 @@
       sortSelect.addEventListener("change", () => {
         let sorted = [...products];
         if (sortSelect.value === "low") {
-          sorted.sort((a, b) => a.price - b.price);
+          sorted.sort((a, b) => parseFloat(a.price.replace("$","")) - parseFloat(b.price.replace("$","")));
         } else if (sortSelect.value === "high") {
-          sorted.sort((a, b) => b.price - a.price);
+          sorted.sort((a, b) => parseFloat(b.price.replace("$","")) - parseFloat(a.price.replace("$","")));
         }
         renderAllProducts(sorted);
       });
