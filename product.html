@@ -6,13 +6,11 @@
 
   <title id="dynamic-title">AuraPop Product</title>
 
-  <!-- Primary Meta Tags -->
   <meta name="title" content="AuraPop Product" />
   <meta name="description" content="Discover premium beauty, skincare, wellness, and lifestyle essentials from AuraPop. Explore product details, pricing, and curated recommendations." />
   <meta name="keywords" content="AuraPop, beauty products, skincare products, wellness products, makeup, lifestyle essentials, AuraPop Cosmetics Co., Aura Wellness Co." />
   <meta name="author" content="AuraPop Cosmetics Co." />
 
-  <!-- Open Graph -->
   <meta property="og:type" content="product" />
   <meta property="og:title" id="og-title" content="AuraPop Product" />
   <meta property="og:description" id="og-desc" content="Explore premium beauty, skincare, and wellness essentials from AuraPop." />
@@ -20,22 +18,15 @@
   <meta property="og:url" content="https://aurapop.com/product.html" />
   <meta property="og:site_name" content="AuraPop" />
 
-  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" id="twitter-title" content="AuraPop Product" />
   <meta name="twitter:description" id="twitter-desc" content="Explore premium beauty, skincare, and wellness essentials from AuraPop." />
   <meta name="twitter:image" id="twitter-image" content="https://aurapop.com/images/default-product.jpg" />
 
-  <!-- Canonical -->
   <link rel="canonical" href="https://aurapop.com/product.html" />
-
-  <!-- Favicon -->
   <link rel="icon" type="image/png" href="images/favicon.png" />
-
-  <!-- Stylesheet -->
   <link rel="stylesheet" href="styles/product.css" />
 
-  <!-- Product Schema (Dynamic) -->
   <script type="application/ld+json" id="product-schema">
   {
     "@context": "https://schema.org/",
@@ -57,7 +48,6 @@
   }
   </script>
 
-  <!-- Breadcrumb Schema -->
   <script type="application/ld+json" id="breadcrumb-schema">
   {
     "@context": "https://schema.org",
@@ -76,7 +66,6 @@
 
 <body>
 
-  <!-- NAVIGATION -->
   <header class="navbar">
     <div class="logo">AuraPop</div>
     <nav>
@@ -90,14 +79,12 @@
     </nav>
   </header>
 
-  <!-- BREADCRUMB -->
   <div class="breadcrumb">
     <a href="index.html">Home</a> › 
     <span id="breadcrumb-category"></span> › 
     <span id="breadcrumb-name"></span>
   </div>
 
-  <!-- PRODUCT SECTION -->
   <main class="product-container">
     <div class="product-image">
       <img id="product-img" src="" alt="Product Image" />
@@ -122,116 +109,81 @@
     </div>
   </main>
 
-  <!-- RELATED PRODUCTS -->
   <section class="related-section">
     <h2>You May Also Like</h2>
     <div id="related-grid" class="related-grid"></div>
   </section>
 
-  <!-- FOOTER -->
   <footer class="footer">
     <p>© AuraPop Cosmetics Co. — Dream big, glow soft.</p>
   </footer>
 
-  <!-- SCRIPT -->
   <script>
     const params = new URLSearchParams(window.location.search);
-    const id = parseInt(params.get("id"));
-    const cat = params.get("cat");
+    const id = params.get("id");
 
-    const categoryNames = {
-      "makeup": "Makeup",
-      "skincare": "Skincare",
-      "haircare": "Haircare",
-      "body": "Body Care",
-      "perfume": "Perfume",
-      "accessories": "Accessories",
-      "bath": "Bath",
-      "home": "Home Scents",
-      "womens-wellness": "Women’s Wellness",
-      "mens-wellness": "Men’s Wellness",
-      "gifts": "Gifts",
-      "gadgets": "Gadgets"
-    };
-
-    document.getElementById("breadcrumb-category").textContent = categoryNames[cat];
-
-    fetch(`data/${cat}.json`)
+    fetch("data/products/all.json")
       .then(res => res.json())
       .then(products => {
-        let product = products.find(p => p.id === id);
+        const product = products.find(p => p.id === id);
 
-        function pickFallback() {
-          return products[Math.floor(Math.random() * products.length)];
+        if (!product) {
+          document.querySelector(".product-container").innerHTML =
+            "<p>Product not found.</p>";
+          return;
         }
 
-        function isBroken(p) {
-          return (!p || !p.name || !p.brand || !p.price || !p.link || !p.image);
-        }
+        document.getElementById("product-img").src = product.image;
+        document.getElementById("product-name").textContent = product.name;
+        document.getElementById("product-brand").textContent = product.brand;
+        document.getElementById("product-price").textContent = product.price;
+        document.getElementById("product-link").href = product.link;
+        document.getElementById("breadcrumb-category").textContent = product.category;
+        document.getElementById("breadcrumb-name").textContent = product.name;
 
-        if (isBroken(product)) {
-          product = pickFallback();
-        }
+        document.getElementById("product-desc").textContent =
+          product.description || `${product.name} by ${product.brand} — premium beauty and wellness essentials from AuraPop.`;
 
-        function loadProduct(p) {
-          document.getElementById("product-img").src = p.image;
-          document.getElementById("product-name").textContent = p.name;
-          document.getElementById("product-brand").textContent = p.brand;
-          document.getElementById("product-price").textContent = p.price;
-          document.getElementById("product-link").href = p.link;
-          document.getElementById("breadcrumb-name").textContent = p.name;
+        document.getElementById("how-to-use").textContent =
+          "Use daily or as needed. Apply gently and allow the product to absorb fully for best results.";
 
-          document.getElementById("product-desc").textContent =
-            `${p.name} by ${p.brand} is designed to elevate your daily routine with a touch of luxury. Soft, clean, and effortlessly effective — this is your new self-care essential.`;
+        document.getElementById("why-love").textContent =
+          "A perfect blend of performance and indulgence. Loved for its clean ingredients, gorgeous texture, and AuraPop-approved glow factor.";
 
-          document.getElementById("how-to-use").textContent =
-            `Use daily or as needed. Apply gently and allow the product to absorb fully for best results.`;
+        document.title = `${product.name} — ${product.brand} | AuraPop`;
+        document.querySelector('meta[name="title"]').setAttribute("content", `${product.name} — ${product.brand} | AuraPop`);
+        document.querySelector('meta[name="description"]').setAttribute("content", `${product.name} by ${product.brand} — premium beauty and wellness essentials from AuraPop.`);
 
-          document.getElementById("why-love").textContent =
-            `A perfect blend of performance and indulgence. Loved for its clean ingredients, gorgeous texture, and AuraPop-approved glow factor.`;
+        document.getElementById("og-title").setAttribute("content", `${product.name} — ${product.brand}`);
+        document.getElementById("og-desc").setAttribute("content", `${product.name} by ${product.brand} — premium beauty and wellness essentials from AuraPop.`);
+        document.getElementById("og-image").setAttribute("content", product.image);
 
-          // Update dynamic SEO
-          document.title = `${p.name} — ${p.brand} | AuraPop`;
-          document.querySelector('meta[name="title"]').setAttribute("content", `${p.name} — ${p.brand} | AuraPop`);
-          document.querySelector('meta[name="description"]').setAttribute("content", `${p.name} by ${p.brand} — premium beauty and wellness essentials from AuraPop.`);
-          document.getElementById("og-title").setAttribute("content", `${p.name} — ${p.brand}`);
-          document.getElementById("og-desc").setAttribute("content", `${p.name} by ${p.brand} — premium beauty and wellness essentials from AuraPop.`);
-          document.getElementById("og-image").setAttribute("content", p.image);
-          document.getElementById("twitter-title").setAttribute("content", `${p.name} — ${p.brand}`);
-          document.getElementById("twitter-desc").setAttribute("content", `${p.name} by ${p.brand} — premium beauty and wellness essentials from AuraPop.`);
-          document.getElementById("twitter-image").setAttribute("content", p.image);
+        document.getElementById("twitter-title").setAttribute("content", `${product.name} — ${product.brand}`);
+        document.getElementById("twitter-desc").setAttribute("content", `${product.name} by ${product.brand} — premium beauty and wellness essentials from AuraPop.`);
+        document.getElementById("twitter-image").setAttribute("content", product.image);
 
-          // Update Product Schema
-          const schema = {
-            "@context": "https://schema.org/",
-            "@type": "Product",
-            "name": p.name,
-            "image": p.image,
-            "description": `${p.name} by ${p.brand} — premium beauty and wellness essentials from AuraPop.`,
-            "brand": {
-              "@type": "Brand",
-              "name": "AuraPop Cosmetics Co."
-            },
-            "offers": {
-              "@type": "Offer",
-              "url": p.link,
-              "priceCurrency": "USD",
-              "price": p.price.replace(/[^0-9.]/g, ""),
-              "availability": "https://schema.org/InStock"
-            }
-          };
-          document.getElementById("product-schema").textContent = JSON.stringify(schema);
-        }
-
-        loadProduct(product);
-
-        const img = document.getElementById("product-img");
-        img.onerror = () => {
-          const fallback = pickFallback();
-          loadProduct(fallback);
+        const schema = {
+          "@context": "https://schema.org/",
+          "@type": "Product",
+          "name": product.name,
+          "image": product.image,
+          "description": `${product.name} by ${product.brand} — premium beauty and wellness essentials from AuraPop.`,
+          "brand": {
+            "@type": "Brand",
+            "name": "AuraPop Cosmetics Co."
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": product.link,
+            "priceCurrency": "USD",
+            "price": product.price.replace(/[^0-9.]/g, ""),
+            "availability": "https://schema.org/InStock"
+          }
         };
 
-        const related = products.filter(p => p.id !== id).slice(0, 4);
+        document.getElementById("product-schema").textContent = JSON.stringify(schema);
+
+        const related = products.filter(p => p.category === product.category && p.id !== product.id).slice(0, 4);
         const grid = document.getElementById("related-grid");
 
         related.forEach(item => {
@@ -241,7 +193,7 @@
             <img src="${item.image}" />
             <h4>${item.name}</h4>
             <p>${item.price}</p>
-            <a href="product.html?id=${item.id}&cat=${cat}" class="view-related">View</a>
+            <a href="product.html?id=${item.id}" class="view-related">View</a>
           `;
           grid.appendChild(card);
         });
