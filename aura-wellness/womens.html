@@ -6,13 +6,11 @@
 
   <title>Aura Wellness Co. | Women’s Wellness</title>
 
-  <!-- Primary Meta -->
   <meta name="title" content="Aura Wellness Co. | Women’s Wellness" />
   <meta name="description" content="Explore curated Women’s Wellness essentials designed for balance, glow, hormone support, and everyday vitality. Part of the AuraPop multi‑brand ecosystem." />
   <meta name="keywords" content="women's wellness, hormone balance, supplements, glow, Aura Wellness Co, AuraPop" />
   <meta name="author" content="Aura Wellness Co." />
 
-  <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Aura Wellness Co. | Women’s Wellness" />
   <meta property="og:description" content="Curated Women’s Wellness essentials designed for balance, glow, and everyday vitality." />
@@ -20,16 +18,13 @@
   <meta property="og:url" content="https://aurapop.com/aura-wellness/womens.html" />
   <meta property="og:site_name" content="Aura Wellness Co." />
 
-  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Aura Wellness Co. | Women’s Wellness" />
   <meta name="twitter:description" content="Explore curated Women’s Wellness essentials designed for balance and glow." />
   <meta name="twitter:image" content="https://aurapop.com/images/og-womens-wellness.jpg" />
 
-  <!-- Canonical -->
   <link rel="canonical" href="https://aurapop.com/aura-wellness/womens.html" />
 
-  <!-- Styles -->
   <link rel="stylesheet" href="styles/aw-main.css" />
 
   <style>
@@ -45,7 +40,6 @@
     }
   </style>
 
-  <!-- Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -62,9 +56,8 @@
   </script>
 </head>
 
-<body>
+<body data-category="womens-wellness">
 
-  <!-- NAVIGATION -->
   <header class="navbar">
     <div class="logo">Aura Wellness Co.</div>
     <nav>
@@ -77,16 +70,13 @@
     </nav>
   </header>
 
-  <!-- HERO -->
   <div class="category-hero">WOMEN’S WELLNESS</div>
 
-  <!-- PRODUCT GRID -->
   <main class="main-section">
     <h2 class="section-title">Curated for Her</h2>
-    <div id="product-grid" class="product-grid"></div>
+    <div id="product-list" class="product-grid"></div>
   </main>
 
-  <!-- FOOTER -->
   <footer class="footer">
     <p>© Aura Wellness Co. — Designed for every body, every day.</p>
     <p class="footer-link">
@@ -95,38 +85,7 @@
     </p>
   </footer>
 
-  <!-- SCRIPT -->
-  <script>
-    async function loadProducts() {
-      try {
-        const response = await fetch("data/womens-wellness.json");
-        const products = await response.json();
-        renderProducts(products);
-      } catch (e) {
-        console.error("Error loading products:", e);
-      }
-    }
-
-    function renderProducts(products) {
-      const container = document.getElementById("product-grid");
-      container.innerHTML = "";
-
-      products.forEach(product => {
-        const card = document.createElement("a");
-        card.href = `product.html?id=${product.id}&cat=womens-wellness`;
-        card.className = "product-card";
-
-        card.innerHTML = `
-          <h3>${product.name}</h3>
-          <p class="product-meta">$${product.price}</p>
-        `;
-
-        container.appendChild(card);
-      });
-    }
-
-    window.onload = loadProducts;
-  </script>
+  <script src="/scripts/load-products.js"></script>
 
 </body>
 </html>
