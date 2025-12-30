@@ -3,7 +3,42 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>AuraPop | Home Scents</title>
+
+  <meta name="description" content="Candles, diffusers, and cozy home fragrances to elevate every room — shop AuraPop’s most-loved home scents." />
+  <meta name="keywords" content="home scents, candles, diffusers, room sprays, home fragrance, AuraPop" />
+
+  <link rel="canonical" href="https://aurapop.com/homescents.html" />
+
+  <meta property="og:title" content="AuraPop | Home Scents" />
+  <meta property="og:description" content="Candles, diffusers, and cozy home fragrances to elevate every room — shop AuraPop’s most-loved home scents." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://aurapop.com/homescents.html" />
+  <meta property="og:image" content="https://aurapop.com/images/og-default.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AuraPop | Home Scents" />
+  <meta name="twitter:description" content="Candles, diffusers, and cozy home fragrances to elevate every room — shop AuraPop’s most-loved home scents." />
+  <meta name="twitter:image" content="https://aurapop.com/images/og-default.jpg" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "AuraPop Home Scents",
+    "description": "Candles, diffusers, and cozy home fragrances to elevate every room.",
+    "url": "https://aurapop.com/homescents.html",
+    "publisher": {
+      "@type": "Organization",
+      "name": "AuraPop",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://aurapop.com/images/AuraPop%20Cosmetics%20Co.png"
+      }
+    }
+  }
+  </script>
 
   <style>
     body {
@@ -62,7 +97,7 @@
       gap: 25px;
     }
 
-    .card {
+    .product-card {
       background-color: #f9f9f9;
       border-radius: 16px;
       padding: 18px;
@@ -71,34 +106,38 @@
       transition: 0.2s ease;
     }
 
-    .card:hover {
+    .product-card:hover {
       transform: translateY(-4px);
       box-shadow: 0 6px 14px rgba(0,0,0,0.08);
     }
 
-    .card img {
+    .product-card img {
       width: 100%;
       border-radius: 12px;
       margin-bottom: 12px;
     }
 
-    .card-title {
-      font-weight: 600;
+    .product-card h3 {
       font-size: 16px;
       margin: 0 0 6px;
     }
 
-    .card-brand {
+    .product-card .brand {
       font-size: 14px;
       color: #777;
       margin: 0 0 10px;
     }
 
-    .card-price {
+    .product-card .price {
       font-size: 15px;
       font-weight: 600;
       color: #333;
       margin: 0 0 10px;
+    }
+
+    .product-card .rating {
+      font-size: 14px;
+      color: #999;
     }
 
     .note {
@@ -125,12 +164,11 @@
   </style>
 </head>
 
-<body>
+<body data-category="homescents">
 
 <button class="copy-btn" onclick="copyCode()">Copy This Page</button>
 
 <div class="page">
-
   <div class="top-bar">
     <a href="index.html" class="back-link">← Back to home</a>
     <img 
@@ -146,50 +184,17 @@
     Candles, diffusers, and cozy scents to elevate your space.
   </p>
 
-  <div id="product-grid" class="grid"></div>
+  <div id="product-list" class="grid"></div>
 
   <p class="note">
     Products loaded from <code>data/products/all.json</code>.
   </p>
-
 </div>
 
 <button class="copy-btn" onclick="copyCode()">Copy This Page</button>
 
+<script src="/scripts/load-products.js"></script>
 <script>
-  async function loadProducts() {
-    try {
-      const response = await fetch("data/products/all.json");
-      const products = await response.json();
-
-      const filtered = products.filter(p => p.category === "Home Scents");
-
-      const grid = document.getElementById("product-grid");
-      grid.innerHTML = "";
-
-      filtered.forEach(product => {
-        const card = document.createElement("a");
-        card.href = product.link;
-        card.target = "_blank";
-        card.className = "card";
-
-        card.innerHTML = `
-          <img src="${product.image}" alt="${product.name}" />
-          <p class="card-title">${product.name}</p>
-          <p class="card-brand">${product.brand}</p>
-          <p class="card-price">${product.price}</p>
-        `;
-
-        grid.appendChild(card);
-      });
-
-    } catch (error) {
-      console.error("Error loading products:", error);
-    }
-  }
-
-  loadProducts();
-
   function copyCode() {
     navigator.clipboard.writeText(document.documentElement.outerHTML);
     alert("Copied!");
