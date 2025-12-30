@@ -6,13 +6,11 @@
 
   <title>Aura Wellness Co. | Product</title>
 
-  <!-- Primary Meta -->
   <meta name="title" content="Aura Wellness Co. | Product" />
   <meta name="description" content="Explore premium wellness products curated for every body. Part of the AuraPop multi‑brand ecosystem." />
   <meta name="keywords" content="Aura Wellness Co, wellness product, supplements, self care, AuraPop, men's wellness, women's wellness" />
   <meta name="author" content="Aura Wellness Co." />
 
-  <!-- Open Graph -->
   <meta property="og:type" content="product" />
   <meta property="og:title" content="Aura Wellness Co. | Product" />
   <meta property="og:description" content="Premium wellness essentials designed for every body, every day." />
@@ -20,16 +18,13 @@
   <meta property="og:url" content="https://aurapop.com/aura-wellness/product.html" />
   <meta property="og:site_name" content="Aura Wellness Co." />
 
-  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Aura Wellness Co. | Product" />
   <meta name="twitter:description" content="Explore premium wellness products curated for every body." />
   <meta name="twitter:image" content="https://aurapop.com/images/og-product.jpg" />
 
-  <!-- Canonical -->
   <link rel="canonical" href="https://aurapop.com/aura-wellness/product.html" />
 
-  <!-- Styles -->
   <link rel="stylesheet" href="styles/aw-main.css" />
 
   <style>
@@ -41,26 +36,22 @@
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     }
-
     .product-container h1 {
       font-size: 2rem;
       color: #00796b;
       margin-bottom: 1rem;
     }
-
     .product-container p {
       font-size: 1.1rem;
       color: #555;
       margin-bottom: 1rem;
     }
-
     .product-price {
       font-size: 1.5rem;
       color: #004d40;
       font-weight: bold;
       margin-bottom: 2rem;
     }
-
     .buy-button {
       display: inline-block;
       padding: 0.75rem 1.5rem;
@@ -70,7 +61,6 @@
       border-radius: 8px;
       font-weight: bold;
     }
-
     .not-found {
       text-align: center;
       padding: 4rem 2rem;
@@ -79,7 +69,6 @@
     }
   </style>
 
-  <!-- Schema -->
   <script type="application/ld+json" id="product-schema">
   {
     "@context": "https://schema.org",
@@ -104,7 +93,6 @@
 
 <body>
 
-  <!-- NAVIGATION -->
   <header class="navbar">
     <div class="logo">Aura Wellness Co.</div>
     <nav>
@@ -117,10 +105,8 @@
     </nav>
   </header>
 
-  <!-- PRODUCT CONTENT -->
   <main id="product-content"></main>
 
-  <!-- FOOTER -->
   <footer class="footer">
     <p>© Aura Wellness Co. — Designed for every body, every day.</p>
     <p class="footer-link">
@@ -129,28 +115,14 @@
     </p>
   </footer>
 
-  <!-- SCRIPT -->
   <script>
     async function loadProduct() {
       const urlParams = new URLSearchParams(window.location.search);
       const productId = urlParams.get("id");
 
-      const categories = ["site/mens-wellness", "site/womens-wellness", "site/general"];
-      let product = null;
-
-      for (const category of categories) {
-        try {
-          const response = await fetch(`data/${category}.json`);
-          const products = await response.json();
-          const found = products.find(p => p.id === productId);
-          if (found) {
-            product = found;
-            break;
-          }
-        } catch (e) {
-          console.error(`Error loading ${category}:`, e);
-        }
-      }
+      const response = await fetch("../data/products/all.json");
+      const products = await response.json();
+      const product = products.find(p => p.id === productId);
 
       const container = document.getElementById("product-content");
 
@@ -163,12 +135,11 @@
         <div class="product-container">
           <h1>${product.name}</h1>
           <p>${product.description || "No description available."}</p>
-          <div class="product-price">$${product.price}</div>
-          <a href="#" class="buy-button">Buy Now</a>
+          <div class="product-price">${product.price}</div>
+          <a href="${product.link || "#"}" target="_blank" class="buy-button">Buy Now</a>
         </div>
       `;
 
-      // Update schema dynamically
       const schema = {
         "@context": "https://schema.org",
         "@type": "Product",
@@ -183,10 +154,11 @@
           "@type": "Offer",
           "url": window.location.href,
           "priceCurrency": "USD",
-          "price": product.price,
+          "price": product.price.replace("$", ""),
           "availability": "https://schema.org/InStock"
         }
       };
+
       document.getElementById("product-schema").textContent = JSON.stringify(schema);
     }
 
