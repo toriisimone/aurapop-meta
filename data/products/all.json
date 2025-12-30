@@ -258,3 +258,107 @@
       "category": "makeup"
     }
   ],
+  "haircare": [
+    {
+      "id": "haircare-001",
+      "name": "Olaplex No.3 Hair Perfector",
+      "brand": "Olaplex",
+      "price": 30.00,
+      "rating": 4.8,
+      "image": "images/haircare/olaplex-no3.jpg",
+      "description": "A repairing treatment that strengthens and restores damaged hair.",
+      "category": "haircare"
+    },
+    {
+      "id": "haircare-002",
+      "name": "SheaMoisture Coconut & Hibiscus Curl Enhancing Smoothie",
+      "brand": "SheaMoisture",
+      "price": 11.99,
+      "rating": 4.7,
+      "image": "images/haircare/shea-curl-smoothie.jpg",
+      "description": "Defines curls while adding moisture and shine.",
+      "category": "haircare"
+    },
+    {
+      "id": "haircare-003",
+      "name": "Moroccanoil Treatment",
+      "brand": "Moroccanoil",
+      "price": 34.00,
+      "rating": 4.9,
+      "image": "images/haircare/moroccanoil-treatment.jpg",
+      "description": "A nourishing oil that boosts shine and smoothness.",
+      "category": "haircare"
+    },
+    {
+      "id": "haircare-004",
+      "name": "Not Your Mother's Beach Babe Texturizing Sea Salt Spray",
+      "brand": "Not Your Mother's",
+      "price": 7.99,
+      "rating": 4.6,
+      "image": "images/haircare/beach-babe-spray.jpg",
+      "description": "Creates effortless, tousled beach waves.",
+      "category": "haircare"
+    },
+    {
+      "id": "haircare-005",
+      "name": "Garnier Fructis Sleek & Shine Anti-Frizz Serum",
+      "brand": "Garnier",
+      "price": 5.99,
+      "rating": 4.7,
+      "image": "images/haircare/garnier-anti-frizz.jpg",
+      "description": "Smooths frizz and adds long-lasting shine.",
+      "category": "haircare"
+    }
+  ],
+  "home": [
+    {
+      "id": "home-001",
+      "name": "Yankee Candle Large Jar",
+      "brand": "Yankee Candle",
+      "price": 27.99,
+      "rating": 4.8,
+      "image": "images/home/yankee-candle.jpg",
+      "description": "A long‑lasting scented candle for a cozy home atmosphere.",
+      "category": "home"
+    },
+    {
+      "id": "home-002",
+      "name": "Brita Water Filter Pitcher",
+      "brand": "Brita",
+      "price": 34.99,
+      "rating": 4.7,
+      "image": "images/home/brita-pitcher.jpg",
+      "description": "Reduces chlorine and impurities for cleaner drinking water.",
+      "category": "home"
+    },
+    {
+      "id": "home-003",
+      "name": "Dash Mini Waffle Maker",
+      "brand": "Dash",
+      "price": 12.99,
+      "rating": 4.8,
+      "image": "images/home/dash-waffle-maker.jpg",
+      "description": "Compact waffle maker perfect for quick breakfasts.",
+      "category": "home"
+    },
+    {
+      "id": "home-004",
+      "name": "iRobot Roomba 694 Robot Vacuum",
+      "brand": "iRobot",
+      "price": 179.99,
+      "rating": 4.6,
+      "image": "images/home/roomba-694.jpg",
+      "description": "Smart robot vacuum with Wi‑Fi connectivity.",
+      "category": "home"
+    },
+    {
+      "id": "home-005",
+      "name": "Bedsure Fleece Throw Blanket",
+      "brand": "Bedsure",
+      "price": 19.99,
+      "rating": 4.8,
+      "image": "images/home/bedsure-blanket.jpg",
+      "description": "Soft and cozy fleece blanket for all‑season comfort.",
+      "category": "home"
+    }
+  ],
