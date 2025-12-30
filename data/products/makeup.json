@@ -1,146 +1,200 @@
 [
   {
-    "id": 1,
+    "id": "makeup-001",
     "name": "Dior Backstage Face & Body Foundation",
     "brand": "Dior",
-    "price": 43,
+    "price": "$43.00",
     "image": "https://www.dior.com/couture/ecommerce/media/catalog/product/D/i/Dior_Backstage_Foundation.jpg",
-    "link": "https://www.dior.com/en_us/products/beauty-Y0996270-dior-backstage-face-body-foundation"
+    "link": "https://www.dior.com/en_us/products/beauty-Y0996270-dior-backstage-face-body-foundation",
+    "category": "Makeup",
+    "sku": "MAKEUP-001",
+    "available": true
   },
   {
-    "id": 2,
+    "id": "makeup-002",
     "name": "NARS Radiant Creamy Concealer",
     "brand": "NARS",
-    "price": 32,
+    "price": "$32.00",
     "image": "https://www.narscosmetics.com/dw/image/v2/AAQP_PRD/on/demandware.static/-/Sites-nars-master-catalog/default/dw4e3b6c5e/Products/Concealer/RadiantCreamyConcealer/NARS_RadiantCreamyConcealer_packshot.jpg",
-    "link": "https://www.narscosmetics.com/USA/radiant-creamy-concealer/0607845018097.html"
+    "link": "https://www.narscosmetics.com/USA/radiant-creamy-concealer/0607845018097.html",
+    "category": "Makeup",
+    "sku": "MAKEUP-002",
+    "available": true
   },
   {
-    "id": 3,
+    "id": "makeup-003",
     "name": "Rare Beauty Soft Pinch Liquid Blush",
     "brand": "Rare Beauty",
-    "price": 23,
+    "price": "$23.00",
     "image": "https://www.rarebeauty.com/cdn/shop/products/SoftPinchLiquidBlush.jpg",
-    "link": "https://www.rarebeauty.com/products/soft-pinch-liquid-blush"
+    "link": "https://www.rarebeauty.com/products/soft-pinch-liquid-blush",
+    "category": "Makeup",
+    "sku": "MAKEUP-003",
+    "available": true
   },
   {
-    "id": 4,
+    "id": "makeup-004",
     "name": "Charlotte Tilbury Hollywood Flawless Filter",
     "brand": "Charlotte Tilbury",
-    "price": 49,
+    "price": "$49.00",
     "image": "https://www.charlottetilbury.com/media/catalog/product/cache/1/image/800x800/9df78eab33525d08d6e5fb8d27136e95/h/o/hollywood_flawless_filter.jpg",
-    "link": "https://www.charlottetilbury.com/us/product/hollywood-flawless-filter"
+    "link": "https://www.charlottetilbury.com/us/product/hollywood-flawless-filter",
+    "category": "Makeup",
+    "sku": "MAKEUP-004",
+    "available": true
   },
   {
-    "id": 5,
+    "id": "makeup-005",
     "name": "Urban Decay Naked3 Eyeshadow Palette",
     "brand": "Urban Decay",
-    "price": 54,
+    "price": "$54.00",
     "image": "https://www.urbandecay.com/on/demandware.static/-/Sites-urban-decay-master-catalog/default/dw4e3b6c5e/Products/Eyeshadow/Naked3/Naked3_Palette_packshot.jpg",
-    "link": "https://www.urbandecay.com/naked3-eyeshadow-palette/3605972613903.html"
+    "link": "https://www.urbandecay.com/naked3-eyeshadow-palette/3605972613903.html",
+    "category": "Makeup",
+    "sku": "MAKEUP-005",
+    "available": true
   },
   {
-    "id": 6,
+    "id": "makeup-006",
     "name": "MAC Matte Lipstick in Velvet Teddy",
     "brand": "MAC Cosmetics",
-    "price": 23,
+    "price": "$23.00",
     "image": "https://www.maccosmetics.com/media/export/cms/products/1000x1000/mac_matte_lipstick_velvet_teddy.jpg",
-    "link": "https://www.maccosmetics.com/product/13854/525/matte-lipstick"
+    "link": "https://www.maccosmetics.com/product/13854/525/matte-lipstick",
+    "category": "Makeup",
+    "sku": "MAKEUP-006",
+    "available": true
   },
   {
-    "id": 7,
+    "id": "makeup-007",
     "name": "Benefit Cosmetics They're Real! Lengthening Mascara",
     "brand": "Benefit Cosmetics",
-    "price": 28,
+    "price": "$28.00",
     "image": "https://www.benefitcosmetics.com/media/export/cms/products/1000x1000/benefit_theyre_real_mascara.jpg",
-    "link": "https://www.benefitcosmetics.com/us/en/product/theyre-real-lengthening-mascara"
+    "link": "https://www.benefitcosmetics.com/us/en/product/theyre-real-lengthening-mascara",
+    "category": "Makeup",
+    "sku": "MAKEUP-007",
+    "available": true
   },
   {
-    "id": 8,
+    "id": "makeup-008",
     "name": "Milk Makeup Hydro Grip Primer",
     "brand": "Milk Makeup",
-    "price": 38,
+    "price": "$38.00",
     "image": "https://www.milkmakeup.com/media/export/cms/products/1000x1000/milk_hydro_grip_primer.jpg",
-    "link": "https://www.milkmakeup.com/products/hydro-grip-primer"
+    "link": "https://www.milkmakeup.com/products/hydro-grip-primer",
+    "category": "Makeup",
+    "sku": "MAKEUP-008",
+    "available": true
   },
   {
-    "id": 9,
+    "id": "makeup-009",
     "name": "Anastasia Beverly Hills Clear Brow Gel",
     "brand": "Anastasia Beverly Hills",
-    "price": 22,
+    "price": "$22.00",
     "image": "https://www.anastasiabeverlyhills.com/media/export/cms/products/1000x1000/abh_clear_brow_gel.jpg",
-    "link": "https://www.anastasiabeverlyhills.com/products/clear-brow-gel"
+    "link": "https://www.anastasiabeverlyhills.com/products/clear-brow-gel",
+    "category": "Makeup",
+    "sku": "MAKEUP-009",
+    "available": true
   },
   {
-    "id": 10,
+    "id": "makeup-010",
     "name": "NYX Professional Makeup Matte Finish Setting Spray",
     "brand": "NYX Professional Makeup",
-    "price": 10,
+    "price": "$10.00",
     "image": "https://www.nyxcosmetics.com/media/export/cms/products/1000x1000/nyx_matte_setting_spray.jpg",
-    "link": "https://www.nyxcosmetics.com/matte-finish-setting-spray/800897014548.html"
+    "link": "https://www.nyxcosmetics.com/matte-finish-setting-spray/800897014548.html",
+    "category": "Makeup",
+    "sku": "MAKEUP-010",
+    "available": true
   },
   {
-    "id": 11,
+    "id": "makeup-011",
     "name": "Fenty Beauty Pro Filt’r Soft Matte Longwear Foundation",
     "brand": "Fenty Beauty",
-    "price": 40,
+    "price": "$40.00",
     "image": "https://www.fentybeauty.com/media/export/cms/products/1000x1000/fenty_pro_filtr_foundation.jpg",
-    "link": "https://www.fentybeauty.com/products/pro-filtr-soft-matte-longwear-foundation"
+    "link": "https://www.fentybeauty.com/products/pro-filtr-soft-matte-longwear-foundation",
+    "category": "Makeup",
+    "sku": "MAKEUP-011",
+    "available": true
   },
   {
-    "id": 12,
+    "id": "makeup-012",
     "name": "Tarte Shape Tape Concealer",
     "brand": "Tarte",
-    "price": 31,
+    "price": "$31.00",
     "image": "https://www.tartecosmetics.com/media/export/cms/products/1000x1000/tarte_shape_tape_concealer.jpg",
-    "link": "https://www.tartecosmetics.com/en_US/shop/shape-tape-concealer"
+    "link": "https://www.tartecosmetics.com/en_US/shop/shape-tape-concealer",
+    "category": "Makeup",
+    "sku": "MAKEUP-012",
+    "available": true
   },
   {
-    "id": 13,
+    "id": "makeup-013",
     "name": "Hourglass Ambient Lighting Blush",
     "brand": "Hourglass",
-    "price": 43,
+    "price": "$43.00",
     "image": "https://www.hourglasscosmetics.com/media/export/cms/products/1000x1000/hourglass_ambient_blush.jpg",
-    "link": "https://www.hourglasscosmetics.com/products/ambient-lighting-blush"
+    "link": "https://www.hourglasscosmetics.com/products/ambient-lighting-blush",
+    "category": "Makeup",
+    "sku": "MAKEUP-013",
+    "available": true
   },
   {
-    "id": 14,
+    "id": "makeup-014",
     "name": "Becca Shimmering Skin Perfector Pressed Highlighter",
     "brand": "Becca",
-    "price": 38,
+    "price": "$38.00",
     "image": "https://www.beccacosmetics.com/media/export/cms/products/1000x1000/becca_highlighter.jpg",
-    "link": "https://www.beccacosmetics.com/products/shimmering-skin-perfector-pressed-highlighter"
+    "link": "https://www.beccacosmetics.com/products/shimmering-skin-perfector-pressed-highlighter",
+    "category": "Makeup",
+    "sku": "MAKEUP-014",
+    "available": true
   },
   {
-    "id": 15,
+    "id": "makeup-015",
     "name": "Too Faced Better Than Sex Mascara",
     "brand": "Too Faced",
-    "price": 28,
+    "price": "$28.00",
     "image": "https://www.toofaced.com/media/export/cms/products/1000x1000/toofaced_better_than_sex_mascara.jpg",
-    "link": "https://www.toofaced.com/product/better-than-sex-mascara"
+    "link": "https://www.toofaced.com/product/better-than-sex-mascara",
+    "category": "Makeup",
+    "sku": "MAKEUP-015",
+    "available": true
   },
   {
-    "id": 16,
+    "id": "makeup-016",
     "name": "e.l.f. Poreless Putty Primer",
     "brand": "e.l.f. Cosmetics",
-    "price": 10,
+    "price": "$10.00",
     "image": "https://www.elfcosmetics.com/media/export/cms/products/1000x1000/elf_putty_primer.jpg",
-    "link": "https://www.elfcosmetics.com/poreless-putty-primer"
+    "link": "https://www.elfcosmetics.com/poreless-putty-primer",
+    "category": "Makeup",
+    "sku": "MAKEUP-016",
+    "available": true
   },
   {
-    "id": 17,
+    "id": "makeup-017",
     "name": "Maybelline SuperStay Matte Ink Liquid Lipstick",
     "brand": "Maybelline",
-    "price": 11,
+    "price": "$11.00",
     "image": "https://www.maybelline.com/media/export/cms/products/1000x1000/maybelline_matte_ink_lipstick.jpg",
-    "link": "https://www.maybelline.com/lip-makeup/lipstick/superstay-matte-ink-liquid-lipstick"
+    "link": "https://www.maybelline.com/lip-makeup/lipstick/superstay-matte-ink-liquid-lipstick",
+    "category": "Makeup",
+    "sku": "MAKEUP-017",
+    "available": true
   },
   {
-    "id": 18,
+    "id": "makeup-018",
     "name": "Pat McGrath Labs Mothership Eyeshadow Palette",
     "brand": "Pat McGrath Labs",
-    "price": 128,
+    "price": "$128.00",
     "image": "https://www.patmcgrath.com/media/export/cms/products/1000x1000/patmcgrath_mothership_palette.jpg",
-    "link": "https://www.patmcgrath.com/products/mothership-eyeshadow-palette"
+    "link": "https://www.patmcgrath.com/products/mothership-eyeshadow-palette",
+    "category": "Makeup",
+    "sku": "MAKEUP-018",
+    "available": true
   }
 ]
