@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Search | AuraPop</title>
+
+  <link rel="stylesheet" href="styles/category.css" />
+
+  <style>
+    .search-container {
+      max-width: 700px;
+      margin: 40px auto;
+      text-align: center;
+    }
+
+    .search-box {
+      width: 100%;
+      padding: 14px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      margin-bottom: 25px;
+    }
+
+    .results-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 25px;
+      padding: 20px;
+    }
+
+    .no-results {
+      text-align: center;
+      color: #777;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="search-container">
+    <h1>Search Products</h1>
+    <input 
+      type="text" 
+      id="searchInput" 
+      class="search-box" 
+      placeholder="Search for vitamins, skincare, accessories, etc..."
+    />
+  </div>
+
+  <div id="searchResults" class="results-grid"></div>
+
+  <script src="scripts/search.js"></script>
+
+</body>
+</html>
