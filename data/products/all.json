@@ -362,3 +362,107 @@
       "category": "home"
     }
   ],
+  "nails": [
+    {
+      "id": "nails-001",
+      "name": "Essie Nail Polish – Ballet Slippers",
+      "brand": "Essie",
+      "price": 9.99,
+      "rating": 4.8,
+      "image": "images/nails/essie-ballet-slippers.jpg",
+      "description": "A classic pale pink polish with a glossy finish.",
+      "category": "nails"
+    },
+    {
+      "id": "nails-002",
+      "name": "OPI Nail Lacquer – Big Apple Red",
+      "brand": "OPI",
+      "price": 11.49,
+      "rating": 4.9,
+      "image": "images/nails/opi-big-apple-red.jpg",
+      "description": "A bold, iconic red shade with long‑lasting wear.",
+      "category": "nails"
+    },
+    {
+      "id": "nails-003",
+      "name": "KISS Salon Acrylic Nude Nails",
+      "brand": "KISS",
+      "price": 7.99,
+      "rating": 4.7,
+      "image": "images/nails/kiss-acrylic-nude.jpg",
+      "description": "Ready‑to‑wear acrylic nails with a natural finish.",
+      "category": "nails"
+    },
+    {
+      "id": "nails-004",
+      "name": "Sally Hansen Hard as Nails Hardener",
+      "brand": "Sally Hansen",
+      "price": 3.99,
+      "rating": 4.6,
+      "image": "images/nails/sally-hansen-hardener.jpg",
+      "description": "Strengthens and protects weak, brittle nails.",
+      "category": "nails"
+    },
+    {
+      "id": "nails-005",
+      "name": "Beetles Gel Polish Starter Kit",
+      "brand": "Beetles",
+      "price": 29.99,
+      "rating": 4.7,
+      "image": "images/nails/beetles-gel-kit.jpg",
+      "description": "A complete gel polish kit with UV lamp included.",
+      "category": "nails"
+    }
+  ],
+  "perfume": [
+    {
+      "id": "perfume-001",
+      "name": "Ariana Grande Cloud Eau de Parfum",
+      "brand": "Ariana Grande",
+      "price": 48.00,
+      "rating": 4.9,
+      "image": "images/perfume/ariana-cloud.jpg",
+      "description": "A sweet, airy blend of lavender blossom, pear, and coconut.",
+      "category": "perfume"
+    },
+    {
+      "id": "perfume-002",
+      "name": "Marc Jacobs Daisy",
+      "brand": "Marc Jacobs",
+      "price": 86.00,
+      "rating": 4.8,
+      "image": "images/perfume/marc-jacobs-daisy.jpg",
+      "description": "A fresh floral fragrance with notes of violet and jasmine.",
+      "category": "perfume"
+    },
+    {
+      "id": "perfume-003",
+      "name": "YSL Black Opium",
+      "brand": "Yves Saint Laurent",
+      "price": 135.00,
+      "rating": 4.9,
+      "image": "images/perfume/ysl-black-opium.jpg",
+      "description": "A warm and spicy scent with coffee, vanilla, and white flowers.",
+      "category": "perfume"
+    },
+    {
+      "id": "perfume-004",
+      "name": "Sol de Janeiro Brazilian Crush 62",
+      "brand": "Sol de Janeiro",
+      "price": 24.00,
+      "rating": 4.8,
+      "image": "images/perfume/sol-62.jpg",
+      "description": "A gourmand body fragrance with pistachio and salted caramel.",
+      "category": "perfume"
+    },
+    {
+      "id": "perfume-005",
+      "name": "Viktor & Rolf Flowerbomb",
+      "brand": "Viktor & Rolf",
+      "price": 138.00,
+      "rating": 4.9,
+      "image": "images/perfume/flowerbomb.jpg",
+      "description": "An explosive floral bouquet with patchouli and vanilla.",
+      "category": "perfume"
+    }
+  ],
