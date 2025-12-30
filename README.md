@@ -1,13 +1,13 @@
-# ✨ Aura Wellness Co.  
-### A Calm, Modern, Gender‑Neutral Wellness Brand Within the AuraPop Universe
+✨ **Aura Wellness Co.**  
+A Calm, Modern, Gender‑Neutral Wellness Brand Within the AuraPop Universe  
 
-Aura Wellness Co. is a serene, beautifully designed wellness storefront created as part of the **AuraPop digital retail ecosystem**. Built on the belief that wellness should feel **accessible**, **calming**, and **intentionally crafted**, the brand blends modern design with emotional ease — creating a shopping experience that feels soft, trustworthy, and premium. 🌿✨
+Aura Wellness Co. is a serene, beautifully designed wellness storefront created as part of the AuraPop digital retail ecosystem. Built on the belief that wellness should feel accessible, calming, and intentionally crafted, the brand blends modern design with emotional ease — creating a shopping experience that feels soft, trustworthy, and premium. 🌿✨
 
 Every detail — from the color palette to the product architecture — is designed to help customers feel grounded, supported, and inspired.
 
 ---
 
-## 🌸 Brand Overview  
+🌸 **Brand Overview**  
 Aura Wellness Co. organizes its wellness offerings into three core categories:
 
 - **Women’s Wellness** 🌺  
@@ -30,7 +30,7 @@ The result is a wellness experience that feels like a breath of fresh air.
 
 ---
 
-## 🌈 Part of the AuraPop Multi‑Brand Ecosystem  
+🌈 **Part of the AuraPop Multi‑Brand Ecosystem**  
 Aura Wellness Co. is one branch of a growing digital empire that includes:
 
 - **AuraPop Cosmetics Co.** — beauty & skincare  
@@ -43,47 +43,58 @@ This interconnected structure allows customers to move effortlessly between beau
 
 ---
 
-## 🗂️ Project Structure  
+🗂️ **Project Structure**
+
 The project is organized into two clean, scalable directories:
 
-### **1. `aura-wellness/`**  
-Contains all front‑end pages:  
+### **1. aura-wellness/**
+Contains all front‑end pages:
+
 - Homepage  
 - Category pages  
+- Shop All page  
 - Product detail page  
 - Global styling  
 
-### **2. `data/`**  
-Contains all structured JSON files powering the catalog.
+### **2. data/**
+Contains all structured JSON files powering the catalog:
+
+- `all.json` (master product file)  
+- Category‑specific JSON (optional future expansion)  
 
 This separation keeps the project organized, scalable, and easy to maintain as the brand grows.
 
 ---
 
-## 🛍️ Site Functionality  
-### **🏠 Homepage**  
+🛍️ **Site Functionality**
+
+### 🏠 **Homepage**  
 Introduces the Aura Wellness identity and guides users to the three main wellness categories.
 
-### **🛒 Shop All Page**  
-Aggregates every product from every JSON file into a clean, responsive grid.
+### 🛒 **Shop All Page**  
+Aggregates every product from the unified `all.json` file into a clean, responsive grid.
 
-### **📂 Category Pages**  
-Each page loads a curated set of products with consistent styling and links to the product detail page.
+### 📂 **Category Pages**  
+Each page loads a curated set of products filtered by category, with consistent styling and direct links to the product detail page.
 
-### **🔍 Product Detail Page**  
+### 🔍 **Product Detail Page**  
 Fully dynamic — loads content based on the product’s unique ID passed through the URL.  
 This allows the site to scale effortlessly as new products are added.
 
 ---
 
-## 🧩 Product Data Schema  
+🧩 **Product Data Schema**
+
 Every product follows a consistent structure:
 
-- `id` — unique identifier  
-- `name` — product name  
-- `price` — numerical value  
-- `category` — category identifier  
-- `description` — short product description  
+- **id** — unique identifier  
+- **name** — product name  
+- **price** — numerical or formatted price  
+- **category** — category identifier  
+- **brand** — brand name  
+- **image** — product image URL  
+- **link** — external purchase link  
+- **description** — short product description  
 
 This ensures fast loading, reliability, and compatibility with future enhancements like:
 
@@ -94,7 +105,8 @@ This ensures fast loading, reliability, and compatibility with future enhancemen
 
 ---
 
-## 🎨 Design System  
+🎨 **Design System**
+
 All styling is centralized in a single CSS file that defines:
 
 - Layout system  
@@ -112,11 +124,12 @@ The aesthetic is:
 - Modern  
 - Emotionally soothing  
 
-It reflects the brand’s commitment to **clarity**, **comfort**, and **wellness‑first design**.
+It reflects the brand’s commitment to clarity, comfort, and wellness‑first design.
 
 ---
 
-## 🚀 Future Expansion  
+🚀 **Future Expansion**
+
 Aura Wellness Co. is built for long‑term growth. The architecture supports:
 
 - New categories  
@@ -132,11 +145,12 @@ Planned enhancements include:
 - Wishlists  
 - API‑driven product management  
 
-The long‑term vision is a **fully scalable, multi‑brand digital ecosystem** that maintains a consistent identity while offering diverse product experiences.
+The long‑term vision is a fully scalable, multi‑brand digital ecosystem that maintains a consistent identity while offering diverse product experiences.
 
 ---
 
-## 👩‍💻 Creator  
+👩‍💻 **Creator**
+
 This project was created by **Victoria (Tori)** — a digital entrepreneur, designer, and author known for building clean, conversion‑focused digital experiences.
 
 Every decision — from product curation to layout structure — reflects a commitment to:
@@ -150,6 +164,6 @@ Aura Wellness Co. is not just a storefront — it is the foundation of a broader
 
 ---
 
-## 🔒 Repository Notice  
+🔒 **Repository Notice**  
 This repository is proprietary and part of the AuraPop brand family.  
 It is not intended for redistribution or commercial reuse.
