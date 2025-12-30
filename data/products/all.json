@@ -206,3 +206,55 @@
     }
   ]
 }
+  "makeup": [
+    {
+      "id": "makeup-001",
+      "name": "Maybelline Lash Sensational Mascara",
+      "brand": "Maybelline",
+      "price": 9.99,
+      "rating": 4.8,
+      "image": "images/makeup/maybelline-lash-sensational.jpg",
+      "description": "A volumizing mascara that separates and defines lashes.",
+      "category": "makeup"
+    },
+    {
+      "id": "makeup-002",
+      "name": "NARS Radiant Creamy Concealer",
+      "brand": "NARS",
+      "price": 31.00,
+      "rating": 4.8,
+      "image": "images/makeup/nars-creamy-concealer.jpg",
+      "description": "A cult‑favorite concealer with buildable coverage.",
+      "category": "makeup"
+    },
+    {
+      "id": "makeup-003",
+      "name": "Fenty Beauty Gloss Bomb Universal Lip Luminizer",
+      "brand": "Fenty Beauty",
+      "price": 20.00,
+      "rating": 4.9,
+      "image": "images/makeup/fenty-gloss-bomb.jpg",
+      "description": "A universally flattering, high‑shine lip gloss.",
+      "category": "makeup"
+    },
+    {
+      "id": "makeup-004",
+      "name": "e.l.f. Power Grip Primer",
+      "brand": "e.l.f.",
+      "price": 10.00,
+      "rating": 4.8,
+      "image": "images/makeup/elf-power-grip.jpg",
+      "description": "A sticky gel primer that grips makeup all day.",
+      "category": "makeup"
+    },
+    {
+      "id": "makeup-005",
+      "name": "Rare Beauty Soft Pinch Liquid Blush",
+      "brand": "Rare Beauty",
+      "price": 23.00,
+      "rating": 4.9,
+      "image": "images/makeup/rare-beauty-blush.jpg",
+      "description": "A highly pigmented liquid blush that blends effortlessly.",
+      "category": "makeup"
+    }
+  ],
