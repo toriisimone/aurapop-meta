@@ -466,3 +466,108 @@
       "category": "perfume"
     }
   ],
+  "pet": [
+    {
+      "id": "pet-001",
+      "name": "Greenies Dental Dog Treats",
+           "brand": "Greenies",
+      "price": 18.99,
+      "rating": 4.8,
+      "image": "images/pet/greenies-dental-treats.jpg",
+      "description": "Vet‑recommended dental chews that clean teeth and freshen breath.",
+      "category": "pet"
+    },
+    {
+      "id": "pet-002",
+      "name": "KONG Classic Dog Toy",
+      "brand": "KONG",
+      "price": 12.99,
+      "rating": 4.9,
+      "image": "images/pet/kong-classic.jpg",
+      "description": "Durable rubber toy perfect for chewing and treat‑stuffing.",
+      "category": "pet"
+    },
+    {
+      "id": "pet-003",
+      "name": "Arm & Hammer Clumping Cat Litter",
+      "brand": "Arm & Hammer",
+      "price": 10.99,
+      "rating": 4.7,
+      "image": "images/pet/arm-hammer-litter.jpg",
+      "description": "Powerful odor‑control litter with tight‑clumping action.",
+      "category": "pet"
+    },
+    {
+      "id": "pet-004",
+      "name": "Temptations Classic Cat Treats",
+      "brand": "Temptations",
+      "price": 7.49,
+      "rating": 4.9,
+      "image": "images/pet/temptations-treats.jpg",
+      "description": "Crunchy outside, soft inside treats cats love.",
+      "category": "pet"
+    },
+    {
+      "id": "pet-005",
+      "name": "Outward Hound Slow Feeder Bowl",
+      "brand": "Outward Hound",
+      "price": 14.99,
+      "rating": 4.8,
+      "image": "images/pet/slow-feeder-bowl.jpg",
+      "description": "A maze‑style bowl that helps prevent fast eating.",
+      "category": "pet"
+    }
+  ],
+  "seasonal": [
+    {
+      "id": "seasonal-001",
+      "name": "Holiday String Lights",
+      "brand": "Home Accents",
+      "price": 14.99,
+      "rating": 4.7,
+      "image": "images/seasonal/holiday-lights.jpg",
+      "description": "Warm white LED string lights perfect for indoor or outdoor décor.",
+      "category": "seasonal"
+    },
+    {
+      "id": "seasonal-002",
+      "name": "Pumpkin Spice Scented Candle",
+      "brand": "Glade",
+      "price": 5.99,
+      "rating": 4.6,
+      "image": "images/seasonal/pumpkin-candle.jpg",
+      "description": "A cozy fall fragrance with pumpkin, cinnamon, and vanilla.",
+      "category": "seasonal"
+    },
+    {
+      "id": "seasonal-003",
+      "name": "Easter Egg Decorating Kit",
+      "brand": "PAAS",
+      "price": 4.99,
+      "rating": 4.8,
+      "image": "images/seasonal/easter-egg-kit.jpg",
+      "description": "A complete kit for decorating colorful Easter eggs.",
+      "category": "seasonal"
+    },
+    {
+      "id": "seasonal-004",
+      "name": "Fourth of July Sparklers",
+      "brand": "Celebration Co.",
+      "price": 3.49,
+      "rating": 4.7,
+      "image": "images/seasonal/sparklers.jpg",
+      "description": "Classic handheld sparklers for festive celebrations.",
+      "category": "seasonal"
+    },
+    {
+      "id": "seasonal-005",
+      "name": "Valentine’s Day Heart Garland",
+      "brand": "PartyTime",
+      "price": 6.99,
+      "rating": 4.8,
+      "image": "images/seasonal/heart-garland.jpg",
+      "description": "A decorative garland featuring red and pink hearts.",
+      "category": "seasonal"
+    }
+  ]
+}
