@@ -62,71 +62,47 @@
   </script>
 </head>
 
-<body>
+<body data-category="general">
 
-  <!-- NAVIGATION -->
-  <header class="navbar">
-    <div class="logo">Aura Wellness Co.</div>
-    <nav>
-      <a href="../index.html">AuraPop</a>
-      <a href="index.html">Home</a>
-      <a href="shop-all.html">Shop All</a>
-      <a href="mens.html">Men’s Wellness</a>
-      <a href="womens.html">Women’s Wellness</a>
-      <a href="general.html">Everyday Wellness</a>
-    </nav>
-  </header>
+<button class="copy-btn" onclick="copyCode()">Copy This Page</button>
 
-  <!-- HERO -->
-  <div class="category-hero">EVERYDAY WELLNESS</div>
+<header class="navbar">
+  <div class="logo">Aura Wellness Co.</div>
+  <nav>
+    <a href="../index.html">AuraPop</a>
+    <a href="index.html">Home</a>
+    <a href="shop-all.html">Shop All</a>
+    <a href="mens.html">Men’s Wellness</a>
+    <a href="womens.html">Women’s Wellness</a>
+    <a href="general.html">Everyday Wellness</a>
+  </nav>
+</header>
 
-  <!-- PRODUCT GRID -->
-  <main class="main-section">
-    <h2 class="section-title">Curated for Everyone</h2>
-    <div id="product-grid" class="product-grid"></div>
-  </main>
+<div class="category-hero">EVERYDAY WELLNESS</div>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <p>© Aura Wellness Co. — Designed for every body, every day.</p>
-    <p class="footer-link">
-      Part of the AuraPop ecosystem. Visit
-      <a href="../index.html">AuraPop Cosmetics Co.</a>
-    </p>
-  </footer>
+<main class="main-section">
+  <h2 class="section-title">Curated for Everyone</h2>
+  <div id="product-list" class="product-grid"></div>
+</main>
 
-  <!-- SCRIPT -->
-  <script>
-    async function loadProducts() {
-      try {
-        const response = await fetch("data/general.json");
-        const products = await response.json();
-        renderProducts(products);
-      } catch (e) {
-        console.error("Error loading products:", e);
-      }
-    }
+<footer class="footer">
+  <p>© Aura Wellness Co. — Designed for every body, every day.</p>
+  <p class="footer-link">
+    Part of the AuraPop ecosystem. Visit
+    <a href="../index.html">AuraPop Cosmetics Co.</a>
+  </p>
+</footer>
 
-    function renderProducts(products) {
-      const container = document.getElementById("product-grid");
-      container.innerHTML = "";
+<script src="/scripts/load-products.js"></script>
 
-      products.forEach(product => {
-        const card = document.createElement("a");
-        card.href = `product.html?id=${product.id}&cat=general`;
-        card.className = "product-card";
+<script>
+  function copyCode() {
+    navigator.clipboard.writeText(document.documentElement.outerHTML);
+    alert("Copied!");
+  }
+</script>
 
-        card.innerHTML = `
-          <h3>${product.name}</h3>
-          <p class="product-meta">$${product.price}</p>
-        `;
-
-        container.appendChild(card);
-      });
-    }
-
-    window.onload = loadProducts;
-  </script>
+<button class="copy-btn" onclick="copyCode()">Copy This Page</button>
 
 </body>
 </html>
