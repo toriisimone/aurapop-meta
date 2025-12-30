@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>404 — Lost in the Clouds | AuraPop</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(
+        180deg,
+        #ffe4ec 0%,
+        #f7e9ff 50%,
+        #ffe4ec 100%
+      );
+      overflow: hidden;
+      color: #d63384;
+    }
+
+    /* Floating cloud shapes */
+    .cloud {
+      position: absolute;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 50px;
+      filter: blur(8px);
+      animation: float 18s linear infinite;
+    }
+
+    .cloud:nth-child(1) {
+      width: 180px;
+      height: 60px;
+      top: 20%;
+      left: -200px;
+      animation-duration: 22s;
+    }
+
+    .cloud:nth-child(2) {
+      width: 240px;
+      height: 70px;
+      top: 55%;
+      left: -260px;
+      animation-duration: 26s;
+    }
+
+    .cloud:nth-child(3) {
+      width: 140px;
+      height: 50px;
+      top: 75%;
+      left: -180px;
+      animation-duration: 20s;
+    }
+
+    @keyframes float {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(140vw); }
+    }
+
+    .container {
+      position: relative;
+      z-index: 10;
+      max-width: 600px;
+      padding: 20px;
+    }
+
+    .logo {
+      width: 180px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 6rem;
+      margin: 0;
+      font-weight: bold;
+      color: #d63384;
+      text-shadow: 0 0 12px rgba(255, 255, 255, 0.6);
+    }
+
+    p {
+      font-size: 1.3rem;
+      margin: 10px 0 30px;
+      color: #7a2b5a;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 14px 32px;
+      background-color: #d63384;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      box-shadow: 0 4px 12px rgba(214, 51, 132, 0.4);
+      transition: 0.2s ease;
+    }
+
+    a.button:hover {
+      background-color: #b0256a;
+      box-shadow: 0 6px 18px rgba(214, 51, 132, 0.55);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Animated clouds -->
+  <div class="cloud"></div>
+  <div class="cloud"></div>
+  <div class="cloud"></div>
+
+  <div class="container">
+    <img src="images/AuraPop Cosmetics Co.png" alt="AuraPop Logo" class="logo" />
+
+    <h1>404</h1>
+    <p>You drifted into the clouds… this page doesn’t exist.</p>
+
+    <a href="index.html" class="button">Back to Home</a>
+  </div>
+
+</body>
+</html>
