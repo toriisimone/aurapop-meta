@@ -1,1 +1,104 @@
-placeholder.txt
+/* --------------------------------------------- */
+/* GLOBAL DROPDOWN MENU — Soft Pink + White Theme */
+/* --------------------------------------------- */
+
+.ap-dropdown {
+  position: relative;
+}
+
+.ap-dropdown-toggle {
+  cursor: pointer;
+}
+
+.ap-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #ffffff;
+  border: 1px solid #f3c6dd;
+  border-radius: 6px;
+  padding: 10px 0;
+  min-width: 160px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  z-index: 9999;
+}
+
+.ap-dropdown.open .ap-dropdown-menu {
+  display: block;
+}
+
+.ap-dropdown-menu a {
+  display: block;
+  padding: 8px 15px;
+  color: #d63384;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.ap-dropdown-menu a:hover {
+  background: #fce7f3;
+}
+
+
+/* --------------------------------------------- */
+/* FLOATING SEARCH BAR */
+/* --------------------------------------------- */
+
+.ap-floating-search {
+  position: fixed;
+  top: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 500px;
+  background: #ffffffee;
+  backdrop-filter: blur(10px);
+  border: 1px solid #f3c6dd;
+  border-radius: 30px;
+  padding: 10px 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: top 0.3s ease;
+  z-index: 99999;
+}
+
+.ap-floating-search.visible {
+  top: 15px;
+}
+
+.ap-floating-search input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  color: #d63384;
+  background: transparent;
+}
+
+
+/* --------------------------------------------- */
+/* CHAT BUBBLE */
+/* --------------------------------------------- */
+
+.ap-chat-bubble {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 55px;
+  height: 55px;
+  background: #d63384;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease;
+  z-index: 99999;
+}
+
+.ap-chat-bubble:hover {
+  transform: scale(1.08);
+}
