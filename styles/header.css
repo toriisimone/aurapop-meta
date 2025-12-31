@@ -1,50 +1,59 @@
-.ap-header {
+/* MOBILE MENU BUTTON */
+.ap-menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 32px;
+  height: 32px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.ap-menu-toggle span {
+  display: block;
   width: 100%;
-  background: #ffffffee;
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid #f3c6dd;
-  position: sticky;
-  top: 0;
-  z-index: 999;
+  height: 3px;
+  background: #d63384;
+  border-radius: 3px;
+  transition: 0.3s ease;
 }
 
-.ap-header-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 15px 25px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+/* ANIMATION WHEN OPEN */
+.ap-menu-toggle.open span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.ap-menu-toggle.open span:nth-child(2) {
+  opacity: 0;
+}
+.ap-menu-toggle.open span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
 }
 
-.ap-logo a {
-  font-size: 26px;
-  font-weight: bold;
-  color: #d63384;
-  text-decoration: none;
-}
-
-.ap-nav a {
-  margin-left: 22px;
-  text-decoration: none;
-  color: #d63384;
-  font-weight: 600;
-  font-size: 15px;
-}
-
-.ap-nav a:hover {
-  text-decoration: underline;
-}
-
-/* Mobile */
+/* MOBILE NAV */
 @media (max-width: 768px) {
-  .ap-header-inner {
+  .ap-menu-toggle {
+    display: flex;
+  }
+
+  .ap-nav {
+    display: none;
     flex-direction: column;
-    gap: 10px;
+    width: 100%;
+    background: #ffffffee;
+    border-top: 1px solid #f3c6dd;
+    padding: 15px 0;
+  }
+
+  .ap-nav.open {
+    display: flex;
   }
 
   .ap-nav a {
-    margin: 8px;
-    display: inline-block;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 18px;
   }
 }
