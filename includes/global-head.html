@@ -1,10 +1,49 @@
-<!-- GLOBAL STYLES -->
-<link rel="stylesheet" href="styles/category.css" />
-<link rel="stylesheet" href="styles/header.css" />
-<link rel="stylesheet" href="styles/mobile-menu.css" />
-<link rel="stylesheet" href="styles/global.css" />
+// MASTER GLOBAL INJECTOR — FIXES EVERY PAGE AUTOMATICALLY
 
-<!-- GLOBAL SCRIPTS -->
-<script src="scripts/header.js"></script>
-<script src="scripts/footer.js"></script>
-<script src="scripts/aura-core.js"></script>
+document.addEventListener("DOMContentLoaded", () => {
+
+  /* -------------------------------------------------- */
+  /* 1. Inject global-head.html into <head>             */
+  /* -------------------------------------------------- */
+  fetch("/includes/global-head.html")
+    .then(res => res.text())
+    .then(content => {
+      document.head.insertAdjacentHTML("beforeend", content);
+
+      // After global-head loads, run aura-core
+      const script = document.createElement("script");
+      script.src = "/scripts/aura-core.js";
+      document.body.appendChild(script);
+    });
+
+  /* -------------------------------------------------- */
+  /* 2. Remove duplicate old header/footer if present   */
+  /* -------------------------------------------------- */
+  const oldHeader = document.querySelector("header");
+  if (oldHeader) oldHeader.remove();
+
+  const oldFooter = document.querySelector("footer");
+  if (oldFooter) oldFooter.remove();
+
+  /* -------------------------------------------------- */
+  /* 3. Remove old inline scripts that conflict         */
+  /* -------------------------------------------------- */
+  document.querySelectorAll("script").forEach(s => {
+    const bad = [
+      "header.js",
+      "footer.js",
+      "mobile-menu.js"
+    ];
+    if (bad.some(b => s.src.includes(b))) {
+      s.remove();
+    }
+  });
+
+  /* -------------------------------------------------- */
+  /* 4. Remove inline <style> blocks if needed          */
+  /* -------------------------------------------------- */
+  document.querySelectorAll("style").forEach(style => {
+    style.remove();
+  });
+
+});
