@@ -1,1 +1,33 @@
+/* MOBILE MENU — Soft Pink + White Theme */
 
+@media (max-width: 768px) {
+
+  /* Hide desktop nav by default on mobile */
+  .ap-nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: #ffffffee;
+    border-top: 1px solid #f3c6dd;
+    padding: 15px 0;
+  }
+
+  /* Show when open */
+  .ap-nav.open {
+    display: flex;
+  }
+
+  /* Mobile nav links */
+  .ap-nav a {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 18px;
+    color: #d63384;
+    font-weight: 600;
+  }
+
+  /* Mobile menu toggle button */
+  .ap-menu-toggle {
+    display: flex;
+  }
+}
