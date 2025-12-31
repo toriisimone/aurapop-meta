@@ -1,6 +1,7 @@
 <header class="ap-header">
   <div class="ap-header-inner">
 
+    <!-- LOGO -->
     <div class="ap-logo">
       <a href="index.html">AuraPop</a>
     </div>
@@ -12,24 +13,55 @@
       <span></span>
     </button>
 
+    <!-- NAVIGATION -->
     <nav class="ap-nav">
+
       <a href="shop-all.html">Shop All</a>
-      <a href="makeup.html">Makeup</a>
-      <a href="skincare.html">Skincare</a>
+
+      <!-- DROPDOWN: MAKEUP -->
+      <div class="ap-dropdown">
+        <a href="makeup.html" class="ap-dropdown-toggle">Makeup</a>
+        <div class="ap-dropdown-menu">
+          <a href="makeup.html#face">Face</a>
+          <a href="makeup.html#eyes">Eyes</a>
+          <a href="makeup.html#lips">Lips</a>
+        </div>
+      </div>
+
+      <!-- DROPDOWN: SKINCARE -->
+      <div class="ap-dropdown">
+        <a href="skincare.html" class="ap-dropdown-toggle">Skincare</a>
+        <div class="ap-dropdown-menu">
+          <a href="skincare.html#cleansers">Cleansers</a>
+          <a href="skincare.html#serums">Serums</a>
+          <a href="skincare.html#moisturizers">Moisturizers</a>
+        </div>
+      </div>
+
       <a href="womens-wellness.html">Women’s Wellness</a>
       <a href="mens-wellness.html">Men’s Wellness</a>
       <a href="gifts.html">Gifts</a>
       <a href="gadgets.html">Gadgets</a>
       <a href="search.html">Search</a>
       <a href="account-login.html">Account</a>
+
     </nav>
 
   </div>
 </header>
 
+<!-- FLOATING SEARCH BAR -->
+<div class="ap-floating-search" id="apFloatingSearch">
+  <input type="text" placeholder="Search AuraPop..." />
+</div>
+
+<!-- CHAT BUBBLE -->
+<div class="ap-chat-bubble" id="apChatBubble">💬</div>
+
 <script>
-  // Mobile menu toggle
   document.addEventListener("DOMContentLoaded", () => {
+
+    /* MOBILE MENU */
     const toggle = document.querySelector(".ap-menu-toggle");
     const nav = document.querySelector(".ap-nav");
 
@@ -37,5 +69,30 @@
       nav.classList.toggle("open");
       toggle.classList.toggle("open");
     });
+
+    /* DROPDOWNS */
+    document.querySelectorAll(".ap-dropdown-toggle").forEach(btn => {
+      btn.addEventListener("click", (e) => {
+        e.preventDefault();
+        btn.parentElement.classList.toggle("open");
+      });
+    });
+
+    /* FLOATING SEARCH BAR */
+    const floatingSearch = document.getElementById("apFloatingSearch");
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 120) {
+        floatingSearch.classList.add("visible");
+      } else {
+        floatingSearch.classList.remove("visible");
+      }
+    });
+
+    /* CHAT BUBBLE */
+    const chatBubble = document.getElementById("apChatBubble");
+    chatBubble.addEventListener("click", () => {
+      alert("Chat box coming next!");
+    });
+
   });
 </script>
