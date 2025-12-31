@@ -5,6 +5,13 @@
       <a href="index.html">AuraPop</a>
     </div>
 
+    <!-- MOBILE MENU BUTTON -->
+    <button class="ap-menu-toggle" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
     <nav class="ap-nav">
       <a href="shop-all.html">Shop All</a>
       <a href="makeup.html">Makeup</a>
@@ -19,3 +26,16 @@
 
   </div>
 </header>
+
+<script>
+  // Mobile menu toggle
+  document.addEventListener("DOMContentLoaded", () => {
+    const toggle = document.querySelector(".ap-menu-toggle");
+    const nav = document.querySelector(".ap-nav");
+
+    toggle.addEventListener("click", () => {
+      nav.classList.toggle("open");
+      toggle.classList.toggle("open");
+    });
+  });
+</script>
