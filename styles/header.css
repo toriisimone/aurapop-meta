@@ -1,1 +1,50 @@
-placeholder.txt
+.ap-header {
+  width: 100%;
+  background: #ffffffee;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #f3c6dd;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.ap-header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ap-logo a {
+  font-size: 26px;
+  font-weight: bold;
+  color: #d63384;
+  text-decoration: none;
+}
+
+.ap-nav a {
+  margin-left: 22px;
+  text-decoration: none;
+  color: #d63384;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.ap-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .ap-header-inner {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .ap-nav a {
+    margin: 8px;
+    display: inline-block;
+  }
+}
