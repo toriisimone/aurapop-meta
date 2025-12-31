@@ -1,1 +1,25 @@
-placeholder.txt
+.ap-footer {
+  background: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 1px solid #f3c6dd;
+  margin-top: 60px;
+}
+
+.ap-footer-links a {
+  margin: 0 15px;
+  color: #d63384;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.ap-footer-links a:hover {
+  opacity: 0.7;
+}
+
+.ap-footer-copy {
+  color: #7a2b5a;
+  font-size: 14px;
+  margin-top: 20px;
+}
