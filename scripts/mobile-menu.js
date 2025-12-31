@@ -1,23 +1,26 @@
 // Mobile Menu Toggle — Soft Pink + White Theme
 
 document.addEventListener("DOMContentLoaded", () => {
-    const mobileMenuToggle = document.getElementById("mobileMenuToggle");
-    const mobileMenu = document.getElementById("mobileMenu");
+    const toggle = document.querySelector(".ap-menu-toggle");
+    const nav = document.querySelector(".ap-nav");
 
-    if (!mobileMenuToggle || !mobileMenu) {
+    if (!toggle || !nav) {
         console.warn("Mobile menu elements not found in the DOM.");
         return;
     }
 
-    mobileMenuToggle.addEventListener("click", () => {
-        mobileMenu.classList.toggle("open");
+    // Open / close mobile menu
+    toggle.addEventListener("click", () => {
+        nav.classList.toggle("open");
+        toggle.classList.toggle("open");
     });
 
-    // Optional: close menu when a link is clicked
-    const mobileMenuLinks = mobileMenu.querySelectorAll("a");
-    mobileMenuLinks.forEach(link => {
+    // Close menu when a link is clicked (optional but recommended)
+    const links = nav.querySelectorAll("a");
+    links.forEach(link => {
         link.addEventListener("click", () => {
-            mobileMenu.classList.remove("open");
+            nav.classList.remove("open");
+            toggle.classList.remove("open");
         });
     });
 });
