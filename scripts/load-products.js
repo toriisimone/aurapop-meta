@@ -19,11 +19,14 @@
         ? product.link
         : `product.html?id=${encodeURIComponent(product.id || '')}`;
 
+    const image = product.image || 'images/default-product.jpg';
+
     return {
       ...product,
       category: normalizedCategory,
       price: priceString,
-      link
+      link,
+      image
     };
   }
 
@@ -73,8 +76,7 @@
   }
 
   function tryCategoryJsonFallback() {
-    // Example: /data/products/accessories.json
-    const url = `/data/products/${category}.json`;
+    const url = `data/products/${category}.json`;
 
     return fetch(url)
       .then((response) => {
@@ -93,8 +95,7 @@
       });
   }
 
-  // Main load pipeline: try all.json first, then fall back
-  fetch('/data/products/all.json')
+  fetch('data/products/all.json')
     .then((response) => {
       if (!response.ok) {
         throw new Error('all.json not found');
@@ -106,7 +107,6 @@
       const filtered = filterByCategory(allProducts);
 
       if (filtered.length === 0) {
-        // No matches in all.json → fall back to dedicated category file
         return tryCategoryJsonFallback();
       }
 
