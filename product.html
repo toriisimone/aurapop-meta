@@ -27,6 +27,9 @@
   <link rel="icon" type="image/png" href="images/favicon.png" />
   <link rel="stylesheet" href="styles/product.css" />
 
+  <!-- GLOBAL HEADER -->
+  <script src="scripts/header.js"></script>
+
   <script type="application/ld+json" id="product-schema">
   {
     "@context": "https://schema.org/",
@@ -66,19 +69,6 @@
 
 <body>
 
-  <header class="navbar">
-    <div class="logo">AuraPop</div>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="makeup.html">Makeup</a>
-      <a href="skincare.html">Skincare</a>
-      <a href="womens-wellness.html">Women’s Wellness</a>
-      <a href="mens-wellness.html">Men’s Wellness</a>
-      <a href="gifts.html">Gifts</a>
-      <a href="gadgets.html">Gadgets</a>
-    </nav>
-  </header>
-
   <div class="breadcrumb">
     <a href="index.html">Home</a> › 
     <span id="breadcrumb-category"></span> › 
@@ -114,9 +104,8 @@
     <div id="related-grid" class="related-grid"></div>
   </section>
 
-  <footer class="footer">
-    <p>© AuraPop Cosmetics Co. — Dream big, glow soft.</p>
-  </footer>
+  <!-- GLOBAL FOOTER -->
+  <script src="scripts/footer.js"></script>
 
   <script>
     const params = new URLSearchParams(window.location.search);
