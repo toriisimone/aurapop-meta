@@ -6,7 +6,7 @@
     "price": "$48.00",
     "image": "https://m.media-amazon.com/images/I/61xKZzZzYxL._AC_SL1500_.jpg",
     "link": "https://arianagrandefragrances.com/products/cloud",
-    "category": "Perfume",
+    "category": "perfume",
     "sku": "PERF-001",
     "available": true
   },
@@ -17,7 +17,7 @@
     "price": "$135.00",
     "image": "https://www.yslbeautyus.com/dw/image/v2/AAQP_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw0d8e7548/Fragrance/BlackOpium/3614270561665_BlackOpium_EDP_90ml_packshot.jpg",
     "link": "https://www.yslbeautyus.com/fragrance/black-opium",
-    "category": "Perfume",
+    "category": "perfume",
     "sku": "PERF-002",
     "available": true
   },
@@ -28,7 +28,7 @@
     "price": "$118.00",
     "image": "https://us.burberry.com/on/demandware.static/-/Sites/default/dw3e7b3f8c/images/large/40711751.jpg",
     "link": "https://us.burberry.com/burberry-her-eau-de-parfum-p40711751",
-    "category": "Perfume",
+    "category": "perfume",
     "sku": "PERF-003",
     "available": true
   },
@@ -39,7 +39,7 @@
     "price": "$96.00",
     "image": "https://www.marcjacobsfragrances.com/media/catalog/product/d/a/daisy_edp_100ml_1.jpg",
     "link": "https://www.marcjacobsfragrances.com/daisy",
-    "category": "Perfume",
+    "category": "perfume",
     "sku": "PERF-004",
     "available": true
   },
@@ -50,7 +50,7 @@
     "price": "$138.00",
     "image": "https://www.carolinaherrera.com/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-catalog/default/dw0c7d5a0a/images/large/212/8411061926753.jpg",
     "link": "https://www.carolinaherrera.com/us/en/fragrances/good-girl",
-    "category": "Perfume",
+    "category": "perfume",
     "sku": "PERF-005",
     "available": true
   },
@@ -61,7 +61,7 @@
     "price": "$138.00",
     "image": "https://www.chanel.com/images//t_one/t_fallback/w_0.51,h_0.51,c_crop/f_auto,q_auto:good,fl_lossy,dpr_1.2/coco-mademoiselle-eau-de-parfum-spray-3-4fl-oz--packshot-default-116520-8827889698846.jpg",
     "link": "https://www.chanel.com/us/fragrance/p/116520/coco-mademoiselle-eau-de-parfum-spray",
-    "category": "Perfume",
+    "category": "perfume",
     "sku": "PERF-006",
     "available": true
   },
@@ -72,7 +72,7 @@
     "price": "$130.00",
     "image": "https://www.dior.com/couture/ecommerce/media/catalog/product/J/a/1647337802_JADORE_EDP_100ML_PACKSHOT.jpg",
     "link": "https://www.dior.com/en_us/beauty/products/jadore-eau-de-parfum",
-    "category": "Perfume",
+    "category": "perfume",
     "sku": "PERF-007",
     "available": true
   },
@@ -83,7 +83,7 @@
     "price": "$120.00",
     "image": "https://www.lancome-usa.com/dw/image/v2/AAQP_PRD/on/demandware.static/-/Sites-lancome-master-catalog/default/dw6d4c3fb7/Products/Fragrance/LaVieEstBelle/3614271578419_LaVieEstBelle_EDP_100ml_packshot.jpg",
     "link": "https://www.lancome-usa.com/fragrance/la-vie-est-belle",
-    "category": "Perfume",
+    "category": "perfume",
     "sku": "PERF-008",
     "available": true
   },
@@ -94,7 +94,7 @@
     "price": "$118.00",
     "image": "https://www.gucci.com/us/en/pr/beauty/fragrances/womens-fragrances/gucci-bloom-eau-de-parfum-p-57034799999",
     "link": "https://www.gucci.com/us/en/pr/beauty/fragrances/womens-fragrances/gucci-bloom-eau-de-parfum-p-57034799999",
-    "category": "Perfume",
+    "category": "perfume",
     "sku": "PERF-009",
     "available": true
   },
@@ -105,7 +105,7 @@
     "price": "$135.00",
     "image": "https://www.viktor-rolf.com/dw/image/v2/AAQP_PRD/on/demandware.static/-/Sites-viktorrolf-master-catalog/default/dw4e3b6c5e/Products/Flowerbomb/Flowerbomb_EDP_100ml_packshot.jpg",
     "link": "https://www.viktor-rolf.com/flowerbomb",
-    "category": "Perfume",
+    "category": "perfume",
     "sku": "PERF-010",
     "available": true
   },
@@ -116,7 +116,7 @@
     "price": "$325.00",
     "image": "https://www.franciskurkdjian.com/dw/image/v2/AAQP_PRD/on/demandware.static/-/Sites-mfk-master-catalog/default/dw8a9b4c6e/images/packshots/BR540_EDP_70ml.jpg",
     "link": "https://www.franciskurkdjian.com/baccarat-rouge-540-eau-de-parfum",
-    "category": "Perfume",
+    "category": "perfume",
     "sku": "PERF-011",
     "available": true
   },
@@ -127,7 +127,7 @@
     "price": "$138.00",
     "image": "https://www.chanel.com/images//t_one/t_fallback/w_0.51,h_0.51,c_crop/f_auto,q_auto:good,fl_lossy,dpr_1.2/chance-eau-tendre-eau-de-parfum-spray-3-4fl-oz--packshot-default-126520-8827889698846.jpg",
     "link": "https://www.chanel.com/us/fragrance/p/126520/chance-eau-tendre-eau-de-parfum-spray",
-    "category": "Perfume",
+    "category": "perfume",
     "sku": "PERF-012",
     "available": true
   },
@@ -138,7 +138,7 @@
     "price": "$118.00",
     "image": "https://www.dior.com/couture/ecommerce/media/catalog/product/M/i/1647337802_MISS_DIOR_BB_100ML_PACKSHOT.jpg",
     "link": "https://www.dior.com/en_us/beauty/products/miss-dior-blooming-bouquet",
-    "category": "Perfume",
+    "category": "perfume",
     "sku": "PERF-013",
     "available": true
   }
