@@ -3,209 +3,159 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aurora Wellness • Shop All • AuraPop</title>
 
-  <title>Aura Wellness Co. | Shop All</title>
+  <!-- Global CSS -->
+  <link rel="stylesheet" href="/styles/global.css" />
 
-  <meta name="title" content="Aura Wellness Co. | Shop All" />
-  <meta name="description" content="Browse every wellness product from Aura Wellness Co. — curated essentials for men, women, and everyday wellness." />
-  <meta name="keywords" content="Aura Wellness Co, Shop All, wellness products, supplements, men's wellness, women's wellness, everyday wellness" />
-  <meta name="author" content="Aura Wellness Co." />
-
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Aura Wellness Co. | Shop All" />
-  <meta property="og:description" content="Explore all wellness essentials from Aura Wellness Co. — curated for every body." />
-  <meta property="og:image" content="https://aurapop.com/images/og-wellness-shopall.jpg" />
-  <meta property="og:url" content="https://aurapop.com/aura-wellness/shop-all.html" />
-  <meta property="og:site_name" content="Aura Wellness Co." />
-
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Aura Wellness Co. | Shop All" />
-  <meta name="twitter:description" content="Explore all wellness essentials from Aura Wellness Co." />
-  <meta name="twitter:image" content="https://aurapop.com/images/og-wellness-shopall.jpg" />
-
-  <link rel="canonical" href="https://aurapop.com/aura-wellness/shop-all.html" />
-
-  <link rel="stylesheet" href="styles/aw-main.css" />
-
-  <style>
-    .shop-hero {
-      text-align: center;
-      padding: 3rem 1rem;
-      background-color: #d0f0ec;
-      color: #004d40;
-      font-size: 2.5rem;
-      font-weight: bold;
-      margin-bottom: 2rem;
-      letter-spacing: 1px;
-    }
-    .filter-bar {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-    .filter-bar select {
-      padding: 0.5rem;
-      margin: 0 0.5rem;
-      border-radius: 6px;
-      border: 1px solid #00796b;
-    }
-    .category-block h2 {
-      color: #00796b;
-      margin-top: 3rem;
-      text-align: left;
-      padding-left: 1rem;
-    }
-  </style>
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": "Shop All",
-    "url": "https://aurapop.com/aura-wellness/shop-all.html",
-    "description": "Browse every wellness product from Aura Wellness Co.",
-    "isPartOf": {
-      "@type": "WebSite",
-      "name": "Aura Wellness Co.",
-      "url": "https://aurapop.com/aura-wellness/"
-    }
-  }
-  </script>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  />
 </head>
 
-<body data-category="all">
+<body>
+  <div class="ap-site-shell">
 
-  <header class="navbar">
-    <div class="logo">Aura Wellness Co.</div>
-    <nav>
-      <a href="../index.html">AuraPop</a>
-      <a href="index.html">Home</a>
-      <a href="shop-all.html">Shop All</a>
-      <a href="mens.html">Men’s Wellness</a>
-      <a href="womens.html">Women’s Wellness</a>
-      <a href="general.html">Everyday Wellness</a>
-      <a href="../search.html">Search</a>
-    </nav>
-  </header>
+    <!-- NAV -->
+    <header class="ap-nav">
+      <div class="ap-nav-inner">
+        <div class="ap-logo">
+          <span class="ap-logo-main">AuraPop</span>
+          <span class="ap-logo-sub">ToriEdition.com</span>
+        </div>
 
-  <div class="shop-hero">SHOP ALL</div>
+        <nav class="ap-nav-links">
+          <a href="/shop-all.html">Shop All</a>
+          <a href="/makeup.html">Makeup</a>
+          <a href="/skincare.html">Skincare</a>
+          <a href="/womens-wellness.html">Women’s Wellness</a>
+          <a href="/mens-wellness.html">Men’s Wellness</a>
+          <a href="/gifts.html">Gifts</a>
+          <a href="/gadgets.html">Gadgets</a>
+          <a href="/aura-wellness/index.html" style="color: var(--ap-deep-pink); font-weight: 600;">Aurora Wellness</a>
+        </nav>
 
-  <div class="filter-bar">
-    <select id="sort">
-      <option value="">Sort By</option>
-      <option value="low">Price: Low to High</option>
-      <option value="high">Price: High to Low</option>
-    </select>
+        <div class="ap-nav-actions">
+          <div class="ap-nav-pill">
+            <div class="ap-nav-icon">🔍</div>
+            <span>Search</span>
+          </div>
+          <div class="ap-nav-pill">
+            <div class="ap-nav-icon">♥</div>
+            <span>Account</span>
+          </div>
+        </div>
+      </div>
+    </header>
 
-    <select id="filter-category">
-      <option value="">Filter Category</option>
-      <option value="Men’s Wellness">Men’s Wellness</option>
-      <option value="Women’s Wellness">Women’s Wellness</option>
-      <option value="Everyday Wellness">Everyday Wellness</option>
-    </select>
+    <!-- HERO -->
+    <section class="ap-page ap-page-hero">
+      <div class="ap-page-hero-kicker">Aurora Wellness</div>
+      <h1 class="ap-page-hero-title">
+        Shop <span>All</span>
+      </h1>
+      <p class="ap-page-hero-text">
+        Every cloud‑soft wellness essential in one place.  
+        This page will automatically display your real products once your JSON is connected.
+      </p>
+    </section>
+
+    <!-- PROMO STRIP -->
+    <section class="ap-promo-strip">
+      <div class="ap-promo-pill">Holistic Essentials</div>
+      <div class="ap-promo-pill">Daily Rituals</div>
+      <div class="ap-promo-pill">Curated Wellness</div>
+    </section>
+
+    <!-- PRODUCT GRID (PLACEHOLDERS UNTIL JSON IS CONNECTED) -->
+    <section class="ap-page">
+      <div class="ap-section-header">
+        <div>
+          <div class="ap-section-kicker">All Products</div>
+          <h2 class="ap-section-title">Aurora Wellness Collection</h2>
+        </div>
+      </div>
+
+      <div class="ap-grid ap-grid--3">
+
+        <div class="ap-card">
+          <img src="/images/placeholder-product.jpg" alt="Product" />
+          <div class="ap-card-label">Aurora Wellness</div>
+          <div class="ap-card-title">Product Name</div>
+          <div class="ap-card-text">Short description goes here.</div>
+          <div class="ap-card-tag">$00.00</div>
+        </div>
+
+        <div class="ap-card">
+          <img src="/images/placeholder-product.jpg" alt="Product" />
+          <div class="ap-card-label">Aurora Wellness</div>
+          <div class="ap-card-title">Product Name</div>
+          <div class="ap-card-text">Short description goes here.</div>
+          <div class="ap-card-tag">$00.00</div>
+        </div>
+
+        <div class="ap-card">
+          <img src="/images/placeholder-product.jpg" alt="Product" />
+          <div class="ap-card-label">Aurora Wellness</div>
+          <div class="ap-card-title">Product Name</div>
+          <div class="ap-card-text">Short description goes here.</div>
+          <div class="ap-card-tag">$00.00</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="ap-footer">
+      <div class="ap-footer-inner">
+        <div>
+          <div class="ap-footer-logo-main">AuraPop</div>
+          <div class="ap-footer-logo-sub">ToriEdition.com</div>
+          <div class="ap-footer-text">
+            A cloud‑soft beauty and wellness universe curated by ToriEdition.
+          </div>
+        </div>
+
+        <div>
+          <div class="ap-footer-heading">Shop</div>
+          <ul class="ap-footer-list">
+            <li><a href="/shop-all.html">Shop All</a></li>
+            <li><a href="/makeup.html">Makeup</a></li>
+            <li><a href="/skincare.html">Skincare</a></li>
+            <li><a href="/womens-wellness.html">Women’s Wellness</a></li>
+            <li><a href="/mens-wellness.html">Men’s Wellness</a></li>
+            <li><a href="/gifts.html">Gifts</a></li>
+            <li><a href="/gadgets.html">Gadgets</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="ap-footer-heading">Brand</div>
+          <ul class="ap-footer-list">
+            <li><a href="/about.html">About AuraPop</a></li>
+            <li><a href="/coupons.html">Coupon Universe</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="ap-footer-bottom">
+        <div>© <span id="ap-year"></span> AuraPop by ToriEdition. All rights reserved.</div>
+        <div class="ap-footer-bottom-links">
+          <a href="/privacy.html">Privacy</a>
+          <a href="/terms.html">Terms</a>
+        </div>
+      </div>
+    </footer>
+
   </div>
 
-  <main class="main-section">
-    <h2 class="section-title">All Products</h2>
-    <div id="all-products-grid" class="product-grid"></div>
-    <div id="category-sections"></div>
-  </main>
-
-  <footer class="footer">
-    <p>© Aura Wellness Co. — Designed for every body, every day.</p>
-    <p class="footer-link">
-      Part of the AuraPop ecosystem. Visit
-      <a href="../index.html">AuraPop Cosmetics Co.</a>
-    </p>
-  </footer>
-
   <script>
-    async function loadAllProducts() {
-      const response = await fetch("../data/products/all.json");
-      const products = await response.json();
-
-      renderAllProducts(products);
-      renderCategorySections(products);
-      setupFilters(products);
-    }
-
-    function renderAllProducts(products) {
-      const container = document.getElementById("all-products-grid");
-      container.innerHTML = "";
-
-      products.forEach(product => {
-        const card = document.createElement("a");
-        card.href = `product.html?id=${product.id}`;
-        card.className = "product-card";
-
-        card.innerHTML = `
-          <h3>${product.name}</h3>
-          <p class="product-meta">${product.price}</p>
-        `;
-
-        container.appendChild(card);
-      });
-    }
-
-    function renderCategorySections(products) {
-      const categories = {};
-
-      products.forEach(p => {
-        if (!categories[p.category]) categories[p.category] = [];
-        categories[p.category].push(p);
-      });
-
-      const sectionContainer = document.getElementById("category-sections");
-      sectionContainer.innerHTML = "";
-
-      for (const category in categories) {
-        const section = document.createElement("div");
-        section.className = "category-block";
-
-        section.innerHTML = `
-          <h2>${category.toUpperCase()}</h2>
-          <div class="product-grid">
-            ${categories[category]
-              .map(
-                p => `
-              <a href="product.html?id=${p.id}" class="product-card">
-                <h3>${p.name}</h3>
-                <p class="product-meta">${p.price}</p>
-              </a>
-            `
-              )
-              .join("")}
-          </div>
-        `;
-
-        sectionContainer.appendChild(section);
-      }
-    }
-
-    function setupFilters(products) {
-      const sortSelect = document.getElementById("sort");
-      const filterSelect = document.getElementById("filter-category");
-
-      sortSelect.addEventListener("change", () => {
-        let sorted = [...products];
-        if (sortSelect.value === "low") {
-          sorted.sort((a, b) => parseFloat(a.price.replace("$","")) - parseFloat(b.price.replace("$","")));
-        } else if (sortSelect.value === "high") {
-          sorted.sort((a, b) => parseFloat(b.price.replace("$","")) - parseFloat(a.price.replace("$","")));
-        }
-        renderAllProducts(sorted);
-      });
-
-      filterSelect.addEventListener("change", () => {
-        let filtered = [...products];
-        if (filterSelect.value) {
-          filtered = filtered.filter(p => p.category === filterSelect.value);
-        }
-        renderAllProducts(filtered);
-      });
-    }
-
-    window.onload = loadAllProducts;
+    document.getElementById("ap-year").textContent = new Date().getFullYear();
   </script>
-
 </body>
 </html>
