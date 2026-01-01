@@ -6,7 +6,7 @@
     "price": "$20.00",
     "image": "https://www.beautyblender.com/cdn/shop/products/beautyblender_original.jpg",
     "link": "https://www.beautyblender.com/products/beautyblender-original",
-    "category": "Accessories",
+    "category": "accessories",
     "sku": "ACCS-001",
     "available": true
   },
@@ -17,7 +17,7 @@
     "price": "$6.00",
     "image": "https://realtechniques.com/cdn/shop/products/miracle_complexion_sponge.jpg",
     "link": "https://realtechniques.com/products/miracle-complexion-sponge",
-    "category": "Accessories",
+    "category": "accessories",
     "sku": "ACCS-002",
     "available": true
   },
@@ -28,7 +28,7 @@
     "price": "$12.00",
     "image": "https://ecotools.com/cdn/shop/products/start_the_day_brush_set.jpg",
     "link": "https://ecotools.com/products/start-the-day-beautifully-kit",
-    "category": "Accessories",
+    "category": "accessories",
     "sku": "ACCS-003",
     "available": true
   },
@@ -39,7 +39,7 @@
     "price": "$28.00",
     "image": "https://www.sigmabeauty.com/cdn/shop/products/sigma_f80.jpg",
     "link": "https://www.sigmabeauty.com/products/f80-flat-kabuki",
-    "category": "Accessories",
+    "category": "accessories",
     "sku": "ACCS-004",
     "available": true
   },
@@ -50,7 +50,7 @@
     "price": "$23.00",
     "image": "https://www.tweezerman.com/media/export/cms/products/1000x1000/tweezerman_slant_tweezer.jpg",
     "link": "https://www.tweezerman.com/slant-tweezer",
-    "category": "Accessories",
+    "category": "accessories",
     "sku": "ACCS-005",
     "available": true
   },
@@ -61,7 +61,7 @@
     "price": "$23.00",
     "image": "https://www.shiseido.com/media/export/cms/products/1000x1000/shiseido_eyelash_curler.jpg",
     "link": "https://www.shiseido.com/eyelash-curler",
-    "category": "Accessories",
+    "category": "accessories",
     "sku": "ACCS-006",
     "available": true
   },
@@ -72,7 +72,7 @@
     "price": "$69.00",
     "image": "https://www.revlonhairtools.com/cdn/shop/products/revlon_one_step_plus.jpg",
     "link": "https://www.revlonhairtools.com/products/one-step-volumizer-plus",
-    "category": "Accessories",
+    "category": "accessories",
     "sku": "ACCS-007",
     "available": true
   },
@@ -83,7 +83,7 @@
     "price": "$599.00",
     "image": "https://www.dyson.com/cdn/shop/products/dyson_airwrap.jpg",
     "link": "https://www.dyson.com/hair-care/dyson-airwrap",
-    "category": "Accessories",
+    "category": "accessories",
     "sku": "ACCS-008",
     "available": true
   },
@@ -94,7 +94,7 @@
     "price": "$49.00",
     "image": "https://www.hottools.com/cdn/shop/products/hottools_24k_curling_iron.jpg",
     "link": "https://www.hottools.com/products/24k-gold-curling-iron",
-    "category": "Accessories",
+    "category": "accessories",
     "sku": "ACCS-009",
     "available": true
   },
@@ -105,7 +105,7 @@
     "price": "$39.00",
     "image": "https://www.conair.com/media/export/cms/products/1000x1000/conair_infinitipro_dryer.jpg",
     "link": "https://www.conair.com/products/infinitipro-hair-dryer",
-    "category": "Accessories",
+    "category": "accessories",
     "sku": "ACCS-010",
     "available": true
   },
@@ -116,7 +116,7 @@
     "price": "$14.00",
     "image": "https://www.tangleteezer.com/cdn/shop/products/tangle_teezer_original.jpg",
     "link": "https://www.tangleteezer.com/products/the-original",
-    "category": "Accessories",
+    "category": "accessories",
     "sku": "ACCS-011",
     "available": true
   },
@@ -127,7 +127,7 @@
     "price": "$9.00",
     "image": "https://www.wetbrush.com/cdn/shop/products/wetbrush_original.jpg",
     "link": "https://www.wetbrush.com/products/original-detangler",
-    "category": "Accessories",
+    "category": "accessories",
     "sku": "ACCS-012",
     "available": true
   },
@@ -138,7 +138,7 @@
     "price": "$39.00",
     "image": "https://www.slip.com/cdn/shop/products/slip_silk_scrunchies.jpg",
     "link": "https://www.slip.com/products/pure-silk-scrunchies",
-    "category": "Accessories",
+    "category": "accessories",
     "sku": "ACCS-013",
     "available": true
   },
@@ -149,7 +149,7 @@
     "price": "$18.00",
     "image": "https://www.mykitsch.com/cdn/shop/products/kitsch_heatless_curling_set.jpg",
     "link": "https://www.mykitsch.com/products/satin-heatless-curling-set",
-    "category": "Accessories",
+    "category": "accessories",
     "sku": "ACCS-014",
     "available": true
   },
@@ -160,7 +160,7 @@
     "price": "$20.00",
     "image": "https://www.sephora.com/productimages/sku/switch_cleaner.jpg",
     "link": "https://www.sephora.com/product/color-switch-brush-cleaner",
-    "category": "Accessories",
+    "category": "accessories",
     "sku": "ACCS-015",
     "available": true
   },
@@ -171,7 +171,7 @@
     "price": "$20.00",
     "image": "https://www.anastasiabeverlyhills.com/media/export/cms/products/1000x1000/abh_brow_scissors.jpg",
     "link": "https://www.anastasiabeverlyhills.com/products/brow-scissors",
-    "category": "Accessories",
+    "category": "accessories",
     "sku": "ACCS-016",
     "available": true
   },
@@ -182,7 +182,7 @@
     "price": "$4.00",
     "image": "https://www.elfcosmetics.com/media/export/cms/products/1000x1000/elf_eyelash_curler.jpg",
     "link": "https://www.elfcosmetics.com/eyelash-curler",
-    "category": "Accessories",
+    "category": "accessories",
     "sku": "ACCS-017",
     "available": true
   },
@@ -193,7 +193,7 @@
     "price": "$12.00",
     "image": "https://www.tweezerman.com/media/export/cms/products/1000x1000/tweezerman_nail_clippers.jpg",
     "link": "https://www.tweezerman.com/gear-nail-clipper-set",
-    "category": "Accessories",
+    "category": "accessories",
     "sku": "ACCS-018",
     "available": true
   },
@@ -204,7 +204,7 @@
     "price": "$3.00",
     "image": "https://www.revlon.com/media/export/cms/products/1000x1000/revlon_emery_boards.jpg",
     "link": "https://www.revlon.com/products/compact-emery-boards",
-    "category": "Accessories",
+    "category": "accessories",
     "sku": "ACCS-019",
     "available": true
   },
@@ -215,7 +215,7 @@
     "price": "$18.00",
     "image": "https://www.mykitsch.com/cdn/shop/products/kitsch_hair_towel.jpg",
     "link": "https://www.mykitsch.com/products/microfiber-hair-towel",
-    "category": "Accessories",
+    "category": "accessories",
     "sku": "ACCS-020",
     "available": true
   }
