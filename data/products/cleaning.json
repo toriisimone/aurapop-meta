@@ -6,7 +6,7 @@
     "price": "$4.00",
     "image": "https://methodhome.com/cdn/shop/products/method_pink_grapefruit.jpg",
     "link": "https://methodhome.com/products/all-purpose-cleaner-pink-grapefruit",
-    "category": "Cleaning",
+    "category": "cleaning",
     "sku": "CLEAN-001",
     "available": true
   },
@@ -17,7 +17,7 @@
     "price": "$5.00",
     "image": "https://www.mrsmeyers.com/media/export/cms/products/1000x1000/meyers_lemon_cleaner.jpg",
     "link": "https://www.mrsmeyers.com/product/multi-surface-cleaner-lemon-verbena",
-    "category": "Cleaning",
+    "category": "cleaning",
     "sku": "CLEAN-002",
     "available": true
   },
@@ -28,7 +28,7 @@
     "price": "$6.00",
     "image": "https://www.seventhgeneration.com/media/export/cms/products/1000x1000/seventhgen_wipes.jpg",
     "link": "https://www.seventhgeneration.com/disinfecting-wipes",
-    "category": "Cleaning",
+    "category": "cleaning",
     "sku": "CLEAN-003",
     "available": true
   },
@@ -39,7 +39,7 @@
     "price": "$3.00",
     "image": "https://target.scene7.com/is/image/Target/everspring_cleaner.jpg",
     "link": "https://www.target.com/p/everspring-all-purpose-cleaner",
-    "category": "Cleaning",
+    "category": "cleaning",
     "sku": "CLEAN-004",
     "available": true
   },
@@ -50,7 +50,7 @@
     "price": "$7.00",
     "image": "https://www.grove.co/cdn/shop/products/grove_cleaner_concentrate.jpg",
     "link": "https://www.grove.co/products/multi-purpose-cleaner-concentrate",
-    "category": "Cleaning",
+    "category": "cleaning",
     "sku": "CLEAN-005",
     "available": true
   },
@@ -61,7 +61,7 @@
     "price": "$4.00",
     "image": "https://methodhome.com/cdn/shop/products/method_sweet_water.jpg",
     "link": "https://methodhome.com/products/foaming-hand-wash-sweet-water",
-    "category": "Cleaning",
+    "category": "cleaning",
     "sku": "CLEAN-006",
     "available": true
   },
@@ -72,7 +72,7 @@
     "price": "$5.00",
     "image": "https://www.mrsmeyers.com/media/export/cms/products/1000x1000/meyers_basil_dish.jpg",
     "link": "https://www.mrsmeyers.com/product/dish-soap-basil",
-    "category": "Cleaning",
+    "category": "cleaning",
     "sku": "CLEAN-007",
     "available": true
   },
@@ -83,7 +83,7 @@
     "price": "$13.00",
     "image": "https://www.seventhgeneration.com/media/export/cms/products/1000x1000/seventhgen_laundry.jpg",
     "link": "https://www.seventhgeneration.com/laundry-detergent-free-clear",
-    "category": "Cleaning",
+    "category": "cleaning",
     "sku": "CLEAN-008",
     "available": true
   },
@@ -94,7 +94,7 @@
     "price": "$4.00",
     "image": "https://methodhome.com/cdn/shop/products/method_shower_spray.jpg",
     "link": "https://methodhome.com/products/daily-shower-spray-eucalyptus-mint",
-    "category": "Cleaning",
+    "category": "cleaning",
     "sku": "CLEAN-009",
     "available": true
   },
@@ -105,7 +105,7 @@
     "price": "$6.00",
     "image": "https://www.grove.co/cdn/shop/products/grove_handsoap.jpg",
     "link": "https://www.grove.co/products/hydrating-hand-soap-lavender-thyme",
-    "category": "Cleaning",
+    "category": "cleaning",
     "sku": "CLEAN-010",
     "available": true
   },
@@ -116,7 +116,7 @@
     "price": "$6.00",
     "image": "https://www.mrsmeyers.com/media/export/cms/products/1000x1000/meyers_peony_spray.jpg",
     "link": "https://www.mrsmeyers.com/product/room-freshener-peony",
-    "category": "Cleaning",
+    "category": "cleaning",
     "sku": "CLEAN-011",
     "available": true
   },
@@ -127,7 +127,7 @@
     "price": "$5.00",
     "image": "https://methodhome.com/cdn/shop/products/method_wood_cleaner.jpg",
     "link": "https://methodhome.com/products/wood-cleaner-almond",
-    "category": "Cleaning",
+    "category": "cleaning",
     "sku": "CLEAN-012",
     "available": true
   },
@@ -138,7 +138,7 @@
     "price": "$3.00",
     "image": "https://target.scene7.com/is/image/Target/everspring_glass_cleaner.jpg",
     "link": "https://www.target.com/p/everspring-glass-cleaner",
-    "category": "Cleaning",
+    "category": "cleaning",
     "sku": "CLEAN-013",
     "available": true
   },
@@ -149,7 +149,7 @@
     "price": "$6.00",
     "image": "https://www.grove.co/cdn/shop/products/grove_dishsoap.jpg",
     "link": "https://www.grove.co/products/dish-soap-lemon-eucalyptus",
-    "category": "Cleaning",
+    "category": "cleaning",
     "sku": "CLEAN-014",
     "available": true
   },
@@ -160,7 +160,7 @@
     "price": "$4.00",
     "image": "https://www.seventhgeneration.com/media/export/cms/products/1000x1000/seventhgen_toilet_cleaner.jpg",
     "link": "https://www.seventhgeneration.com/toilet-bowl-cleaner",
-    "category": "Cleaning",
+    "category": "cleaning",
     "sku": "CLEAN-015",
     "available": true
   },
@@ -171,7 +171,7 @@
     "price": "$4.00",
     "image": "https://methodhome.com/cdn/shop/products/method_antibac.jpg",
     "link": "https://methodhome.com/products/antibac-bathroom-cleaner-spearmint",
-    "category": "Cleaning",
+    "category": "cleaning",
     "sku": "CLEAN-016",
     "available": true
   },
@@ -182,7 +182,7 @@
     "price": "$12.00",
     "image": "https://www.mrsmeyers.com/media/export/cms/products/1000x1000/meyers_lavender_booster.jpg",
     "link": "https://www.mrsmeyers.com/product/laundry-scent-booster-lavender",
-    "category": "Cleaning",
+    "category": "cleaning",
     "sku": "CLEAN-017",
     "available": true
   },
@@ -193,7 +193,7 @@
     "price": "$15.00",
     "image": "https://www.grove.co/cdn/shop/products/grove_glass_bottle.jpg",
     "link": "https://www.grove.co/products/reusable-glass-spray-bottle",
-    "category": "Cleaning",
+    "category": "cleaning",
     "sku": "CLEAN-018",
     "available": true
   },
@@ -204,7 +204,7 @@
     "price": "$8.00",
     "image": "https://methodhome.com/cdn/shop/products/method_fabric_softener.jpg",
     "link": "https://methodhome.com/products/fabric-softener-fresh-air",
-    "category": "Cleaning",
+    "category": "cleaning",
     "sku": "CLEAN-019",
     "available": true
   },
@@ -215,7 +215,7 @@
     "price": "$5.00",
     "image": "https://www.mrsmeyers.com/media/export/cms/products/1000x1000/meyers_cream_cleanser.jpg",
     "link": "https://www.mrsmeyers.com/product/baking-soda-cream-cleanser",
-    "category": "Cleaning",
+    "category": "cleaning",
     "sku": "CLEAN-020",
     "available": true
   }
