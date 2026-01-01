@@ -6,7 +6,7 @@
     "price": "$30.00",
     "image": "https://olaplex.com/cdn/shop/products/no3.jpg",
     "link": "https://olaplex.com/products/no-3-hair-perfector",
-    "category": "Hair Care",
+    "category": "haircare",
     "sku": "HAIR-001",
     "available": true
   },
@@ -17,7 +17,7 @@
     "price": "$48.00",
     "image": "https://www.moroccanoil.com/cdn/shop/products/moroccanoil-treatment.jpg",
     "link": "https://www.moroccanoil.com/products/moroccanoil-treatment",
-    "category": "Hair Care",
+    "category": "haircare",
     "sku": "HAIR-002",
     "available": true
   },
@@ -28,7 +28,7 @@
     "price": "$40.00",
     "image": "https://www.kerastase-usa.com/media/export/cms/products/1000x1000/kerastase_bain_satin.jpg",
     "link": "https://www.kerastase-usa.com/nutritive/bain-satin",
-    "category": "Hair Care",
+    "category": "haircare",
     "sku": "HAIR-003",
     "available": true
   },
@@ -39,7 +39,7 @@
     "price": "$42.00",
     "image": "https://www.kerastase-usa.com/media/export/cms/products/1000x1000/kerastase_lait_vital.jpg",
     "link": "https://www.kerastase-usa.com/nutritive/lait-vital",
-    "category": "Hair Care",
+    "category": "haircare",
     "sku": "HAIR-004",
     "available": true
   },
@@ -50,7 +50,7 @@
     "price": "$12.00",
     "image": "https://www.sheamoisture.com/media/export/cms/products/1000x1000/shea_curl_smoothie.jpg",
     "link": "https://www.sheamoisture.com/products/curl-enhancing-smoothie",
-    "category": "Hair Care",
+    "category": "haircare",
     "sku": "HAIR-005",
     "available": true
   },
@@ -61,7 +61,7 @@
     "price": "$39.00",
     "image": "https://www.briogeohair.com/cdn/shop/products/ddr_mask.jpg",
     "link": "https://www.briogeohair.com/products/dont-despair-repair-deep-conditioning-mask",
-    "category": "Hair Care",
+    "category": "haircare",
     "sku": "HAIR-006",
     "available": true
   },
@@ -72,7 +72,7 @@
     "price": "$30.00",
     "image": "https://www.livingproof.com/media/export/cms/products/1000x1000/lp_phd_dry_shampoo.jpg",
     "link": "https://www.livingproof.com/products/phd-dry-shampoo",
-    "category": "Hair Care",
+    "category": "haircare",
     "sku": "HAIR-007",
     "available": true
   },
@@ -83,7 +83,7 @@
     "price": "$28.00",
     "image": "https://www.redken.com/media/export/cms/products/1000x1000/redken_all_soft_shampoo.jpg",
     "link": "https://www.redken.com/all-soft-shampoo",
-    "category": "Hair Care",
+    "category": "haircare",
     "sku": "HAIR-008",
     "available": true
   },
@@ -94,7 +94,7 @@
     "price": "$30.00",
     "image": "https://www.redken.com/media/export/cms/products/1000x1000/redken_all_soft_conditioner.jpg",
     "link": "https://www.redken.com/all-soft-conditioner",
-    "category": "Hair Care",
+    "category": "haircare",
     "sku": "HAIR-009",
     "available": true
   },
@@ -105,7 +105,7 @@
     "price": "$32.00",
     "image": "https://loveamika.com/cdn/shop/products/soulfood_mask.jpg",
     "link": "https://loveamika.com/products/soulfood-nourishing-mask",
-    "category": "Hair Care",
+    "category": "haircare",
     "sku": "HAIR-010",
     "available": true
   },
@@ -116,7 +116,7 @@
     "price": "$30.00",
     "image": "https://theouai.com/cdn/shop/products/ouai_leave_in_conditioner.jpg",
     "link": "https://theouai.com/products/leave-in-conditioner",
-    "category": "Hair Care",
+    "category": "haircare",
     "sku": "HAIR-011",
     "available": true
   },
@@ -127,7 +127,7 @@
     "price": "$5.00",
     "image": "https://www.aussie.com/media/export/cms/products/1000x1000/aussie_3_minute_miracle.jpg",
     "link": "https://www.aussie.com/en-us/products/3-minute-miracle-moist",
-    "category": "Hair Care",
+    "category": "haircare",
     "sku": "HAIR-012",
     "available": true
   },
@@ -138,7 +138,7 @@
     "price": "$7.00",
     "image": "https://www.nymbrands.com/media/export/cms/products/1000x1000/nym_beach_babe_spray.jpg",
     "link": "https://www.nymbrands.com/products/beach-babe-texturizing-sea-salt-spray",
-    "category": "Hair Care",
+    "category": "haircare",
     "sku": "HAIR-013",
     "available": true
   },
@@ -149,7 +149,7 @@
     "price": "$25.00",
     "image": "https://patternbeauty.com/cdn/shop/products/pattern_curl_gel.jpg",
     "link": "https://patternbeauty.com/products/curl-gel",
-    "category": "Hair Care",
+    "category": "haircare",
     "sku": "HAIR-014",
     "available": true
   },
@@ -160,7 +160,7 @@
     "price": "$10.00",
     "image": "https://www.mielleorganics.com/cdn/shop/products/mielle_rosemary_oil.jpg",
     "link": "https://www.mielleorganics.com/products/rosemary-mint-scalp-hair-strengthening-oil",
-    "category": "Hair Care",
+    "category": "haircare",
     "sku": "HAIR-015",
     "available": true
   },
@@ -171,7 +171,7 @@
     "price": "$9.00",
     "image": "https://www.headandshoulders.com/media/export/cms/products/1000x1000/hns_classic_clean.jpg",
     "link": "https://www.headandshoulders.com/en-us/shop-products/dandruff-shampoo/classic-clean",
-    "category": "Hair Care",
+    "category": "haircare",
     "sku": "HAIR-016",
     "available": true
   },
@@ -182,7 +182,7 @@
     "price": "$6.00",
     "image": "https://www.garnierusa.com/media/export/cms/products/1000x1000/garnier_sleek_shine_serum.jpg",
     "link": "https://www.garnierusa.com/products/fructis-sleek-and-shine-anti-frizz-serum",
-    "category": "Hair Care",
+    "category": "haircare",
     "sku": "HAIR-017",
     "available": true
   },
@@ -193,7 +193,7 @@
     "price": "$7.00",
     "image": "https://www.tresemme.com/media/export/cms/products/1000x1000/tresemme_heat_tamer.jpg",
     "link": "https://www.tresemme.com/us/en/products/heat-protection/thermal-creations-heat-tamer-spray.html",
-    "category": "Hair Care",
+    "category": "haircare",
     "sku": "HAIR-018",
     "available": true
   },
@@ -204,7 +204,7 @@
     "price": "$20.00",
     "image": "https://itsa10haircare.com/cdn/shop/products/miracle_leave_in.jpg",
     "link": "https://itsa10haircare.com/products/miracle-leave-in",
-    "category": "Hair Care",
+    "category": "haircare",
     "sku": "HAIR-019",
     "available": true
   },
@@ -215,7 +215,7 @@
     "price": "$20.00",
     "image": "https://www.verbproducts.com/cdn/shop/products/verb_ghost_oil.jpg",
     "link": "https://www.verbproducts.com/products/ghost-oil",
-    "category": "Hair Care",
+    "category": "haircare",
     "sku": "HAIR-020",
     "available": true
   }
