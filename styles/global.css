@@ -117,3 +117,120 @@
   transform: scale(1.12);
   box-shadow: 0 10px 26px rgba(214, 51, 132, 0.45);
 }
+
+
+/* --------------------------------------------- */
+/* COUPON UNIVERSE — Auto-Fill, Soft, Elegant    */
+/* --------------------------------------------- */
+
+.coupon-page {
+  padding: 40px 20px;
+  text-align: center;
+  background: linear-gradient(to bottom, #ffffff, #fdf7ff);
+}
+
+.coupon-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #d88bff;
+  margin-bottom: 10px;
+}
+
+.coupon-subtitle {
+  font-size: 1.2rem;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+/* Auto-fill grid */
+.coupon-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 18px;
+  padding: 20px;
+  position: relative;
+}
+
+/* Base coupon card */
+.coupon-card {
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(230, 180, 220, 0.25);
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+  opacity: 0;
+  transform: translateY(20px) scale(0.96);
+  transition: all 0.6s ease;
+  backdrop-filter: blur(12px);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Visible animation */
+.coupon-card.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+/* Soft banner style (subtle, elegant, not loud) */
+.coupon-banner {
+  grid-column: span 2;
+  background: rgba(255, 245, 255, 0.65);
+  border: 1px solid rgba(220, 160, 220, 0.18);
+  padding: 22px;
+  font-size: 1.05rem;
+}
+
+/* Cloudy sparkle overlay */
+.sparkle-cloud::before {
+  content: "";
+  position: absolute;
+  top: -40%;
+  left: -40%;
+  width: 180%;
+  height: 180%;
+  background: radial-gradient(circle, rgba(255,255,255,0.55), rgba(255,255,255,0));
+  animation: cloudFloat 10s infinite ease-in-out;
+  pointer-events: none;
+}
+
+@keyframes cloudFloat {
+  0% { transform: translate(0,0); }
+  50% { transform: translate(25px, -25px); }
+  100% { transform: translate(0,0); }
+}
+
+/* Text styling */
+.coupon-brand {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #b35cff;
+  margin-bottom: 6px;
+}
+
+.coupon-offer {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.coupon-code {
+  font-size: 0.9rem;
+  margin-bottom: 14px;
+  color: #666;
+}
+
+.coupon-btn {
+  display: inline-block;
+  padding: 8px 14px;
+  background: #d88bff;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.coupon-btn:hover {
+  background: #c06df5;
+}
