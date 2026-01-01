@@ -6,7 +6,7 @@
     "price": "$43.00",
     "image": "https://www.dior.com/couture/ecommerce/media/catalog/product/D/i/Dior_Backstage_Foundation.jpg",
     "link": "https://www.dior.com/en_us/products/beauty-Y0996270-dior-backstage-face-body-foundation",
-    "category": "Makeup",
+    "category": "makeup",
     "sku": "MAKEUP-001",
     "available": true
   },
@@ -17,7 +17,7 @@
     "price": "$32.00",
     "image": "https://www.narscosmetics.com/dw/image/v2/AAQP_PRD/on/demandware.static/-/Sites-nars-master-catalog/default/dw4e3b6c5e/Products/Concealer/RadiantCreamyConcealer/NARS_RadiantCreamyConcealer_packshot.jpg",
     "link": "https://www.narscosmetics.com/USA/radiant-creamy-concealer/0607845018097.html",
-    "category": "Makeup",
+    "category": "makeup",
     "sku": "MAKEUP-002",
     "available": true
   },
@@ -28,7 +28,7 @@
     "price": "$23.00",
     "image": "https://www.rarebeauty.com/cdn/shop/products/SoftPinchLiquidBlush.jpg",
     "link": "https://www.rarebeauty.com/products/soft-pinch-liquid-blush",
-    "category": "Makeup",
+    "category": "makeup",
     "sku": "MAKEUP-003",
     "available": true
   },
@@ -39,7 +39,7 @@
     "price": "$49.00",
     "image": "https://www.charlottetilbury.com/media/catalog/product/cache/1/image/800x800/9df78eab33525d08d6e5fb8d27136e95/h/o/hollywood_flawless_filter.jpg",
     "link": "https://www.charlottetilbury.com/us/product/hollywood-flawless-filter",
-    "category": "Makeup",
+    "category": "makeup",
     "sku": "MAKEUP-004",
     "available": true
   },
@@ -50,7 +50,7 @@
     "price": "$54.00",
     "image": "https://www.urbandecay.com/on/demandware.static/-/Sites-urban-decay-master-catalog/default/dw4e3b6c5e/Products/Eyeshadow/Naked3/Naked3_Palette_packshot.jpg",
     "link": "https://www.urbandecay.com/naked3-eyeshadow-palette/3605972613903.html",
-    "category": "Makeup",
+    "category": "makeup",
     "sku": "MAKEUP-005",
     "available": true
   },
@@ -61,7 +61,7 @@
     "price": "$23.00",
     "image": "https://www.maccosmetics.com/media/export/cms/products/1000x1000/mac_matte_lipstick_velvet_teddy.jpg",
     "link": "https://www.maccosmetics.com/product/13854/525/matte-lipstick",
-    "category": "Makeup",
+    "category": "makeup",
     "sku": "MAKEUP-006",
     "available": true
   },
@@ -72,7 +72,7 @@
     "price": "$28.00",
     "image": "https://www.benefitcosmetics.com/media/export/cms/products/1000x1000/benefit_theyre_real_mascara.jpg",
     "link": "https://www.benefitcosmetics.com/us/en/product/theyre-real-lengthening-mascara",
-    "category": "Makeup",
+    "category": "makeup",
     "sku": "MAKEUP-007",
     "available": true
   },
@@ -83,7 +83,7 @@
     "price": "$38.00",
     "image": "https://www.milkmakeup.com/media/export/cms/products/1000x1000/milk_hydro_grip_primer.jpg",
     "link": "https://www.milkmakeup.com/products/hydro-grip-primer",
-    "category": "Makeup",
+    "category": "makeup",
     "sku": "MAKEUP-008",
     "available": true
   },
@@ -94,7 +94,7 @@
     "price": "$22.00",
     "image": "https://www.anastasiabeverlyhills.com/media/export/cms/products/1000x1000/abh_clear_brow_gel.jpg",
     "link": "https://www.anastasiabeverlyhills.com/products/clear-brow-gel",
-    "category": "Makeup",
+    "category": "makeup",
     "sku": "MAKEUP-009",
     "available": true
   },
@@ -105,7 +105,7 @@
     "price": "$10.00",
     "image": "https://www.nyxcosmetics.com/media/export/cms/products/1000x1000/nyx_matte_setting_spray.jpg",
     "link": "https://www.nyxcosmetics.com/matte-finish-setting-spray/800897014548.html",
-    "category": "Makeup",
+    "category": "makeup",
     "sku": "MAKEUP-010",
     "available": true
   },
@@ -116,7 +116,7 @@
     "price": "$40.00",
     "image": "https://www.fentybeauty.com/media/export/cms/products/1000x1000/fenty_pro_filtr_foundation.jpg",
     "link": "https://www.fentybeauty.com/products/pro-filtr-soft-matte-longwear-foundation",
-    "category": "Makeup",
+    "category": "makeup",
     "sku": "MAKEUP-011",
     "available": true
   },
@@ -127,7 +127,7 @@
     "price": "$31.00",
     "image": "https://www.tartecosmetics.com/media/export/cms/products/1000x1000/tarte_shape_tape_concealer.jpg",
     "link": "https://www.tartecosmetics.com/en_US/shop/shape-tape-concealer",
-    "category": "Makeup",
+    "category": "makeup",
     "sku": "MAKEUP-012",
     "available": true
   },
@@ -138,7 +138,7 @@
     "price": "$43.00",
     "image": "https://www.hourglasscosmetics.com/media/export/cms/products/1000x1000/hourglass_ambient_blush.jpg",
     "link": "https://www.hourglasscosmetics.com/products/ambient-lighting-blush",
-    "category": "Makeup",
+    "category": "makeup",
     "sku": "MAKEUP-013",
     "available": true
   },
@@ -149,7 +149,7 @@
     "price": "$38.00",
     "image": "https://www.beccacosmetics.com/media/export/cms/products/1000x1000/becca_highlighter.jpg",
     "link": "https://www.beccacosmetics.com/products/shimmering-skin-perfector-pressed-highlighter",
-    "category": "Makeup",
+    "category": "makeup",
     "sku": "MAKEUP-014",
     "available": true
   },
@@ -160,7 +160,7 @@
     "price": "$28.00",
     "image": "https://www.toofaced.com/media/export/cms/products/1000x1000/toofaced_better_than_sex_mascara.jpg",
     "link": "https://www.toofaced.com/product/better-than-sex-mascara",
-    "category": "Makeup",
+    "category": "makeup",
     "sku": "MAKEUP-015",
     "available": true
   },
@@ -171,7 +171,7 @@
     "price": "$10.00",
     "image": "https://www.elfcosmetics.com/media/export/cms/products/1000x1000/elf_putty_primer.jpg",
     "link": "https://www.elfcosmetics.com/poreless-putty-primer",
-    "category": "Makeup",
+    "category": "makeup",
     "sku": "MAKEUP-016",
     "available": true
   },
@@ -182,7 +182,7 @@
     "price": "$11.00",
     "image": "https://www.maybelline.com/media/export/cms/products/1000x1000/maybelline_matte_ink_lipstick.jpg",
     "link": "https://www.maybelline.com/lip-makeup/lipstick/superstay-matte-ink-liquid-lipstick",
-    "category": "Makeup",
+    "category": "makeup",
     "sku": "MAKEUP-017",
     "available": true
   },
@@ -193,7 +193,7 @@
     "price": "$128.00",
     "image": "https://www.patmcgrath.com/media/export/cms/products/1000x1000/patmcgrath_mothership_palette.jpg",
     "link": "https://www.patmcgrath.com/products/mothership-eyeshadow-palette",
-    "category": "Makeup",
+    "category": "makeup",
     "sku": "MAKEUP-018",
     "available": true
   }
