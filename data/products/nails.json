@@ -6,7 +6,7 @@
     "price": "$12.00",
     "image": "https://www.opi.com/cdn/shop/products/opi_bubble_bath.jpg",
     "link": "https://www.opi.com/nail-lacquer/bubble-bath",
-    "category": "Nails",
+    "category": "nails",
     "sku": "NAIL-001",
     "available": true
   },
@@ -17,7 +17,7 @@
     "price": "$10.00",
     "image": "https://www.essie.com/cdn/shop/products/essie_ballet_slippers.jpg",
     "link": "https://www.essie.com/nail-polish/ballet-slippers",
-    "category": "Nails",
+    "category": "nails",
     "sku": "NAIL-002",
     "available": true
   },
@@ -28,7 +28,7 @@
     "price": "$4.00",
     "image": "https://www.sallyhansen.com/media/export/cms/products/1000x1000/sally_hard_as_nails.jpg",
     "link": "https://www.sallyhansen.com/hard-as-nails",
-    "category": "Nails",
+    "category": "nails",
     "sku": "NAIL-003",
     "available": true
   },
@@ -39,7 +39,7 @@
     "price": "$9.00",
     "image": "https://oliveandjune.com/cdn/shop/products/olivejune_ec.jpg",
     "link": "https://oliveandjune.com/products/ec",
-    "category": "Nails",
+    "category": "nails",
     "sku": "NAIL-004",
     "available": true
   },
@@ -50,7 +50,7 @@
     "price": "$10.00",
     "image": "https://www.seche.com/media/export/cms/products/1000x1000/seche_vite_topcoat.jpg",
     "link": "https://www.seche.com/seche-vite",
-    "category": "Nails",
+    "category": "nails",
     "sku": "NAIL-005",
     "available": true
   },
@@ -61,7 +61,7 @@
     "price": "$12.00",
     "image": "https://www.essie.com/cdn/shop/products/essie_gel_topcoat.jpg",
     "link": "https://www.essie.com/gel-couture/top-coat",
-    "category": "Nails",
+    "category": "nails",
     "sku": "NAIL-006",
     "available": true
   },
@@ -72,7 +72,7 @@
     "price": "$8.00",
     "image": "https://www.kissusa.com/cdn/shop/products/kiss_acrylic_nude.jpg",
     "link": "https://www.kissusa.com/products/salon-acrylic-nude",
-    "category": "Nails",
+    "category": "nails",
     "sku": "NAIL-007",
     "available": true
   },
@@ -83,7 +83,7 @@
     "price": "$9.00",
     "image": "https://www.impressmanicure.com/cdn/shop/products/impress_french.jpg",
     "link": "https://www.impressmanicure.com/products/french",
-    "category": "Nails",
+    "category": "nails",
     "sku": "NAIL-008",
     "available": true
   },
@@ -94,7 +94,7 @@
     "price": "$18.00",
     "image": "https://www.opi.com/cdn/shop/products/opi_nail_envy.jpg",
     "link": "https://www.opi.com/nail-envy",
-    "category": "Nails",
+    "category": "nails",
     "sku": "NAIL-009",
     "available": true
   },
@@ -105,7 +105,7 @@
     "price": "$6.00",
     "image": "https://www.sallyhansen.com/media/export/cms/products/1000x1000/sally_insta_dri_red.jpg",
     "link": "https://www.sallyhansen.com/insta-dri",
-    "category": "Nails",
+    "category": "nails",
     "sku": "NAIL-010",
     "available": true
   },
@@ -116,7 +116,7 @@
     "price": "$12.00",
     "image": "https://www.cnd.com/media/export/cms/products/1000x1000/cnd_solar_oil.jpg",
     "link": "https://www.cnd.com/products/solaroil",
-    "category": "Nails",
+    "category": "nails",
     "sku": "NAIL-011",
     "available": true
   },
@@ -127,7 +127,7 @@
     "price": "$20.00",
     "image": "https://www.deborahlippmann.com/cdn/shop/products/dl_naked.jpg",
     "link": "https://www.deborahlippmann.com/products/naked",
-    "category": "Nails",
+    "category": "nails",
     "sku": "NAIL-012",
     "available": true
   },
@@ -138,7 +138,7 @@
     "price": "$2.00",
     "image": "https://www.lacolors.com/media/export/cms/products/1000x1000/la_colors_polish.jpg",
     "link": "https://www.lacolors.com/products/color-craze",
-    "category": "Nails",
+    "category": "nails",
     "sku": "NAIL-013",
     "available": true
   },
@@ -149,7 +149,7 @@
     "price": "$15.00",
     "image": "https://www.nailtek.com/media/export/cms/products/1000x1000/nailtek_therapy2.jpg",
     "link": "https://www.nailtek.com/products/intensive-therapy-2",
-    "category": "Nails",
+    "category": "nails",
     "sku": "NAIL-014",
     "available": true
   },
@@ -160,7 +160,7 @@
     "price": "$4.00",
     "image": "https://www.kissusa.com/cdn/shop/products/kiss_brush_on_glue.jpg",
     "link": "https://www.kissusa.com/products/brush-on-nail-glue",
-    "category": "Nails",
+    "category": "nails",
     "sku": "NAIL-015",
     "available": true
   },
@@ -171,7 +171,7 @@
     "price": "$18.00",
     "image": "https://www.tweezerman.com/media/export/cms/products/1000x1000/tweezerman_cuticle_pusher.jpg",
     "link": "https://www.tweezerman.com/cuticle-pusher-and-nail-cleaner",
-    "category": "Nails",
+    "category": "nails",
     "sku": "NAIL-016",
     "available": true
   },
@@ -182,7 +182,7 @@
     "price": "$12.00",
     "image": "https://www.orlybeauty.com/cdn/shop/products/orly_bonder.jpg",
     "link": "https://www.orlybeauty.com/products/bonder",
-    "category": "Nails",
+    "category": "nails",
     "sku": "NAIL-017",
     "available": true
   },
@@ -193,7 +193,7 @@
     "price": "$9.00",
     "image": "https://www.essie.com/cdn/shop/products/essie_cuticle_oil.jpg",
     "link": "https://www.essie.com/nail-care/apricot-cuticle-oil",
-    "category": "Nails",
+    "category": "nails",
     "sku": "NAIL-018",
     "available": true
   },
@@ -204,7 +204,7 @@
     "price": "$11.00",
     "image": "https://www.cnd.com/media/export/cms/products/1000x1000/cnd_vinylux_topcoat.jpg",
     "link": "https://www.cnd.com/products/vinylux-top-coat",
-    "category": "Nails",
+    "category": "nails",
     "sku": "NAIL-019",
     "available": true
   },
@@ -215,7 +215,7 @@
     "price": "$14.00",
     "image": "https://oliveandjune.com/cdn/shop/products/olivejune_cuticle_serum.jpg",
     "link": "https://oliveandjune.com/products/cuticle-serum",
-    "category": "Nails",
+    "category": "nails",
     "sku": "NAIL-020",
     "available": true
   }
