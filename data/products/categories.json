@@ -1,0 +1,48 @@
+{
+  "categories": [
+    {
+      "id": "accessories",
+      "name": "Accessories"
+    },
+    {
+      "id": "baby",
+      "name": "Baby"
+    },
+    {
+      "id": "bath",
+      "name": "Bath"
+    },
+    {
+      "id": "bodycare",
+      "name": "Body Care"
+    },
+    {
+      "id": "bodymists",
+      "name": "Body Mists"
+    },
+    {
+      "id": "cleaning",
+      "name": "Cleaning"
+    },
+    {
+      "id": "gadgets",
+      "name": "Gadgets"
+    },
+    {
+      "id": "gifts",
+      "name": "Gifts"
+    },
+    {
+      "id": "haircare",
+      "name": "Hair Care"
+    },
+    {
+      "id": "home",
+      "name": "Home"
+    },
+    {
+      "id": "makeup",
+      "name": "Makeup"
+    }
+  ]
+}
