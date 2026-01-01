@@ -6,7 +6,7 @@
     "price": "$26.95",
     "image": "https://www.bathandbodyworks.com/cdn/shop/products/mahogany_teakwood_candle.jpg",
     "link": "https://www.bathandbodyworks.com/p/mahogany-teakwood-3-wick-candle",
-    "category": "Home",
+    "category": "home",
     "sku": "HOME-001",
     "available": true
   },
@@ -17,7 +17,7 @@
     "price": "$31.00",
     "image": "https://www.yankeecandle.com/cdn/shop/products/clean_cotton_jar.jpg",
     "link": "https://www.yankeecandle.com/product/clean-cotton",
-    "category": "Home",
+    "category": "home",
     "sku": "HOME-002",
     "available": true
   },
@@ -28,7 +28,7 @@
     "price": "$34.00",
     "image": "https://www.capri-blue.com/cdn/shop/products/volcano_candle.jpg",
     "link": "https://www.capri-blue.com/products/volcano-candle",
-    "category": "Home",
+    "category": "home",
     "sku": "HOME-003",
     "available": true
   },
@@ -39,7 +39,7 @@
     "price": "$24.00",
     "image": "https://pfcandleco.com/cdn/shop/products/teakwood_tobacco.jpg",
     "link": "https://pfcandleco.com/products/teakwood-tobacco",
-    "category": "Home",
+    "category": "home",
     "sku": "HOME-004",
     "available": true
   },
@@ -50,7 +50,7 @@
     "price": "$60.00",
     "image": "https://www.nestnewyork.com/cdn/shop/products/nest_bamboo_diffuser.jpg",
     "link": "https://www.nestnewyork.com/products/bamboo-reed-diffuser",
-    "category": "Home",
+    "category": "home",
     "sku": "HOME-005",
     "available": true
   },
@@ -61,7 +61,7 @@
     "price": "$6.00",
     "image": "https://www.glade.com/media/export/cms/products/1000x1000/glade_cashmere_woods.jpg",
     "link": "https://www.glade.com/en/products/plugins/cashmere-woods",
-    "category": "Home",
+    "category": "home",
     "sku": "HOME-006",
     "available": true
   },
@@ -72,7 +72,7 @@
     "price": "$10.00",
     "image": "https://www.airwick.us/media/export/cms/products/1000x1000/airwick_lavender_mist.jpg",
     "link": "https://www.airwick.us/products/essential-mist-lavender",
-    "category": "Home",
+    "category": "home",
     "sku": "HOME-007",
     "available": true
   },
@@ -83,7 +83,7 @@
     "price": "$38.00",
     "image": "https://homesick.com/cdn/shop/products/homesick_new_home.jpg",
     "link": "https://homesick.com/products/new-home",
-    "category": "Home",
+    "category": "home",
     "sku": "HOME-008",
     "available": true
   },
@@ -94,7 +94,7 @@
     "price": "$30.00",
     "image": "https://www.voluspa.com/cdn/shop/products/voluspa_french_cade.jpg",
     "link": "https://www.voluspa.com/products/french-cade-lavender",
-    "category": "Home",
+    "category": "home",
     "sku": "HOME-009",
     "available": true
   },
@@ -105,7 +105,7 @@
     "price": "$5.00",
     "image": "https://www.mrsmeyers.com/media/export/cms/products/1000x1000/meyers_lemon_verbena_spray.jpg",
     "link": "https://www.mrsmeyers.com/product/room-freshener-lemon-verbena",
-    "category": "Home",
+    "category": "home",
     "sku": "HOME-010",
     "available": true
   },
@@ -116,7 +116,7 @@
     "price": "$48.00",
     "image": "https://www.nestnewyork.com/cdn/shop/products/nest_grapefruit_candle.jpg",
     "link": "https://www.nestnewyork.com/products/grapefruit-classic-candle",
-    "category": "Home",
+    "category": "home",
     "sku": "HOME-011",
     "available": true
   },
@@ -127,7 +127,7 @@
     "price": "$8.50",
     "image": "https://www.bathandbodyworks.com/cdn/shop/products/eucalyptus_spearmint_spray.jpg",
     "link": "https://www.bathandbodyworks.com/p/eucalyptus-spearmint-room-spray",
-    "category": "Home",
+    "category": "home",
     "sku": "HOME-012",
     "available": true
   },
@@ -138,7 +138,7 @@
     "price": "$12.00",
     "image": "https://www.dwhome.com/cdn/shop/products/dw_tobacco_pipe.jpg",
     "link": "https://www.dwhome.com/products/warm-tobacco-pipe",
-    "category": "Home",
+    "category": "home",
     "sku": "HOME-013",
     "available": true
   },
@@ -149,7 +149,7 @@
     "price": "$12.00",
     "image": "https://www.chesapeakebaycandle.com/cdn/shop/products/peace_tranquility.jpg",
     "link": "https://www.chesapeakebaycandle.com/products/peace-tranquility",
-    "category": "Home",
+    "category": "home",
     "sku": "HOME-014",
     "available": true
   },
@@ -160,7 +160,7 @@
     "price": "$3.00",
     "image": "https://www.glade.com/media/export/cms/products/1000x1000/glade_apple_cinnamon.jpg",
     "link": "https://www.glade.com/en/products/candles/apple-cinnamon",
-    "category": "Home",
+    "category": "home",
     "sku": "HOME-015",
     "available": true
   },
@@ -171,7 +171,7 @@
     "price": "$6.00",
     "image": "https://www.airwick.us/media/export/cms/products/1000x1000/airwick_fresh_linen.jpg",
     "link": "https://www.airwick.us/products/plugins-fresh-linen",
-    "category": "Home",
+    "category": "home",
     "sku": "HOME-016",
     "available": true
   },
@@ -182,7 +182,7 @@
     "price": "$24.00",
     "image": "https://www.capri-blue.com/cdn/shop/products/volcano_room_spray.jpg",
     "link": "https://www.capri-blue.com/products/volcano-room-spray",
-    "category": "Home",
+    "category": "home",
     "sku": "HOME-017",
     "available": true
   },
@@ -193,7 +193,7 @@
     "price": "$38.00",
     "image": "https://homesick.com/cdn/shop/products/homesick_birthday_party.jpg",
     "link": "https://homesick.com/products/birthday-party",
-    "category": "Home",
+    "category": "home",
     "sku": "HOME-018",
     "available": true
   },
@@ -204,7 +204,7 @@
     "price": "$30.00",
     "image": "https://www.voluspa.com/cdn/shop/products/voluspa_goji_tarocco.jpg",
     "link": "https://www.voluspa.com/products/goji-tarocco-orange",
-    "category": "Home",
+    "category": "home",
     "sku": "HOME-019",
     "available": true
   },
@@ -215,7 +215,7 @@
     "price": "$60.00",
     "image": "https://www.nestnewyork.com/cdn/shop/products/nest_moroccan_amber_diffuser.jpg",
     "link": "https://www.nestnewyork.com/products/moroccan-amber-reed-diffuser",
-    "category": "Home",
+    "category": "home",
     "sku": "HOME-020",
     "available": true
   }
