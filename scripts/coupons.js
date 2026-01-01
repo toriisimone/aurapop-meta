@@ -6,46 +6,76 @@ document.addEventListener("DOMContentLoaded", () => {
   fetch("/data/coupons.json")
     .then(res => res.json())
     .then(coupons => {
-      startCouponRotation(coupons);
+      startCouponUniverse(coupons);
     });
 
-  function startCouponRotation(coupons) {
-    renderRandomCoupons(coupons);
+  function startCouponUniverse(coupons) {
+    // Fill the page based on screen size
+    const count = calculateCouponCount();
+    renderInitialCoupons(coupons, count);
 
-    // Refresh every 6 seconds
+    // Replace one coupon at a time forever
     setInterval(() => {
-      renderRandomCoupons(coupons);
-    }, 6000);
+      replaceRandomCoupon(coupons);
+    }, 2500);
   }
 
-  function renderRandomCoupons(coupons) {
-    container.innerHTML = "";
+  function calculateCouponCount() {
+    const width = window.innerWidth;
+    const height = window.innerHeight;
 
-    // Pick 6 random coupons
-    const selected = shuffle(coupons).slice(0, 6);
-
-    selected.forEach(coupon => {
-      const card = document.createElement("div");
-      card.className = "coupon-card sparkle-cloud";
-
-      card.innerHTML = `
-        <div class="coupon-brand">${coupon.brand}</div>
-        <div class="coupon-offer">${coupon.offer}</div>
-        <div class="coupon-code">Use Code: <strong>${coupon.code}</strong></div>
-        <a href="${coupon.link}" target="_blank" class="coupon-btn">Get Deal</a>
-      `;
-
-      container.appendChild(card);
-
-      // Animate in
-      setTimeout(() => {
-        card.classList.add("visible");
-      }, 50);
-    });
+    // Rough estimate: 1 coupon per 180x180 area
+    return Math.floor((width * height) / (180 * 180));
   }
 
-  function shuffle(arr) {
-    return arr.sort(() => Math.random() - 0.5);
+  function renderInitialCoupons(coupons, count) {
+    for (let i = 0; i < count; i++) {
+      createCouponCard(randomCoupon(coupons));
+    }
+  }
+
+  function replaceRandomCoupon(coupons) {
+    const cards = document.querySelectorAll(".coupon-card");
+    if (cards.length === 0) return;
+
+    const randomCard = cards[Math.floor(Math.random() * cards.length)];
+
+    randomCard.classList.remove("visible");
+
+    setTimeout(() => {
+      randomCard.replaceWith(createCouponCard(randomCoupon(coupons), true));
+    }, 500);
+  }
+
+  function randomCoupon(coupons) {
+    return coupons[Math.floor(Math.random() * coupons.length)];
+  }
+
+  function createCouponCard(coupon, returnElement = false) {
+    const card = document.createElement("div");
+
+    // 1 in 12 chance of being a soft banner
+    const isBanner = Math.random() < 0.08;
+
+    card.className = isBanner
+      ? "coupon-card coupon-banner sparkle-cloud"
+      : "coupon-card sparkle-cloud";
+
+    card.innerHTML = `
+      <div class="coupon-brand">${coupon.brand}</div>
+      <div class="coupon-offer">${coupon.offer}</div>
+      <div class="coupon-code">Use Code: <strong>${coupon.code}</strong></div>
+      <a href="${coupon.link}" target="_blank" class="coupon-btn">Get Deal</a>
+    `;
+
+    container.appendChild(card);
+
+    // Animate in
+    setTimeout(() => {
+      card.classList.add("visible");
+    }, 50);
+
+    return returnElement ? card : null;
   }
 
 });
