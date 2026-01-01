@@ -6,7 +6,7 @@
     "price": "$48.00",
     "image": "https://soldejaneiro.com/cdn/shop/products/bum_bum_cream.jpg",
     "link": "https://soldejaneiro.com/products/brazilian-bum-bum-cream",
-    "category": "Body Care",
+    "category": "bodycare",
     "sku": "BODY-001",
     "available": true
   },
@@ -17,7 +17,7 @@
     "price": "$16.50",
     "image": "https://www.bathandbodyworks.com/cdn/shop/products/japanese_cherry_blossom_lotion.jpg",
     "link": "https://www.bathandbodyworks.com/p/japanese-cherry-blossom-body-lotion",
-    "category": "Body Care",
+    "category": "bodycare",
     "sku": "BODY-002",
     "available": true
   },
@@ -28,7 +28,7 @@
     "price": "$10.00",
     "image": "https://treehutshea.com/cdn/shop/products/moroccan_rose_scrub.jpg",
     "link": "https://treehutshea.com/products/shea-sugar-scrub-moroccan-rose",
-    "category": "Body Care",
+    "category": "bodycare",
     "sku": "BODY-003",
     "available": true
   },
@@ -39,7 +39,7 @@
     "price": "$28.00",
     "image": "https://www.necessaire.com/cdn/shop/products/the_body_lotion.jpg",
     "link": "https://www.necessaire.com/products/the-body-lotion",
-    "category": "Body Care",
+    "category": "bodycare",
     "sku": "BODY-004",
     "available": true
   },
@@ -50,7 +50,7 @@
     "price": "$8.00",
     "image": "https://www.vaseline.com/media/export/cms/products/1000x1000/vaseline_cocoa_radiant.jpg",
     "link": "https://www.vaseline.com/us/en/products/lotions/cocoa-radiant-lotion.html",
-    "category": "Body Care",
+    "category": "bodycare",
     "sku": "BODY-005",
     "available": true
   },
@@ -61,7 +61,7 @@
     "price": "$7.00",
     "image": "https://www.jergens.com/media/export/cms/products/1000x1000/jergens_ultra_healing.jpg",
     "link": "https://www.jergens.com/en-us/products/lotions/ultra-healing",
-    "category": "Body Care",
+    "category": "bodycare",
     "sku": "BODY-006",
     "available": true
   },
@@ -72,7 +72,7 @@
     "price": "$10.00",
     "image": "https://www.palmers.com/media/export/cms/products/1000x1000/palmers_skin_therapy_oil.jpg",
     "link": "https://www.palmers.com/skin-therapy-oil",
-    "category": "Body Care",
+    "category": "bodycare",
     "sku": "BODY-007",
     "available": true
   },
@@ -83,7 +83,7 @@
     "price": "$9.00",
     "image": "https://www.aveeno.com/media/export/cms/products/1000x1000/aveeno_daily_moisturizing.jpg",
     "link": "https://www.aveeno.com/products/daily-moisturizing-lotion",
-    "category": "Body Care",
+    "category": "bodycare",
     "sku": "BODY-008",
     "available": true
   },
@@ -94,7 +94,7 @@
     "price": "$8.00",
     "image": "https://www.dove.com/media/export/cms/products/1000x1000/dove_body_polish.jpg",
     "link": "https://www.dove.com/us/en/p/exfoliating-body-polish",
-    "category": "Body Care",
+    "category": "bodycare",
     "sku": "BODY-009",
     "available": true
   },
@@ -105,7 +105,7 @@
     "price": "$9.00",
     "image": "https://www.olay.com/media/export/cms/products/1000x1000/olay_shea_body_wash.jpg",
     "link": "https://www.olay.com/body-wash/ultra-moisture-shea-butter",
-    "category": "Body Care",
+    "category": "bodycare",
     "sku": "BODY-010",
     "available": true
   },
@@ -116,7 +116,7 @@
     "price": "$24.00",
     "image": "https://soldejaneiro.com/cdn/shop/products/cheirosa_62_mist.jpg",
     "link": "https://soldejaneiro.com/products/brazilian-crush-cheirosa-62",
-    "category": "Body Care",
+    "category": "bodycare",
     "sku": "BODY-011",
     "available": true
   },
@@ -127,7 +127,7 @@
     "price": "$19.95",
     "image": "https://www.victoriassecret.com/cdn/shop/products/bare_vanilla_mist.jpg",
     "link": "https://www.victoriassecret.com/us/vs/fragrance/bare-vanilla-mist",
-    "category": "Body Care",
+    "category": "bodycare",
     "sku": "BODY-012",
     "available": true
   },
@@ -138,7 +138,7 @@
     "price": "$5.00",
     "image": "https://www.evolutionofsmooth.com/media/export/cms/products/1000x1000/eos_shave_cream.jpg",
     "link": "https://www.evolutionofsmooth.com/products/shave-cream",
-    "category": "Body Care",
+    "category": "bodycare",
     "sku": "BODY-013",
     "available": true
   },
@@ -149,7 +149,7 @@
     "price": "$8.00",
     "image": "https://www.niveausa.com/media/export/cms/products/1000x1000/nivea_essentially_enriched.jpg",
     "link": "https://www.niveausa.com/products/essentially-enriched-body-lotion",
-    "category": "Body Care",
+    "category": "bodycare",
     "sku": "BODY-014",
     "available": true
   },
@@ -160,7 +160,7 @@
     "price": "$12.00",
     "image": "https://www.bio-oil.com/media/export/cms/products/1000x1000/bio_oil.jpg",
     "link": "https://www.bio-oil.com/us/product/bio-oil-skincare-oil",
-    "category": "Body Care",
+    "category": "bodycare",
     "sku": "BODY-015",
     "available": true
   },
@@ -171,7 +171,7 @@
     "price": "$16.00",
     "image": "https://www.thebodyshop.com/media/export/cms/products/1000x1000/bodyshop_almond_yogurt.jpg",
     "link": "https://www.thebodyshop.com/en-us/body/body-yogurts/almond-milk-body-yogurt",
-    "category": "Body Care",
+    "category": "bodycare",
     "sku": "BODY-016",
     "available": true
   },
@@ -182,7 +182,7 @@
     "price": "$12.00",
     "image": "https://www.lush.com/media/export/cms/products/1000x1000/lush_sleepy_lotion.jpg",
     "link": "https://www.lush.com/us/en/p/sleepy-body-lotion",
-    "category": "Body Care",
+    "category": "bodycare",
     "sku": "BODY-017",
     "available": true
   },
@@ -193,7 +193,7 @@
     "price": "$23.00",
     "image": "https://www.hempz.com/cdn/shop/products/hempz_original_lotion.jpg",
     "link": "https://www.hempz.com/products/original-herbal-body-moisturizer",
-    "category": "Body Care",
+    "category": "bodycare",
     "sku": "BODY-018",
     "available": true
   },
@@ -204,7 +204,7 @@
     "price": "$6.00",
     "image": "https://www.drteals.com/media/export/cms/products/1000x1000/drteals_lavender_bath.jpg",
     "link": "https://www.drteals.com/products/foaming-bath-lavender",
-    "category": "Body Care",
+    "category": "bodycare",
     "sku": "BODY-019",
     "available": true
   },
@@ -215,7 +215,7 @@
     "price": "$10.00",
     "image": "https://www.neutrogena.com/media/export/cms/products/1000x1000/neutrogena_hydro_boost_body.jpg",
     "link": "https://www.neutrogena.com/products/hydro-boost-body-gel-cream",
-    "category": "Body Care",
+    "category": "bodycare",
     "sku": "BODY-020",
     "available": true
   }
