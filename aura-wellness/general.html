@@ -3,107 +3,180 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aurora Wellness • AuraPop by ToriEdition</title>
 
-  <title>Aura Wellness Co. | Everyday Wellness</title>
+  <!-- Global CSS -->
+  <link rel="stylesheet" href="/styles/global.css" />
 
-  <!-- Primary Meta -->
-  <meta name="title" content="Aura Wellness Co. | Everyday Wellness" />
-  <meta name="description" content="Explore Everyday Wellness essentials curated for all bodies, all lifestyles, and every day. Part of the AuraPop multi‑brand ecosystem." />
-  <meta name="keywords" content="Aura Wellness Co, Everyday Wellness, wellness products, self care, AuraPop, gender neutral wellness" />
-  <meta name="author" content="Aura Wellness Co." />
-
-  <!-- Open Graph -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Aura Wellness Co. | Everyday Wellness" />
-  <meta property="og:description" content="Curated Everyday Wellness essentials designed for every body, every day." />
-  <meta property="og:image" content="https://aurapop.com/images/og-wellness.jpg" />
-  <meta property="og:url" content="https://aurapop.com/aura-wellness/general.html" />
-  <meta property="og:site_name" content="Aura Wellness Co." />
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Aura Wellness Co. | Everyday Wellness" />
-  <meta name="twitter:description" content="Explore Everyday Wellness essentials curated for all bodies, all lifestyles, and every day." />
-  <meta name="twitter:image" content="https://aurapop.com/images/og-wellness.jpg" />
-
-  <!-- Canonical -->
-  <link rel="canonical" href="https://aurapop.com/aura-wellness/general.html" />
-
-  <!-- Styles -->
-  <link rel="stylesheet" href="styles/aw-main.css" />
-
-  <style>
-    .category-hero {
-      text-align: center;
-      padding: 3rem 1rem;
-      background-color: #f3f7f5;
-      color: #2e7d32;
-      font-size: 2.5rem;
-      font-weight: bold;
-      margin-bottom: 2rem;
-      letter-spacing: 1px;
-    }
-  </style>
-
-  <!-- Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "name": "Everyday Wellness",
-    "url": "https://aurapop.com/aura-wellness/general.html",
-    "description": "Curated Everyday Wellness essentials designed for every body, every day.",
-    "isPartOf": {
-      "@type": "WebSite",
-      "name": "Aura Wellness Co.",
-      "url": "https://aurapop.com/aura-wellness/"
-    }
-  }
-  </script>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  />
 </head>
 
-<body data-category="general">
+<body>
+  <div class="ap-site-shell">
 
-<button class="copy-btn" onclick="copyCode()">Copy This Page</button>
+    <!-- NAV -->
+    <header class="ap-nav">
+      <div class="ap-nav-inner">
+        <div class="ap-logo">
+          <span class="ap-logo-main">AuraPop</span>
+          <span class="ap-logo-sub">ToriEdition.com</span>
+        </div>
 
-<header class="navbar">
-  <div class="logo">Aura Wellness Co.</div>
-  <nav>
-    <a href="../index.html">AuraPop</a>
-    <a href="index.html">Home</a>
-    <a href="shop-all.html">Shop All</a>
-    <a href="mens.html">Men’s Wellness</a>
-    <a href="womens.html">Women’s Wellness</a>
-    <a href="general.html">Everyday Wellness</a>
-    <a href="../search.html">Search</a>
-  </nav>
-</header>
+        <nav class="ap-nav-links">
+          <a href="/shop-all.html">Shop All</a>
+          <a href="/makeup.html">Makeup</a>
+          <a href="/skincare.html">Skincare</a>
+          <a href="/womens-wellness.html">Women’s Wellness</a>
+          <a href="/mens-wellness.html">Men’s Wellness</a>
+          <a href="/gifts.html">Gifts</a>
+          <a href="/gadgets.html">Gadgets</a>
+          <a href="/aura-wellness/general.html" style="color: var(--ap-deep-pink); font-weight: 600;">Aurora Wellness</a>
+        </nav>
 
-<div class="category-hero">EVERYDAY WELLNESS</div>
+        <div class="ap-nav-actions">
+          <div class="ap-nav-pill">
+            <div class="ap-nav-icon">🔍</div>
+            <span>Search</span>
+          </div>
+          <div class="ap-nav-pill">
+            <div class="ap-nav-icon">♥</div>
+            <span>Account</span>
+          </div>
+        </div>
+      </div>
+    </header>
 
-<main class="main-section">
-  <h2 class="section-title">Curated for Everyone</h2>
-  <div id="product-list" class="product-grid"></div>
-</main>
+    <!-- PAGE HERO -->
+    <section class="ap-page ap-page-hero">
+      <div class="ap-page-hero-kicker">Aurora Wellness</div>
+      <h1 class="ap-page-hero-title">
+        Soft‑Glow <span>Wellness</span>
+      </h1>
+      <p class="ap-page-hero-text">
+        A cloud‑soft sanctuary inside the AuraPop universe.  
+        Inspired by your original vision — dreamy, airy, elevated —  
+        Aurora Wellness is your Kylie‑Skin‑style tab with its own identity,  
+        but still part of your main brand.
+      </p>
+    </section>
 
-<footer class="footer">
-  <p>© Aura Wellness Co. — Designed for every body, every day.</p>
-  <p class="footer-link">
-    Part of the AuraPop ecosystem. Visit
-    <a href="../index.html">AuraPop Cosmetics Co.</a>
-  </p>
-</footer>
+    <!-- PROMO STRIP -->
+    <section class="ap-promo-strip">
+      <div class="ap-promo-pill">Holistic Rituals</div>
+      <div class="ap-promo-pill">Daily Glow Essentials</div>
+      <div class="ap-promo-pill">Curated by ToriEdition</div>
+    </section>
 
-<script src="/scripts/load-products.js"></script>
+    <!-- WELLNESS CATEGORIES -->
+    <section class="ap-page">
+      <div class="ap-section-header">
+        <div>
+          <div class="ap-section-kicker">Explore Wellness</div>
+          <h2 class="ap-section-title">Mind, Body & Rituals</h2>
+        </div>
+      </div>
 
-<script>
-  function copyCode() {
-    navigator.clipboard.writeText(document.documentElement.outerHTML);
-    alert("Copied!");
-  }
-</script>
+      <div class="ap-grid ap-grid--3">
 
-<button class="copy-btn" onclick="copyCode()">Copy This Page</button>
+        <div class="ap-card">
+          <div class="ap-card-label">Daily Rituals</div>
+          <div class="ap-card-title">Morning Glow Routine</div>
+          <div class="ap-card-text">Start your day with cloud‑soft clarity and calm.</div>
+          <div class="ap-card-tag">Explore</div>
+        </div>
 
+        <div class="ap-card">
+          <div class="ap-card-label">Supplements</div>
+          <div class="ap-card-title">Inner Radiance Boost</div>
+          <div class="ap-card-text">Glow from within with curated wellness blends.</div>
+          <div class="ap-card-tag">Explore</div>
+        </div>
+
+        <div class="ap-card">
+          <div class="ap-card-label">Self‑Care</div>
+          <div class="ap-card-title">Cloud Bath Rituals</div>
+          <div class="ap-card-text">Soft, soothing, and deeply restorative.</div>
+          <div class="ap-card-tag">Explore</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WELLNESS FEATURE -->
+    <section class="ap-page">
+      <div class="ap-section-header">
+        <div>
+          <div class="ap-section-kicker">Featured</div>
+          <h2 class="ap-section-title">The Aurora Glow Method</h2>
+        </div>
+      </div>
+
+      <div class="ap-card" style="padding: 24px;">
+        <div class="ap-card-label">Signature Ritual</div>
+        <div class="ap-card-title">The 3‑Step Cloud Reset</div>
+        <div class="ap-card-text">
+          A gentle, grounding ritual designed to reset your energy,  
+          calm your mind, and bring your glow back online.  
+          Inspired by your original cloud logo aesthetic —  
+          soft, dreamy, and deeply intentional.
+        </div>
+        <div class="ap-card-tag">Learn More</div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="ap-footer">
+      <div class="ap-footer-inner">
+        <div>
+          <div class="ap-footer-logo-main">AuraPop</div>
+          <div class="ap-footer-logo-sub">ToriEdition.com</div>
+          <div class="ap-footer-text">
+            A cloud‑soft beauty and wellness universe curated by ToriEdition.
+          </div>
+        </div>
+
+        <div>
+          <div class="ap-footer-heading">Shop</div>
+          <ul class="ap-footer-list">
+            <li><a href="/shop-all.html">Shop All</a></li>
+            <li><a href="/makeup.html">Makeup</a></li>
+            <li><a href="/skincare.html">Skincare</a></li>
+            <li><a href="/womens-wellness.html">Women’s Wellness</a></li>
+            <li><a href="/mens-wellness.html">Men’s Wellness</a></li>
+            <li><a href="/gifts.html">Gifts</a></li>
+            <li><a href="/gadgets.html">Gadgets</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="ap-footer-heading">Brand</div>
+          <ul class="ap-footer-list">
+            <li><a href="/about.html">About AuraPop</a></li>
+            <li><a href="/coupons.html">Coupon Universe</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="ap-footer-bottom">
+        <div>© <span id="ap-year"></span> AuraPop by ToriEdition. All rights reserved.</div>
+        <div class="ap-footer-bottom-links">
+          <a href="/privacy.html">Privacy</a>
+          <a href="/terms.html">Terms</a>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script>
+    document.getElementById("ap-year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
