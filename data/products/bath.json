@@ -6,7 +6,7 @@
     "price": "$16.00",
     "image": "https://www.drbronner.com/cdn/shop/products/drbronners_lavender_castile.jpg",
     "link": "https://www.drbronner.com/products/lavender-pure-castile-liquid-soap",
-    "category": "Bath",
+    "category": "bath",
     "sku": "BATH-001",
     "available": true
   },
@@ -17,7 +17,7 @@
     "price": "$8.00",
     "image": "https://www.dove.com/media/export/cms/products/1000x1000/dove_deep_moisture.jpg",
     "link": "https://www.dove.com/us/en/p/deep-moisture-body-wash",
-    "category": "Bath",
+    "category": "bath",
     "sku": "BATH-002",
     "available": true
   },
@@ -28,7 +28,7 @@
     "price": "$10.00",
     "image": "https://www.nativecos.com/cdn/shop/products/native_coconut_vanilla.jpg",
     "link": "https://www.nativecos.com/products/coconut-vanilla-body-wash",
-    "category": "Bath",
+    "category": "bath",
     "sku": "BATH-003",
     "available": true
   },
@@ -39,7 +39,7 @@
     "price": "$10.00",
     "image": "https://treehutshea.com/cdn/shop/products/tropical_mango_scrub.jpg",
     "link": "https://treehutshea.com/products/shea-sugar-scrub-tropical-mango",
-    "category": "Bath",
+    "category": "bath",
     "sku": "BATH-004",
     "available": true
   },
@@ -50,7 +50,7 @@
     "price": "$8.50",
     "image": "https://www.lush.com/media/export/cms/products/1000x1000/lush_intergalactic.jpg",
     "link": "https://www.lush.com/us/en/p/intergalactic-bath-bomb",
-    "category": "Bath",
+    "category": "bath",
     "sku": "BATH-005",
     "available": true
   },
@@ -61,7 +61,7 @@
     "price": "$8.00",
     "image": "https://www.olay.com/media/export/cms/products/1000x1000/olay_rose_water.jpg",
     "link": "https://www.olay.com/body-wash/fresh-outlast-rose-water",
-    "category": "Bath",
+    "category": "bath",
     "sku": "BATH-006",
     "available": true
   },
@@ -72,7 +72,7 @@
     "price": "$9.00",
     "image": "https://www.aveeno.com/media/export/cms/products/1000x1000/aveeno_stress_relief.jpg",
     "link": "https://www.aveeno.com/products/stress-relief-body-wash",
-    "category": "Bath",
+    "category": "bath",
     "sku": "BATH-007",
     "available": true
   },
@@ -83,7 +83,7 @@
     "price": "$14.50",
     "image": "https://www.bathandbodyworks.com/cdn/shop/products/warm_vanilla_sugar_shower_gel.jpg",
     "link": "https://www.bathandbodyworks.com/p/warm-vanilla-sugar-shower-gel",
-    "category": "Bath",
+    "category": "bath",
     "sku": "BATH-008",
     "available": true
   },
@@ -94,7 +94,7 @@
     "price": "$8.00",
     "image": "https://methodhome.com/cdn/shop/products/method_pure_peace.jpg",
     "link": "https://methodhome.com/products/body-wash-pure-peace",
-    "category": "Bath",
+    "category": "bath",
     "sku": "BATH-009",
     "available": true
   },
@@ -105,7 +105,7 @@
     "price": "$9.00",
     "image": "https://www.neutrogena.com/media/export/cms/products/1000x1000/neutrogena_rainbath.jpg",
     "link": "https://www.neutrogena.com/products/rainbath-refreshing-shower-and-bath-gel",
-    "category": "Bath",
+    "category": "bath",
     "sku": "BATH-010",
     "available": true
   },
@@ -116,7 +116,7 @@
     "price": "$22.00",
     "image": "https://www.lush.com/media/export/cms/products/1000x1000/lush_sleepy_shower_gel.jpg",
     "link": "https://www.lush.com/us/en/p/sleepy-shower-gel",
-    "category": "Bath",
+    "category": "bath",
     "sku": "BATH-011",
     "available": true
   },
@@ -127,7 +127,7 @@
     "price": "$6.00",
     "image": "https://www.drteals.com/media/export/cms/products/1000x1000/drteals_eucalyptus_bath.jpg",
     "link": "https://www.drteals.com/products/foaming-bath-eucalyptus-spearmint",
-    "category": "Bath",
+    "category": "bath",
     "sku": "BATH-012",
     "available": true
   },
@@ -138,7 +138,7 @@
     "price": "$28.00",
     "image": "https://www.philosophy.com/media/export/cms/products/1000x1000/philosophy_amazing_grace.jpg",
     "link": "https://www.philosophy.com/products/amazing-grace-shower-gel",
-    "category": "Bath",
+    "category": "bath",
     "sku": "BATH-013",
     "available": true
   },
@@ -149,7 +149,7 @@
     "price": "$6.00",
     "image": "https://www.caress.us/media/export/cms/products/1000x1000/caress_daily_silk.jpg",
     "link": "https://www.caress.us/products/daily-silk-body-wash",
-    "category": "Bath",
+    "category": "bath",
     "sku": "BATH-014",
     "available": true
   },
@@ -160,7 +160,7 @@
     "price": "$10.00",
     "image": "https://www.sheamoisture.com/media/export/cms/products/1000x1000/shea_african_black_soap.jpg",
     "link": "https://www.sheamoisture.com/products/african-black-soap-body-wash",
-    "category": "Bath",
+    "category": "bath",
     "sku": "BATH-015",
     "available": true
   },
@@ -171,7 +171,7 @@
     "price": "$10.00",
     "image": "https://www.eucerinus.com/media/export/cms/products/1000x1000/eucerin_skin_calming.jpg",
     "link": "https://www.eucerinus.com/products/skin-calming-body-wash",
-    "category": "Bath",
+    "category": "bath",
     "sku": "BATH-016",
     "available": true
   },
@@ -182,4 +182,8 @@
     "price": "$29.00",
     "image": "https://www.loccitane.com/cdn/shop/products/loccitane_almond_shower_oil.jpg",
     "link": "https://www.loccitane.com/products/almond-shower-oil",
-   
+    "category": "bath",
+    "sku": "BATH-017",
+    "available": true
+  }
+]
