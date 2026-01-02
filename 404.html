@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>404 — Lost in the Clouds | AuraPop</title>
+  <title>Lost in the Clouds | AuraPop</title>
 
   <style>
     body {
@@ -15,115 +15,128 @@
       align-items: center;
       justify-content: center;
       text-align: center;
-      font-family: Arial, Helvetica, sans-serif;
-      background: linear-gradient(
-        180deg,
-        #ffe4ec 0%,
-        #f7e9ff 50%,
-        #ffe4ec 100%
-      );
+      font-family: "Poppins", sans-serif;
+      background:
+        radial-gradient(circle at top, #ffe9fb 0%, #fef7ff 40%, #ffffff 70%),
+        url("/images/aurapop-hero-clouds.jpg") center top / cover no-repeat fixed;
+      background-blend-mode: soft-light;
       overflow: hidden;
-      color: #d63384;
+      color: #2b1028;
     }
 
     /* Floating cloud shapes */
-    .cloud {
+    .ap-cloud {
       position: absolute;
-      background: rgba(255, 255, 255, 0.8);
-      border-radius: 50px;
-      filter: blur(8px);
-      animation: float 18s linear infinite;
+      background: rgba(255, 255, 255, 0.85);
+      border-radius: 100px;
+      filter: blur(10px);
+      animation: floatCloud 22s linear infinite;
+      opacity: 0.9;
     }
 
-    .cloud:nth-child(1) {
-      width: 180px;
-      height: 60px;
-      top: 20%;
-      left: -200px;
-      animation-duration: 22s;
-    }
-
-    .cloud:nth-child(2) {
-      width: 240px;
-      height: 70px;
-      top: 55%;
+    .ap-cloud:nth-child(1) {
+      width: 220px;
+      height: 90px;
+      top: 18%;
       left: -260px;
       animation-duration: 26s;
     }
 
-    .cloud:nth-child(3) {
-      width: 140px;
-      height: 50px;
-      top: 75%;
-      left: -180px;
-      animation-duration: 20s;
+    .ap-cloud:nth-child(2) {
+      width: 280px;
+      height: 110px;
+      top: 55%;
+      left: -300px;
+      animation-duration: 30s;
     }
 
-    @keyframes float {
+    .ap-cloud:nth-child(3) {
+      width: 180px;
+      height: 70px;
+      top: 78%;
+      left: -220px;
+      animation-duration: 24s;
+    }
+
+    @keyframes floatCloud {
       0% { transform: translateX(0); }
-      100% { transform: translateX(140vw); }
+      100% { transform: translateX(150vw); }
     }
 
-    .container {
+    /* Container */
+    .ap-404-container {
       position: relative;
       z-index: 10;
       max-width: 600px;
       padding: 20px;
     }
 
-    .logo {
+    /* Logo */
+    .ap-404-logo {
       width: 180px;
       margin-bottom: 20px;
+      opacity: 0.95;
     }
 
-    h1 {
-      font-size: 6rem;
+    /* Soft cloud-blended 404 */
+    .ap-404-title {
+      font-family: "Playfair Display", serif;
+      font-size: 5.5rem;
       margin: 0;
-      font-weight: bold;
-      color: #d63384;
-      text-shadow: 0 0 12px rgba(255, 255, 255, 0.6);
+      font-weight: 700;
+      background: linear-gradient(120deg, #ff8ac5, #d36eff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      text-shadow: 0 0 22px rgba(255, 255, 255, 0.6);
+      opacity: 0.92;
     }
 
-    p {
-      font-size: 1.3rem;
+    .ap-404-text {
+      font-size: 1.2rem;
       margin: 10px 0 30px;
-      color: #7a2b5a;
+      color: #7a6a8f;
+      opacity: 0.9;
     }
 
-    a.button {
-      display: inline-block;
+    /* Button */
+    .ap-404-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
       padding: 14px 32px;
-      background-color: #d63384;
-      color: white;
+      border-radius: 999px;
+      background: linear-gradient(120deg, #ff7ab7, #ffafcc, #ffc6e7);
+      color: #2f0f25;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
       text-decoration: none;
-      border-radius: 10px;
-      font-size: 1.1rem;
-      font-weight: bold;
-      box-shadow: 0 4px 12px rgba(214, 51, 132, 0.4);
-      transition: 0.2s ease;
+      box-shadow: 0 18px 40px rgba(214, 51, 132, 0.35);
+      transition: transform 0.18s ease, box-shadow 0.18s ease;
     }
 
-    a.button:hover {
-      background-color: #b0256a;
-      box-shadow: 0 6px 18px rgba(214, 51, 132, 0.55);
+    .ap-404-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 22px 50px rgba(214, 51, 132, 0.45);
     }
   </style>
 </head>
 
 <body>
 
-  <!-- Animated clouds -->
-  <div class="cloud"></div>
-  <div class="cloud"></div>
-  <div class="cloud"></div>
+  <!-- Floating clouds -->
+  <div class="ap-cloud"></div>
+  <div class="ap-cloud"></div>
+  <div class="ap-cloud"></div>
 
-  <div class="container">
-    <img src="images/AuraPop Cosmetics Co.png" alt="AuraPop Logo" class="logo" />
+  <div class="ap-404-container">
+    <img src="/images/AuraPop Cosmetics Co.png" alt="AuraPop Logo" class="ap-404-logo" />
 
-    <h1>404</h1>
-    <p>You drifted into the clouds… this page doesn’t exist.</p>
+    <h1 class="ap-404-title">404</h1>
+    <p class="ap-404-text">You drifted a little too far into the clouds.</p>
 
-    <a href="index.html" class="button">Back to Home</a>
+    <a href="index.html" class="ap-404-btn">Return Home</a>
   </div>
 
 </body>
