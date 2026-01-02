@@ -1,203 +1,164 @@
-/* PRODUCT PAGE STYLING */
+/* --------------------------------------------- */
+/* AURAPOP PRODUCT PAGE — CLOUD GLOW THEME       */
+/* Matches homepage + global.css seamlessly      */
+/* --------------------------------------------- */
 
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #fff0f5;
-  color: #333;
+  font-family: "Poppins", sans-serif;
+  background:
+    radial-gradient(circle at top, #ffe9fb 0%, #fef7ff 40%, #ffffff 70%),
+    url("/images/aurapop-hero-clouds.jpg") center top / cover no-repeat fixed;
+  background-blend-mode: soft-light;
+  color: #2b1028;
 }
 
-/* NAVIGATION */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #ffccdd;
-  padding: 1rem 2rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+/* PAGE WRAPPER */
+.ap-product-page {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
 }
 
-.logo {
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: #d63384;
-}
-
-nav a {
-  margin-left: 1.5rem;
-  text-decoration: none;
-  color: #d63384;
-  font-weight: 500;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-/* BREADCRUMB */
-.breadcrumb {
-  font-size: 0.9rem;
-  padding: 1rem 2rem;
-  background-color: #ffe4ec;
-  color: #555;
-}
-
-.breadcrumb a {
-  color: #d63384;
-  text-decoration: none;
-  margin-right: 0.5rem;
-}
-
-.breadcrumb span {
-  margin-left: 0.5rem;
-}
-
-/* PRODUCT SECTION */
-.product-container {
+/* PRODUCT LAYOUT */
+.ap-product-layout {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
-  padding: 2rem;
+  gap: 40px;
   justify-content: center;
   align-items: flex-start;
 }
 
-.product-image img {
-  width: 340px;
-  height: auto;
-  border-radius: 14px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+/* PRODUCT IMAGE CARD */
+.ap-product-image {
+  background: radial-gradient(circle at top, #ffffff, #fdf0ff);
+  border: 1px solid rgba(234, 206, 255, 0.9);
+  border-radius: 28px;
+  padding: 24px;
+  box-shadow: 0 22px 50px rgba(145, 77, 166, 0.18);
+  max-width: 420px;
 }
 
-.product-info {
+.ap-product-image img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+
+/* PRODUCT INFO */
+.ap-product-info {
   max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-.product-info h1 {
+.ap-product-brand {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.26em;
+  color: #b18cd1;
+}
+
+.ap-product-title {
+  font-family: "Playfair Display", serif;
   font-size: 2.2rem;
-  margin-bottom: 0.5rem;
+  color: #2b1028;
+  line-height: 1.2;
+}
+
+.ap-product-price {
+  font-size: 1.8rem;
+  font-weight: 700;
   color: #d63384;
-}
-
-.product-info h2 {
-  font-size: 1.25rem;
-  margin-bottom: 1rem;
-  color: #555;
-}
-
-.price {
-  font-size: 1.6rem;
-  font-weight: bold;
-  color: #d63384;
-  margin-bottom: 1rem;
-}
-
-.description {
-  font-size: 1rem;
-  margin-bottom: 1.5rem;
-  color: #444;
-}
-
-.buy-button {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px 20px;
+  border-radius: 999px;
   display: inline-block;
-  background-color: #d63384;
-  color: white;
-  padding: 0.8rem 1.6rem;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
-  margin-bottom: 2rem;
-  transition: background 0.2s ease;
+  border: 1px solid rgba(214, 155, 255, 0.6);
+  box-shadow: 0 10px 26px rgba(214, 51, 132, 0.18);
 }
 
-.buy-button:hover {
-  background-color: #c0256f;
+/* BUY BUTTON */
+.ap-buy-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 28px;
+  border-radius: 999px;
+  background: linear-gradient(120deg, #ff7ab7, #ffafcc, #ffc6e7);
+  color: #2f0f25;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 18px 40px rgba(214, 51, 132, 0.35);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
 
-/* DETAILS SECTION */
-.details-section h3 {
-  margin-top: 1.5rem;
-  color: #d63384;
+.ap-buy-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 22px 50px rgba(214, 51, 132, 0.45);
 }
 
-.details-section p {
-  margin-bottom: 1rem;
-  color: #555;
+/* DESCRIPTION CARD */
+.ap-product-description {
+  margin-top: 20px;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(8px);
+  border-radius: 22px;
+  border: 1px solid rgba(238, 198, 245, 0.7);
+  box-shadow: 0 12px 30px rgba(145, 77, 166, 0.12);
+  color: #6b577d;
+  line-height: 1.6;
 }
 
 /* RELATED PRODUCTS */
-.related-section {
-  padding: 2rem;
-  text-align: center;
+.ap-related-section {
+  margin-top: 60px;
 }
 
-.related-section h2 {
+.ap-related-title {
+  font-family: "Playfair Display", serif;
   font-size: 1.6rem;
-  margin-bottom: 1rem;
-  color: #d63384;
+  color: #2b1028;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.related-grid {
+.ap-related-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1.5rem;
-  padding: 1rem;
+  gap: 22px;
 }
 
-.related-card {
-  background-color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
-  padding: 1rem;
+.ap-related-card {
+  background: radial-gradient(circle at top, #ffffff, #fdf0ff);
+  border: 1px solid rgba(234, 206, 255, 0.9);
+  border-radius: 20px;
+  padding: 16px;
   text-align: center;
-  transition: transform 0.2s ease;
+  box-shadow: 0 12px 30px rgba(145, 77, 166, 0.12);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
 
-.related-card:hover {
-  transform: translateY(-5px);
+.ap-related-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px rgba(145, 77, 166, 0.18);
 }
 
-.related-card img {
+.ap-related-card img {
   width: 100%;
   height: 150px;
   object-fit: cover;
-  border-radius: 10px;
-  margin-bottom: 0.5rem;
+  border-radius: 14px;
+  margin-bottom: 10px;
 }
 
-.related-card h4 {
-  font-size: 1.05rem;
-  margin: 0.5rem 0;
+.ap-related-card-title {
+  font-size: 1rem;
+  font-weight: 600;
   color: #d63384;
-}
-
-.related-card p {
-  font-size: 0.9rem;
-  color: #555;
-}
-
-.view-related {
-  display: inline-block;
-  margin-top: 0.5rem;
-  background-color: #d63384;
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 6px;
-  text-decoration: none;
-  font-size: 0.9rem;
-  transition: background 0.2s ease;
-}
-
-.view-related:hover {
-  background-color: #c0256f;
-}
-
-/* FOOTER */
-.footer {
-  background-color: #ffccdd;
-  text-align: center;
-  padding: 1rem;
-  font-size: 0.9rem;
-  color: #333;
-  margin-top: 3rem;
 }
