@@ -15,61 +15,105 @@
     body {
       margin: 0;
       padding: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: linear-gradient(180deg, #ffe4ec, #f7e9ff);
-      color: #333;
+      font-family: "Poppins", sans-serif;
+      background:
+        radial-gradient(circle at top, #ffe9fb 0%, #fef7ff 40%, #ffffff 70%),
+        url("/images/aurapop-hero-clouds.jpg") center top / cover no-repeat fixed;
+      background-blend-mode: soft-light;
+      color: #2b1028;
     }
-    .page {
+
+    .ap-legal-page {
       max-width: 900px;
       margin: 0 auto;
-      padding: 40px 20px 80px;
+      padding: 60px 20px 100px;
     }
-    h1 {
-      font-size: 36px;
-      color: #d63384;
+
+    /* Frosted-glass card */
+    .ap-legal-card {
+      background: rgba(255, 255, 255, 0.75);
+      backdrop-filter: blur(14px);
+      border-radius: 28px;
+      border: 1px solid rgba(238, 198, 245, 0.7);
+      box-shadow: 0 22px 50px rgba(145, 77, 166, 0.18);
+      padding: 40px 30px;
+    }
+
+    .ap-legal-title {
+      font-family: "Playfair Display", serif;
+      font-size: 2.4rem;
       text-align: center;
       margin-bottom: 20px;
+      background: linear-gradient(120deg, #ff8ac5, #d36eff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
     }
+
+    h2 {
+      font-family: "Playfair Display", serif;
+      font-size: 1.4rem;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      color: #2b1028;
+    }
+
     p, li {
-      font-size: 16px;
+      font-size: 1rem;
       line-height: 1.7;
-      color: #444;
+      color: #6b577d;
     }
+
     ul {
       padding-left: 20px;
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #d63384;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 
 <body>
 
-  <div class="page">
-    <h1>Privacy Policy</h1>
+  <div class="ap-legal-page">
+    <div class="ap-legal-card">
 
-    <p>Your privacy matters to us. This policy explains how AuraPop collects and uses your information.</p>
+      <h1 class="ap-legal-title">Privacy Policy</h1>
 
-    <h2>Information We Collect</h2>
-    <ul>
-      <li>Basic contact information (name, email)</li>
-      <li>Order and shipping details</li>
-      <li>Website usage data</li>
-    </ul>
+      <p>Your privacy matters to us. This policy explains how AuraPop collects, uses, and protects your information.</p>
 
-    <h2>How We Use Your Information</h2>
-    <ul>
-      <li>To process and deliver orders</li>
-      <li>To improve your shopping experience</li>
-      <li>To send updates or promotions (only if you opt in)</li>
-    </ul>
+      <h2>Information We Collect</h2>
+      <ul>
+        <li>Basic contact information (name, email)</li>
+        <li>Order and shipping details</li>
+        <li>Website usage data</li>
+      </ul>
 
-    <h2>Third-Party Services</h2>
-    <p>We may use trusted third-party tools for payments, analytics, or email services.</p>
+      <h2>How We Use Your Information</h2>
+      <ul>
+        <li>To process and deliver orders</li>
+        <li>To improve your shopping experience</li>
+        <li>To send updates or promotions (only if you opt in)</li>
+      </ul>
 
-    <h2>Your Rights</h2>
-    <p>You may request access, updates, or deletion of your personal data at any time.</p>
+      <h2>Third‑Party Services</h2>
+      <p>We may use trusted third‑party tools for payments, analytics, or email services.</p>
 
-    <h2>Contact</h2>
-    <p>Email privacy questions to <a href="mailto:support@toriedition.com">support@toriedition.com</a>.</p>
+      <h2>Your Rights</h2>
+      <p>You may request access, updates, or deletion of your personal data at any time.</p>
+
+      <h2>Contact</h2>
+      <p>Email privacy questions to <a href="mailto:support@toriedition.com">support@toriedition.com</a>.</p>
+
+    </div>
   </div>
 
   <!-- GLOBAL FOOTER -->
