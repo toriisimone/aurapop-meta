@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Shop All • AuraPop by ToriEdition</title>
 
   <!-- Global CSS -->
@@ -15,141 +16,174 @@
     href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
     rel="stylesheet"
   />
+
+  <!-- GLOBAL HEADER -->
+  <script src="scripts/header.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background:
+        radial-gradient(circle at top, #ffe9fb 0%, #fef7ff 40%, #ffffff 70%),
+        url("/images/aurapop-hero-clouds.jpg") center top / cover no-repeat fixed;
+      background-blend-mode: soft-light;
+      color: #2b1028;
+    }
+
+    /* PAGE HERO */
+    .ap-page-hero {
+      text-align: center;
+      padding: 80px 20px 60px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .ap-page-hero-kicker {
+      font-size: 0.78rem;
+      letter-spacing: 0.26em;
+      text-transform: uppercase;
+      color: #b18cd1;
+      margin-bottom: 10px;
+    }
+
+    .ap-page-hero-title {
+      font-family: "Playfair Display", serif;
+      font-size: 2.8rem;
+      margin-bottom: 12px;
+      color: #2b1028;
+    }
+
+    .ap-page-hero-title span {
+      background: linear-gradient(120deg, #ff8ac5, #d36eff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .ap-page-hero-text {
+      font-size: 1rem;
+      color: #6b577d;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* PRODUCT GRID */
+    .ap-grid {
+      max-width: 1180px;
+      margin: 40px auto 100px;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    /* PRODUCT CARD */
+    .ap-card {
+      background: rgba(255, 255, 255, 0.75);
+      backdrop-filter: blur(14px);
+      border-radius: 26px;
+      border: 1px solid rgba(238, 198, 245, 0.7);
+      box-shadow: 0 12px 30px rgba(145, 77, 166, 0.18);
+      padding: 20px 18px;
+      transition: transform 0.18s ease, box-shadow 0.18s ease;
+      cursor: pointer;
+    }
+
+    .ap-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 18px 40px rgba(145, 77, 166, 0.25);
+    }
+
+    .ap-card-label {
+      font-size: 0.76rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: #9a78c3;
+      margin-bottom: 6px;
+    }
+
+    .ap-card-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #2e1028;
+      margin-bottom: 6px;
+    }
+
+    .ap-card-text {
+      font-size: 0.9rem;
+      color: #6b577d;
+      margin-bottom: 14px;
+    }
+
+    .ap-card-tag {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.9);
+      border: 1px dashed rgba(195, 150, 255, 0.9);
+      font-size: 0.78rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #6c4a9a;
+    }
+  </style>
 </head>
 
 <body>
-  <div class="ap-site-shell">
 
-    <!-- NAV (auto-styled globally) -->
-    <header class="ap-nav">
-      <div class="ap-nav-inner">
-        <div class="ap-logo">
-          <span class="ap-logo-main">AuraPop</span>
-          <span class="ap-logo-sub">ToriEdition.com</span>
-        </div>
+  <!-- GLOBAL HEADER -->
+  <!-- (auto-injected by header.js) -->
 
-        <nav class="ap-nav-links">
-          <a href="/shop.html">Shop All</a>
-          <a href="/makeup.html">Makeup</a>
-          <a href="/skincare.html">Skincare</a>
-          <a href="/womens-wellness.html">Women’s Wellness</a>
-          <a href="/mens-wellness.html">Men’s Wellness</a>
-          <a href="/gifts.html">Gifts</a>
-          <a href="/gadgets.html">Gadgets</a>
-        </nav>
+  <!-- PAGE HERO -->
+  <section class="ap-page-hero">
+    <div class="ap-page-hero-kicker">AuraPop Collection</div>
+    <h1 class="ap-page-hero-title">
+      Shop <span>Everything</span>
+    </h1>
+    <p class="ap-page-hero-text">
+      Every category, every vibe, every cloud‑soft essential curated by ToriEdition.
+      Explore the full AuraPop universe in one place.
+    </p>
+  </section>
 
-        <div class="ap-nav-actions">
-          <div class="ap-nav-pill">
-            <div class="ap-nav-icon">🔍</div>
-            <span>Search</span>
-          </div>
-          <div class="ap-nav-pill">
-            <div class="ap-nav-icon">♥</div>
-            <span>Account</span>
-          </div>
-        </div>
-      </div>
-    </header>
+  <!-- PROMO STRIP -->
+  <section class="ap-promo-strip">
+    <div class="ap-promo-pill">Free shipping over $50</div>
+    <div class="ap-promo-pill">New drops weekly</div>
+    <div class="ap-promo-pill">Curated by ToriEdition</div>
+  </section>
 
-    <!-- PAGE HERO -->
-    <section class="ap-page ap-page-hero">
-      <div class="ap-page-hero-kicker">AuraPop Collection</div>
-      <h1 class="ap-page-hero-title">
-        Shop <span>Everything</span>
-      </h1>
-      <p class="ap-page-hero-text">
-        Every category, every vibe, every cloud‑soft essential curated by ToriEdition.
-        Explore the full AuraPop universe in one place.
-      </p>
-    </section>
+  <!-- PRODUCT GRID -->
+  <section>
+    <div class="ap-grid">
 
-    <!-- PROMO STRIP -->
-    <section class="ap-promo-strip">
-      <div class="ap-promo-pill">Free shipping over $50</div>
-      <div class="ap-promo-pill">New drops weekly</div>
-      <div class="ap-promo-pill">Curated by ToriEdition</div>
-    </section>
-
-    <!-- PRODUCT GRID -->
-    <section class="ap-page">
-      <div class="ap-section-header">
-        <div>
-          <div class="ap-section-kicker">Explore</div>
-          <h2 class="ap-section-title">All Products</h2>
-        </div>
+      <div class="ap-card" onclick="location.href='/product.html?id=soft-glow-foundation'">
+        <div class="ap-card-label">Makeup</div>
+        <div class="ap-card-title">Soft Glow Foundation</div>
+        <div class="ap-card-text">Cloud‑skin finish with buildable coverage.</div>
+        <div class="ap-card-tag">View Product</div>
       </div>
 
-      <div class="ap-grid ap-grid--3">
-        <!-- Example product card -->
-        <div class="ap-card">
-          <div class="ap-card-label">Makeup</div>
-          <div class="ap-card-title">Soft Glow Foundation</div>
-          <div class="ap-card-text">Cloud‑skin finish with buildable coverage.</div>
-          <div class="ap-card-tag">View Product</div>
-        </div>
-
-        <div class="ap-card">
-          <div class="ap-card-label">Skincare</div>
-          <div class="ap-card-title">Hydra Dew Serum</div>
-          <div class="ap-card-text">Dewy hydration with a soft‑focus glow.</div>
-          <div class="ap-card-tag">View Product</div>
-        </div>
-
-        <div class="ap-card">
-          <div class="ap-card-label">Gadgets</div>
-          <div class="ap-card-title">CloudWave Facial Wand</div>
-          <div class="ap-card-text">At‑home spa results with micro‑vibration tech.</div>
-          <div class="ap-card-tag">View Product</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="ap-footer">
-      <div class="ap-footer-inner">
-        <div>
-          <div class="ap-footer-logo-main">AuraPop</div>
-          <div class="ap-footer-logo-sub">ToriEdition.com</div>
-          <div class="ap-footer-text">
-            A cloud‑soft beauty and wellness universe curated by ToriEdition.
-          </div>
-        </div>
-
-        <div>
-          <div class="ap-footer-heading">Shop</div>
-          <ul class="ap-footer-list">
-            <li><a href="/shop.html">Shop All</a></li>
-            <li><a href="/makeup.html">Makeup</a></li>
-            <li><a href="/skincare.html">Skincare</a></li>
-            <li><a href="/womens-wellness.html">Women’s Wellness</a></li>
-            <li><a href="/mens-wellness.html">Men’s Wellness</a></li>
-            <li><a href="/gifts.html">Gifts</a></li>
-            <li><a href="/gadgets.html">Gadgets</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <div class="ap-footer-heading">Brand</div>
-          <ul class="ap-footer-list">
-            <li><a href="/about.html">About AuraPop</a></li>
-            <li><a href="/coupons.html">Coupon Universe</a></li>
-            <li><a href="/contact.html">Contact</a></li>
-          </ul>
-        </div>
+      <div class="ap-card" onclick="location.href='/product.html?id=hydra-dew-serum'">
+        <div class="ap-card-label">Skincare</div>
+        <div class="ap-card-title">Hydra Dew Serum</div>
+        <div class="ap-card-text">Dewy hydration with a soft‑focus glow.</div>
+        <div class="ap-card-tag">View Product</div>
       </div>
 
-      <div class="ap-footer-bottom">
-        <div>© <span id="ap-year"></span> AuraPop by ToriEdition. All rights reserved.</div>
-        <div class="ap-footer-bottom-links">
-          <a href="/privacy.html">Privacy</a>
-          <a href="/terms.html">Terms</a>
-        </div>
+      <div class="ap-card" onclick="location.href='/product.html?id=cloudwave-wand'">
+        <div class="ap-card-label">Gadgets</div>
+        <div class="ap-card-title">CloudWave Facial Wand</div>
+        <div class="ap-card-text">At‑home spa results with micro‑vibration tech.</div>
+        <div class="ap-card-tag">View Product</div>
       </div>
-    </footer>
-  </div>
 
-  <script>
-    document.getElementById("ap-year").textContent = new Date().getFullYear();
-  </script>
+    </div>
+  </section>
+
+  <!-- GLOBAL FOOTER -->
+  <script src="scripts/footer.js"></script>
+
 </body>
 </html>
