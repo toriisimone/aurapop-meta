@@ -15,46 +15,64 @@
     body {
       margin: 0;
       padding: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: linear-gradient(180deg, #ffe4ec, #f7e9ff);
-      color: #333;
+      font-family: "Poppins", sans-serif;
+      background:
+        radial-gradient(circle at top, #ffe9fb 0%, #fef7ff 40%, #ffffff 70%),
+        url("/images/aurapop-hero-clouds.jpg") center top / cover no-repeat fixed;
+      background-blend-mode: soft-light;
+      color: #2b1028;
     }
 
-    .page {
+    .ap-legal-page {
       max-width: 900px;
       margin: 0 auto;
-      padding: 40px 20px 80px;
+      padding: 60px 20px 100px;
     }
 
-    h1 {
-      font-size: 36px;
-      color: #d63384;
+    /* Frosted-glass card */
+    .ap-legal-card {
+      background: rgba(255, 255, 255, 0.75);
+      backdrop-filter: blur(14px);
+      border-radius: 28px;
+      border: 1px solid rgba(238, 198, 245, 0.7);
+      box-shadow: 0 22px 50px rgba(145, 77, 166, 0.18);
+      padding: 40px 30px;
+    }
+
+    .ap-legal-title {
+      font-family: "Playfair Display", serif;
+      font-size: 2.4rem;
       text-align: center;
       margin-bottom: 20px;
+      background: linear-gradient(120deg, #ff8ac5, #d36eff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
     }
 
     h2 {
-      font-size: 22px;
-      color: #d63384;
-      margin-top: 25px;
-      margin-bottom: 8px;
+      font-family: "Playfair Display", serif;
+      font-size: 1.4rem;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      color: #2b1028;
     }
 
     p, li {
-      font-size: 16px;
+      font-size: 1rem;
       line-height: 1.7;
-      color: #444;
+      color: #6b577d;
     }
 
     ul {
-      margin-top: 5px;
       padding-left: 20px;
+      margin-bottom: 10px;
     }
 
     a {
       color: #d63384;
+      font-weight: 600;
       text-decoration: none;
-      font-weight: bold;
     }
 
     a:hover {
@@ -65,34 +83,38 @@
 
 <body>
 
-  <div class="page">
-    <h1>Shipping Policy</h1>
+  <div class="ap-legal-page">
+    <div class="ap-legal-card">
 
-    <p>Thank you for shopping with AuraPop. We’re committed to delivering your products quickly and safely.</p>
+      <h1 class="ap-legal-title">Shipping Policy</h1>
 
-    <h2>Processing Time</h2>
-    <p>Orders are processed within 2–4 business days. During high-volume periods, processing may take slightly longer.</p>
+      <p>Thank you for shopping with AuraPop. We’re committed to delivering your products quickly and safely.</p>
 
-    <h2>Shipping Locations</h2>
-    <p>We currently ship within the United States. International shipping will be available soon.</p>
+      <h2>Processing Time</h2>
+      <p>Orders are processed within 2–4 business days. During high-volume periods, processing may take slightly longer.</p>
 
-    <h2>Delivery Estimates</h2>
-    <ul>
-      <li>Standard Shipping: 3–7 business days after processing</li>
-      <li>Expedited Shipping: 2–3 business days after processing</li>
-    </ul>
+      <h2>Shipping Locations</h2>
+      <p>We currently ship within the United States. International shipping will be available soon.</p>
 
-    <h2>Order Tracking</h2>
-    <p>Once your order ships, you’ll receive a confirmation email with tracking information.</p>
+      <h2>Delivery Estimates</h2>
+      <ul>
+        <li>Standard Shipping: 3–7 business days after processing</li>
+        <li>Expedited Shipping: 2–3 business days after processing</li>
+      </ul>
 
-    <h2>Shipping Fees</h2>
-    <p>Shipping rates are calculated at checkout based on your location and selected shipping method.</p>
+      <h2>Order Tracking</h2>
+      <p>Once your order ships, you’ll receive a confirmation email with tracking information.</p>
 
-    <h2>Lost or Damaged Packages</h2>
-    <p>
-      If your package is delayed, lost, or arrives damaged, contact us at
-      <a href="mailto:support@toriedition.com">support@toriedition.com</a> and we’ll be happy to assist.
-    </p>
+      <h2>Shipping Fees</h2>
+      <p>Shipping rates are calculated at checkout based on your location and selected shipping method.</p>
+
+      <h2>Lost or Damaged Packages</h2>
+      <p>
+        If your package is delayed, lost, or arrives damaged, contact us at
+        <a href="mailto:support@toriedition.com">support@toriedition.com</a> and we’ll be happy to assist.
+      </p>
+
+    </div>
   </div>
 
   <!-- GLOBAL FOOTER -->
