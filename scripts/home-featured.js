@@ -1,12 +1,14 @@
 // ------------------------------------------------------
-// AuraPop Homepage Dynamic Sections (ALL FEATURES)
+// AuraPop Homepage Dynamic Sections (FULL VERSION)
 // ------------------------------------------------------
 
 (async function () {
   try {
-    // Load your master product file
     const response = await fetch('/data/all.json');
     const products = await response.json();
+
+    // Utility: fallback image
+    const fallbackImage = '/images/default-image.jpg';
 
     // Utility: create a section wrapper
     function createSection(titleKicker, title, link = '/shop.html') {
@@ -33,8 +35,10 @@
       card.className = 'ap-category-card';
       card.onclick = () => location.href = `/product.html?id=${product.id}`;
 
+      const imageSrc = product.image || fallbackImage;
+
       card.innerHTML = `
-        <img src="${product.image}" alt="${product.name}" style="
+        <img src="${imageSrc}" alt="${product.name}" style="
           width: 100%;
           border-radius: 20px;
           margin-bottom: 10px;
@@ -47,7 +51,27 @@
     }
 
     // ------------------------------------------------------
-    // 1. FEATURED PRODUCTS (first 4)
+    // HERO BANNER (top of homepage)
+    // ------------------------------------------------------
+    const heroBanner = document.createElement('div');
+    heroBanner.innerHTML = `
+      <img src="/images/hero-banner.jpg" alt="AuraPop Hero Banner" style="
+        width: 100%;
+        display: block;
+        border-radius: 0;
+        margin-bottom: 40px;
+      ">
+    `;
+    const body = document.body;
+    const firstSection = document.querySelector('.ap-section');
+    if (firstSection) {
+      body.insertBefore(heroBanner, firstSection);
+    } else {
+      body.insertBefore(heroBanner, document.querySelector('.ap-footer'));
+    }
+
+    // ------------------------------------------------------
+    // 1. FEATURED PRODUCTS
     // ------------------------------------------------------
     const featured = products.slice(0, 4);
     const featuredSection = createSection("Featured", "Curated picks just for you");
@@ -55,7 +79,7 @@
     featured.forEach(p => featuredGrid.appendChild(createProductCard(p)));
 
     // ------------------------------------------------------
-    // 2. NEW ARRIVALS (last 4)
+    // 2. NEW ARRIVALS
     // ------------------------------------------------------
     const newArrivals = products.slice(-4);
     const newSection = createSection("New Arrivals", "Fresh drops you’ll love");
@@ -63,7 +87,7 @@
     newArrivals.forEach(p => newGrid.appendChild(createProductCard(p)));
 
     // ------------------------------------------------------
-    // 3. TRENDING NOW (random 4)
+    // 3. TRENDING NOW
     // ------------------------------------------------------
     const trending = [...products].sort(() => Math.random() - 0.5).slice(0, 4);
     const trendingSection = createSection("Trending Now", "What everyone is loving");
@@ -131,8 +155,10 @@
       card.className = 'ap-category-card';
       card.onclick = () => location.href = `/product.html?id=${p.id}`;
 
+      const imageSrc = p.image || fallbackImage;
+
       card.innerHTML = `
-        <img src="${p.image}" alt="${p.name}" style="
+        <img src="${imageSrc}" alt="${p.name}" style="
           width: 100%;
           border-radius: 20px;
           margin-bottom: 10px;
