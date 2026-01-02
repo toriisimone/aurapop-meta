@@ -3,57 +3,128 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Search | AuraPop</title>
 
-  <link rel="stylesheet" href="styles/category.css" />
+  <title>Search | AuraPop</title>
 
   <!-- GLOBAL HEADER -->
   <script src="scripts/header.js"></script>
 
   <style>
-    .search-container {
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background:
+        radial-gradient(circle at top, #ffe9fb 0%, #fef7ff 40%, #ffffff 70%),
+        url("/images/aurapop-hero-clouds.jpg") center top / cover no-repeat fixed;
+      background-blend-mode: soft-light;
+      color: #2b1028;
+    }
+
+    /* Search Container */
+    .ap-search-container {
       max-width: 700px;
-      margin: 40px auto;
+      margin: 60px auto 40px;
+      padding: 40px 30px;
       text-align: center;
+
+      background: rgba(255, 255, 255, 0.75);
+      backdrop-filter: blur(14px);
+      border-radius: 28px;
+      border: 1px solid rgba(238, 198, 245, 0.7);
+      box-shadow: 0 22px 50px rgba(145, 77, 166, 0.18);
     }
 
-    .search-box {
+    .ap-search-title {
+      font-family: "Playfair Display", serif;
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+      background: linear-gradient(120deg, #ff8ac5, #d36eff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    /* Search Input */
+    .ap-search-box {
       width: 100%;
-      padding: 14px;
-      font-size: 16px;
-      border-radius: 8px;
-      border: 1px solid #ccc;
-      margin-bottom: 25px;
+      padding: 16px;
+      font-size: 1rem;
+      border-radius: 14px;
+      border: 1px solid rgba(214, 155, 255, 0.6);
+      background: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 6px 16px rgba(145, 77, 166, 0.08);
+      outline: none;
+      margin-bottom: 10px;
     }
 
-    .results-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 25px;
+    /* Results Grid */
+    .ap-results-grid {
+      max-width: 1180px;
+      margin: 0 auto 100px;
       padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
     }
 
-    .no-results {
+    /* Result Card */
+    .ap-result-card {
+      background: rgba(255, 255, 255, 0.75);
+      backdrop-filter: blur(14px);
+      border-radius: 22px;
+      border: 1px solid rgba(238, 198, 245, 0.7);
+      box-shadow: 0 12px 30px rgba(145, 77, 166, 0.18);
+      padding: 16px;
       text-align: center;
-      color: #777;
+      transition: transform 0.18s ease, box-shadow 0.18s ease;
+    }
+
+    .ap-result-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 18px 40px rgba(145, 77, 166, 0.25);
+    }
+
+    .ap-result-card img {
+      width: 100%;
+      border-radius: 18px;
+      margin-bottom: 10px;
+    }
+
+    .ap-result-card h4 {
+      font-size: 1rem;
+      margin-bottom: 6px;
+      color: #2b1028;
+    }
+
+    .ap-result-card p {
+      font-size: 0.9rem;
+      color: #6b577d;
+      margin-bottom: 10px;
+    }
+
+    .ap-no-results {
+      text-align: center;
+      color: #8b6fa8;
       margin-top: 20px;
+      font-size: 1rem;
     }
   </style>
 </head>
 
 <body>
 
-  <div class="search-container">
-    <h1>Search Products</h1>
-    <input 
-      type="text" 
-      id="searchInput" 
-      class="search-box" 
+  <div class="ap-search-container">
+    <h1 class="ap-search-title">Search Products</h1>
+
+    <input
+      type="text"
+      id="searchInput"
+      class="ap-search-box"
       placeholder="Search for vitamins, skincare, accessories, etc..."
     />
   </div>
 
-  <div id="searchResults" class="results-grid"></div>
+  <div id="searchResults" class="ap-results-grid"></div>
 
   <script src="scripts/search.js"></script>
 
