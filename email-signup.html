@@ -14,69 +14,91 @@
     body {
       margin: 0;
       padding: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: linear-gradient(180deg, #ffe4ec, #f7e9ff);
-      color: #333;
+      font-family: "Poppins", sans-serif;
+      background:
+        radial-gradient(circle at top, #ffe9fb 0%, #fef7ff 40%, #ffffff 70%),
+        url("/images/aurapop-hero-clouds.jpg") center top / cover no-repeat fixed;
+      background-blend-mode: soft-light;
+      color: #2b1028;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
     }
 
-    .page {
-      max-width: 500px;
-      margin: 80px auto;
-      background: #ffffffcc;
-      padding: 40px 30px;
-      border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    /* Frosted cloud card */
+    .ap-signup-card {
+      width: 100%;
+      max-width: 480px;
+      padding: 40px 32px;
+      background: rgba(255, 255, 255, 0.75);
+      backdrop-filter: blur(14px);
+      border-radius: 28px;
+      border: 1px solid rgba(238, 198, 245, 0.7);
+      box-shadow: 0 22px 50px rgba(145, 77, 166, 0.18);
       text-align: center;
     }
 
-    h1 {
-      font-size: 32px;
-      color: #d63384;
+    .ap-signup-title {
+      font-family: "Playfair Display", serif;
+      font-size: 2.2rem;
       margin-bottom: 10px;
+      background: linear-gradient(120deg, #ff8ac5, #d36eff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
     }
 
-    p {
-      font-size: 16px;
-      color: #555;
-      margin-bottom: 25px;
+    .ap-signup-text {
+      font-size: 1rem;
+      color: #6b577d;
+      margin-bottom: 28px;
     }
 
-    input[type="email"] {
+    /* Input */
+    .ap-input {
       width: 100%;
       padding: 14px;
-      border: 1px solid #e3b6d3;
-      border-radius: 8px;
-      font-size: 16px;
-      margin-bottom: 20px;
+      border-radius: 14px;
+      border: 1px solid rgba(214, 155, 255, 0.6);
+      background: rgba(255, 255, 255, 0.9);
+      font-size: 1rem;
+      margin-bottom: 18px;
+      box-shadow: 0 6px 16px rgba(145, 77, 166, 0.08);
     }
 
-    button {
+    /* Button */
+    .ap-signup-btn {
       width: 100%;
       padding: 14px;
-      background: #d63384;
-      color: white;
+      border-radius: 999px;
+      background: linear-gradient(120deg, #ff7ab7, #ffafcc, #ffc6e7);
+      color: #2f0f25;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
       border: none;
-      border-radius: 8px;
-      font-size: 18px;
       cursor: pointer;
-      font-weight: bold;
+      box-shadow: 0 18px 40px rgba(214, 51, 132, 0.35);
+      transition: transform 0.18s ease, box-shadow 0.18s ease;
     }
 
-    button:hover {
-      background: #b82a6f;
+    .ap-signup-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 22px 50px rgba(214, 51, 132, 0.45);
     }
   </style>
 </head>
 
 <body>
 
-  <div class="page">
-    <h1>Join the AuraPop Club</h1>
-    <p>Sign up to get exclusive updates, early access to new drops, and special offers.</p>
+  <div class="ap-signup-card">
+    <h1 class="ap-signup-title">Join the AuraPop Club</h1>
+    <p class="ap-signup-text">Sign up to get exclusive updates, early access to new drops, and special offers.</p>
 
     <form>
-      <input type="email" placeholder="Enter your email" required />
-      <button type="submit">Sign Up</button>
+      <input type="email" class="ap-input" placeholder="Enter your email" required />
+      <button type="submit" class="ap-signup-btn">Sign Up</button>
     </form>
   </div>
 
