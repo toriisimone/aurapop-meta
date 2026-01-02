@@ -30,8 +30,6 @@
   { "brand": "Bevel", "offer": "15% Off Men's Skincare", "code": "BEVEL15", "link": "https://getbevel.com" },
   { "brand": "Jack Black", "offer": "Free Men's Grooming Sample", "code": "JACKFREE", "link": "https://getjackblack.com" },
 
-  /* ——— 90 MORE BELOW ——— */
-
   { "brand": "NYX Cosmetics", "offer": "20% Off Lip Products", "code": "NYXLIPS", "link": "https://nyxcosmetics.com" },
   { "brand": "Maybelline", "offer": "Buy 1 Get 1 40% Off", "code": "MAYB40", "link": "https://maybelline.com" },
   { "brand": "L'Oréal Paris", "offer": "15% Off Makeup", "code": "LOREAL15", "link": "https://lorealparisusa.com" },
@@ -55,7 +53,6 @@
   { "brand": "Victoria's Secret", "offer": "20% Off Fragrance", "code": "VS20", "link": "https://victoriassecret.com" },
   { "brand": "Ariana Grande Fragrance", "offer": "Free Rollerball", "code": "ARIANA", "link": "https://arianagrandefragrances.com" },
   { "brand": "KAYALI", "offer": "10% Off Perfume", "code": "KAYALI10", "link": "https://hudabeauty.com" },
-  { "brand": "Sol de Janeiro", "offer": "Free Body Spray Mini", "code": "SOLSPRAY", "link": "https://soldejaneiro.com" },
   { "brand": "Tree Hut", "offer": "15% Off Body Scrubs", "code": "TREEHUT15", "link": "https://treehutshea.com" },
   { "brand": "SheaMoisture", "offer": "Buy 1 Get 1 50% Off", "code": "SHEA50", "link": "https://sheamoisture.com" },
   { "brand": "CeraVe", "offer": "10% Off Moisturizers", "code": "CERAVE10", "link": "https://cerave.com" },
@@ -75,13 +72,13 @@
   { "brand": "GHD", "offer": "10% Off Flat Irons", "code": "GHD10", "link": "https://ghdhair.com" },
   { "brand": "Hot Tools", "offer": "25% Off Curling Irons", "code": "HOT25", "link": "https://hottools.com" },
   { "brand": "CHI", "offer": "15% Off Hair Tools", "code": "CHI15", "link": "https://chi.com" },
+
   { "brand": "Remington", "offer": "10% Off Grooming Tools", "code": "REM10", "link": "https://remingtonproducts.com" },
   { "brand": "Wahl", "offer": "Free Beard Oil", "code": "WAHLFREE", "link": "https://wahlusa.com" },
   { "brand": "The Art of Shaving", "offer": "20% Off Kits", "code": "ART20", "link": "https://theartofshaving.com" },
   { "brand": "Dollar Shave Club", "offer": "Free Starter Kit", "code": "DSCFREE", "link": "https://dollarshaveclub.com" },
   { "brand": "Every Man Jack", "offer": "15% Off Grooming", "code": "EMJ15", "link": "https://everymanjack.com" },
   { "brand": "Native Men", "offer": "10% Off Body Wash", "code": "NATIVEMEN10", "link": "https://nativecos.com" },
-  { "brand": "Old Spice", "offer": "Free Travel Size", "code": "SPICEFRE", "link": "https://oldspice.com" },
   { "brand": "Axe", "offer": "Buy 2 Save $4", "code": "AXE4", "link": "https://axe.com" },
   { "brand": "Degree", "offer": "15% Off Deodorant", "code": "DEGREE15", "link": "https://degree.com" },
   { "brand": "Gillette Venus", "offer": "10% Off Women's Razors", "code": "VENUS10", "link": "https://gillettevenus.com" },
@@ -97,4 +94,5 @@
   { "brand": "Redken", "offer": "15% Off Hair Color", "code": "REDKEN15", "link": "https://redken.com" },
   { "brand": "Matrix", "offer": "20% Off Haircare", "code": "MATRIX20", "link": "https://matrix.com" },
   { "brand": "Paul Mitchell", "offer": "Free Travel Size", "code": "PMFREE", "link": "https://paulmitchell.com" },
-  { "brand": "SheaMoisture Men", "offer": "10% Off Grooming", "code": "SMMEN10", "link": "https://sheamoist
+  { "brand": "SheaMoisture Men", "offer": "10% Off Grooming", "code": "SMMEN10", "link": "https://sheamoisture.com" }
+]
