@@ -7,20 +7,6 @@
   <title>Contact Us | AuraPop</title>
 
   <meta name="description" content="Reach out to AuraPop with questions, feedback, or collaboration inquiries. We're here to help.">
-  <meta name="keywords" content="AuraPop contact, beauty support, customer service, wellness questions, Tori Edition">
-
-  <link rel="canonical" href="https://toriedition.com/contact.html" />
-
-  <meta property="og:title" content="Contact AuraPop" />
-  <meta property="og:description" content="Reach out to AuraPop with questions, feedback, or collaboration inquiries. We're here to help." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://toriedition.com/contact.html" />
-  <meta property="og:image" content="https://toriedition.com/images/og-default.jpg" />
-
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Contact AuraPop" />
-  <meta name="twitter:description" content="Reach out to AuraPop with questions, feedback, or collaboration inquiries. We're here to help." />
-  <meta name="twitter:image" content="https://toriedition.com/images/og-default.jpg" />
 
   <!-- GLOBAL HEADER -->
   <script src="scripts/header.js"></script>
@@ -29,63 +15,75 @@
     body {
       margin: 0;
       padding: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: linear-gradient(180deg, #ffe4ec, #f7e9ff);
-      color: #333;
+      font-family: "Poppins", sans-serif;
+      background:
+        radial-gradient(circle at top, #ffe9fb 0%, #fef7ff 40%, #ffffff 70%),
+        url("/images/aurapop-hero-clouds.jpg") center top / cover no-repeat fixed;
+      background-blend-mode: soft-light;
+      color: #2b1028;
     }
 
-    .page {
-      max-width: 800px;
+    .ap-contact-page {
+      max-width: 900px;
       margin: 0 auto;
-      padding: 40px 20px 80px;
+      padding: 60px 20px 100px;
       text-align: center;
     }
 
-    .logo {
+    .ap-contact-logo {
       width: 180px;
       margin-bottom: 20px;
+      opacity: 0.95;
     }
 
-    h1 {
-      font-size: 36px;
-      color: #d63384;
+    .ap-contact-title {
+      font-family: "Playfair Display", serif;
+      font-size: 2.4rem;
       margin-bottom: 10px;
+      background: linear-gradient(120deg, #ff8ac5, #d36eff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
     }
 
-    .subtitle {
-      font-size: 18px;
-      color: #7a2b5a;
+    .ap-contact-subtitle {
+      font-size: 1rem;
+      color: #6b577d;
       margin-bottom: 40px;
     }
 
-    .contact-box {
+    /* Frosted-glass cloud card */
+    .ap-contact-card {
+      background: rgba(255, 255, 255, 0.75);
+      backdrop-filter: blur(14px);
+      border-radius: 28px;
+      border: 1px solid rgba(238, 198, 245, 0.7);
+      box-shadow: 0 22px 50px rgba(145, 77, 166, 0.18);
+      padding: 40px 30px;
       text-align: left;
-      background: #fff;
-      border-radius: 12px;
-      padding: 30px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     }
 
-    .contact-box h2 {
-      font-size: 22px;
-      color: #d63384;
+    .ap-contact-card h2 {
+      font-family: "Playfair Display", serif;
+      font-size: 1.4rem;
       margin-bottom: 10px;
+      color: #2b1028;
     }
 
-    .contact-box p {
-      font-size: 16px;
+    .ap-contact-card p {
+      font-size: 1rem;
+      color: #6b577d;
       line-height: 1.6;
-      color: #444;
-      margin-bottom: 20px;
+      margin-bottom: 22px;
     }
 
-    .contact-box a {
+    .ap-contact-card a {
       color: #d63384;
+      font-weight: 600;
       text-decoration: none;
-      font-weight: bold;
     }
 
-    .contact-box a:hover {
+    .ap-contact-card a:hover {
       text-decoration: underline;
     }
   </style>
@@ -93,13 +91,15 @@
 
 <body>
 
-  <div class="page">
-    <img src="images/AuraPop Cosmetics Co.png" alt="AuraPop Logo" class="logo" />
+  <div class="ap-contact-page">
 
-    <h1>Contact Us</h1>
-    <p class="subtitle">Questions, feedback, or collaborations — we’d love to hear from you.</p>
+    <img src="images/AuraPop Cosmetics Co.png" alt="AuraPop Logo" class="ap-contact-logo" />
 
-    <div class="contact-box">
+    <h1 class="ap-contact-title">Contact Us</h1>
+    <p class="ap-contact-subtitle">Questions, feedback, or collaborations — we’d love to hear from you.</p>
+
+    <div class="ap-contact-card">
+
       <h2>General Inquiries</h2>
       <p>
         For product questions, order support, or general feedback, email us at  
@@ -117,6 +117,7 @@
         Interested in stocking AuraPop products? Contact  
         <a href="mailto:wholesale@toriedition.com">wholesale@toriedition.com</a>
       </p>
+
     </div>
   </div>
 
