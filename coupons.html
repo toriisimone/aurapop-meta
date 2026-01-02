@@ -3,20 +3,119 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coupons — Tori Edition</title>
+
+  <title>Coupons | AuraPop</title>
+
+  <!-- GLOBAL HEADER -->
+  <script src="scripts/header.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins", sans-serif;
+      background:
+        radial-gradient(circle at top, #ffe9fb 0%, #fef7ff 40%, #ffffff 70%),
+        url("/images/aurapop-hero-clouds.jpg") center top / cover no-repeat fixed;
+      background-blend-mode: soft-light;
+      color: #2b1028;
+    }
+
+    .ap-coupon-page {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 60px 20px 100px;
+      text-align: center;
+    }
+
+    .ap-coupon-title {
+      font-family: "Playfair Display", serif;
+      font-size: 2.4rem;
+      margin-bottom: 10px;
+      background: linear-gradient(120deg, #ff8ac5, #d36eff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .ap-coupon-subtitle {
+      font-size: 1rem;
+      color: #6b577d;
+      margin-bottom: 40px;
+    }
+
+    /* Coupon container grid */
+    .ap-coupon-container {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+
+    /* Coupon card */
+    .ap-coupon-card {
+      background: radial-gradient(circle at top, #ffffff, #fdf0ff);
+      border: 1px solid rgba(234, 206, 255, 0.9);
+      border-radius: 22px;
+      padding: 20px;
+      box-shadow: 0 12px 30px rgba(145, 77, 166, 0.12);
+      text-align: left;
+      transition: transform 0.18s ease, box-shadow 0.18s ease;
+    }
+
+    .ap-coupon-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 18px 40px rgba(145, 77, 166, 0.18);
+    }
+
+    .ap-coupon-label {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.26em;
+      color: #b18cd1;
+      margin-bottom: 6px;
+    }
+
+    .ap-coupon-title-text {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #2b1028;
+      margin-bottom: 10px;
+    }
+
+    .ap-coupon-desc {
+      font-size: 0.9rem;
+      color: #6b577d;
+      margin-bottom: 14px;
+    }
+
+    .ap-coupon-code {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.9);
+      border: 1px dashed rgba(195, 150, 255, 0.9);
+      font-size: 0.85rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #6c4a9a;
+    }
+  </style>
 </head>
 
 <body>
 
-  <main class="coupon-page">
-    <h1 class="coupon-title">✨ Beauty & Wellness Coupons ✨</h1>
-    <p class="coupon-subtitle">New deals appear every few seconds — enjoy the magic.</p>
+  <main class="ap-coupon-page">
+    <h1 class="ap-coupon-title">✨ Beauty & Wellness Coupons ✨</h1>
+    <p class="ap-coupon-subtitle">New deals appear every few seconds — enjoy the magic.</p>
 
-    <div id="couponContainer" class="coupon-container"></div>
+    <div id="couponContainer" class="ap-coupon-container"></div>
   </main>
 
   <!-- Coupon Universe Script -->
   <script src="/scripts/coupons.js"></script>
+
+  <!-- GLOBAL FOOTER -->
+  <script src="scripts/footer.js"></script>
 
 </body>
 </html>
