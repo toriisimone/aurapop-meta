@@ -15,56 +15,100 @@
     body {
       margin: 0;
       padding: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: linear-gradient(180deg, #ffe4ec, #f7e9ff);
-      color: #333;
+      font-family: "Poppins", sans-serif;
+      background:
+        radial-gradient(circle at top, #ffe9fb 0%, #fef7ff 40%, #ffffff 70%),
+        url("/images/aurapop-hero-clouds.jpg") center top / cover no-repeat fixed;
+      background-blend-mode: soft-light;
+      color: #2b1028;
     }
-    .page {
+
+    .ap-legal-page {
       max-width: 900px;
       margin: 0 auto;
-      padding: 40px 20px 80px;
+      padding: 60px 20px 100px;
     }
-    h1 {
-      font-size: 36px;
-      color: #d63384;
+
+    /* Frosted-glass card */
+    .ap-legal-card {
+      background: rgba(255, 255, 255, 0.75);
+      backdrop-filter: blur(14px);
+      border-radius: 28px;
+      border: 1px solid rgba(238, 198, 245, 0.7);
+      box-shadow: 0 22px 50px rgba(145, 77, 166, 0.18);
+      padding: 40px 30px;
+    }
+
+    .ap-legal-title {
+      font-family: "Playfair Display", serif;
+      font-size: 2.4rem;
       text-align: center;
       margin-bottom: 20px;
+      background: linear-gradient(120deg, #ff8ac5, #d36eff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
     }
+
+    h2 {
+      font-family: "Playfair Display", serif;
+      font-size: 1.4rem;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      color: #2b1028;
+    }
+
     p, li {
-      font-size: 16px;
+      font-size: 1rem;
       line-height: 1.7;
-      color: #444;
+      color: #6b577d;
     }
+
     ul {
       padding-left: 20px;
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #d63384;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 
 <body>
 
-  <div class="page">
-    <h1>Terms & Conditions</h1>
+  <div class="ap-legal-page">
+    <div class="ap-legal-card">
 
-    <p>By using the AuraPop website, you agree to the following terms and conditions.</p>
+      <h1 class="ap-legal-title">Terms & Conditions</h1>
 
-    <h2>Use of Website</h2>
-    <p>You may browse and shop for personal, non-commercial use only.</p>
+      <p>By using the AuraPop website, you agree to the following terms and conditions.</p>
 
-    <h2>Product Information</h2>
-    <p>We strive for accuracy, but product details may vary slightly.</p>
+      <h2>Use of Website</h2>
+      <p>You may browse and shop for personal, non-commercial use only.</p>
 
-    <h2>Purchases</h2>
-    <p>All purchases must be made with valid payment information.</p>
+      <h2>Product Information</h2>
+      <p>We strive for accuracy, but product details may vary slightly.</p>
 
-    <h2>Intellectual Property</h2>
-    <p>All branding, images, and content belong to AuraPop and may not be reused without permission.</p>
+      <h2>Purchases</h2>
+      <p>All purchases must be made with valid payment information.</p>
 
-    <h2>Limitation of Liability</h2>
-    <p>AuraPop is not responsible for damages arising from website use or product misuse.</p>
+      <h2>Intellectual Property</h2>
+      <p>All branding, images, and content belong to AuraPop and may not be reused without permission.</p>
 
-    <h2>Contact</h2>
-    <p>For questions about these terms, email <a href="mailto:support@toriedition.com">support@toriedition.com</a>.</p>
+      <h2>Limitation of Liability</h2>
+      <p>AuraPop is not responsible for damages arising from website use or product misuse.</p>
+
+      <h2>Contact</h2>
+      <p>For questions about these terms, email <a href="mailto:support@toriedition.com">support@toriedition.com</a>.</p>
+
+    </div>
   </div>
 
   <!-- GLOBAL FOOTER -->
