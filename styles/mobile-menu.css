@@ -1,33 +1,30 @@
-/* MOBILE MENU — Soft Pink + White Theme */
+/* Smooth slide + fade */
+.ap-nav {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
 
-@media (max-width: 768px) {
+/* When open */
+.ap-nav.open {
+  opacity: 1;
+  transform: translateY(0);
+}
 
-  /* Hide desktop nav by default on mobile */
-  .ap-nav {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    background: #ffffffee;
-    border-top: 1px solid #f3c6dd;
-    padding: 15px 0;
-  }
+/* Glassy background */
+.ap-nav {
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.85);
+}
 
-  /* Show when open */
-  .ap-nav.open {
-    display: flex;
-  }
+/* Animated menu toggle (hamburger → X) */
+.ap-menu-toggle.open {
+  transform: rotate(90deg);
+  transition: transform 0.3s ease;
+}
 
-  /* Mobile nav links */
-  .ap-nav a {
-    margin: 10px 0;
-    text-align: center;
-    font-size: 18px;
-    color: #d63384;
-    font-weight: 600;
-  }
-
-  /* Mobile menu toggle button */
-  .ap-menu-toggle {
-    display: flex;
-  }
+/* Touch-friendly spacing */
+.ap-nav a {
+  padding: 12px 0;
+  letter-spacing: 0.5px;
 }
