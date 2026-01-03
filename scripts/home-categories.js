@@ -17,12 +17,13 @@ document.addEventListener("DOMContentLoaded", () => {
         };
 
         card.innerHTML = `
-          <div class="ap-category-label">AuraPop Edit</div>
-          <div class="ap-category-title">${cat.title}</div>
-          <div class="ap-category-tagline">Curated picks from the AuraPop universe.</div>
-          <div class="ap-category-chip">Shop ${cat.title}</div>
-          <div class="ap-category-image-shell">
-            <img src="/images/${cat.image}" alt="${cat.title}" />
+          <div class="ap-category-image-wrapper">
+            <img src="/images/${cat.image}" alt="${cat.title}" class="ap-category-image">
+          </div>
+
+          <div class="ap-category-overlay">
+            <div class="ap-category-overlay-title">${cat.title}</div>
+            <button class="ap-category-overlay-button">Shop Now</button>
           </div>
         `;
 
