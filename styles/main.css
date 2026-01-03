@@ -1,0 +1,58 @@
+/* HOMEPAGE — MOBILE LAYOUT */
+@media (max-width: 768px) {
+
+  /* Product grid layout */
+  #homepage-products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    padding: 10px 15px;
+  }
+
+  /* Product card */
+  .ap-category-card {
+    border-radius: 14px;
+    padding: 12px;
+    background: #fff;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+    transition: transform 0.2s ease;
+  }
+
+  /* Tap animation */
+  .ap-category-card:active {
+    transform: scale(0.97);
+  }
+
+  /* Product image */
+  .ap-product-image {
+    border-radius: 12px;
+    height: 140px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  /* Product title */
+  .ap-category-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 6px;
+  }
+
+  /* Price */
+  .ap-category-tagline {
+    font-size: 13px;
+    color: #d63384;
+    font-weight: 600;
+  }
+
+  /* Chip */
+  .ap-category-chip {
+    margin-top: 6px;
+    font-size: 12px;
+    padding: 6px 10px;
+    border-radius: 20px;
+    background: #f8d7e8;
+    color: #d63384;
+    display: inline-block;
+  }
+}
