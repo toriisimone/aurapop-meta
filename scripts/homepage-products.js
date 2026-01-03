@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", async function () {
     const response = await fetch("/data/products.json");
     const products = await response.json();
 
-    // limit homepage to first 12 products for now
     const homepageProducts = products.slice(0, 12);
 
     container.innerHTML = homepageProducts.map(p => `
