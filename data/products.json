@@ -1,2 +1,110 @@
-[
-]
+{
+  "id": "accessories-001",
+  "name": "Beautyblender Original Makeup Sponge",
+  "brand": "Beautyblender",
+  "price": "$20.00",
+  "image": "https://www.beautyblender.com/cdn/shop/products/beautyblender_original.jpg",
+  "link": "https://www.beautyblender.com/products/beautyblender-original",
+  "category": "accessories",
+  "sku": "ACCS-001",
+  "available": true
+},
+{
+  "id": "accessories-002",
+  "name": "Real Techniques Miracle Complexion Sponge",
+  "brand": "Real Techniques",
+  "price": "$6.00",
+  "image": "https://realtechniques.com/cdn/shop/products/miracle_complexion_sponge.jpg",
+  "link": "https://realtechniques.com/products/miracle-complexion-sponge",
+  "category": "accessories",
+  "sku": "ACCS-002",
+  "available": true
+},
+{
+  "id": "accessories-003",
+  "name": "EcoTools Start the Day Beautifully Brush Set",
+  "brand": "EcoTools",
+  "price": "$12.00",
+  "image": "https://ecotools.com/cdn/shop/products/start_the_day_brush_set.jpg",
+  "link": "https://ecotools.com/products/start-the-day-beautifully-kit",
+  "category": "accessories",
+  "sku": "ACCS-003",
+  "available": true
+},
+{
+  "id": "accessories-004",
+  "name": "Sigma Beauty F80 Flat Kabuki Brush",
+  "brand": "Sigma Beauty",
+  "price": "$28.00",
+  "image": "https://www.sigmabeauty.com/cdn/shop/products/sigma_f80.jpg",
+  "link": "https://www.sigmabeauty.com/products/f80-flat-kabuki",
+  "category": "accessories",
+  "sku": "ACCS-004",
+  "available": true
+},
+{
+  "id": "accessories-005",
+  "name": "Tweezerman Classic Slant Tweezer",
+  "brand": "Tweezerman",
+  "price": "$23.00",
+  "image": "https://www.tweezerman.com/media/export/cms/products/1000x1000/tweezerman_slant_tweezer.jpg",
+  "link": "https://www.tweezerman.com/slant-tweezer",
+  "category": "accessories",
+  "sku": "ACCS-005",
+  "available": true
+},
+{
+  "id": "accessories-006",
+  "name": "Shiseido Eyelash Curler",
+  "brand": "Shiseido",
+  "price": "$23.00",
+  "image": "https://www.shiseido.com/media/export/cms/products/1000x1000/shiseido_eyelash_curler.jpg",
+  "link": "https://www.shiseido.com/eyelash-curler",
+  "category": "accessories",
+  "sku": "ACCS-006",
+  "available": true
+},
+{
+  "id": "accessories-007",
+  "name": "Revlon One-Step Volumizer Plus Hair Dryer Brush",
+  "brand": "Revlon",
+  "price": "$69.00",
+  "image": "https://www.revlonhairtools.com/cdn/shop/products/revlon_one_step_plus.jpg",
+  "link": "https://www.revlonhairtools.com/products/one-step-volumizer-plus",
+  "category": "accessories",
+  "sku": "ACCS-007",
+  "available": true
+},
+{
+  "id": "accessories-008",
+  "name": "Dyson Airwrap Multi-Styler Complete",
+  "brand": "Dyson",
+  "price": "$599.00",
+  "image": "https://www.dyson.com/cdn/shop/products/dyson_airwrap.jpg",
+  "link": "https://www.dyson.com/hair-care/dyson-airwrap",
+  "category": "accessories",
+  "sku": "ACCS-008",
+  "available": true
+},
+{
+  "id": "accessories-009",
+  "name": "Hot Tools 24K Gold Curling Iron",
+  "brand": "Hot Tools",
+  "price": "$49.00",
+  "image": "https://www.hottools.com/cdn/shop/products/hottools_24k_curling_iron.jpg",
+  "link": "https://www.hottools.com/products/24k-gold-curling-iron",
+  "category": "accessories",
+  "sku": "ACCS-009",
+  "available": true
+},
+{
+  "id": "accessories-010",
+  "name": "Conair InfinitiPRO Hair Dryer",
+  "brand": "Conair",
+  "price": "$39.00",
+  "image": "https://www.conair.com/media/export/cms/products/1000x1000/conair_infinitipro_dryer.jpg",
+  "link": "https://www.conair.com/products/infinitipro-hair-dryer",
+  "category": "accessories",
+  "sku": "ACCS-010",
+  "available": true
+}
