@@ -11,11 +11,13 @@ document.addEventListener("DOMContentLoaded", () => {
       categories.forEach(cat => {
         const card = document.createElement("div");
         card.className = "ap-category-card";
+
+        // When you click anywhere on the card, go to that category page
         card.onclick = () => {
-          // basic routing: /{id}.html  (e.g., /makeup.html)
           window.location.href = `/${cat.id}.html`;
         };
 
+        // The visual structure of the card: image + overlay
         card.innerHTML = `
           <div class="ap-category-image-wrapper">
             <img src="/images/${cat.image}" alt="${cat.title}" class="ap-category-image">
@@ -26,6 +28,13 @@ document.addEventListener("DOMContentLoaded", () => {
             <button class="ap-category-overlay-button">Shop Now</button>
           </div>
         `;
+
+        // This makes the Shop Now button work as its own click
+        const button = card.querySelector(".ap-category-overlay-button");
+        button.addEventListener("click", (event) => {
+          event.stopPropagation(); // don't trigger the card click
+          window.location.href = `/${cat.id}.html`;
+        });
 
         grid.appendChild(card);
       });
